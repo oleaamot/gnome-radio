@@ -1,0 +1,40 @@
+2019-09-10  Ole Aamot  <ole@gnome.org>
+
+	* GNOME Radio version 0.2.0
+
+2019-09-09  Ole Aamot  <ole@gnome.org>
+
+	* gnome-radio-main.c: Add KHPR (Hawaii)
+	* gnome-radio-vosc.c: Add functions for oscilloscope
+	* gnome-radio-vosc.h: Add functions for oscilloscope
+
+2019-09-05  Ole Aamot  <ole@gnome.org>
+
+	* gnome-radio-main.c: Add SCPR (Southern California)
+
+2019-08-30  Ole Aamot  <ole@gnome.org>
+
+	* Add GStreamer dependency (Meson)
+	* Add Play Location icon (Meson)
+	* Add playLocationBubble.js (Meson)
+	* Add playLocationMarker.js (Meson)
+
+2019-08-30  Ole Aamot  <ole@gnome.org>
+
+	* Add MapBox for Meson build
+
+2019-08-14  Ole Aamot  <ole@gnome.org>
+
+	* Set stage title (ClutterActor)
+
+2019-08-13  Ole Aamot  <ole@gnome.org>
+
+	* gnome-radio.xml: Add WNYC (New York City)
+
+2019-02-17  Ole Aamot  <ole@gnome.org>
+
+	* Add radio player (GstPlayer)
+
+2019-02-13  Ole Aamot  <ole@gnome.org>
+
+	* Initial GNOME Radio release

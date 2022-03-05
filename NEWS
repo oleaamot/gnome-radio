@@ -1,0 +1,42 @@
+=============
+Version 0.4.0
+=============
+
+Build (configure.ac)
+
+      * Build on MacPorts 2.7.1
+
+=============
+Version 0.3.0
+=============
+
+Build (gnome-radio.spec)
+
+      * Build on Fedora Core 34
+
+=============
+Version 0.2.0
+=============
+
+XML (gnome-radio.xml)
+
+	* Hawaii Public Radio (KHPR)
+	* New York City Public Radio (WNYC)
+	* Southern California Public Radio (SCPR)
+
+=============
+Version 0.1.0
+=============
+
+GUI (src/gnome-radio-main.c)
+
+	* Radio audio player
+
+=============
+Version 0.0.0
+=============
+
+GUI (src/gnome-radio-main.c)
+
+	* Third release
+	* Radio pointer
