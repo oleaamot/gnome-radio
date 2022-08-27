@@ -1,0 +1,342 @@
+# Serbian translation for gnome-radio.
+# Copyright © 2017 gnome-radio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-radio package.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2017–2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-internet-radio-"
+"locator/issues\n"
+"POT-Creation-Date: 2021-09-27 17:53+0000\n"
+"PO-Revision-Date: 2021-09-30 05:14+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: српски <gnome-sr@googlegroups.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+#: ../src/gnome-radio.c:624
+#| msgid "GNOME Radio 4 for GNOME 40"
+msgid "GNOME Radio 13 for GNOME 42"
+msgstr "Гномов проналазач интернет радиа 12 за Гном 42"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Locate and listen to Free Internet Radio stations"
+msgstr "Пронађите и слушајте слободне радио станице на интернету"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+#| msgid ""
+#| "GNOME Radio 4 for GNOME 40 is a Free Software program "
+#| "that allows you to easily locate and listen to Free Internet Radio "
+#| "stations by broadcasters on the Internet with the help of a map."
+msgid ""
+"GNOME Radio 13 for GNOME 42 is a Free Software program that "
+"allows you to easily locate and listen to Free Internet Radio stations by "
+"broadcasters on the Internet with the help of a map."
+msgstr ""
+"Гномов проналазач интернет радиа 12 за Гном 42 је програм слободног софтвера "
+"који вам омогућава да с лакоћом нађете и слушате слободне Интернет радио "
+"станице емитера на Интернету уз помоћ карте."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+#| msgid ""
+#| "GNOME Radio 4 for GNOME 40 is developed for the GNOME 3 "
+#| "desktop and requires gstreamer 1.0 to be installed for listening to Free "
+#| "Internet Radio stations."
+msgid ""
+"GNOME Radio 13 for GNOME 42 is developed for the GNOME 3 "
+"desktop and requires gstreamer 1.0 to be installed for listening to Free "
+"Internet Radio stations."
+msgstr ""
+"Гномов проналазач интернет радиа 12 за Гном 42 је направљен за радну површ "
+"Гнома 3 и захтева да је инсталиран „gstreamer“ 1.0 за слушање слободних "
+"Интернет радио станица."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+#| msgid ""
+#| "Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+#| "Locator 4 for GNOME 40."
+msgid ""
+"Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+"Locator 12 for GNOME 42."
+msgstr ""
+"Уживајте слушајући слободне Интернет радио станице у Гномовом проналазачу "
+"интернет радиа 12 за Гном 42."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "Проналазач интернет радиа"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "Пронађите радио станице на интернету"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr ""
+"радио;уживо;програм;станица;проналазач;Live;Radio;Program;Station;Locator;"
+
+#: ../src/gnome-radio-gui.c:92
+#: ../src/gnome-radio-gui.c:104
+#: ../src/gnome-radio-gui.c:310
+#: ../src/gnome-radio.c:923
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Нисам успео да отворим „%s“\n"
+
+#. Translators: first %s is station name and second %s is station location
+#: ../src/gnome-radio-gui.c:218
+#, c-format
+msgid "Added %s in %s"
+msgstr "Додадох „%s“ у „%s“"
+
+#. The Stations dialog
+#: ../src/gnome-radio-gui.c:254
+msgid "New Internet Radio Station"
+msgstr "Нова Интернет радио станица"
+
+#: ../src/gnome-radio-gui.c:257
+msgid "_Save"
+msgstr "_Сачувај"
+
+#: ../src/gnome-radio-gui.c:279
+msgid "Station name"
+msgstr "Назив станице"
+
+#: ../src/gnome-radio-gui.c:280
+msgid "Bandwidth"
+msgstr "Опсег"
+
+#: ../src/gnome-radio-gui.c:282
+msgid "City name"
+msgstr "Име града"
+
+#: ../src/gnome-radio-gui.c:286
+msgid "http://uri-to-stream/"
+msgstr "http://uri-to-stream/"
+
+#: ../src/gnome-radio-gui.c:287
+msgid "Description"
+msgstr "Опис"
+
+#: ../src/gnome-radio-gui.c:288
+msgid "http://uri-to-website/"
+msgstr "http://uri-to-website/"
+
+#: ../src/gnome-radio-gui.c:299
+#, c-format
+msgid "Failed to open %s.  Please install it.\n"
+msgstr "Нисам успео да отворим „%s“.  Инсталирајте га.\n"
+
+#: ../src/gnome-radio-gui.c:430
+#: ../src/gnome-radio.c:408
+msgid "http://fm939.wnyc.org/wnycfm"
+msgstr "http://fm939.wnyc.org/wnycfm"
+
+#: ../src/gnome-radio-gui.c:433
+msgid "WNYC"
+msgstr "WNYC"
+
+#: ../src/gnome-radio-gui.c:436
+msgid "New York City, NY"
+msgstr "Град Њујорк, NY"
+
+#: ../src/gnome-radio-gui.c:439
+msgid "Online"
+msgstr "На мрежи"
+
+#: ../src/gnome-radio-gui.c:442
+msgid ""
+"WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, "
+"broadcasting the finest programs from NPR, American Public Media, Public "
+"Radio International and the BBC World Service, as well as a wide range of "
+"award-winning local programming."
+msgstr ""
+"WNYC 93.9 FM и AM 820 јесу Њујоршке главне јавне радио станице, које емитују "
+"најбоље програме са NPR-а, америчких јавних медија, јавног међународног "
+"радиа и услуге „BBC World“-а, као и широк спектар награђиваних локалних "
+"програма."
+
+#: ../src/gnome-radio-location.c:54
+msgid "Exit after T seconds. Default: 30"
+msgstr "Излази након T секунде. Основно је: 30"
+
+#: ../src/gnome-radio-location.c:61
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Само пријављује освежење места након T секунде. Основно је: 0 (пријављује "
+"ново место без икаквог застоја)"
+
+#: ../src/gnome-radio-location.c:69
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"Захтева ниво тачности A. Држава = 1, Град = 4, Околина = 5, Улица = 6, Тачно "
+"= 8."
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "Снимам са „%s“ у %s у %s"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"Дошло је до грешке приликом покушаја пуштања „%s“\n"
+"Или датотека не постоји, или немате програм за њу."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"Дошло је до грешке приликом покушаја снимања „%s“\n"
+"Или датотека не постоји, или немате програм за њу."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "Нисам успео да покренем „%s“ (%i)\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"Нисам успео да отворим адресу: '%s'\n"
+"Шифра стања: %i\n"
+"Појединости: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"Нисам успео да отворим адрсеу: '%s'\n"
+"Појединости: %s"
+
+#: ../src/gnome-radio.c:392
+msgid "New Internet Radio Station\n"
+msgstr "Нова интернет радио станица\n"
+
+#: ../src/gnome-radio.c:398
+msgid "Search Internet Radio Station\n"
+msgstr "Тражите радио станице на интернету\n"
+
+#: ../src/gnome-radio.c:422
+#: ../src/gnome-radio.c:1044
+msgid ""
+"Search by city or drag/click on the zoomable map to listen to a radio "
+"broadcast"
+msgstr ""
+"Тражите према граду или превуците/кликните на увеличавајућу карту да слушате "
+"радио емитовање"
+
+#: ../src/gnome-radio.c:437
+msgid "Previous Internet Radio Station\n"
+msgstr "Претходна Интернет радио станица\n"
+
+#: ../src/gnome-radio.c:571
+msgid "Search"
+msgstr "Тражи"
+
+#: ../src/gnome-radio.c:575
+msgid "Search Internet Radio Station"
+msgstr "Тражите радио станице на интернету"
+
+#: ../src/gnome-radio.c:580
+msgid "Prev"
+msgstr "Прет"
+
+#: ../src/gnome-radio.c:584
+msgid "Prev Internet Radio Station"
+msgstr "Претходна Интернет радио станица"
+
+#: ../src/gnome-radio.c:587
+#: ../src/gnome-radio.c:591
+msgid "Stations"
+msgstr "Станице"
+
+#: ../src/gnome-radio.c:594
+msgid "Next"
+msgstr "След"
+
+#: ../src/gnome-radio.c:598
+msgid "Next Internet Radio Station"
+msgstr "Следећа Интернет радио станица"
+
+#: ../src/gnome-radio.c:601
+#: ../src/gnome-radio.c:605
+msgid "About Station"
+msgstr "О станици"
+
+#: ../src/gnome-radio.c:608
+#: ../src/gnome-radio.c:612
+msgid "About Program"
+msgstr "О пограму"
+
+#: ../src/gnome-radio.c:669
+msgid ""
+"Nothing\n"
+"\n"
+msgstr ""
+"Ништа\n"
+"\n"
+
+#. give it the title
+#: ../src/gnome-radio.c:815
+msgid "GNOME Radio"
+msgstr "Гномов проналазач интернет радиа"
+
+#: ../src/gnome-radio.c:880
+msgid "New"
+msgstr "Нова"
+
+#: ../src/gnome-radio.c:889
+msgid "Discover Location"
+msgstr "Откриј локацију"
+
+#: ../src/gnome-radio.c:982
+msgid "Stop"
+msgstr "Заустави"
+
+#: ../src/gnome-radio.c:988
+msgid "Zoom In"
+msgstr "Увећај"
+
+#: ../src/gnome-radio.c:1002
+msgid "Zoom Out"
+msgstr "Умањи"
+
+#: ../src/gnome-radio.c:1007
+msgid "Markers"
+msgstr "Обилеживачи"
+
+#: ../src/gnome-radio.c:1029
+msgid "Exit"
+msgstr "Изађи"
+
+#~ msgid "Listen to and record from Internet radio"
+#~ msgstr "Слушајте и снимајте са Интернет радиа"

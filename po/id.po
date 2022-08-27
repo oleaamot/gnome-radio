@@ -1,0 +1,326 @@
+# Indonesian translation for gnome-radio.
+# Copyright (C) 2017 gnome-radio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-radio package.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2020.
+# Andika Triwidada <andika@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-internet-radio-"
+"locator/issues\n"
+"POT-Creation-Date: 2021-03-24 22:56+0000\n"
+"PO-Revision-Date: 2021-05-31 17:39+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+#: ../src/gnome-radio.c:674
+msgid "GNOME Radio 4 for GNOME 40"
+msgstr "GNOME Radio 4 untuk GNOME 40"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Locate and listen to Free Internet Radio stations"
+msgstr "Cari dan dengarkan Stasiun Radio Internet Gratis"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+msgid ""
+"GNOME Radio 4 for GNOME 40 is a Free Software program that "
+"allows you to easily locate and listen to Free Internet Radio stations by "
+"broadcasters on the Internet with the help of a map."
+msgstr ""
+"GNOME Radio 4 untuk GNOME 40 adalah program Perangkat Lunak "
+"Bebas yang memungkinkan Anda dengan mudah menemukan dan mendengarkan stasiun "
+"Radio Internet Gratis oleh penyiar di Internet dengan bantuan peta."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+msgid ""
+"GNOME Radio 4 for GNOME 40 is developed for the GNOME 3 "
+"desktop and requires gstreamer 1.0 to be installed for listening to Free "
+"Internet Radio stations."
+msgstr ""
+"GNOME Radio 4 untuk GNOME 40 dikembangkan untuk destop "
+"GNOME 3 dan membutuhkan gstreamer 1.0 untuk dipasang untuk mendengarkan "
+"stasiun Radio Internet Gratis."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+msgid ""
+"Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+"Locator 4 for GNOME 40."
+msgstr ""
+"Nikmati mendengarkan stasiun Radio Internet Gratis di GNOME Internet Radio "
+"Locator 4 untuk GNOME 40."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "Internet Radio Locator"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "Cari Stasiun Radio Internet"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr "Langsung;Radio;Program;Stasiun;Locator;"
+
+#: ../src/gnome-radio-gui.c:92
+#: ../src/gnome-radio-gui.c:104
+#: ../src/gnome-radio-gui.c:310
+#: ../src/gnome-radio.c:964
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Gagal membuka %s\n"
+
+#. Translators: first %s is station name and second %s is station location
+#: ../src/gnome-radio-gui.c:218
+#, c-format
+msgid "Added %s in %s"
+msgstr "Ditambahkan %s dalam %s"
+
+#. The Stations dialog
+#: ../src/gnome-radio-gui.c:254
+msgid "New Internet Radio Station"
+msgstr "Stasiun Radio Internet Baru"
+
+#: ../src/gnome-radio-gui.c:257
+msgid "_Save"
+msgstr "_Simpan"
+
+#: ../src/gnome-radio-gui.c:279
+msgid "Station name"
+msgstr "Nama stasiun"
+
+#: ../src/gnome-radio-gui.c:280
+msgid "Bandwidth"
+msgstr "Lebar Pita"
+
+#: ../src/gnome-radio-gui.c:282
+msgid "City name"
+msgstr "Nama kota"
+
+#: ../src/gnome-radio-gui.c:286
+msgid "http://uri-to-stream/"
+msgstr "http://uri-untuk-stream/"
+
+#: ../src/gnome-radio-gui.c:287
+msgid "Description"
+msgstr "Deskripsi"
+
+#: ../src/gnome-radio-gui.c:288
+msgid "http://uri-to-website/"
+msgstr "http://uri-ke-situsweb/"
+
+#: ../src/gnome-radio-gui.c:299
+#, c-format
+msgid "Failed to open %s.  Please install it.\n"
+msgstr "Gagal membuka %s. Silakan pasang.\n"
+
+#: ../src/gnome-radio-gui.c:430
+#: ../src/gnome-radio.c:458
+msgid "http://fm939.wnyc.org/wnycfm"
+msgstr "http://fm939.wnyc.org/wnycfm"
+
+#: ../src/gnome-radio-gui.c:433
+msgid "WNYC"
+msgstr "WNYC"
+
+#: ../src/gnome-radio-gui.c:436
+msgid "New York City, NY"
+msgstr "Kota New York, NY"
+
+#: ../src/gnome-radio-gui.c:439
+msgid "Online"
+msgstr "Daring"
+
+#: ../src/gnome-radio-gui.c:442
+msgid ""
+"WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, "
+"broadcasting the finest programs from NPR, American Public Media, Public "
+"Radio International and the BBC World Service, as well as a wide range of "
+"award-winning local programming."
+msgstr ""
+"WNYC 93,9 FM dan AM 820 adalah stasiun radio publik utama New York, "
+"menyiarkan program terbaik dari NPR, Media Publik Amerika, Radio Publik "
+"Internasional dan BBC World Service, serta berbagai program lokal pemenang "
+"penghargaan."
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "Merekam dari %s di %s sampai %s"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"Terjadi kesalahan saat mencoba memutar %s\n"
+"Entah berkas itu tidak ada, atau Anda tidak memiliki pemutar untuk itu."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"Terjadi kesalahan saat mencoba merekam %s\n"
+"Entah berkas itu tidak ada, atau Anda tidak memiliki perekam untuk itu."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "Gagal menjalankan %s (%i)\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"Gagal membuka URL: '%s'\n"
+"Kode status: %i\n"
+"Rincian: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"Gagal membuka URL: '%s'\n"
+"Rincian: %s"
+
+#: ../src/gnome-radio.c:101
+msgid "Exit after T seconds. Default: 30"
+msgstr "Keluar setelah T detik. Bawaan: 30"
+
+#: ../src/gnome-radio.c:108
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Hanya laporkan pembaruan lokasi setelah T detik. Bawaan: 0 (laporkan lokasi "
+"baru tanpa penundaan)"
+
+#: ../src/gnome-radio.c:116
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"Meminta tingkat akurasi A. Negara = 1, Kota = 4, Lingkungan = 5, Jalan = 6, "
+"Tepat = 8."
+
+#: ../src/gnome-radio.c:442
+#, c-format
+msgid "New Internet Radio Station\n"
+msgstr "Stasiun Radio Internet Baru\n"
+
+#: ../src/gnome-radio.c:448
+#, c-format
+msgid "Search Internet Radio Station\n"
+msgstr "Cari Stasiun Radio Internet\n"
+
+#: ../src/gnome-radio.c:472
+#: ../src/gnome-radio.c:1085
+msgid ""
+"Search by city or drag/click on the zoomable map to listen to a radio "
+"broadcast"
+msgstr ""
+"Cari berdasarkan kota atau seret/klik pada peta yang dapat diperbesar untuk "
+"mendengarkan siaran radio"
+
+#: ../src/gnome-radio.c:487
+#, c-format
+msgid "Previous Internet Radio Station\n"
+msgstr "Stasiun Radio Internet Sebelumnya\n"
+
+#: ../src/gnome-radio.c:621
+msgid "Search"
+msgstr "Cari"
+
+#: ../src/gnome-radio.c:625
+msgid "Search Internet Radio Station"
+msgstr "Cari Stasiun Radio Internet"
+
+#: ../src/gnome-radio.c:630
+msgid "Prev"
+msgstr "Sebelumnya"
+
+#: ../src/gnome-radio.c:634
+msgid "Prev Internet Radio Station"
+msgstr "Stasiun Radio Internet Sebelumnya"
+
+#: ../src/gnome-radio.c:637
+#: ../src/gnome-radio.c:641
+msgid "Stations"
+msgstr "Stasiun"
+
+#: ../src/gnome-radio.c:644
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: ../src/gnome-radio.c:648
+msgid "Next Internet Radio Station"
+msgstr "Stasiun Radio Internet Selanjutnya"
+
+#: ../src/gnome-radio.c:651
+#: ../src/gnome-radio.c:655
+msgid "About Station"
+msgstr "Tentang Stasiun"
+
+#: ../src/gnome-radio.c:658
+#: ../src/gnome-radio.c:662
+msgid "About Program"
+msgstr "Tentang Program"
+
+#: ../src/gnome-radio.c:719
+#, c-format
+msgid ""
+"Nothing\n"
+"\n"
+msgstr ""
+"Nihil\n"
+"\n"
+
+#. give it the title
+#: ../src/gnome-radio.c:864
+msgid "GNOME Radio"
+msgstr "GNOME Radio"
+
+#: ../src/gnome-radio.c:930
+msgid "New"
+msgstr "Baru"
+
+#: ../src/gnome-radio.c:1023
+msgid "Stop"
+msgstr "Berhenti"
+
+#: ../src/gnome-radio.c:1029
+msgid "Zoom In"
+msgstr "Perbesar"
+
+#: ../src/gnome-radio.c:1043
+msgid "Zoom Out"
+msgstr "Perkecil"
+
+#: ../src/gnome-radio.c:1048
+msgid "Markers"
+msgstr "Penanda"
+
+#: ../src/gnome-radio.c:1070
+msgid "Exit"
+msgstr "Keluar"

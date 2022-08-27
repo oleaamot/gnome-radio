@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://people.gnome.org/~ole/gnome-radio/gnome-radio.xsl" ?>
+<!DOCTYPE radio SYSTEM "org.gnome.Radio.dtd">
+<radio version="44.1">
+  <station band="Online" id="nrkp1pluss" name="NRK P1+" rank="1.0" type="gov">
+    <location>Oslo, Norway</location>
+    <description lang="nb">NRK P1+ er en av NRKs radiokanaler, som sendes på DAB og som nettradiokanal. NRK P1+ startet sine sendinger 2. oktober 2013 som en del av NRKs heldigitale radiotilbud og radiokanelen erstattet NRK Gull. Av de første programlederne har vært Viggo Valle, Kari Sørbø, Hanne Hoftun, Erik Forfod og Hans-Petter Jacobsen.</description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p1pluss_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/informasjon/nrk-p1_-pa-lufta-1.11253656</uri>
+  </station>
+  <station band="Online" id="nrkp3x" name="NRK P3X" rank="1.0" type="gov">
+    <location>Oslo, Norway</location>
+    <description lang="nb">NRK P3X er en radiokanal fra NRK, som utelukkende spiller musikk, hovedsakelig hiphop, norsk rap og RnB. Den ble etablert 28. februar 2019. Kanalen ble opprettet med det formål at musikkmiksen skal følges opp mye tettere og oppdateres ukentlig og ved behov, og i større grad løfte frem den norske musikkscenen.</description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p3x_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/presse/programomtaler/nrk-p3-styrker-hiphop-tilbudet-1.14450672</uri>
+  </station>
+  <station band="Online" id="nrksuper" name="NRK Super" rank="1.0" type="gov">
+    <location>Oslo, Norway</location>
+    <description lang="nb">NRK Super er NRKs tilbud for barn fra 2 til 12 år. Tilbudet består av en TV-kanal som sender fra 06.30 til 19.30, på samme sendefrekvens som NRK3, Norges største nettsted for barn; nrksuper.no, samt en radiokanal som sender på DAB hver dag fra 06 til 21, og døgnkontinuerlig på nettradio i tillegg til en egen app med programarkiv.</description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_super_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://nrksuper.no/</uri>
+  </station>
+  <station band="Online" id="nrkfolkemusikk" name="NRK Folkemusikk" rank="1.0" type="gov">
+    <location>Oslo, Norway</location>
+    <description lang="nb">NRK Folkemusikk er NRKs tiende radiokanal, og var den første norske radiokanalen som bare sendte digitalt via DAB og Internett. Kanalen sender bare musikk, uten programleder. Musikken på kanalen består av både ny og gammel norsk folkemusikk i tillegg til noe verdensmusikk.</description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_folkemusikk_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/skole/musikkparken/folkemusikken-og-nrk-1.13175858</uri>
+  </station>
+  <station band="107.2FM" id="nordfjordnærradio" name="Nordfjord Nærradio" rank="1.0" type="org">
+    <location>Nordfjord, Norway</location>
+    <description lang="nn">Nordfjord Nærradio var stifta i 1987 og var lokaliset på Fjordane Folkehøgskule på Eid. Det var i starten elevar og lærarar på skulen som var drivkrafta bak radioen. Vi hadde fleire studio på skulen før vi flytta ut derifrå. Totalt har vi hatt 6 studio kringom på Eid. Hestnesbygget, Øyane der låsbutikken ligg i dag, og dagens studio Trivselshjørnet i det gamle vegvesen bygget.
+
+    Opp igjennom tida sidan 1987, har det vore mange innom NNR. Vi har hatt fast ansatt redaktør i full stilling på 90 talet, men det synte seg vanskelig å få god økonomi i dette. Så på slutten av 90 talet kom Jon Roar inn som redaktør, noko han er den dag i dag. Rasmus Torvik var og ein av mange primus motorar hos oss. Han har digitalisert det aller meste av våre gamle program før han gjekk bort, og har difor hovedæra for at vi har eit rikhaldig arkiv med program omtrent heilt frå starten av.
+
+    Vi har medarbeidarar frå både Gloppen og Stad kommune, og det var ein lang periode 2 hovudstudio. Eit på Sandane og det andre på Eid. Etter at studioet på Sandane måtte flytte ut frå lokalet vi hadde der, vart det dessverre ikkje funne nokon ny god plass der. Sidan har vi fokusert på å utvikle dagens studio på Eid.
+
+    Radioen gjekk gjennom nokre veldig tunge år etter tusenårsskiftet, og vi var nær med å legge inn årane . Dette klarte vi heldigvis å snu med god innsats og løysingar fra alle involverte i desse tunge åra. I dag kan vi seie at vi driv godt og sunt, takka vere radiobingoen vår
+
+    Radiobingoen har vore og er hovudinntektskjelda til radioen. Og den er populær i heile dekningsområdet vårt. Vi slepp difor å selje reklame for å overleve i dagens radiomarknad.
+
+    I desse dagar (haust 21 og vår 22) har vi oppgradert radioen til og å sende på nett. Dette gjer at vi kan nå lyttarar over heile verda (om vi vil) som har lyst å høyre kjente stemmer frå heimkommunane sine. Samt at vi når stadar som har dårleg dekning på dagens FM sendarar. Vi sender direkte kvar onsdag med radiobingo og kvar fredag med Fredagskveld frå Trivselshjørnet. I tillegg har vi sendingar torsdagar når det er kommunestyremøte i Stad kommune.
+
+    I dag sender vi altså på nett via linken til Radioplayer på framsida vår.
+
+    På FM nettet, har vi 1 hovudsendar på studioet på Eid som sender på 107,2 mhz. I tillegg har vi omformarar på Sandane 104,3 mhz, Hunvikfjellet 106,2 mhz og Davikneset 105,8 mhz. Desse har blitt og vil bli oppgraderte utover i 2022.</description>
+    <stream mime="audio/mpeg" uri="https://lyd.nnr1987.no/nnr_hq" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="JntStereo" bitrate="192 kbps" />
+    <uri>https://nnr1987.no/</uri>
+  </station>
+  <station band="102.9FM" id="radiojazzcopenhagen" name="Radio Jazz Copenhagen" rank="1.0" type="com">
+    <location>Copenhagen, Denmark</location>
+    <description lang="dk">Radio Jazz sender på nettet hele døgnet.  På FM 102,9 Mhz samsender vi mandag til fredag fra 21.00 - 00.00 samt lørdag og søndag i tidsrummet 12.00 - 16.00.  Radio Jazz Copenhagen is broadcasting 24/7 on the web.</description>
+    <stream mime="audio/mpeg" uri="http://asima.out.airtime.pro:8000/radiojazzcopenhagen_a" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="JntStereo" bitrate="192 kbps" />
+    <uri>http://www.radiojazz.dk/</uri>
+  </station>
+  <station band="Online" id="nporadio1" name="NPO Radio 1" rank="1.0" type="gov">
+    <location>Netherlands</location>
+    <description>NPO Radio 1 is a public-service radio channel in the Netherlands, broadcasting mainly news and sport.  It is part of the Netherlands Public Broadcasting system, NPO. It can be compared with BBC Radio 5 Live.</description>
+    <stream mime="audio/mpeg" uri="http://icecast.omroep.nl/radio1-bb-mp3" codec="MPEG ADTS, layer III" samplerate="48000 Hz" channels="JntStereo" bitrate="192 kbps" />
+    <uri>https://www.nporadio1.nl/</uri>
+  </station>
+  <station band="Online" id="bbcradio1" name="BBC - Radio 1" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio2" name="BBC - Radio 2" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio3" name="BBC - Radio 3" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_three" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio4" name="BBC - Radio 4" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio4lwukonly" name="BBC - Radio 4 LW (UK only)" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourlw" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio4lwnonuk" name="BBC - Radio 4 LW (non-UK)" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourlw_online_nonuk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio5liveukonly" name="BBC - Radio 5 live (UK only)" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio5livenonuk" name="BBC - Radio 5 live (non-UK)" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio6music" name="BBC - Radio 6 Music" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_6music" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio1xtra" name="BBC - Radio 1Xtra" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_1xtra" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio4extra" name="BBC - Radio 4 Extra" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradio5livesportsextraukonly" name="BBC - Radio 5 Live sports extra (UK only)" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_sports_extra" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioasiannetwork" name="BBC - Radio Asian Network" rank="1.0" type="gov">
+    <location>United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiocoventrywarwickshire" name="BBC - BBC CWR" rank="1.0" type="gov">
+    <location>Coventry Warwickshire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_coventry_warwickshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcessex" name="BBC - BBC Essex" rank="1.0" type="gov">
+    <location>Essex, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_essex" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcherefordworcester" name="BBC - BBC Hereford Worcester" rank="1.0" type="gov">
+    <location>Herford Worcester, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_hereford_worcester" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcberkshire" name="BBC - Radio Berkshire" rank="1.0" type="gov">
+    <location>Berkshire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_berkshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiobristol" name="BBC - Radio Bristol" rank="1.0" type="gov">
+    <location>Bristol, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_bristol" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiocambridge" name="BBC - Radio Cambridge" rank="1.0" type="gov">
+    <location>Cambridge, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cambridge" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiocornwall" name="BBC - Radio Cornwall" rank="1.0" type="gov">
+    <location>Cornwall, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cornwall" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiocumbria" name="BBC - Radio Cumbria" rank="1.0" type="gov">
+    <location>Cumbria, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cumbria" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiocymru" name="BBC - Radio Cymru" rank="1.0" type="gov">
+    <location>Cymru, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiocymru2" name="BBC - Radio Cymru 2" rank="1.0" type="gov">
+    <location>Cymru, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru_2" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioderby" name="BBC - Radio Derby" rank="1.0" type="gov">
+    <location>Derby, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_derby" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiodevon" name="BBC - Radio Devon" rank="1.0" type="gov">
+    <location>Devon, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_devon" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiofoyle" name="BBC - Radio Foyle" rank="1.0" type="gov">
+    <location>Foyle, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_foyle" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiogloucestershire" name="BBC - Radio Gloucestershire" rank="1.0" type="gov">
+    <location>Gloucestershire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_gloucestershire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioguernsey" name="BBC - Radio Guernsey" rank="1.0" type="gov">
+    <location>Guernsey, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_guernsey" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiohumberside" name="BBC - Radio Humberside" rank="1.0" type="gov">
+    <location>Humberside, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_humberside" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiojersey" name="BBC - Radio Jersey" rank="1.0" type="gov">
+    <location>Jersey, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_jersey" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiokent" name="BBC - Radio Kent" rank="1.0" type="gov">
+    <location>Kent, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_kent" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiolancashire" name="BBC - Radio Lancashire" rank="1.0" type="gov">
+    <location>Lancashire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_lancashire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioleeds" name="BBC - Radio Leeds" rank="1.0" type="gov">
+    <location>Leeds, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_leeds" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioleicester" name="BBC - Radio Leicester" rank="1.0" type="gov">
+    <location>Leicester, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_leicester" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbclincolnshire" name="BBC - Radio Lincolnshire" rank="1.0" type="gov">
+    <location>Lincolnshire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_lincolnshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiolondon" name="BBC - Radio London" rank="1.0" type="gov">
+    <location>London, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_london" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiomanchester" name="BBC - Radio Manchester" rank="1.0" type="gov">
+    <location>Manchester, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_manchester" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiomerseyside" name="BBC - Radio Merseyside" rank="1.0" type="gov">
+    <location>Merseyside, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_merseyside" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradionangaidheal" name="BBC - Radio nan Gaidheal" rank="1.0" type="gov">
+    <location>Gaidheal, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_nan_gaidheal" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradionewcastle" name="BBC - Radio Newcastle" rank="1.0" type="gov">
+    <location>Newcastle, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_newcastle" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradionorfolk" name="BBC - Radio Norfolk" rank="1.0" type="gov">
+    <location>Norfolk, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_norfolk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradionorthampton" name="BBC - Radio Northampton" rank="1.0" type="gov">
+    <location>Northampton, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_northampton" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradionothingham" name="BBC - Radio Nottingham" rank="1.0" type="gov">
+    <location>Nottingham, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_nottingham" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiorkney" name="BBC - Radio Orkney" rank="1.0" type="gov">
+    <location>Orkney, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_orkney" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiooxford" name="BBC - Radio Oxford" rank="1.0" type="gov">
+    <location>Oxford, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_oxford" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioscotlandfm" name="BBC - Radio Scotland FM" rank="1.0" type="gov">
+    <location>Scotland, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_scotland_fm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioscotlandmw" name="BBC - Radio Scotland MW" rank="1.0" type="gov">
+    <location>Scotland, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_scotland_mw" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosheffield" name="BBC - Radio Sheffield" rank="1.0" type="gov">
+    <location>Sheffield, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_sheffield" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioshropshire" name="BBC - Radio Shropshire" rank="1.0" type="gov">
+    <location>Shropshire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_shropshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosolent" name="BBC - Radio Solent" rank="1.0" type="gov">
+    <location>Solent, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_solent" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosolentwestdorset" name="BBC - Radio Solent West Dorset" rank="1.0" type="gov">
+    <location>West Dorset, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_solent_west_dorset" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosomersetsound" name="BBC - Radio Somerset Sound" rank="1.0" type="gov">
+    <location>Somerset, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_somerset_sound" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiostoke" name="BBC - Radio Stoke" rank="1.0" type="gov">
+    <location>Stoke, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_stoke" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosuffolk" name="BBC - Radio Suffolk" rank="1.0" type="gov">
+    <location>Suffolk, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_suffolk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosurrey" name="BBC - Radio Surrey" rank="1.0" type="gov">
+    <location>Surrey, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_surrey" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiosussex" name="BBC - Radio Sussex" rank="1.0" type="gov">
+    <location>Sussex, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_sussex" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiotees" name="BBC - Radio Tees" rank="1.0" type="gov">
+    <location>Tees, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_tees" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioulster" name="BBC - Radio Ulster" rank="1.0" type="gov">
+    <location>Ulster, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_ulster" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiowales" name="BBC - Radio Wales" rank="1.0" type="gov">
+    <location>Wales, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_wales_fm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiowiltshire" name="BBC - Radio Wiltshire" rank="1.0" type="gov">
+    <location>Wiltshire, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_wiltshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradiowm" name="BBC - Radio WM" rank="1.0" type="gov">
+    <location>WM, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_wm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcradioyork" name="BBC - Radio York" rank="1.0" type="gov">
+    <location>York, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_york" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="Online" id="bbcthreecountiesradio" name="BBC - Three Counties Radio" rank="1.0" type="gov">
+    <location>Three Counties, United Kingdom</location>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_three_counties_radio" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/</uri>
+  </station>
+  <station band="93.20FM" id="bbcworldservice" lang="en" name="BBC - BBC World Service" rank="1.0" type="gov">
+    <frequency uri="http://www.bbc.co.uk/worldservice/schedules/frequencies/">Internet</frequency>
+    <location>London, United Kingdom</location>
+    <description lang="en">BBC World Service is an international news service available on radio, television and online. It provides impartial news reports and analysis in English and 27 other languages.  BBC World Service aims to inspire and illuminate the lives of its audience by bringing the world together, making connections and helping listeners to make sense of the world.</description>
+    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_world_service" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.bbc.co.uk/worldserviceradio</uri>
+  </station>
+  <station band="101.3FM" id="retrofm" name="Retro FM" rank="1.0" type="edu">
+    <location>Kyiv, Ukraine</location>
+    <description>Provereno vremenem, odobreno millionami</description>
+    <stream mime="audio/mpeg" uri="http://cast.radiogroup.com.ua:8000/retro" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://retro.ua/</uri>
+  </station>
+  <station band="105.5FM" id="bygderadiovest" lang="en" name="Bygderadio Vest" rank="1.0" type="org">
+    <location>Volda, Norway</location>
+    <description lang="no">Volda og Ørsta Bygderadio AS starta sendingar i februar 1989.  I starten dekte radioen berre bygdene Volda og Ørsta.  I 2000 vart radioen slått saman med Radio Vest AS i Herøy.   Namnet vart då endra til Bygderadio Vest AS.  Alt arbeidet ved radioen vert gjort på dugnad.   Bygderadio Vest AS dekkjer no 7 kommuner; Volda, Ørsta, Hareid, Herøy, Ulstein, Sande og Vannylven.  Det bur omlag 46.700 menneske i desse kommunane.    Frå 2008 har Bygderadio Vest AS konsesjon som almennradio med konsesjon for å sende 240 minutt lokalprodusert stoff i tidsrommet 06-18. Konsesjonen gjeld fram til 31.12.2026.</description>
+    <stream mime="audio/mpeg" uri="http://radio.bygderadiovest.no:8000/radio" codec="MPEG-1 Layer 3 (MP3)" samplerate="48000 Hz" bitrate="128 kbps" />
+    <uri>http://www.bygderadiovest.no/</uri>
+  </station>
+  <station band="94.9FM" id="kuow" lang="en" name="KUOW" rank="1.0" type="org">
+    <location>University of Washington</location>
+    <description lang="en">KUOW is the Puget Sound region's #1 radio station for news.  Our independent, nonprofit newsroom produces award-winning stories, podcasts and events.</description>
+    <stream mime="audio/aac" uri="https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_AAC.aac" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="64 kbps" />
+    <uri>https://www.kuow.org/</uri>
+  </station>
+  <station band="Online" id="radionorwegian" lang="no" name="Radio Norwegian" rank="1.0" type="com">
+    <location>Norway</location>
+    <description lang="no">Radio Norwegian is a free radio station broadcasting from Norway</description>
+    <stream mime="audio/ogg" uri="http://stream.radionorwegian.com:8000/128.ogg" codec="Ogg Vorbis" samplerate="48000 Hz" bitrate="128 kbps" />
+    <stream mime="audio/ogg" uri="http://stream.radionorwegian.com:8000/112.ogg" codec="Ogg Vorbis" samplerate="48000 Hz" bitrate="112 kbps" />
+    <stream mime="audio/ogg" uri="http://stream.radionorwegian.com:8000/96.ogg" codec="Ogg Vorbis" samplerate="48000 Hz" bitrate="96 kbps" />
+    <stream mime="audio/ogg" uri="http://stream.radionorwegian.com:8000/80.ogg" codec="Ogg Vorbis" samplerate="48000 Hz" bitrate="80 kbps" />
+    <stream mime="audio/ogg" uri="http://stream.radionorwegian.com:8000/64.ogg" codec="Ogg Vorbis" samplerate="48000 Hz" bitrate="64 kbps" />
+    <stream mime="audio/ogg" uri="http://stream.radionorwegian.com:8000/56.ogg" codec="Ogg Vorbis" samplerate="48000 Hz" bitrate="56 kbps" />
+    <uri>http://www.radionorwegian.com/</uri>
+  </station>
+  <station band="Online" id="p1_hedmark_og_oppland" lang="no" name="NRK P1 Hedmark og Oppland" rank="1.0" type="gov">
+    <location>Innlandet, Norway</location>
+    <description lang="no">NRK P1 Hedmark og Oppland</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_hedmark_og_oppland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/innlandet/</uri>
+  </station>
+  <station band="Online" id="p1_finnmark" lang="no" name="NRK P1 Finnmark" rank="1.0" type="gov">
+    <location>Finnmark, Norway</location>
+    <description lang="no">NRK P1 Finnmark</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_finnmark_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/finnmark/</uri>
+  </station>
+  <station band="Online" id="p1_troms" lang="no" name="NRK P1 Troms" rank="1.0" type="gov">
+    <location>Troms, Norway</location>
+    <description lang="no">NRK P1 Troms</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_troms_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/troms/</uri>
+  </station>
+  <station band="Online" id="p1_nordland" lang="no" name="NRK P1 Nordland" rank="1.0" type="gov">
+    <location>Nordland, Norway</location>
+    <description lang="no">NRK P1 Nordland</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_nordland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/nordland/</uri>
+  </station>
+  <station band="Online" id="p1_trøndelag" lang="no" name="NRK P1 Trøndelag" rank="1.0" type="gov">
+    <location>Trøndelag, Norway</location>
+    <description lang="no">NRK P1 Trøndelag</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_trondelag_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/trondelag/</uri>
+  </station>
+  <station band="Online" id="p1_østfold" lang="no" name="NRK P1 Østfold" rank="1.0" type="gov">
+    <location>Østfold, Norway</location>
+    <description lang="no">NRK P1 Østfold</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_ostfold_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/ostfold/</uri>
+  </station>
+  <station band="Online" id="radioålesund" lang="no" name="Radio Ålesund" rank="1.0" type="com">
+    <location>Ålesund, Norway</location>
+    <description lang="no">Radio Ålesund</description>
+    <stream mime="audio/aac" uri="https://audio.radioaalesund.no/aalesund_mq" codec="MPEG-2 AAC" samplerate="44100 Hz" bitrate="125 kbps" />
+    <uri>https://www.radioaalesund.no/</uri>
+  </station>
+  <station band="Online" id="p1_hordaland" lang="no" name="NRK P1 Hordaland" rank="1.0" type="gov">
+    <location>Hordaland, Norway</location>
+    <description lang="no">NRK P1 Hordaland</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_hordaland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/hordaland/</uri>
+  </station>
+  <station band="Online" id="p1_sognogfjordane" lang="no" name="NRK P1 Sogn og Fjordane" rank="1.0" type="gov">
+    <location>Sogn og Fjordane, Norway</location>
+    <description lang="no">NRK P1 Sogn og Fjordane</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_sogn_og_fjordane_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="192 kbps" />
+    <uri>https://www.nrk.no/sognogfjordane/</uri>
+  </station>
+  <station band="Online" id="p1_møreogromsdal" lang="no" name="NRK P1 Møre og Romsdal" rank="1.0" type="gov">
+    <location>Møre og Romsdal, Norway</location>
+    <description lang="no">NRK P1 Møre og Romsdal</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_more_og_romsdal_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="192 kbps" />
+    <uri>https://www.nrk.no/mr/</uri>
+  </station>
+  <station band="Online" id="p1_rogaland" lang="no" name="NRK P1 Rogaland" rank="1.0" type="gov">
+    <location>Rogaland, Norway</location>
+    <description lang="no">NRK P1 Rogaland</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_rogaland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/rogaland/</uri>
+  </station>
+  <station band="Online" id="p1_buskerud" lang="no" name="NRK P1 Buskerud" rank="1.0" type="gov">
+    <location>Buskerud, Norway</location>
+    <description lang="no">NRK P1 Buskerud</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_buskerud_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <uri>https://www.nrk.no/buskerud/</uri>
+  </station>
+  <station band="92.2FM" id="anr" lang="dk" name="ANR" rank="1.0" type="com">
+    <frequency uri="http://www.anr.dk/">FM 87.6 in Aalborg C, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 88.5 in Nørlund, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 90.5 in Hobro - syd, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 91.1 in Nørager, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 93.9 in Hanstholm, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 94.6 in Aars, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 97.4 in Thisted, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 103.2 in Vestbjerg, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 103.8 in Aalborg SV, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 104.5 in Kongerslev, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 104.7 in Hjørring, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 105.3 in Hobro - nord, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 105.4 in Hvalpsund, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 105.6 in Støvring, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 105.7 in Sæby, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 105.9 in Hurup (Ashøj), Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 106.8 in Agersted, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 107.5 in Frederikshavn, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 107.7 in Farsø, Denmark</frequency>
+    <frequency uri="http://www.anr.dk/">FM 107.9 in Gandrup, Denmark</frequency>
+    <location>Aalborg, Denmark</location>
+    <description lang="dk">ANR (tidligere Aalborg Nærradio og Alle Nordjyders Radio) – er en radiokanal ejet af NORDJYSKE Medier og har studier og kontorer på Langagervej i Aalborg Øst.</description>
+    <stream mime="audio/mpeg" uri="http://stream.anr.dk/nordjyske" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" bitrate="255 kbps" />
+    <uri>http://www.anr.dk/</uri>
+  </station>
+  <station band="103.9FM" id="radionordkapp" lang="no" name="Radio Nordkapp" rank="1.0" type="com">
+    <frequency uri="http://www.radionordkapp.no/">FM 103.9 in Nordkapp, Norway</frequency>
+    <location>Nordkapp, Norway</location>
+    <description lang="no">Radio Nordkapp er en lokalradio for Nordkapp. Kanalen sender i FM-nettet og tilbyr også radio på internett.</description>
+    <stream mime="audio/mpeg" uri="http://live.radionordkapp.no/" codec="MPEG-4 AAC" samplerate="44100 Hz" bitrate="54 kbps" />
+    <uri>http://www.radionordkapp.no/</uri>
+  </station>
+  <station band="106.9FM" id="radioalta" lang="no" name="Radio Alta" rank="1.0" type="com">
+    <frequency uri="http://www.radioalta.no/">FM 106.9 in Alta</frequency>
+    <location>Alta, Norway</location>
+    <description lang="no"></description>
+    <stream mime="audio/mpeg" uri="http://stream02.nordavis.no:80/radioalta-128k" codec="MPEG-1 Layer 3 (MP3)" samplerate="48000 Hz" bitrate="128 kbps" />
+    <uri>http://www.radioalta.no/</uri>
+  </station>
+  <station band="1431AM" id="1431am" lang="gr" name="1431AM" rank="1.0" type="edu">
+    <frequency uri="https://www.1431am.org/">AM 1431 in Thessaloniki, Greece</frequency>
+    <location>Thessaloniki, Greece</location>
+    <description lang="gr">1431 AM</description>
+    <stream mime="audio/ogg" uri="http://1431am.org:8000/1431ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="160 kbps" />
+    <uri>https://www.1431am.org/</uri>
+  </station>
+  <station band="Online" id="bcn" lang="en" name="Barcelona City FM" rank="1.0" type="com">
+    <frequency uri="http://www.barcelonacityfm.com/">Online in Barcelona, Catalonia</frequency>
+    <location>Barcelona, Catalonia</location>
+    <description lang="en">Barcelona's first 24/7 English-speaking radio station: Barcelona City FM! A team of twenty-five presenters are making programs covering a wide spectrum of perspectives, combining the best music, humour, chat, politics, local news, what's on in Barcelona.</description>
+    <stream mime="audio/mpeg" uri="https://s2.radio.co/sd9da54aa0/listen" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>http://www.barcelonacityfm.com/</uri>
+  </station>
+  <station band="90.7FM" id="radiobrume" lang="fr" name="Radio Brume" rank="1.0" type="edu">
+    <frequency uri="http://www.radiobrume.fr/">FM 90.7 in Lyon, France</frequency>
+    <location>Lyon, France</location>
+    <description lang="fr">Radio Brume</description>
+    <stream mime="audio/mpeg" uri="http://ice1.impek.com/radiobrume" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>http://www.radiobrume.fr/</uri>
+  </station>
+  <station band="90.9FM" id="WBUR" lang="en" name="WBUR" rank="1.0" type="org">
+    <frequency uri="http://wbur.org/">FM 90.9 in Boston</frequency>
+    <location>WBUR, Boston, Massachusetts</location>
+    <description lang="en">Radio Boston</description>
+    <stream mime="audio/mpeg" uri="https://icecast-stream.wbur.org/" codec="MPEG-1 Layer 3 (MP3)" samplerate="22050 Hz" channels="Mono" bitrate="48 kbps" />
+    <uri>http://wbur.org/</uri>
+  </station>
+  <station band="104.1FM" id="Midlar" lang="en" name="Midlar" rank="1.0" type="com">
+    <frequency uri="http://midlar.fo/">FM 104.1 in Tórshavn, Faroe Islands</frequency>
+    <location>Tórshavn, Faroe Islands</location>
+    <description lang="en">Midlar Samband</description>
+    <stream mime="audio/mpeg" uri="http://stream.midlar.fo/ras2-128" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://midlar.fo/</uri>
+  </station>
+  <station band="98.4FM" id="radiomoreeni" lang="fi" name="Radio Moreeni" rank="1.0" type="edu">
+    <frequency uri="https://radio.uta.fi/">FM 98.4 in Tampere</frequency>
+    <location>Tampere, Finland</location>
+    <description lang="en">
+      Already over 20 years Radio Moreeni has been an essential part of Tampere, as naturally as the Pispala Ridge or the Näsinneula Tower are.
+
+      Moreeni is a part of the local cultural life, the university and the everyday life of the people who populate the city of Tampere.
+    </description>
+    <stream mime="audio/mpeg" uri="http://moreenistream1.uta.fi:8080/moreeni.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>https://radio.uta.fi/</uri>
+  </station>
+  <station band="Online" id="radioaktywne" lang="pl" name="Radio Aktywne" rank="1.0" type="edu">
+    <frequency uri="https://radioaktywne.pl/">Online in Warsaw</frequency>
+    <location>Warsaw, Poland</location>
+    <description lang="en">
+      The first Internet radio of Warsaw University of Technology students and the first academic radio in Warsaw.  It was founded in October 2004.
+
+      Though the radio is connected with Warsaw University of Technology, its journalists include students of all Warsaw universities.
+
+      For its listeners, the radio broadcasts various original programmes and a daily information and cultural programme “Aktywacja”.
+
+      Each day the team of journalists prepares latest news for students, academic and cultural information and interesting facts, and invites guests.
+    </description>
+    <stream mime="audio/mpeg" uri="http://listen.radioaktywne.pl:8000/qa" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="255 kbps" />
+    <stream mime="audio/mpeg" uri="http://listen.radioaktywne.pl:8000/ramp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <stream mime="audio/mpeg" uri="http://listen.radioaktywne.pl:8000/ramp3koncert" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <stream mime="audio/ogg" uri="http://listen.radioaktywne.pl:8000/raogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <uri>http://radioaktywne.pl/</uri>
+  </station>
+  <station band="Online" id="drnyheder" lang="da" name="Danmarks Radio Nyheder" rank="1.0" type="gov">
+    <frequency uri="http://www.dr.dk/nyheder">FM 93.3 in Aalborg</frequency>
+    <location>Copenhagen, Denmark</location>
+    <description lang="da">
+      Her får du alle nyheder fra DR - Danmarks mest troværdige nyhedskilde.
+    </description>
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A02L.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A02H.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.dr.dk/nyheder</uri>
+  </station>
+  <station band="Online" id="drp1" lang="da" name="Danmarks Radio P1" rank="1.0" type="gov">
+    <frequency uri="http://www.dr.dk/radio/p1">FM 93.3 in Aalborg</frequency>
+    <frequency uri="http://www.dr.dk/radio/p1">FM 93.3 in Frejlev</frequency>
+    <location>Copenhagen, Denmark</location>
+    <description lang="en">
+      DR P1 – in Denmark normally referred to as simply P1 – is a
+      Danish radio station operated by the Danish Broadcasting
+      Corporation. P1 has evolved into a pure voice channel with a
+      focus on news, documentaries, political debates, education,
+      general cultural, scientific and social programming.
+
+      Since 1 November 2011 P1 has had to share its nationwide FM
+      channel frequencies with P2 since DR lost the rights to continue
+      the use of the fourth nationwide FM channel which P2 had been
+      using.  P1 broadcats on the FM channel during daytime. Both
+      channels continued as two separate channels digitally on DAB and
+      online.
+    </description>
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A03L.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A03H.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.dr.dk/radio/p1</uri>
+  </station>
+  <station band="Online" id="drp2" lang="da" name="Danmarks Radio P2" rank="1.0" type="gov">
+    <frequency uri="http://www.dr.dk/radio/p2">FM 93.3 in Aalborg</frequency>
+    <location>Copenhagen, Denmark</location>
+    <description lang="en">
+      DR P2 – in Denmark normally referred to as simply P2 – is a
+      Danish radio station operated by the Danish Broadcasting
+      Corporation. It specializes in classical music, both recorded
+      and in live performance, as well as reporting on and providing
+      discussion of the classical music scene.
+
+      Since 1991 P2 has organized a chamber music competition for
+      promising young musicians, held every 2 years.
+    </description>
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A04L.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A04H.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.dr.dk/radio/p2</uri>
+  </station>
+  <station band="Online" id="drp3" lang="da" name="Danmarks Radio P3" rank="1.0" type="gov">
+    <frequency uri="http://www.dr.dk/radio/p3">FM 89.7 in Frejlev</frequency>
+    <location>Copenhagen, Denmark</location>
+    <description lang="en">
+      DR P3 (referred to in Denmark simply as P3) is a Danish radio station operated by the Danish Broadcasting Corporation. It is broadcast on FM radio, DAB, and Internet radio.
+
+      P3 specializes in popular music from both established and upcoming artists, with popular entertainment shows and hourly three-minute news bulletins. The network also covers major sporting events.
+    </description>
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A05L.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://live-icy.gss.dr.dk:80/A/A05H.mp3" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.dr.dk/radio/p3</uri>
+  </station>
+  <station band="92.4FM" id="srp1" lang="sv" name="Sveriges Radio P1" rank="1.0" type="gov">
+    <frequency uri="http://www.sverigesradio.se/p1">FM 92.4 in Stockholm</frequency>
+    <location>Stockholm, Sweden</location>
+    <description lang="sv">
+      P1 är rikskanalen som ger fördjupning. Det är den talade kanalen och kanalen för kvalificerade nyheter. Och det är definitivt P1 du ska lyssna på om det är vetenskap, dokumentärer, film, konst, teater, litteratur eller livsåskådningsfrågor som intresserar dig.
+    </description>
+    <stream mime="audio/mpeg" uri="http://http-live.sr.se/p1-mp3-192" codec="MPEG-1 Layer 3 (MP3)" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p1-aac-192" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p1-aac-96" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p1-aac-32" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.sverigesradio.se/p1</uri>
+  </station>
+  <station band="96.2FM" id="srp2" lang="sv" name="Sveriges Radio P2" rank="1.0" type="gov">
+    <frequency uri="http://www.sverigesradio.se/p2">FM 96.2 in Stockholm</frequency>
+    <location>Stockholm, Sweden</location>
+    <description lang="sv">
+      P2 är den rikstäckande kanalen med ett dubbelt uppdrag: dels att sända musikprogram inom konstmusik, jazz och folkmusik. Dels att sända program på andra språk än svenska.
+    </description>
+    <stream mime="audio/mpeg" uri="http://http-live.sr.se/p2-mp3-192" codec="MPEG-1 Layer 3 (MP3)" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p2-aac-192" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p2-aac-96" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p2-aac-32" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.sverigesradio.se/p2</uri>
+  </station>
+  <station band="99.3FM" id="srp3" lang="sv" name="Sveriges Radio P3" rank="1.0" type="gov">
+    <frequency uri="http://www.sverigesradio.se/p3">FM 99.3 in Stockholm</frequency>
+    <location>Stockholm, Sweden</location>
+    <description lang="sv">
+      P3 är radio för och av unga människor i Sverige. Skön, rolig och viktig radio med ett innehåll att skratta åt, reagera på, sjunga med i eller städa till.
+    </description>
+    <stream mime="audio/mpeg" uri="http://http-live.sr.se/p3-mp3-192" codec="MPEG-1 Layer 3 (MP3)" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p3-aac-192" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p3-aac-96" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p3-aac-32" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.sverigesradio.se/p3</uri>
+  </station>
+  <station band="103.3FM" id="srp4stockholm" lang="sv" name="Sveriges Radio P4" rank="1.0" type="gov">
+    <frequency uri="http://www.sverigesradio.se/stockholm/">FM 103.3 in Stockholm</frequency>
+    <location>Stockholm, Sweden</location>
+    <description lang="sv">
+      P4 Stockholm är landets största lokala radiokanal. Över 300 000 personer lyssnar på kanalen en vanlig vardag.
+    </description>
+    <stream mime="audio/mpeg" uri="http://http-live.sr.se/p4stockholm-mp3-192" codec="MPEG-1 Layer 3 (MP3)" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p4stockholm-aac-192" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p4stockholm-aac-96" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://http-live.sr.se/p4stockholm-aac-32" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.sverigesradio.se/stockholm/</uri>
+  </station>
+  <station band="88.1FM" id="hpr" lang="en" name="Hawaii Public Radio" rank="1.0" type="org">
+    <frequency uri="http://www.hawaiipublicradio.org/">FM 88.1 &amp; FM 88.5 in Honolulu</frequency>
+    <frequency uri="http://www.hawaiipublicradio.org/">FM 89.1 in Hilo</frequency>
+    <frequency uri="http://www.hawaiipublicradio.org/">FM 90.7 in Wailuku</frequency>
+    <frequency uri="http://www.hawaiipublicradio.org/">FM 94.9 Waimea</frequency>
+    <frequency uri="http://www.hawaiipublicradio.org/">FM 95.7 Waimea &amp; Kailua-Kona</frequency>
+    <frequency uri="http://www.hawaiipublicradio.org/">FM 89.9 Moloa'a (Kaua'i)</frequency>
+    <location>Honolulu, Hawaii</location>
+    <description lang="en">
+      Hawaii Public Radio, is a network of six non-commercial, listener-supported stations serving the state of Hawaii. It is the statewide member of National Public Radio.
+    </description>
+    <stream mime="audio/mpeg" uri="http://khpr-ice.streamguys1.com:80/khpr2" codec="MPEG-1 Layer 3 (MP3)" samplerate="24000 Hz" channels="Mono" bitrate="24 kbps" />
+    <uri>http://www.hawaiipublicradio.org/</uri>
+  </station>
+  <!-- Appears to be down as of 2021/02/15
+  <station band="Online" id="burstradio" lang="en" name="Burst Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.burstradio.org.uk/"></frequency>
+    <location>Bristol, United Kingdom</location>
+    <description lang="en">
+      Welcome to Burst, Bristol University’s student radio station. We broadcast from our studio in the student’s union 24 hours a day during term times.
+
+      The great thing about Burst is that we are completely run by students. Every aspect of the station uses student volunteers, passionate about the media and having a good time! We are proud to represent every corner of life at the University of Bristol – no matter your level of technical knowledge, music interests or skills, there is something for everyone at Burst!
+    </description>
+    <stream mime="audio/mpeg" uri="http://s.burstradio.org.uk:8000/;" codec="MPEG ADTS, layer III, v1" samplerate="44100 Hz" channels="JntStereo" bitrate="128 kbps" />
+    <uri>http://www.burstradio.org.uk/</uri>
+  </station>
+  -->
+  <station band="90.7FM" id="wfuv" lang="en" name="WFUV" rank="1.0" type="edu">
+    <frequency uri="http://www.wfuv.org/">Bronx, New York</frequency>
+    <location>Bronx, New York</location>
+    <description lang="en">
+      WFUV (90.7 FM, wfuv.org), New York’s source for music discovery, has been a noncommercial, member-supported public media service of Fordham University for more than 65 years. WFUV has received national recognition for its unique weekday format of adult album alternative music, award-winning local news and sports, and a diverse weekend lineup.
+    </description>
+    <stream mime="audio/mpeg" uri="http://wfuv-onair.streamguys.org/onair-hi" codec="MPEG ADTS, layer III, v1" samplerate="44100 Hz" channels="JntStereo" bitrate="128 kbps" />
+    <uri>http://www.wfuv.org/</uri>
+  </station>
+  <station band="Online" id="radiofreebrooklyn" lang="en" name="Radio Free Brooklyn" rank="1.0" type="edu">
+    <frequency uri="https://radiofreebrooklyn.com/">Brooklyn, New York</frequency>
+    <location>Brooklyn, New York</location>
+    <description lang="en">
+      Radio Free Brooklyn is a 501(c)3 nonprofit organization whose mission is to give a global voice to local artists, residents, community organizers and other non-profit institutions by providing a commercial-free freeform Internet Radio platform.
+
+      We are a non-commercial community freeform Internet radio station, streaming original content by the artists and residents of NYC’s most populous borough 24-hours a day, 7 days a week.
+    </description>
+    <stream mime="audio/mpeg" uri="http://192.111.140.6:9300/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="JntStereo" bitrate="192 kbps" />
+    <uri>https://radiofreebrooklyn.com/</uri>
+  </station>
+  <station band="Online" id="3rdrock" lang="en" name="NASA's Third Rock Radio" rank="1.0" type="gov">
+    <frequency uri="https://www.nasa.gov/feature/third-rock-radio">Online</frequency>
+    <location>Space</location>
+    <description lang="en">
+      Explore and discover new worlds of music with NASA’s Third Rock Radio. RFC Media matches “new rock discovery” with tales of NASA’s exciting, on-going mission to create one of the most talked about digital radio channels on, or off the planet. Third Rock fans worldwide share their discoveries from Music Explorers who present ”the best new rock out there – really out there!” Third Rock’s disarmingly hip, street-smart context connects and engages young adults and helps NASA deepen relationships with its next generation of avid supporters. Third Rock Radio is a recognized New Media phenomenon attracting the brightest and best, tech-savvy young adults. Third Rock’s audience is a blend of scientists, engineers, researchers, innovators and astronauts, together with students and music lovers everywhere, all of whom share a love for the new and undiscovered.
+    </description>
+    <stream mime="audio/mpeg" uri="http://rfcmedia2.streamguys1.com/thirdrock.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://rfcmedia2.streamguys1.com/thirdrock.aac" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <uri>https://www.nasa.gov/feature/third-rock-radio</uri>
+  </station>
+  <!-- Appears to be down as of 2021/02/15
+  <station band="89.9FM" id="ktsw" lang="en" name="KTSW" rank="1.0" type="edu">
+    <frequency uri="http://ktsw.txstate.edu/">89.9FM in Austin, Texas</frequency>
+    <location>San Marcos, Texas</location>
+    <description lang="en">
+      KTSW 89.9 is the official radio station of Texas State
+      University, broadcasting to San Marcos and the Interstate 35
+      corridor stretching from San Antonio to Austin. KTSW is a
+      student run, college indie formatted station featuring music
+      from all genres including, rock, hip-hop, electronic and
+      more. KTSW has several specialty shows, news programs,
+      syndicated shows, talk shows, and is the official station for
+      Bobcat Athletics and Rattler Football broadcasts.
+    </description>
+    <stream mime="audio/mpeg" uri="http://ktswlive.txstate.edu:8002/listen" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="95 kbps" />
+    <uri>http://ktsw.txstate.edu/</uri>
+  </station>
+  -->
+  <station band="91.3FM" id="kced" lang="en" name="KCED - Centralia College's Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.centralia.edu/kced/">91.3FM in Centralia, District of Columbia</frequency>
+    <location>Centralia, District of Columbia</location>
+    <description lang="en">
+      KCED (91.3 FM) is a radio station broadcasting on an Alternative format.
+      Licensed to Centralia, Washington, the station serves the Centralia-Chehalis area.
+      The station is currently owned by Centralia College.
+      The station is licensed for, and operating with, an effective radiated
+      power of 1,000 watts.
+      The Centralia College student radio station is brought to you by the students in the Media Studies/Radio/TV program.
+    </description>
+    <stream mime="audio/mpeg" uri="http://134.39.125.251:88/broadwavehigh.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://134.39.125.251:88/broadwavelow.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="16000 Hz" channels="Stereo" bitrate="24 kbps" />
+    <uri>http://www.centralia.edu/kced/</uri>
+  </station>
+  <station band="102.2FM" id="piratefm" lang="en" name="Pirate FM" rank="1.0" type="com">
+    <frequency uri="http://www.piratefm.co.uk/">102.2 FM in Cornwall, United Kingdom</frequency>
+    <location>Cornwall, United Kingdom</location>
+    <description lang="en">
+      Pirate FM was born on the 3rd April 1992. We were launched by the legendary radio presenter Roger Day, using state-of-the-art computer technology that even saw us featured on BBC TV's "Tomorrow's World".
+...and to this day, we are proud to be made IN Cornwall, FOR Cornwall. We broadcast our programming from our studios in Redruth, and cover the whole of the Duchy using two transmitters - one in the West (102.8), and one in the East (102.2).
+In fact we even split our adverts, and many of our local news and travel bulletins between the two areas, to enable us to super-serve the communities of the Duchy with relevant information.
+    </description>
+    <stream mime="audio/mpeg" uri="http://str1.sad.ukrd.com:80/pirate" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.piratefm.co.uk/</uri>
+  </station>
+  <station band="909/693 MW" id="bbcradio5live" lang="en" name="BBC Radio 5 Live" rank="1.0" type="gov">
+    <frequency uri="http://www.bbc.co.uk/5live">909/693 MW in Salford, United Kingdom</frequency>
+    <location>Salford, United Kingdom</location>
+    <description lang="en">
+      BBC Radio 5 Live (also known as just 5 Live) is the BBC's national radio service that specialises in live BBC News, phone-ins, interviews and sports commentaries. It is the principal radio station covering sport in the United Kingdom, broadcasting virtually all major sports events staged in the UK or involving British competitors.
+
+      Radio 5 Live was launched in March 1994 as a repositioning of the original Radio 5, which was launched on 27 August 1990.  It is transmitted via analogue radio in AM on medium wave 693 and 909 kHz and digitally via digital radio, television and via an Internet stream. Due to rights restrictions, coverage of some events (in particular live sport) is not available on-line or is restricted to UK addresses.
+
+      The station broadcasts from MediaCityUK in Salford and is a department of the BBC North division.
+    </description>
+    <stream mime="audio/mpeg" uri="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.bbc.co.uk/5live</uri>
+  </station>
+  <station band="100.8FM" id="mbcfm" lang="ar" name="Middle East Broadcasting Center FM" rank="1.0" type="gov">
+    <frequency uri="http://www.mbc.net/">100.8 FM – الجوف:88.00FM – الجبيل:102.2FM – النماص:103.2FM – عرعر:100.9FM – الطائف:103.3FM – الباحة:101.5FM – الخفجى:91.4FM – الزلفي:101FM – حفرالباطن:100.9FM – الهفوف:102.2FM – ينبع:100.9FM – تبوك:97.4FM – نجران:102.9FM – أبها:102.3FM – القصيم:102FM – حائل:103FM – المدينة المنورة:103FM – جده:103FM – الدمام:101.9FM – الرياض:102FM</frequency>
+    <location>Dubai, Saudi Arabia</location>
+    <description lang="ar">
+      ابة عربية رائدة تقديم الترفيه والتسلية المناسبة للأسرة العربية، وتهتم بالفن والرياضة. وتتابع أحدث أخبار النجوم في التمثيل والغناء وكرة القدم ومختلف الألعاب.
+    وتتناول بالعرض والتحليل والنقد كافة الأحداث والأعمال على الساحة الفنية والرياضية. وتتابع وتعرض البرامج والمسلسلات والأفلام التي تعرض على القنوات الفضائية لمجموعة MBC وهي
+    MBC1, MBC 2, MBC3, MBC4, MBC Action, MBC Max, MBC Drama, MBC Masr, MBC Masr2, MBC Bollywood, Panorama FM, MBC FM, MBC Drama+
+    وتقدم للشباب والفتيات من خلال موقع أكشنها أحدث الأخبار الخفيفة والمنوعة في العلوم والتكنولوجيا والصحة والجمال والسيارات. وتقدم للأطفال والفتية المواد التي تناسبهم في قالب جذاب. كما تركز على الجوانب الإيجابية في المجتمع العربي من خلال بوابة MBC الأمل
+    </description>
+    <description lang="en">
+      The Middle East Broadcasting Center (MBC) Group is the first private free-to-air satellite broadcasting company in the Arab World. It was launched in London in 1991 and later moved to its headquarters in Dubai in 2002. MBC Group provides multiple channels of information, interaction and entertainment. MBC Group includes 11 television channels: MBC1 (general family entertainment via terrestrial), MBC2 and MBC MAX (24-hour movies), MBC3 (children’s entertainment), MBC4 (entertainment for new Arab women via terrestrial), MBC Action (action series and movies via terrestrial), MBC Persia (24-hour movie channel dubbed in Persian), MBC Bollywood (24-hour Bollywood movies dubbed in Arabic), Al Arabiya (the 24-hour Arabic language news channel); Wanasah (24-hour Arabic music channel), MBC Malayalam (the 24-hour Malayalam entertainment channel), and MBC Drama coinciding with the Group’s 20th anniversary, and offers 24/7 Arabic Drama. The Group also includes two radio stations: MBC FM (Gulf music), and Panorama FM (contemporary Arabic hit music); as well as O3 productions, a specialized documentary production unit.
+    </description>
+    <stream mime="audio/aac" uri="http://mbcwanasatv-live-v4.hls.adaptive.level3.net/egress/bhandler/mbc/mbcfm4/manifest.m3u8" codec="MPEG-4 AAC" samplerate="22050 Hz" channels="Stereo" bitrate="48 kbps" />
+    <uri>http://www.mbc.net/</uri>
+  </station>
+  <station band="Online" id="ciut" lang="en" name="CIUT" rank="1.0" type="edu">
+    <frequency uri="http://www.ciut.fm/">89.5 FM in Toronto, Canada</frequency>
+    <location>Toronto, Canada</location>
+    <description lang="en">
+      CIUT 89.5 FM is Toronto’s preeminent, listener-supported, presenter of leading-edge music and spoken-word programming since 1966. Firmly rooted in the University of Toronto community, CIUT’s programming reaches and represents the community at large and encompasses a wide panorama of styles and expressions. CIUT entertains and informs listeners from Barrie to Buffalo, Kitchener to Cobourg, 24 hours a day, seven days a week.
+      Based on our mission statement, we provide an alternative to mainstream media, provide community access to the airwaves, and offer programming that reflects the diverse elements of the communities we serve.
+      We draw on the wide-ranging talents and global interests of students, faculty and community members, and provide opportunities for volunteers to learn about and participate in radio-related activities.
+      Above all, CIUT 89.5 FM exists to serve its listeners. We seek to stimulate, educate, entertain and challenge our audiences, and to meet listener needs that are not currently addressed by other broadcast media.
+    </description>
+    <stream mime="audio/mpeg" uri="http://128.100.197.46:80/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.ciut.fm/</uri>
+  </station>
+  <station band="Online" id="kslu" lang="en" name="KSLU" rank="1.0" type="edu">
+    <frequency uri="http://www2.southeastern.edu/kslu/">90.9 FM in Hammond, Louisiana</frequency>
+    <location>Hammond, Louisiana</location>
+    <description lang="en">
+      KSLU is a 3000 watt CPB-qualified non-commercial educational radio station owned and operated by Southeastern Louisiana University in Hammond, Louisiana. The radio station's city-grade signal reaches a 10 mile radius and is often heard from Denham Springs to Covington to Kentwood. Many of the announcers are communication students at Southeastern training for careers in the broadcast industry. KSLU strives to serve both the Southeastern and surrounding communities.
+    </description>
+    <stream mime="audio/mpeg" uri="http://147.174.55.27:7998/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Mono" bitrate="64 kbps" />
+    <stream mime="audio/mpeg" uri="http://147.174.55.27:8000/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Mono" bitrate="48 kbps" />
+    <stream mime="audio/mpeg" uri="http://147.174.55.27:8002/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Mono" bitrate="24 kbps" />
+    <uri>http://www2.southeastern.edu/kslu/</uri>
+  </station>
+  <station band="Online" id="radiok" lang="en" name="Radio K" rank="1.0" type="edu">
+    <frequency>88.1 FM in Minneapolis, Minnesota</frequency>
+    <location>Minneapolis, Minnesota</location>
+    <description lang="en">
+      Radio K - KUOM is the award-winning student-run radio station of the University of Minnesota, playing an eclectic variety of independent music both old and new. Radio K educates students, breaks ground in musical programming, and provides cutting-edge cultural coverage through our specialty shows and Real College Podcast.
+      The independent music heard every day on Radio K is made possible through the support of listeners like you. Additional support comes from the students of the University of Minnesota, the College of Continuing Education, the Minnesota Arts and Cultural Heritage Fund, and the State of Minnesota.
+    </description>
+    <stream mime="audio/mpeg" uri="http://128.101.73.38:8256/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <stream mime="audio/mpeg" uri="http://128.101.73.38:8128/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://radiok.org/</uri>
+  </station>
+  <station band="Online" id="blurfm" lang="es-AR" name="Blur FM" rank="1.0" type="com">
+    <frequency uri="http://www.blurfm.com/">Online in Buenos Aires, Argentina</frequency>
+    <location>Buenos Aires, Argentina</location>
+    <description>
+      Blur FM is an online radio station that works without advertising and with the sole purpose of promoting the artists that are broadcasted.  Music files are downloaded legally-free, or under consent of the artists, from online sources, which aim to promote independent/emerging artists.
+    </description>
+    <stream mime="audio/mpeg" uri="https://live.radiovague.com:8443/blurfm01" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.blurfm.com/</uri>
+  </station>
+  <station band="105.3FM" id="urgentfm" lang="be" name="Urgent.fm" rank="1.0" type="edu">
+    <frequency uri="http://www.urgent.fm/">105.3 FM in Gent, Belgium</frequency>
+    <location>Gent, Belgium</location>
+    <description>
+      Nieuws en informatie over de Gentse studentenzender.
+    </description>
+    <stream mime="audio/mpeg" uri="http://195.10.10.201/urgent/high.mp3?GKID=af6fd868859111e6bffa00163e914f69" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>http://www.urgent.fm/</uri>
+  </station>
+  <station band="99.6FM" id="uradio" lang="el-CY" name="U Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.uradio.com.cy/">99.6 FM in Nicosia, Cyprus</frequency>
+    <location>Nicosia, Cyprus</location>
+    <description lang="en">
+      Nicosia's best Rock and Alternative music station
+    </description>
+    <stream mime="audio/mpeg" uri="http://shout.kalsedia.com:9996/uradio996_64" codec="MPEG-1 Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="64 kbps" />
+    <uri>http://www.uradio.com.cy/</uri>
+  </station>
+  <station band="102.5FM" id="radiouchile" lang="es" name="Radio Uchile" rank="1.0" type="edu">
+    <frequency uri="http://radio.uchile.cl/">102.5 FM in Santiago, Chile</frequency>
+    <location>Santiago, Chile</location>
+    <description lang="es">
+      La Radio Universidad de Chile es una estación de radio ubicada en el 102.5 MHz del dial FM en Santiago de Chile.
+    </description>
+    <stream mime="audio/mpeg" uri="http://stream3.rbm.cl:8010/playerweb.aac" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="78 kbps" />
+    <uri>http://radio.uchile.cl/</uri>
+  </station>
+  <station band="93.7FM" id="radiousp" lang="pt_BR" name="Radio USP" rank="1.0" type="edu">
+    <frequency uri="http://www.radio.usp.br/">93.7 FM in São Paulo, Brazil</frequency>
+    <location>São Paulo, Brazil</location>
+    <description lang="en">
+      A Rádio USP de São Paulo foi criada em 11 de outubro de 1977, preenchendo o espaço vazio de emissoras educativas em FM na Grande São Paulo e, ao mesmo tempo, proporcionando um canal de comunicação entre a Universidade de São Paulo e a sociedade.
+
+      Ao longo de seus 39 anos, a emissora recebeu diversos prêmios por sua linha de trabalho diferenciada. Em 2000, a Rádio USP recebeu o prêmio da APCA (Associação Paulista dos Críticos de Arte) como melhor programação musical. Destacam-se da mesma maneira as premiações pela melhor programação de cultura geral, melhor programa de variedades, conferidos também pela APCA, o Prêmio Jabuti da Câmara Brasileira do Livro e o Terceiro Concurso Internacional de Programas de Rádio promovido pela Rádio Cubana (vencido pelo Clip Atualidades).
+
+      A Rádio USP mantém uma programação jornalística voltada à divulgação das atividades da Universidade e um espaço aberto para debates sobre temas de interesse da sociedade e para prestação de serviços.
+    </description>
+    <stream mime="audio/ogg" uri="http://flow.emm.usp.br:8007/radiousp-48.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="48 kbps" />
+    <stream mime="audio/ogg" uri="http://flow.emm.usp.br:8007/radiousp-64.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/ogg" uri="http://flow.emm.usp.br:8007/radiousp-128.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.radio.usp.br/</uri>
+  </station>
+  <station band="96.4FM" id="srib" lang="nb" name="Studentradioen i Bergen" rank="1.0" type="edu">
+    <frequency uri="http://srib.no/">96.4 FM in Bergen, Norway</frequency>
+    <location>Bergen, Norway</location>
+    <description lang="en">
+Bergen Student Radio was founded in 1982, and is the oldest local radio in Bergen. Every week Bergen Student Radio broadcasts 119 hours of commercial free radio, with live shows every day from 7am – 2pm, and both live shows, replays and podcasts in the evening from 9pm.
+
+Bergen Student Radio strives to be an alternative to commercial and state-run radio channels, and the radio station is run by around 160 volunteer students.
+    </description>
+    <stream mime="audio/mpeg" uri="http://radio.srib.no:8888/srib.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="Stereo" bitrate="64 kbps" />
+    <uri>http://srib.no/</uri>
+  </station>
+  <station band="94.1FM" id="narvikstudentradio" lang="nb" name="Narvik Studentradio" rank="1.0" type="edu">
+    <frequency uri="https://nsr.samfunnet.no/">94.1 FM in Narvik, Norway</frequency>
+    <location>Narvik, Norway</location>
+    <description lang="nb">
+      Narvik Studentradio is the oldest legal local radio station.
+
+      The station launched in December 1972, is affiliated with the
+      University College of Narvik, and transmits via the FM band in
+      the Narvik area as well as on the Internet.
+    </description>
+    <stream mime="audio/ogg" uri="http://stream.sysrq.no:8000/00-nsr.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://nsr.samfunnet.no/</uri>
+  </station>
+  <station band="94.4FM" id="campusandcityradio" lang="de-AT" name="Campus &amp; City Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.campusradio.at/">94.4 FM in St. Pölten, Austria</frequency>
+    <location>St. Pölten, Austria</location>
+    <description lang="de-AT">
+      24 Stunden lang Beiträge von Studierenden der FH St. Pölten, von RadiomacherInnen aus St. Pölten und Umgebung, Beiträge der freien Radios Österreichs und Musik aus allen Genres.
+    </description>
+    <stream mime="audio/mpeg" uri="http://www.cr944.at:8000/cr944-high" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>http://www.campusradio.at/</uri>
+  </station>
+  <station band="Online" id="radiouniversidad" lang="en" name="Radio Universidad" rank="1.0" type="edu">
+    <frequency uri="http://radiou.usac.edu.gt/">92.1 FM in Guatemala City, Guatemala</frequency>
+    <location>Guatemala City, Guatemala</location>
+    <description lang="es">
+      Radio universidad obtiene su frecuencia en 1990 y sale al aire por primera vez en octubre de 1991 bajo la coor dinación del periodista David Grajeda. Su potencia era solamente de 300 vatios, lo cual no le permitía una gran proyección. En esta primera época cubría cuatro horas, programando de 8:00 a 12:00 horas. Operaba en el segundo nivel del Edificio de Bienestar Estudiantil en la ciudad universitaria, zona 12. El 29 de enero de 1992 se traslada a las instalaciones del Centro Cultural Universitario en la 2ª. Avenida 12-40 de la zona 1, y un día después, queda oficialmente inaugurada. Sus operaciones iniciaron con una donación de equipo del Gobierno de España que permitió instalar un transmisor con 1 kilovatio de potencia ampliando su cobertura un poco más allá del área metropolitana. Desde 1994 se cuenta con un transmisor de 10 kilovatios que le permite tener una cobertura de más de 200 kms. Alrededor de la capital del país. Posteriormente se realizan las gestiones para instalar una antena de transmisión desde el Cerro Alux, arrendándose durante algún tiempo espacio en la torre de Radio Rumbos. Se iniciaron trámites para contar con un terreno propio, ante la carencia de espacio en el Cerro. En 1998 se suscribe un contrato de arrendamiento con la Municipalidad de San Lucas Sacatepéquez y se procede a la construcción y acondicionamiento de una modesta cabina con su respectiva guardianía. En el año 2001 se construyen en el Cerro Alux las nuevas instalaciones para los aparatos de transmisión y espacio para planta eléctrica de emergencia. En el año 2005, a través de gestiones realizadas con la fundación “Aracalacana”, adquiere nuevo equipo para el apoyo de la producción y la transmisión por control remoto. Se instituye la automatización computarizada para la transmisión de radio. Dos años después se establecen como actividades rutinarias las transmisiones en directo de actividades grandes como la Huelga de Dolores, la celebración de la Autonomía Universitaria y la Fundación de la Universidad, los partidos de fútbol del equipo universitario, entre otros acontecimientos de alta trascendencia nacional y académica. A partir del año 2009, se comienzan a realizar las primeras transmisiones vía internet, desde puntos externos a la cabina de transmisión, alcanzando con éxito la primera transmisión con sonido de mejor definición desde el Campus Universitario a mediados del año 2010, entrando de esta manera, a una nueva etapa tecnológica para la transmisión por radio.
+    </description>
+    <stream mime="audio/mpeg" uri="http://dns921.no-ip.biz:8000/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="Stereo" bitrate="64 kbps" />
+    <uri>http://radiou.usac.edu.gt</uri>
+  </station>
+  <station band="95.3FM" id="stockholmcollegeradio" lang="en" name="Stockholm College Radio" rank="1.0" type="edu">
+    <frequency uri="http://collegeradio.se/">95.3 FM in Stockholm, Sweden</frequency>
+    <location>Stockholm, Sweden</location>
+    <description lang="en">
+      Stockholm College Radio, radiostationen med mest ös och bredd i Stockholms-etern alias studentradiostationen som sänder på 95,3 MHz i Stockholm.  Med ny musik med sting i, humor, kultur, reportage, studentinformation och mer därtill.
+    </description>
+    <stream mime="audio/mpeg" uri="http://radiostreamone.mine.nu:80" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Mono" bitrate="48 kbps" />
+    <uri>http://collegeradio.se/</uri>
+  </station>
+  <station band="92FM" id="wumr" lang="en" name="WUMR" rank="1.0" type="edu">
+    <frequency uri="http://www.memphis.edu/wumr/">92 FM in Memphis, Tennessee</frequency>
+    <location>Memphis, Tennessee</location>
+    <description lang="en">Broadcasting in stereo with 25,000 watts of power, WUMR is the only exclusive jazz outlet in the Memphis metro area. The station offers a mix of contemporary and traditional jazz, as well as a sampling of fusion, Blues, Latin, and new age Jazz. The station also serves the Mid-South community with unique educational, sports, and community service programming.
+
+WUMR has been the University of Memphis broadcasting outlet since 1979, when Southwestern at Memphis (now Rhodes College) sold one of its two radio licenses to then Memphis State University. WSMS-FM 91.7, carrying the Memphis State call letters, was created as an all-jazz station. Although the call letters changed to WUMR, when Memphis State became the University of Memphis on July 1, 1994, the station, which is now known as WUMR “The Jazz Lover” U 92-FM, has stayed true to the all-jazz format during its 30-year history. WUMR is part of the College of Communication and Fine Arts’ (CCFA) Department of Communication. An element of the station’s mission is to train communication and journalism students in broadcasting.
+    </description>
+    <stream mime="audio/mpeg" uri="http://141.225.64.25:88/broadwave.mp3?src=1&amp;rate=1&amp;ref=" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="56 kbps" />
+    <uri>http://www.memphis.edu/wumr/</uri>
+  </station>
+  <station band="100FM" id="radiorevolt" lang="no" name="Radio Revolt" rank="1.0" type="edu">
+    <frequency uri="https://www.radiorevolt.no/">100 FM in Trondheim, Norway</frequency>
+    <location>Trondheim, Norway</location>
+    <description lang="en">
+      Radio Revolt (formerly known as Studentradion i Trondheim), is the student radio in Trondheim, Norway. It airs 55 hours a week on 100 and 106,2 FM, and 24 hours a day on the internet. It employs about 80 students on a voluntary basis. The radio is a part of the Student Society in Trondheim, and is so a part of the running of the house.
+    </description>
+    <stream mime="audio/aac" uri="http://streamer.radiorevolt.no:8000/revolt.aac" codec="AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/ogg" uri="http://streamer.radiorevolt.no:8000/revolt.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.radiorevolt.no/</uri>
+  </station>
+  <station band="107.8FM" id="dcufm" lang="en" name="DCUfm" rank="1.0" type="edu">
+    <frequency uri="http://www.dcufm.com/">107.8 FM in Dublin, Ireland</frequency>
+    <location>Dublin, Ireland</location>
+    <description lang="en">
+      DCUfm is Dublin City University’s award-winning home-grown radio station, staffed by over 120 volunteers from across DCU’s faculties. Our philosophy is simple: we want to put out the best, fun-loving programmes possible, and give students a voice.
+    </description>
+    <stream mime="audio/mpeg" uri="http://dcufm.redbrick.dcu.ie/stream128.mp3"  codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.dcufm.com/</uri>
+  </station>
+  -->
+  <station band="95.5FM" id="universitetsradioen" lang="dk" name="Universitetsradioen" rank="1.0" type="edu">
+    <frequency uri="http://universitetsradioen.dk/">95.5 FM in Copenhagen, Denmark</frequency>
+    <location>Copenhagen, Denmark</location>
+    <description lang="dk">
+      Det var en håndfuld studerendes syrede idé, der den 17. maj 1986 blev æterbåren, da vi for første gang kunne sige: – Du lytter til Universitetsradioen 95,5 MHz.
+      Siden begyndelsen i det improviserede studie hjemme hos en af stifterne er projektet vokset støt i størrelse og ambitionsniveau. I dag er det mere end 150 studerende, der hver uge står bag 30 timers liveradio og siden 2015 også podcast-produktioner.
+    </description>
+    <stream mime="audio/mpeg" uri="http://netradio.universitetsradioen.dk:8000/live64.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <uri>http://universitetsradioen.dk</uri>
+  </station>
+  <station band="87.7FM" id="uwsradio" lang="en" name="UWSRadio" rank="1.0" type="edu">
+    <frequency uri="http://www.uwsradio.scot/">87.7 FM in Ayr, Scotland</frequency>
+    <location>Ayr, Scotland</location>
+    <description lang="en">
+      UWS Radio (formally UCA) is the student radio station on the Ayr campus of The University of the West of Scotland.
+    </description>
+    <stream mime="audio/mpeg" uri="http://icecast.commedia.org.uk:8000/ucaradio.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.uwsradio.scot/</uri>
+  </station>
+  <station band="99.1FM" id="radioaf" lang="sv" name="Radio AF" rank="1.0" type="edu">
+    <frequency uri="http://www.radioaf.se/">99.1 FM in Lund, Sweden</frequency>
+    <location>Lund, Sweden</location>
+    <description lang="sv">
+      Radio AF är ett utskott i Akademiska Föreningen, studenternas förening och navet i Studentlund.
+    </description>
+    <stream mime="audio/mpeg" uri="http://live.radioaf.se:8000/;stream/1" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.radioaf.se/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/07/07
+  <station band="Online" id="ruv" lang="is" name="RÚV" rank="1.0" type="gov">
+    <frequency uri="http://ruv.is/">Online in Reykjavik, Iceland</frequency>
+    <location>Reykjavik, Iceland</location>
+    <description lang="en">
+      The Icelandic National Broadcasting Service – Ríkisútvarpið, or RÚV for short - is an independent public service broadcaster, comprising television, radio and online services. The main objective of the National Broadcasting Service is to inform, educate and entertain. This triple role is reflected in its mission to provide the public with reliable news service and culture and entertainment content of the highest quality. We place particular attention on the Icelandic language, the history of the nation, cultural heritage and an active dialogue with the public.  We furthermore place special focus on quality programming for children and young people.  RÚV’s Archives are open and accessible to the public.
+    </description>
+    <stream mime="audio/mpeg" uri="http://sip-live.hds.adaptive.level3.net/hls-live/ruv-ras2/_definst_/live/stream1.m3u8" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.ruv.is/</uri>
+  </station>
+  -->
+  <station band="Online" id="RadioEco" lang="it" name="Radio Eco" rank="1.0" type="edu">
+    <frequency uri="http://www.radioeco.it/">Online in Pisa, Italy</frequency>
+    <location>Pisa, Italy</location>
+    <description lang="it">
+      RadioEco è l’emittente radiofonica dell’Ateneo Pisano. Nasce nell’ambito dell’iniziativa del Sole-24 ore UniOnAir (una radio per ogni ateneo) all’interno della Facoltà di Economia.
+      Adesso è una delle migliori 25 WebRadio universitarie italiane come pubblicato dalla rivista WIRED a novembre 2009. Con il passare degli anni ha riscosso sempre maggiore successo tra studenti e non. Con Migliaia di ascoltatori provenienti da tutte le parti d’Italia, oltre che dall’estero e creando un punto di riferimento per la comunity universitaria pisana.
+    </description>
+    <stream mime="audio/mpeg" uri="http://listen.radioeco.it:8000/outdoor.ogg" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <uri>http://radioeco.it/</uri>
+  </station>
+  <station band="90.3FM" id="ktuh" lang="en" name="KTUH FM" rank="1.0" type="edu">
+    <frequency uri="http://ktuh.org/">Online in Honolulu, Hawaii</frequency>
+    <location>Honolulu, Hawaii</location>
+    <description lang="en">
+      KTUH is a student-run noncommercial radio station broadcasting from the University of Hawai’i at Manoa. We’ve been serving the community since 1969 with a variety of programs that include public announcements, equipment for community events, and a practical chance to learn about radio broadcasting. KTUH was granted a license to the Board of Regents as a non-commercial educational FM Station by the Federal Communications Commission (FCC) on June 28, 1985. Maintaining a staff in excess of 70 volunteers annually, KTUH operates 24 hours a day, year-round.
+    </description>
+    <stream mime="audio/mpeg" uri="http://stream.ktuh.org:8000/stream-mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://ktuh.org/</uri>
+  </station>
+  <station band="Online" id="nrksport" lang="no" name="NRK Sport" rank="1.0" type="gov">
+    <frequency uri="http://www.nrksport.no/">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK Sport is a brand name for sports produced by the sports department of Norwegian Broadcasting Corporation (NRK). The brand name is used on most national sports broadcasts on television, radio and new media.  NRK Sport is produced both in Norway and other countries.
+    </description>
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_sport_aac_h" codec="AAC, v4 LC" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://nrksport.no/</uri>
+  </station>
+  <station band="Online" id="nrkp1" lang="no" name="NRK P1" rank="1.0" type="gov">
+    <frequency uri="http://www.nrk.no/p1/">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK P1 is one of the nationwide radio channels operated by the Norwegian Broadcasting Corporation (NRK).
+      NRK P1 is the direct descendant of NRK's first radio station which began broadcasting in 1933. P1's programming is aimed at a broad mature demographic and it is Norway's most popular radio station, with approximately 1.9 million listeners daily.
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.nrk.no/p1</uri>
+  </station>
+  <station band="Online" id="nrkp1vestfold" lang="en" name="NRK P1 Vestfold" rank="1.0" type="gov">
+    <frequency uri="https://www.nrk.no/vestfoldogtelemark/">Online in Tønsberg, Norway</frequency>
+    <location>Tønsberg, Norway</location>
+    <description lang="nb">NRK Vestfold er NRKs distriktskontor i fylket Vestfold med distriktskontor i Tønsberg.</description>
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.nrk.no/vestfoldogtelemark/</uri>
+  </station>
+  <station band="Online" id="nrkp1telemark" lang="en" name="NRK P1 Telemark" rank="1.0" type="gov">
+    <frequency uri="https://www.nrk.no/vestfoldogtelemark/">Online in Porsgrunn, Norway</frequency>
+    <location>Porsgrunn, Norway</location>
+    <description lang="nb">NRK Telemark er NRKs distriktskontor i fylket Telemark med distriktskontor i Porsgrunn.</description>
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.nrk.no/vestfoldogtelemark/</uri>
+  </station>
+  <station band="88.8FM" id="nrkp1sorlandet" lang="nb" name="NRK P1 Sørlandet" rank="1.0" type="gov">
+    <frequency uri="https://www.nrk.no/sorlandet/">FM 88.8 in Kristiansand, Norway</frequency>
+    <location>Kristiansand, Norway</location>
+    <description lang="nb">
+      NRK Sørlandet er NRKs distriktskontor i fylkene Aust-Agder og
+      Vest-Agder. Hovedkontoret ligger på Tangen i Kristiansand i
+      Vest-Agder, mens lokalkontoret i Aust-Agder har base i Pollen i
+      Arendal. Det er også et enmannsbetjent lokalkontor i Farsund i
+      Vest-Agder. Distriktskontoret produserer 6 timer radio og en
+      halv time fjernsyn daglig, i tillegg til nyheter for tekst-TV og
+      internett.
+    </description>
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>https://www.nrk.no/sorlandet/</uri>
+  </station>
+  <station band="Online" id="nrkp2" lang="no" name="NRK P2" rank="1.0" type="gov">
+    <frequency uri="http://www.nrk.no/p2/">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK P2 is one of the nationwide radio channels operated by the Norwegian Broadcasting Corporation (NRK).
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p2_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.nrk.no/p2</uri>
+  </station>
+  <station band="Online" id="nrkp3" lang="no" name="NRK P3" rank="1.0" type="gov">
+    <frequency uri="http://www.nrk.no/p3/">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK P3 is one of the radio channels operated by the Norwegian Broadcasting Corporation (NRK).
+      NRK P3 focuses on youth culture.
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p3_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.nrk.no/p3</uri>
+  </station>
+  <station band="Online" id="nrkp13" lang="no" name="NRK P13" rank="1.0" type="gov">
+    <frequency uri="https://www.nrk.no/p13">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK P13 is a Norwegian digital radio station, run by the Norwegian Broadcasting Corporation.
+      NRK P13 launched on January 28th 2014.
+      The station is broadcast on DAB, Internet radio and digital television and plays mainly rock and indie music.
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p13_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://radio.nrk.no/direkte/p13</uri>
+  </station>
+  <station band="Online" id="nrkurort" lang="no" name="NRK Urørt" rank="1.0" type="gov">
+    <frequency uri="http://www.nrk.no/urort/">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK P3 Urørt is a site where independent Norwegian artists and bands can promote their music.  The Urørt editors review the music played on NRK P3 Urørt.
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p3_urort_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://urort.p3.no</uri>
+  </station>
+  <station band="Online" id="nrkjazz" lang="no" name="NRK Jazz" rank="1.0" type="gov">
+    <frequency uri="https://radio.nrk.no/direkte/jazz">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK Jazz is a Norwegian radio station operated by the Norwegian Broadcasting Corporation (NRK) that broadcasts jazz on DAB Digital Radio and the internet.
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_jazz_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>https://radio.nrk.no/direkte/jazz</uri>
+  </station>
+  <station band="Online" id="nrkklassisk" lang="no" name="NRK Klassisk" rank="1.0" type="gov">
+    <frequency uri="https://www.nrk.no/arkiv/artikkel/radiokanalen-nrk-klassisk-1.5318146">Online in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">
+      NRK Klassisk is a digital radio channel operated by the Norwegian Broadcasting Corporation (NRK) which broadcasts classical music 24 hours a day.
+      NRK Klassisk was launched in Oslo on 1 June 1995 as the world’s first all-digital radio station (DAB), broadcasting 24 hours a day. The BBC and Swedish Radio, which launched their first digital radio stations in September 1995, caused NRK to bring forward its plans, so as to be the first in the world to use the DAB radio standard (Eureka 147).
+      Right from the start, the channel was in operation 24 hours a day with a staff of six, in a totally digital programme chain from production via DAB transmitter to receiver.
+    </description>
+    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_klassisk_aac_h" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>https://radio.nrk.no/direkte/klassisk</uri>
+  </station>
+  <station band="Online" id="nrksapmi" lang="smi" name="NRK Sápmi" rank="1.0" type="gov">
+    <frequency uri="http://www.nrk.no/sapmi">Online in Kárášjohka, Norway</frequency>
+    <location>Kárášjohka, Norway</location>
+    <description lang="en">
+      NRK Sápmi (previously NRK Sámi Radio) is a unit of the Norwegian Broadcasting Corporation (NRK) that produces Sami-language news and other programs for broadcast to the Sami people of Norway via radio, television, and internet.
+    </description>
+    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_sami_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="125 kbps" />
+    <uri>http://www.nrk.no/sapmi</uri>
+  </station>
+  <station band="104.5FM" id="uctradio" lang="en" name="UCT Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.radio.uct.ac.za/">104.5 FM in Cape Town, South Africa</frequency>
+    <location>Cape Town, South Africa</location>
+    <description lang="en">
+      UCT Radio 104.5fm in three words: Diverse, Dynamic and Contemporary.
+
+      From the underground beats of hip hop, to the euphoric tones of house and the classic tunes of rock,  and everything else in between, UCT Radio embodies what it truly means to be a music lover. The station captures a diverse audience of university students, staffers and even the wider Cape Town community.
+    </description>
+    <stream mime="audio/mpeg" uri="http://edge.iono.fm/xice/uctradio_live_medium.aac" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="61 kbps" />
+    <uri>http://www.radio.uct.ac.za/</uri>
+  </station>
+  <station band="101.9FM" id="cfrc" lang="en" name="CFRC" rank="1.0" type="edu">
+    <frequency uri="http://www.cfrc.ca/">101.9 FM in Kingston, Canada</frequency>
+    <location>Kingston, Canada</location>
+    <description lang="en">
+      CFRC 101.9 FM is Kingston’s only campus and community radio station!
+      We are 100% not-for-profit, volunteer-powered media that fills the gap left by the mainstream.
+<!--      We offer diverse music and spoken word programming 24/7: over the air at 101.9FM in the Kingston area and worldwide on-line.
+      We provide free broadcast skills training and experience to members of the community.-->
+      We have been broadcasting since 1922, making us the longest-running campus-based broadcaster in Canada.
+    </description>
+    <stream mime="audio/mpeg" uri="http://stream.cfrc.ca:8000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://chuo.fm/</uri>
+  </station>
+  <station band="89.1FM" id="chuo" lang="en" name="CHUO" rank="1.0" type="edu">
+    <frequency uri="http://chuo.fm/">89.1 FM in Ottawa, Canada</frequency>
+    <location>Ottawa, Canada</location>
+    <description lang="en">
+      We are NOT your traditional radio station. We are THE community radio station.
+      For over 20 YEARS we’ve been playing nothing but the best in indie-rock, folk, funk, reggae, hip hop, jazz, blues, country, rock, classical, ska, punk, soul, Motown and more. We offer a new, refreshing flavour of music from local, independent, underground and emerging artists to tickle every one of your musical taste buds. We play tunes that you probably won’t know the words to… we feature artists you’ve probably never heard of… we make radio worth listening to.
+    </description>
+    <stream mime="audio/mpeg" uri="http://icecast1.isiglobal.ca:8000/chuo" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://chuo.fm/</uri>
+  </station>
+  <station band="99.3FM" id="radiorakel" lang="en" name="radiOrakel" rank="1.0" type="edu">
+    <frequency uri="http://radiorakel.no/">99.3 FM in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">radiOrakel is the worlds oldest female run, feminist radio. Founded in 1982, radiOrakel has produced experimental radio-journalism, innovative comedy, and serious radio dramas for almost 40 years. Broadcasting on FM 99,3 in Norway, radiOrakel prides themselvs on having a queer agenda and standing up for inclusive feminism, making them a unique radio-experience for all types of listeners. Their music-profile covers anything and everything, from fringe punk to hardhitting country, and vibing techno-beats, with focus on female and queer artists.</description>
+    <stream mime="audio/mpeg" uri="https://stream.radiorakel.no/fm993.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://radiorakel.no/</uri>
+  </station>
+  <station band="1560AM" id="kxsc" lang="en" name="KXSC" rank="1.0" type="edu">
+    <frequency uri="http://kxsc.org/">1560 AM in Los Angeles, California</frequency>
+    <location>Los Angeles, California</location>
+    <description lang="en">KXSC Radio (formerly KSCR) is the 100% student-run radio station of the University of Southern California; we are volunteer, non-profit, donation funded and we provide the USC community with original radio programming 24 hours a day.
+    KXSC traces its roots to the original KUSC, which was operated by students starting in 1946. KUSC transitioned to classical programming and moved off-campus in the mid-1970s, but students still demanded a broadcast voice. So on April 2, 1975, a dozen students gathered in a converted production studio to start KSCR, a radio station run by and for students.
+<!--    KXSC has undergone yet another revolution with our new home in the Ronald Tutor Campus Center, but our approach to radio is still the same: All-student run music, sports and news broadcasts that encourage diversity and a student-centric approach.-->
+    </description>
+    <stream mime="audio/mpeg" uri="http://68.181.136.188:8000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.kxsc.org/</uri>
+  </station>
+  <station band="92.1FM" id="wpts" lang="en" name="WPTS" rank="1.0" type="edu">
+    <frequency uri="http://wptsradio.org/">92.1 FM in Pittsburgh, Pennsylvania</frequency>
+    <location>Pittsburgh, Pennsylvania</location>
+    <description lang="en">
+      WPTS is an educational, non-commercial FM station owned by the University of Pittsburgh and operated by its students.  Located at a frequency of 92.1 in the commercial band of the FM dial, we have a radiating power of 17 Watts, and an effective radiated output of 17 Watts.  Our transmitted is located atop the Cathedral of Learning, 530 feet above the ground.  This greatly enhances our broadcast radius, which averages about 30 miles.
+    </description>
+    <stream mime="audio/mpeg" uri="http://audio.wpts.pitt.edu:8000/wpts_live_256s.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <stream mime="audio/mpeg" uri="http://audio.wpts.pitt.edu:8000/wpts_live_128s.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://audio.wpts.pitt.edu:8000/wpts_live_96s.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://audio.wpts.pitt.edu:8000/wpts_live_48s.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="48 kbps" />
+    <uri>http://wptsradio.org/</uri>
+  </station>
+  <station band="1330AM" id="kasc" lang="en" name="Arizona State University" rank="1.0" type="edu">
+    <frequency uri="http://www.blazeradioonline.com/">1330 AM in Phoenix, Arizona</frequency>
+    <location>Phoenix, Arizona</location>
+    <description lang="en">
+      KASC (The Blaze) is an AM radio station serving all four campuses of the ASU community.  The student-run college radio station broadcasts at 1330 AM 24 hours a day during the school year and is operated by students under the supervision of a Cronkite School faculty adviser.
+    </description>
+    <stream mime="audio/mpeg" uri="http://184.154.90.186:8006/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.blazeradioonline.com/</uri>
+  </station>
+  <station band="102.7FM" id="radiowaterloo" lang="en" name="radiowaterloo" rank="1.0" type="edu">
+    <frequency uri="http://radiowaterloo.ca/">102.7 FM in Ontario, Canada</frequency>
+    <location>Ontario, Canada</location>
+    <description lang="en">
+      CKMS 102.7 FM (RadioWaterloo) is a community radio station broadcasting independent and alternative music and culture to Waterloo Region.
+    </description>
+    <stream mime="audio/mpeg" uri="http://192.240.102.133:7703/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>http://radiowaterloo.ca/</uri>
+  </station>
+  <station band="Online" id="nrj-bern" lang="en" name="Radio NRJ Bern" rank="1.0" type="edu">
+    <frequency uri="http://www.energy.ch/bern/">Internet</frequency>
+    <location>Bern, Switzerland</location>
+    <description lang="en">Student webradio in Zürich.</description>
+    <stream mime="audio/mpeg" uri="http://energybern.ice.infomaniak.ch/energybern-high.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.energy.ch/bern/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/07/07
+  <station band="Online" id="wvau" lang="en" name="WVAU" rank="1.0" type="edu">
+    <frequency uri="http://www.wvau.org/">Online in Washington, District of Columbia</frequency>
+    <location>Washington, District of Columbia</location>
+    <description lang="en">WVAU is American University's student radio station. We broadcast online 24/7 from the Mary Graydon Center in Washington, D.C.
+</description>
+    <stream mime="audio/mpeg" uri="http://ice8.securenetsystems.net/WVAU" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.wvau.org/</uri>
+  </station>
+  -->
+  <station band="88.5FM" id="kcsn" name="KCSN" rank="1.0" type="edu">
+    <frequency uri="http://www.kcsn.org/">88.5 FM in Los Angeles, California</frequency>
+    <location>Los Angeles, California</location>
+    <description lang="en">KCSN is commercial free, public radio that relies heavily on donor contributions.</description>
+    <stream mime="audio/mpeg" uri="http://130.166.82.184:8000/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://130.166.82.184:8002/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/mpeg" uri="http://130.166.82.184:8004/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.kcsn.org/</uri>
+  </station>
+  <station band="91.7FM" id="kvrx" name="KVRX" rank="1.0" type="edu">
+    <frequency uri="http://www.kvrx.org/">91.7 FM in Austin, Texas</frequency>
+    <location>Austin, Texas</location>
+    <description lang="en">KVRX is the student-run radio station at the University of Texas in Austin. We solemnly swear to play "none of the hits, all of the time" to bring you the best music that you didn't know you loved, or remind you of your favorite songs that you won't hear anywhere else. We share our frequency, 91.7FM, with KOOP radio, another great community station, and we're on the air from 7PM to 9AM on weekdays and from 10PM to 9AM on weekends.</description>
+    <stream mime="audio/mpeg" uri="http://tstv-stream.tsm.utexas.edu:8000/kvrx_livestream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.kvrx.org/</uri>
+  </station>
+  <station band="Online" id="ksub" name="KSUB" rank="1.0" type="edu">
+    <frequency uri="http://www.ksubseattle.org/">Online in Seattle, Washington</frequency>
+    <location>Seattle, Washington</location>
+    <description lang="en">We are one of the last college radio stations in the Seattle area actually run by students. Our DJ's are current students and beloved alumni (and even some faculty), and because we are non-commercial, we are free from mainstream radio constraints. Each individual DJ has near complete control of what he or she plays on the air, giving KSUB a rich musical diversity.</description>
+    <stream mime="audio/mpeg" uri="http://lin1.san.fast-serv.com:6014" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.ksubseattle.org/</uri>
+  </station>
+  <station band="Online" id="wrvu" name="WRVU" rank="1.0" type="edu">
+    <frequency uri="http://wrvu.org/">Online in Nashville, Tennessee</frequency>
+    <location>Nashville, Tennessee</location>
+    <description lang="en">WRVU is a free-format college radio station committed to providing Vanderbilt University and the surrounding community with the best in new, non-mainstream music. WRVU is student-run and focuses on teaching Vanderbilt students the ins and outs of radio broadcasting, playing music you can’t hear anywhere else.</description>
+    <stream mime="audio/mpeg" uri="http://129.59.202.68:8200/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://wrvu.org/</uri>
+  </station>
+  <station band="88.5FM" id="whpk" name="WHPK" rank="1.0" type="edu">
+    <frequency uri="http://www.whpk.org/">88.5 FM in Chicago, Illinois</frequency>
+    <location>Chicago, Illinois</location>
+    <description lang="en">WHPK a non-profit community radio station of the University of Chicago, broadcasting to Hyde Park and the South Side of Chicago for over 50 years.</description>
+    <stream mime="audio/mpeg" uri="http://www.whpk.org:8000/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://whpk.org/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/10/01
+  <station band="88.9FM" id="wnyo" name="WNYO" rank="1.0" type="edu">
+    <frequency uri="http://www.wnyo889.org/">88.9 FM in Oswego, New York</frequency>
+    <location>Oswego, New York</location>
+    <description lang="en">WNYO is an FCC regulated student ran radio station at SUNY Oswego. It is located on the SUNY Oswego campus, inside The Point in the Marano Campus Center. WNYO is also recognized on campus as a student organization. The radio station produces multiple concert events each year through the Indie Series, Artswego and Lifestyles. The sports department at WNYO broadcasts live campus athletics including home and away games.</description>
+    <stream mime="audio/ogg" uri="http://wnyo-stream-01.oswego.edu:8000/stream.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.wnyo889.org/</uri>
+    </station>
+  -->
+  <station band="90.1FM" id="wusb" name="WUSB" rank="1.0" type="edu">
+    <frequency uri="http://www.wusb.fm/">90.1 FM in Long Island, New York</frequency>
+    <location>Long Island, New York</location>
+    <description lang="en">WUSB is a 3,600 watt non-commercial station located on the campus of Stony Brook University. Since 1977, we have served the campus and Long Island listening communities with a diverse broadcast mix of music, news, public affairs, drama and sports programming.<!-- Our 24 hour a day schedule is made possible by a volunteer staff efforts of over 160 Stony Brook students, faculty, staff, alumni and community residents. Behind-the-scenes as well as on-air work, combined with a variety of nationally syndicated radio programs integrated into the schedule, creates the 168 hours per week of innovative and high-quality programming.--></description>
+    <stream mime="audio/mpeg" uri="http://stream.wusb.stonybrook.edu:8080/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <stream mime="audio/mpeg" uri="http://stream.wusb.stonybrook.edu:8090/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.wusb.fm/</uri>
+  </station>
+  <station band="Online" id="coog" name="COOG" rank="1.0" type="edu">
+    <frequency uri="http://coogradio.uh.edu/"></frequency>
+    <location>Houston, Texas</location>
+    <description lang="en">Coog Radio is an online radio station operated and staffed by students from the University of Houston. Co-founders Conner Clifton, Markley Rogers, and Matt Womack came up with the idea in 2010, but it wasn’t until fall 2011 that the idea finally came to fruition. Coog Radio not only provides a creative outlet for fellow students to express themselves over the air, but also introduces them to the world of broadcasting.</description>
+    <stream mime="audio/mpeg" uri="http://coogradio.uh.edu:8000/coogradio" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://coogradio.uh.edu/</uri>
+  </station>
+  <station band="90.7FM" id="wvua" name="WVUA-FM" rank="1.0" type="edu">
+    <frequency uri="http://wvuafm.ua.edu/"></frequency>
+    <location>Tuscaloosa, Alabama</location>
+    <description lang="en">WVUA-FM is the University’s only student operated radio station. Its history dates back to 1940 when the Department of Radio Arts began operation of an AM carrier-current station (the signal was transmitted to dormitories and other buildings on campus through electrical wiring).<!-- The station was known as BRN (the Bama Radio Network). In 1947, the signal was extended and the station became known as WABP. The station was operated as a commercial venture at 570 on the AM dial. During the 1950’s and 1960’s, as more students moved off campus, the station’s listenership dwindled.--></description>
+    <stream mime="audio/mpeg" uri="http://ice8.securenetsystems.net/WVUA" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="30 kbps" />
+    <uri>http://wvuafm.ua.edu/</uri>
+  </station>
+  <station band="1350AM" id="ury" lang="en" name="University Radio York" rank="1.0" type="edu">
+    <frequency uri="http://ury.org.uk/"></frequency>
+    <location>York, United Kingdom</location>
+    <description lang="en">University Radio York (URY) is the student radio station for the University of York, broadcasting 24 hours a day during term time on 1350am across the University's Heslington Campus and worldwide via this website.<!--
+    The station is run by students for students, meaning the people behind the station understand what the listenership want to hear.
+    With no playlist and no set format to many of our shows, our presenters have the chance to try whatever they like, as long as it's legal!--></description>
+    <stream mime="audio/mpeg" uri="http://dolby.ury.york.ac.uk:7070/live-mobile" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="48 kbps" />
+    <stream mime="audio/mpeg" uri="http://dolby.ury.york.ac.uk:7070/live-low" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://dolby.ury.york.ac.uk:7070/live-high" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>http://ury.org.uk/</uri>
+  </station>
+  <station band="97.0FM" id="eper" lang="en" name="EPER" rank="1.0" type="edu">
+    <frequency uri="http://eper.elte.hu/"></frequency>
+    <location>Budapest, Hungary</location>
+    <description lang="en">EPER is a non-profit small power community station in downtown Budapest. We broadcast from the buildings of the Eötvös Loránd University. Our staff is students and teachers of the University or of other institutions of higher education.</description>
+    <stream mime="audio/mpeg" uri="http://radio.elte.hu:8000/eper97" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44000 Hz" channels="Mono" bitrate="63 kbps" />
+    <stream mime="audio/mpeg" uri="http://radio.elte.hu:8000/eper2" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44000 Hz" channels="Mono" bitrate="63 kbps" />
+    <stream mime="audio/mpeg" uri="http://radio.elte.hu:8000/eper" codec="MPEG-2 AAC" samplerate="44000 Hz" channels="Mono" bitrate="63 kbps" />
+    <uri>http://eper.elte.hu/</uri>
+  </station>
+  <station band="Online" id="fusefm" lang="en" name="Fuse FM" rank="1.0" type="edu">
+    <frequency uri="http://fusefm.co.uk/"></frequency>
+    <location>Manchester, United Kingdom</location>
+    <description lang="en">Fuse FM is Manchester University's student radio station. We first went on air back in 2001, and 13 years later we now broadcast from a brand new, professional quality studio from within the Students' Union. We broadcast online throughout the academic year and you can listen to live shows and podcasts on our website. We love our new home, but we need your help to sound great on air. <!--If you want to get in on the action, you'd be more than welcome! We are constantly on the look out for new talent, so if you fancy yourself as a music journalist, producer, DJ, news reader, or think you have what it takes to host your own show, Fuse FM is certainly the place for you! Not only is Fuse FM a fun organisation to be part of, but we can help you if you are interested in getting into the radio industry. Past Fuse FM members have gone on to find work at the BBC and commercial radio stations.--></description>
+    <stream mime="audio/mpeg" uri="http://studio.fusefm.co.uk:8000/livehi" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="320 kbps" />
+    <stream mime="audio/ogg" uri="http://studio.fusefm.co.uk:8000/livehi" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="320 kbps" />
+    <stream mime="audio/mpeg" uri="http://studio.fusefm.co.uk:8000/live" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/ogg" uri="http://studio.fusefm.co.uk:8000/live" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://fusefm.co.uk/</uri>
+  </station>
+  <station band="90.9FM" id="cjsw" lang="en" name="CJSW" rank="1.0" type="edu">
+    <frequency uri="http://cjsw.com/"></frequency>
+    <location>Calgary, Canada</location>
+    <description lang="en">CJSW 90.9 FM will be celebrating 30 years of on air radio programming at the beginning of 2015. Our goal is to provide an alternative to commercial media by recognizing and promoting the diverse musical styles, points of view and cultures that exist within our city.<!-- CJSW strives to provide programming to an audience and by programmers that are varied in their ethnicity, culture, gender, sexual orientation, age, and physical and mental ability. Our diverse programming includes music, arts, spoken word and multicultural programs.--></description>
+    <stream mime="audio/mpeg" uri="http://stream.cjsw.com:80/cjsw.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://cjsw.com/</uri>
+  </station>
+  <station band="Online" id="caper" lang="en" name="Caper Radio" rank="1.0" type="edu">
+    <frequency uri="http://caperradio.ca/">Pending FM license in Sydney, Canada</frequency>
+    <location>Sydney, Canada</location>
+    <description lang="en">Caper Radio Incorporated is CBU's campus radio station!
+    Located in the Students' Union building we are equipped with an ever-growing music collection of over 6000 CDs on a digital library. We offer some of the best independent music in Canada. Caper Radio is also a prime resource for information on events taking place both on and off campus.
+<!--    Being involved with Caper Radio, Inc. helps students gain new skills (in communication, as well as working with the equipment), build confidence, and make new friends. Taking part in shaping the university community, and building valuable job skills – It's a lot of fun too!-->
+    Caper Radio broadcasts from 9:30am until 4:30pm Monday - Friday. Repeat broadcasts can be heard by visiting our website.</description>
+    <stream mime="audio/mpeg" uri="http://142.12.32.15:8000/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://caperradio.ca/</uri>
+  </station>
+  <station band="88.3FM" id="wxou" lang="en" name="WXOU" rank="1.0" type="edu">
+    <frequency uri="http://wxou.org/">88.3 FM in Rochester, Michigan</frequency>
+    <location>Rochester, Michigan</location>
+    <description lang="en">WXOU is a non-profit, student operated, freeform community radio station. Currently we are broadcasting with 110 watts of power from the campus of Oakland University. WE offer diverse programming such as, music, sports, news and student produced programs.<!-- Our goal is to supply the community with a service that provides both an educational experience to those involved with the radio station, while also providing information and entertainment o the rest of the community outside of Oakland’s campus.--></description>
+    <stream mime="audio/mpeg" uri="http://wxou.oakland.edu:8000/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="Mono" bitrate="24 kbps" />
+    <uri>http://wxou.org/</uri>
+  </station>
+  <station band="88.5FM" id="wamu" lang="en" name="WAMU" rank="1.0" type="edu">
+    <frequency uri="http://wamu.org/">88.5 FM in Washington, District of Columbia</frequency>
+    <location>Washington, District of Columbia</location>
+    <description lang="en">WAMU 88.5 is the leading public radio station for NPR news and information in the greater Washington, D.C., area. WAMU 88.5 is licensed to American University.</description>
+    <stream mime="audio/mpeg" uri="http://wamu-1.streamguys.com/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Mono" bitrate="48 kbps" />
+    <uri>http://wamu.org/</uri>
+  </station>
+  <station band="90.1FM" id="c-span" lang="en" name="C-SPAN" rank="1.0" type="org">
+    <frequency uri="http://www.c-span.org/">90.1 FM in Supreme Court, United States of America</frequency>
+    <location>Supreme Court, United States of America</location>
+    <description lang="en">C-SPAN Radio 90.1 WCSP-FM in Washington, DC offers commercial-free public affairs programming 24 hours a day. You’ll hear live coverage from Washington of important congressional hearings and key speeches from national leaders.</description>
+    <stream mime="audio/mpeg" uri="https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="JntStereo" bitrate="40 kbps" />
+    <uri>http://www.c-span.org/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/07/07
+  <station band="1580AM" id="kdup" lang="en" name="KDUP" rank="1.0" type="edu">
+    <frequency uri="http://kdup.up.edu/">1580 AM in Portland, Oregon</frequency>
+    <location>Portland, Oregon</location>
+    <description lang="en">University of Portland's radio station</description>
+    <stream mime="audio/ogg" uri="http://icecast.up.edu:8000/mystream.ogg.m3u" codec="Ogg Vorbis" samplerate="32000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>http://kdup.up.edu/</uri>
+  </station>
+  -->
+  <station band="Online" id="kpsu" lang="en" name="KPSU" rank="1.0" type="edu">
+    <frequency uri="http://www.kpsu.org/">Online in Portland, Oregon</frequency>
+    <location>Portland, Oregon</location>
+    <description lang="en">Portland State University's radio station</description>
+    <stream mime="audio/ogg" uri="https://streamer.radio.co/scad0cc067/listen" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>http://www.kpsu.org/</uri>
+  </station>
+  <station band="95.0FM" id="95bfm" lang="en" name="95bFM" rank="1.0" type="edu">
+    <frequency uri="http://www.95bfm.com/">95.0 FM in Auckland, New Zealand</frequency>
+    <location>Auckland, New Zealand</location>
+    <description lang="en">In 1969, Radio Bosom was born as a student's capping stunt, broadcasting illegally from a boat in the Waitemata Harbour. Over the next few decades the bosom morphed into the mighty 95bFM, the longest-standing independent radio station in New Zealand.<!--
+    We're passionate about music, just like you. We think that radio is better when it's free from commercial pressures, and that it should be challenging without being inaccessible. This is not top 40 radio.--></description>
+    <stream mime="audio/mpeg" uri="http://streams.95bfm.com/stream95" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="Mono" bitrate="32 kbps" />
+    <uri>http://www.95bfm.com/</uri>
+  </station>
+  <station band="103.7FM" id="2nurfm" lang="en" name="2NURFM" rank="1.0" type="edu">
+    <frequency uri="http://www.newcastle.edu.au/community-and-alumni/arts-and-culture/2nurfm">103.7 FM in Newcastle, Australia</frequency>
+    <location>Newcastle, Australia</location>
+    <description lang="en">Newcastle's leading 'easy listening' radio station.</description>
+    <stream mime="audio/aacp" uri="https://broadcaster1.newcastle.edu.au:8443/aacplus2" codec="MPEG-2 AAC (AAC+)" samplerate="44100 Hz" channels="Stereo" bitrate="62 kbps" />
+    <uri>https://www.2nurfm.com.au/</uri>
+  </station>
+  <station band="101.5FM" id="radioadelaide" lang="en" name="Radio Adelaide" rank="1.0" type="edu">
+    <frequency uri="https://radioadelaide.org.au/">101.5 FM in Adelaide, Australia</frequency>
+    <location>Adelaide, Australia</location>
+    <description lang="en">Radio Adelaide is a real radio alternative for people curious about ideas, issues and music. We are as diverse as the city we live in, with programs ranging from Jazz and Classical to World Music, arts, current affairs and more, with many shows presented by local community groups in their own languages.</description>
+    <stream mime="audio/aac" uri="https://cast-1.nucleusstreaming.com:4443/5uv_live_128.aacp" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="126 kbps" />
+    <uri>https://radioadelaide.org.au/</uri>
+  </station>
+  <station band="Online" id="radior" lang="cs" name="Radio R" rank="1.0" type="edu">
+    <frequency uri="http://radior.cz">Internet</frequency>
+    <location>Brno, Czech Republic</location>
+    <description lang="en">Masaryk University’s student radio.</description>
+    <stream mime="audio/ogg" uri="http://radior.video.muni.cz:8000/FSS_ogg-q0.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/ogg" uri="http://radior.video.muni.cz:8000/FSS_ogg-q4.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/ogg" uri="http://radior.video.muni.cz:8000/FSS_ogg-q8.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <uri>http://www.radior.cz/</uri>
+  </station>
+  <station band="Online" id="radius" lang="de" name="Radio Radius" rank="1.0" type="edu">
+    <frequency uri="http://radioradius.ch/">Internet</frequency>
+    <location>Zürich, Switzerland</location>
+    <description lang="en">Student webradio in Zürich.</description>
+    <stream mime="audio/ogg" uri="http://relay.radio.ethz.ch:80/sender.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.radioradius.ch/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/07/07
+  <station band="Online" id="lsrfm" lang="en" name="Leeds University Student Radio FM" rank="1.0" type="edu">
+    <frequency uri="http://lsrfm.com/">Internet</frequency>
+    <location>Leeds, United Kingdom</location>
+    <description lang="en"></description>
+    <stream mime="audio/mpeg" uri="http://soho.wavestreamer.com:6648/listen.pls?sid=1" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://lsrfm.com/</uri>
+  </station>
+  -->
+  <station band="1350AM" id="urn" lang="en" name="University Radio Nottingham" rank="1.0" type="edu">
+    <frequency uri="http://urn1350.net">1350 AM in Nottingham, United Kingdom</frequency>
+    <location>Nottingham, United Kingdom</location>
+    <description lang="en">URN is the University of Nottingham's award winning student radio station.You can listen online, on 1350AM on campus or in some of the university's shops and bars.</description>
+    <stream mime="audio/mpeg" uri="http://posurnl.nottingham.ac.uk:8080/urn_high.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://urn1350.net/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/07/07
+  <station band="Online" id="kcl" lang="en" name="King's College London Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.kclradio.co.uk/">Internet</frequency>
+    <location>London, United Kingdom</location>
+    <description lang="en">KCL Radio is King’s College London’s award winning, student radio station, which first broadcast live last year. Our studio is currently located on the basement floor of the Chesham Building (although there are plans to relocate to a new studio in Tutu’s on the 4th floor of the Macadam Building during 2015)./description>
+    <stream mime="audio/mpeg" uri="http://137.73.90.100:8080/KCLR" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.kclradio.co.uk/</uri>
+  </station>
+  -->
+  <!-- Appears to be down as of 2021/05/03
+  <station band="Online" id="icradio" lang="en" name="Imperial College Radio" rank="1.0" type="edu">
+    <frequency uri="http://icradio.com/">1134 AM in Wye, Kent, United Kingdom</frequency>
+    <location>London, United Kingdom</location>
+    <description lang="en">IC Radio is among the oldest student radio stations in the country. Started in 1976, broadcasting on a home built AM transmitter around halls, we now broadcast all over the globe from icradio.com.</description>
+    <stream mime="audio/mpeg" uri="http://icecast.icradio.com:8000/live-mp3-high" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>http://icradio.com/</uri>
+  </station>
+  -->
+  <station band="107.9FM" id="ruc" lang="pt" name="Coimbra University Radio" rank="1.0" type="edu">
+    <frequency uri="http://www.ruc.pt/">107.9 FM in Coimbra, Portugal</frequency>
+    <location>Coimbra, Portugal</location>
+    <description lang="en">Coimbra University Radio (Portuguese: Rádio Universidade de Coimbra - RUC) is a university radio station of the Coimbra Academic Association (students' union) of the University of Coimbra in Coimbra, Portugal.<!--
+    It broadcasts on 107.9 FM (also broadcasts on-line). The Center of Experimental Radio was founded in the 40's, but it was only on March, 1st 1986, that the radio obtained the authorization to broadcast on FM.-->
+<!--
+    The studios and offices of this university radio station are located in the main building of the Associação Académica de Coimbra, in the city centre. One of its trademarks is that there are no set playlists for any of the programs broadcast. This allows for an exceptionally wide range of musical genres.
+    The radio gives courses in Programming, Technic and News, that students from the University of Coimbra can join.
+    For its 25th anniversary, the radio hosts concerts of the indie Swedish band the Radio Dept., and later Eleanor Friedberger from the rock duo The Fiery Furnaces and the Welsh songwriter Euros Childs.--></description>
+    <stream mime="audio/mpeg" uri="http://ruc.midi-club.net:8000/;stream/1" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.ruc.pt/</uri>
+  </station>
+  <station band="92.1FM" id="radiocampusbruxelles" lang="nl" name="Radio Campus Bruxelles" rank="1.0" type="edu">
+    <frequency uri="http://www.radiocampus.be/">92.1 FM in Bruxelles, Belgium</frequency>
+    <location>Bruxelles, Belgium</location>
+    <description lang="en">Radio Campus est née en 1980 sur le campus de l’Université Libre de Bruxelles. Avec une cinquantaine d’émissions, elle rassemble plus de 150 animateurs, techniciens et collaborateurs autour de valeurs partagées : une libre expression assumée et constructive, un attachement immodéré au tissu social bruxellois et un amour sans borne pour la diversité musicale et culturelle.</description>
+    <stream mime="audio/ogg" uri="http://streamer.radiocampus.be:8000/stream_hi.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>http://www.radiocampus.be/</uri>
+  </station>
+  <station band="93.5FM" id="franceculture" lang="fr" name="France Culture" rank="1.0" type="public">
+    <frequency uri="http://www.franceculture.fr/">93.5 FM in Paris, France</frequency>
+    <location>Paris, France</location>
+    <description lang="en">France Culture is a French public radio channel and part of Radio France. Its programming encompasses a wide variety of features on historical, philosophical, sociopolitical, and scientific themes (including debates, discussions, and documentaries), as well as literary readings, radio plays, and experimental productions. The channel is broadcast nationwide on FM and is also available online.</description>
+    <stream mime="audio/mpeg" uri="http://direct.franceculture.fr/live/franceculture-midfi.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/mpeg" uri="http://direct.franceculture.fr/live/franceculture-lofi.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.franceculture.fr/</uri>
+  </station>
+  <station band="105.5FM" id="franceinfo" lang="fr" name="France Info" rank="1.0" type="public">
+    <frequency uri="http://www.franceinfo.fr/">105.5 FM in Paris, France</frequency>
+    <location>Paris, France</location>
+    <description lang="en">France Info is a radio network operated by the French public service radio broadcaster Radio France. It provides continuous live news and information. Broadcasting on FM (as well as being streamed on the internet), France Info is receivable across France and audible too in the border regions of neighbouring countries, including southern parts of the United Kingdom, especially the southeastern coastal region of England.</description>
+    <stream mime="audio/mpeg" uri="http://direct.franceinfo.fr/live/franceinfo-midfi.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/mpeg" uri="http://direct.franceinfo.fr/live/franceinfo-lofi.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.franceinfo.fr/</uri>
+  </station>
+  <station band="87.8FM" id="franceinter" lang="fr" name="France Inter" rank="1.0" type="public">
+    <frequency uri="http://www.franceinter.fr/">87.8 FM in Paris, France</frequency>
+    <location>Paris, France</location>
+    <description lang="en">France Inter is a major French public radio channel and part of Radio France. It is a "generalist" station, aiming to provide a wide national audience with a full service of news and spoken-word programming, both serious and entertaining, liberally punctuated with an eclectic mix of music. France Inter broadcasts on FM transmitters across France, and via the internet.</description>
+    <stream mime="audio/mpeg" uri="http://direct.franceinter.fr/live/franceinter-midfi.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/mpeg" uri="http://direct.franceinter.fr/live/franceinter-lofi.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.franceinter.fr/</uri>
+  </station>
+  <station band="93.9FM" id="radiocampusparis" lang="fr" name="Radio Campus Paris" rank="1.0" type="edu">
+    <frequency uri="http://www.radiocampusparis.org/">93.9 FM in Paris, France</frequency>
+    <location>Paris, France</location>
+    <description lang="en">Radio Campus Paris is a non-profit Student radio station. Founded in 1998 and first broadcast on the Internet, the radio can be listened to in Paris, France on 93.9 FM (from 5.30 p.m. to 5.30 a.m.). Managed by volunteers (mainly students), this indie student radio focuses on emerging music and local and student-related news.</description>
+    <stream mime="audio/mpeg" uri="http://www.radiocampusparis.org:8000/stream_rcp" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.radiocampusparis.org/</uri>
+  </station>
+  <station band="89.3FM" id="wcsb" lang="en" name="WCSB" rank="1.0" type="edu">
+    <frequency uri="http://wcsb.org/">89.3 FM in Cleveland, Ohio</frequency>
+    <location>Cleveland, Ohio</location>
+    <description lang="en">A student-operated radio station at Cleveland State University, broadcasting from northeast Ohio.</description>
+    <stream mime="audio/mpeg" uri="http://198.154.112.233:8367/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://wcsb.org/</uri>
+  </station>
+  <!-- Appears to be down as of 2016/07/07
+  <station band="87.7FM" id="pulse" lang="en" name="Pulse LSE" rank="1.0" type="edu">
+    <frequency uri="http://pulselse.co.uk/">87.7 FM in London, United Kingdom</frequency>
+    <location>London, United Kingdom</location>
+    <description lang="en">Pulse Radio is the official radio station of the London School of Economics and Political Science Students’ Union. We are totally student run and are committed to bringing great radio broadcasting to LSE students and beyond. We hope you tune in and enjoy!</description>
+    <stream mime="audio/mpeg" uri="http://s3.radioboss.fm:8223/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://pulselse.co.uk/</uri>
+  </station>
+  -->
+  <station band="107.9FM" id="oxide" lang="en" name="Oxford Student Radio" rank="1.0" type="edu">
+    <frequency uri="https://www.oxideradio.live/">107.9 FM in Oxford, United Kingdom</frequency>
+    <location>Oxford, United Kingdom</location>
+    <description lang="en">Oxide Radio is a student radio station run by members of Oxford University in Oxford, England.</description>
+    <stream mime="audio/mpeg" uri="http://109.74.196.76/proxy/oxideradio?mp=/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://oxideradio.co.uk/</uri>
+  </station>
+  -->
+  <station band="97.2FM" id="camfm" lang="en" name="Cam FM" rank="1.0" type="edu">
+    <frequency uri="http://www.camfm.co.uk/">97.2 FM in Cambridge, United Kingdom</frequency>
+    <location>Cambridge, United Kingdom</location>
+    <description lang="en">Originally founded in 1979, the award-winning Cam FM is now one of the most heavily listened to student radio stations in the UK, as well as one of the largest student-run media organisations in Cambridge, covering students at both Cambridge and Anglia Ruskin Universities. <!--We know students because we are students; every aspect of the station is professionally run by students, staff, and alumni of the Universities - presenting, producing, or running the committee. Our content is primarily geared towards engaging with the student community in Cambridge.--></description>
+    <stream mime="audio/mpeg" uri="http://stream.camfm.co.uk/camfm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.camfm.co.uk/</uri>
+  </station>
+  <station band="96.1FM" id="radiounam" lang="es" name="Radio UNAM" rank="1.0" type="edu">
+    <frequency uri="http://www.radiounam.unam.mx/">96.1 FM in México City, México</frequency>
+    <location>México City, México</location>
+    <description lang="en">Radio Universidad Nacional Autónoma de México</description>
+    <stream mime="audio/mpeg" uri="http://server1.usatelk.com:27547/;" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.radiounam.unam.mx/</uri>
+  </station>
+  <station band="89.3FM" id="wxyc" lang="en" name="WXYC" rank="1.0" type="edu">
+    <frequency uri="http://www.wxyc.org/">89.3 FM in Chapel Hill, North Carolina</frequency>
+    <location>Chapel Hill, North Carolina</location>
+    <description lang="en">WXYC went on the air on March 17, 1977 with Joni Mitchell's "You Turn Me on I'm a Radio."
+
+      WXYC was preceded by WCAR, a carrier current station that reached dorms on the UNC-Chapel Hill campus through electrical wiring. The station's alumni include top 40 radio host Rick Dees.
+<!--
+      When WCAR wanted to upgrade in the early 1970s, it decided to pursue an FM license and begin broadcastin over the air rather than update the carrier current system. Funding for the change to FM was provided by a student referendum passed in 1973. The physical conversion cost $35,000 and took two years to complete.
+
+      The non-profit Student Educational Broadcasting, Inc. was established to serve as the official owner of WXYC's broadcast license, and in 1977 WCAR became WXYC. The station was originally scheduled to begin broadcasting in January 1977, but winter freezes prevented the installation of an antenna on UNC's water tower delaying the broadcast until March.
+
+      From its earliest days in the late 70s, WXYC has been a leader in diverse and interesting programming, adopting changing forms of popular music long before they became popular in the mainstream without losing touch with the past. This coalesced in 1980 with the decision to achieve a delicate balance, avoiding the extremes of both typical commercial (dull, repetitive, narrow) and typical college (difficult, elitist and irritating) radio, by making the effort to find and broadcast the best and brightest of new music that was inexplicably being ignored by commercial radio, while not forgetting the roots of that music in blues, jazz, pop and other types of music of the past half century. At the same time, WXYC became a 24 hour a day/ 365 day a year radio station with a commitment to be consistent in quality and reliable enough to set your clock radio to.WXYC won many accolades and awards during the 80's and 90's from local as well as national sources, including Rolling Stone Magazine, the New York Times and the Independent Weekly.
+
+      In the early 90s, with the advent of the CD, many more international and independent releases became easily available, as well as re-issues of albums that had been impossible to find on vinyl for decades. This enabled WXYC to broaden its programming even more, and to this day the staff of WXYC is committed to seeking out new and interesting sounds from all over the world and presenting them in a coherent, accessible and interesting way.
+
+      In 1994, the staff of UNC's SunSITE, the first Web site in North America, helped WXYC become the first radio station in the world to stream its on-air signal live over the Internet. We're proud to have been at the forefront of the Internet radio medium. We now have loyal listeners all over the world who contact us with comments and requests by email and IM.
+
+      WXYC alumni include ESPN anchor Stuart Scott, former Squirrel Nut Zipper Tom Maxwell, former Polvo guitarist Dave Brylawski, Newsweek reporter Colin Soloway, film director Peyton Reed, as well as scores of doctors, lawyers, writers, executives, and successful professionals of all kinds.--></description>
+    <stream mime="audio/ogg" uri="http://152.46.7.128:8000/wxyc.ogg" codec="Ogg Vorbis" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://audio-mp3.ibiblio.org:8000/wxyc.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.wxyc.org/</uri>
+  </station>
+  <station band="90.7FM" id="kalx" lang="en" name="KALX" rank="1.0" type="edu">
+    <frequency uri="http://kalx.berkeley.edu/">90.7 FM in Berkeley, California</frequency>
+    <location>Berkeley, California</location>
+    <description lang="en">KALX 90.7 FM broadcasts freeform radio 24 hours a day to a large portion of the San Francisco Bay Area. You can catch all stripes of underground music accented with news, sports and alternative informational programming.
+<!--
+      KALX has a wonderfully dedicated staff of student and community volunteers who are willing to explore with and educate their listeners. KALX is regular folks doing wild, unpredictable, extraordinary radio. All of our programs are homespun, we don't depend on satellite feeds. Rather we create programs from, and for our community (a community that includes both the University of California, Berkeley student population AND the surrounding area).
+
+      As part of our mission to educate, every KALX DJ is encouraged to play a variety of musical styles and types. Rather than segregating music into limited boxes, this philosophy is an attempt to entertain the listener while broadening their musical experience. A pretty fun way to be educated, don't ya think!--></description>
+    <stream mime="audio/aac" uri="http://stream.kalx.berkeley.edu:8000/kalx-128.aac" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://stream.kalx.berkeley.edu:8000/kalx-128.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://kalx.berkeley.edu/</uri>
+  </station>
+  <station band="1330AM" id="wtbu" lang="en" name="WTBU" rank="1.0" type="edu">
+    <frequency uri="http://www.wtburadio.org/">89.3 FM in Boston, Massachusetts</frequency>
+    <location>WTBU, Boston, Massachusetts</location>
+    <description lang="en">WTBU is BU's student-run, volunteer radio station which broadcasts live 20 hours a day.  Our station is primarily available through our webcast, but you can also listen to us on 89.3 FM/640 AM if you're in Boston, or on BU's cable channel 6 if you live on campus.</description>
+    <stream mime="audio/mpeg" uri="http://wtbu.bu.edu:1800/listen" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="191 kbps" />
+    <uri>http://sites.bu.edu/wtbu/</uri>
+  </station>
+  <station band="95.3FM" id="whrb" lang="en" name="WHRB" rank="1.0" type="edu">
+    <frequency uri="http://www.whrb.org/">95.3 FM in Cambridge, Massachusetts</frequency>
+    <location>WHRB-FM, Cambridge, Massachusetts</location>
+    <description lang="en">For seventy years, 95.3FM has been Boston's first source for exciting, entertaining, and enlightening music broadcasts. Harvard Radio's daily broadcast of Classical music, Jazz, and underground Rock explore a great repertoire of music left largely untouched by other commercial stations.</description>
+    <stream mime="audio/mpeg" uri="http://stream.whrb.org:8000/whrb-mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="95 kbps" />
+    <stream mime="audio/mpeg" uri="http://stream.whrb.org:8000/whrb-he-aac" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="62 kbps" />
+    <uri>http://www.whrb.org/</uri>
+    </station>
+  <station band="99.3FM" id="nova" lang="nb" name="Radio NOVA" rank="1.0" type="edu">
+    <frequency uri="http://radionova.no/">99.3 FM in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">Radio NOVA is the student radio of University of Oslo.</description>
+    <stream mime="audio/mpeg" uri="http://stream.radionova.no:80/mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
+    <uri>http://radionova.no/</uri>
+  </station>
+  <station band="89.9FM" id="wwno" lang="en" name="WWNO" rank="1.0" type="edu">
+    <frequency uri="http://wwno.org/">89.9 FM in New Orleans, Louisiana</frequency>
+    <location>New Orleans, Louisiana</location>
+    <description lang="en">WWNO is the NPR member station for New Orleans and the 13 parishes of southeast Louisiana, broadcasting on 89.9 FM — and on KTLN 90.5 FM in the Houma-Thibodaux area — as a public service of the University of New Orleans.</description>
+    <stream mime="audio/mpeg" uri="https://tektite.streamguys1.com:5145/wwnolive" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="126 kbps" />
+    <uri>http://wwno.org/</uri>
+  </station>
+  <station band="99.1FM" id="ktru" lang="en" name="KTRU" rank="1.0" type="edu">
+    <frequency uri="http://ktru.org/">99.1 FM in Houston, Texas</frequency>
+    <location>Houston, Texas</location>
+    <description lang="en">KTRU Houston is Rice University's student-run radio station.</description>
+    <stream mime="audio/mpeg" uri="http://128.42.128.26:80/live" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://ktru.org/</uri>
+  </station>
+  <station band="93.0FM" id="nrkradioalltidnyheter" lang="nb" name="NRK Radio Alltid Nyheter" rank="1.0" type="gov">
+    <frequency uri="https://radio.nrk.no/" >93.0 FM in Oslo, Norway</frequency>
+    <location>Oslo, Norway</location>
+    <description lang="en">The Norwegian Broadcasting Corporation (NRK) offers the Norwegian public a wide range of content with three national TV-channels, 13 national radio-channels and the website nrk.no.</description>
+    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_alltid_nyheter_aac_h" codec="AAC, v4 LC" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.nrk.no/alltid_nyheter</uri>
+  </station>
+  <station band="89.9FM" id="wkcr" lang="en" name="WKCR" rank="1.0" type="edu">
+    <frequency>89.9 FM in New York, New York</frequency>
+    <location>New York City, New York</location>
+    <description lang="en">WKCR-FM, Columbia University’s non-commercial student-run radio station, is dedicated to presenting a spectrum of alternative programming—traditional and art music, spoken arts, and original journalism. Granted its FCC license in 1941, WKCR is both steeped in tradition and committed to innovation. In the New York area, the station can be heard at 89.9 megacycles in FM; worldwide, it streams online.</description>
+    <stream mime="audio/mpeg" uri="http://wkcr.streamguys1.com:80/live" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="96 kbps" />
+    <uri>http://www.studentaffairs.columbia.edu/wkcr/</uri>
+  </station>
+  <station band="90.1FM" id="kzsu" lang="en" name="KZSU" rank="1.0" type="edu">
+    <frequency>90.1 FM in Stanford, California</frequency>
+    <location>Stanford, California</location>
+    <description lang="en">KZSU is Stanford University's FM radio station, broadcasting across the Bay Area on 90.1 FM and across the world at kzsulive.stanford.edu. We exist to serve the Stanford community with quality radio broadcasts, including music, sports, news, and public affairs programming.
+<!--
+      The station is owned by the Board of Trustees of Stanford University and is governed by a Board of Directors appointed by the President. We got our FM license in 1964, and upgraded from 10 to 500 watts in 1978. Before 1964, KZSU broadcast as an AM carrier current station (through the University's power supply) on 880 kHz, starting in 1947 as a part of the Department of Communication.
+
+      KZSU is a non-commercial station funded mainly by Stanford student fees, in addition to underwriting and listener donations. KZSU's staff is all volunteer, made up of Stanford students, staff, alumni, and community affiliates.--></description>
+    <stream mime="audio/mpeg" uri="http://171.66.118.51:80/kzsu-1-128.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://kzsulive.stanford.edu/</uri>
+  </station>
+  <station band="90.9FM" id="kexp" lang="en" name="KEXP" rank="1.0" type="edu">
+    <frequency>90.9 FM in Seattle, Washington</frequency>
+    <location>Seattle, Washington</location>
+    <description lang="en">KEXP is a service of the University of Washington, who holds the station’s FCC license. As a 501(c)3 non-profit arts organization, KEXP relies on investments from individual, foundation, business, and government supporters.</description>
+    <stream mime="audio/mpeg" uri="http://live-mp3-128.kexp.org:80/kexp128.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://kexp.org/</uri>
+  </station>
+  <station band="88.1FM" id="wmbr" lang="en" name="WMBR" rank="1.0" type="edu">
+    <frequency>88.1 FM in Cambridge, Massachusetts</frequency>
+    <location>WMBR-FM, Cambridge, Massachusetts</location>
+    <description lang="en">WMBR is the MIT campus radio station. We broadcast on 88.1 FM between 20 and 24 hours per day, 365 days a year. We transmit at 720 watts, effective radiated power from the top of the Eastgate Building in Kendall Square in Cambridge, Massachusetts. Our programming includes a wide range of music shows, public affairs programs and eclectic audio entertainment.</description>
+    <stream mime="audio/mpeg" uri="http://wmbr.org:8000/hi" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://wmbr.org/</uri>
+  </station>
+  <station band="93.9FM" id="wnyc" lang="en" name="WNYC" rank="1.0" type="org">
+    <frequency uri="http://www.wnyc.org/">93.9 FM in New York City, New York</frequency>
+    <location>New York City, New York</location>
+    <description lang="en">
+      WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, broadcasting the finest programs from NPR, American Public Media, Public Radio International and the BBC World Service, as well as a wide range of award-winning local programming.
+    </description>
+    <stream mime="audio/mpeg" uri="http://fm939.wnyc.org/wnycfm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Mono" bitrate="32 kbps" />
+    <uri>http://www.wnyc.org/</uri>
+  </station>
+  <station band="Online" id="echo" lang="ru" name="Эхо Москвы" rank="1.0" type="com">
+    <frequency uri="http://echo.msk.ru/">Online in Moscow, Russia</frequency>
+    <location>Moscow, Russia</location>
+    <description lang="en">
+      Echo of Moscow is a Russian radio station based in Moscow,
+      broadcasting in many Russian cities, some of the former-Soviet
+      republics, and via the Internet.  It is owned by Gazprom-Media.
+    </description>
+    <stream mime="audio/mpeg" uri="http://ice912.echo.msk.ru:9120/24.aac" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="22 kbps" />
+    <uri>http://echo.msk.ru/</uri>
+  </station>
+  <station band="Online" id="somafmdefcon" lang="en" name="SomaFM DEF CON" rank="1.0" type="com">
+    <frequency uri="https://somafm.com/defcon/index.html">Online in San Francisco, California</frequency>
+    <location>San Francisco, California</location>
+    <description lang="en">
+      Music for Hacking. The DEF CON Year-Round Channel.
+    </description>
+    <stream mime="audio/aac" uri="http://ice2.somafm.com/defcon-128-aac" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://ice2.somafm.com/defcon-256-mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <uri>https://somafm.com/defcon</uri>
+  </station>
+  <station band="Online" id="somafmdubstepbeyond" lang="en" name="SomaFM Dub Step Beyond" rank="1.0" type="com">
+    <frequency uri="https://somafm.com/dubstep/">Online in San Francisco, California</frequency>
+    <location>San Francisco, California</location>
+    <description lang="en">
+      SomaFM: Dub Step Beyond (#1): Dubstep, Dub and Deep Bass. May damage
+      speakers at high volume.
+
+      Dub Step Beyond is more than just Dubstep. Focusing on &quot;Bass Music&quot;,
+      but trying to play more than just Skrillex-style music. You'll hear music
+      by artists like Bassnectar, Tipper, JaFU, Phutureprimitive, Opiuo and Flux
+      Pavilion. And take that warning about speaker damage seriously, we blew
+      some expensive headphones listening to this channel!
+    </description>
+    <stream mime="audio/aac" uri="http://ice6.somafm.com/dubstep-128-aac" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://ice6.somafm.com/dubstep-256-mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <uri>https://somafm.com/dubstep/</uri>
+  </station>
+  <station band="Online" id="somafmthetrip" lang="en" name="SomaFM The Trip" rank="1.0" type="com">
+    <frequency uri="http://www.somafm.com/thetrip">Online in San Francisco, California</frequency>
+    <location>San Francisco, California</location>
+    <description lang="en">
+        Dedicated to the purest form of Trance popularized by Paul Van Dyk and Hardfloor, as well as cutting edge Progressive tracks from artists like Voyager, Deepsky, G Pal, Jondi and Spesh, and Naveen G. (Formerly known as Tag's Trance Trip.)
+    </description>
+    <stream mime="audio/aac" uri="http://ice6.somafm.com/thetrip-128-aac" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://ice6.somafm.com/thetrip-128-mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>https://somafm.com/thetrip</uri>
+  </station>
+  <station band="Online" id="somafmgroovesalad" lang="en" name="SomaFM Groove Salad" rank="1.0" type="com">
+    <frequency uri="https://somafm.com/groovesalad/">Online in San Francisco, California</frequency>
+    <location>San Francisco, California</location>
+    <description lang="en">
+      Downtempo and chillout electronica featuring artists such as Kruder &amp; Dorfmeister, Fila Brazillia, dZihan and Kamien, Afterlife, Zero Seven, Nightmares On Wax, Shantel, Groove Armada and artists on Pork Recordings, Waveform Records and Cafe del Mar recordings.
+    </description>
+    <stream mime="audio/aac" uri="http://ice6.somafm.com/groovesalad-128-aac" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://ice6.somafm.com/groovesalad-256-mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="256 kbps" />
+    <uri>https://somafm.com/groovesalad</uri>
+  </station>
+</radio>

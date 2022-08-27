@@ -1,42 +1,1685 @@
+============
+Version 45.1
+============
+
+Build
+
+	* configure.ac: 45.1
+	* gtk/meson.build: 45.1
+	* meson.build: 45.1
+	* src/gnome-radio-markers.c: Add RTI [2022-08-14] (Taipei, Taiwan)
+	* src/gnome-radio.c: 45.1
+	* src/gnome-radio.c: Add RTI [2022-08-14] (Taipei, Taiwan)
+	* src/gnome-radio.xml: Add RTI [CN 2022-08-14] (Taipei)
+	* src/gnome-radio.xml: Add RTI [EN 2022-08-14] (Taipei)
+	* src/gnome-radio.xml: Add Radio Free Asia [2022-08-14] (Asia)
+	* src/meson.build: 45.1
+
+============
+Version 45.0
+============
+
+Build
+
+	* configure.ac: 45.0
+	* gtk/meson.build: 45.0
+	* meson.build: 45.0
+	* src/meson.build: 45.0
+
+============
+Version 44.1
+============
+
+Build
+
+	* configure.ac: 44.1
+	* gtk/meson.build: 44.1
+	* gtk/org.gnome.Radio.xml: 44.1
+	* meson.build: 44.1
+	* src/meson.build: 44.1
+
+Stations
+
+	* gtk/org.gnome.Radio.c
+	* src/org.gnomeradio.ui
+
+============
+Version 44.0
+============
+
+Build
+	* configure.ac: 44.0
+	* meson.build: 44.0
+	* Makefile.am: 44.0
+	* Makefile.in: 44.0
+	* configure: 44.0
+	* configure.ac: 44.0
+	* data/meson.build: 44.0
+	* data/icons/meson.build: 44.0
+	* gtk/meson.build: 44.0
+	* meson.build: 44.0
+	* po/meson.build: 44.0
+	* src/meson.build: 44.0
+	* gnome-radio.spec.in: 44.0
+
+Docs
+
+	* ChangeLog: 44.0
+	* COPYING: 44.0
+	* GTK4: 44.0
+	* NEWS: 44.0
+
+GUI
+
+	* data/gnome-radio.desktop.in: 44.0
+	* data/gnome-radio.desktop.in.in: 44.0
+	* data/icons/hicolor/scalable/apps/org.gnome.Radio.svg: 44.0
+	* data/icons/hicolor/symbolic/apps/org.gnome.Radio-symbolic.svg: 44.0
+	* data/icons/meson.build: 44.0
+	* data/meson.build b/data/meson.build: 44.0
+	* data/org.gnome.Radio.appdata.xml.in: 44.0
+	* data/org.gnome.Radio.desktop.in: 44.0
+	* data/org.gnome.Radio.gschema.xml: 44.0
+	* po/LINGUAS: 44.0
+	* src/gnome_radio-application.c: 44.0
+	* src/gnome_radio-application.h: 44.0
+	* src/gnome_radio-window.c: 44.0
+	* src/gnome_radio-window.h: 44.0
+	* src/gnome_radio-window.ui: 44.0
+	* src/gnome_radio.gresource.xml: 44.0
+	* src/gtk/help-overlay.ui: 44.0
+	* src/main.c: 44.0
+
+===============
+Version 16.0.43
+===============
+
+Build
+
+	* configure.ac: 16.0.43
+	* gnome-radio.spec.in: 16.0.43
+
+GUI
+
+	* src/gnome-radio.xml: Add NRK Folkemusikk (Oslo, Norway)
+	* src/gnome-radio.xml: Add NRK P1+ (Oslo, Norway)
+	* src/gnome-radio.xml: Add NRK P3X (Oslo, Norway)
+	* src/gnome-radio.xml: Add NRK Super (Oslo, Norway)
+	* src/gnome-radio.xml: Add Nordfjord Nærradio (Nordfjord, Norway)
+	* src/gnome-radio.xml: Add Radio Jazz (Copenhagen, Denmark)
+	* src/gnome-radio.xml: Update Radio Ålesund (Ålesund, Norway)
+
+===============
+Version 16.0.42
+===============
+
+Build
+
+	* configure.ac: Update for 16.0.42
+	* data/gnome-radio.desktop.in.in: Update for 16.0.42
+	* data/gnome-radio.desktop.in: Update for 16.0.42
+	* data/screenshot.png: Update for 16.0.42
+	* gnome-radio.doap: Update for 16.0.42
+	* gnome-radio.spec.in: Update for 16.0.42
+
+XML
+
+	* src/gnome-radio.xml: Update for 16.0.42
+
+==============
+Version 16.0.6
+==============
+
+Build
+
+	* configure.ac: Update for gnome-radio 16.0.6
+	* gnome-radio.spec.in: Update for gnome-radio 16.0.6
+
+GUI
+	* src/gnome-radio.c: New title ("gnome-radio 16.0.6")
+
+XML
+
+	* src/gnome-radio.xml: Update for gnome-radio 16.0.6
+
+==============
+Version 16.0.5
+==============
+
+Build
+
+	* configure.ac: Update for gnome-radio 16.0.5
+	* gnome-radio.spec.in: Update for gnome-radio 16.0.5
+
+Documentation
+
+	* data/gnome-radio.desktop.in: Update for gnome-radio 16.0.5
+	* data/gnome-radio.desktop.in.in: Update for gnome-radio 16.0.5
+
+XML
+
+	* src/gnome-radio.xml: Update for gnome-radio 16.0.5
+
+==============
+Version 16.0.4
+==============
+
+Documentation
+
+        * HACKING: Update GNOME_RADIO_DEBUG, uri and program history
+        * THANKS: Update entry for Luna Jernberg (ole/gnome-radio!1)
+
+==============
+Version 16.0.2
+==============
+
+Documentation
+
+	* AUTHORS, THANKS: Peaceful discussion with Magnus Hustveit
+
+XML
+
+	* src/gnome-radio.xml: Retro FM (Kyiv, Ukraine)
+
+==============
+Version 16.0.1
+==============
+
+GUI
+
+	* src/gnome-radio-markers.c: Release for GNOME 42
+
+==============
+Version 16.0.0
+==============
+
+GUI
+
+	* src/gnome-radio-markers.c: Release GNOME 16.0.0
+
+==============
+Version 14.0.1
+==============
+
+GUI
+
+	* src/gnome-radio-station.c: Release GNOME Radio 14
+	* src/gnome-radio.c: Release GNOME Radio 14
+
+XML
+	* src/gnome-radio-14.0.dtd: Release GNOME Radio 14
+	* src/gnome-radio.xml: Update C-SPAN (c-span.org)
+
+==============
+Version 13.0.1
+==============
+
+XML
+
+	* src/gnome-radio.xml: Fix DTD namespace
+	* src/gnome-radio.xsl: Fix DTD namespace
+	* src/gnome-radio-13.0.dtd: Fix DTD namespace
+
+==============
+Version 13.0.0
+==============
+
+Public Release
+
+==============
+Version 12.0.5
+==============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Rotate marker colors
+
+Translations
+
+	* Anders Jonsson (sv)
+	* Yuri Chornoivan (uk)
+	* Marek Černocký (cs)
+	* Enrico Nicoletto (pt_BR)
+	* Goran Vidović (hr)
+	* Piotr Drąg (pl)
+
+==============
+Version 12.0.4
+==============
+
+Translations
+
+	* Balázs Úr (hu)
+	* Nathan Follens (nl)
+	* Quentin PAGÈS (oc)
+	* Мирослав Николић (sr)
+
+==============
+Version 12.0.3
+==============
+
+Build
+
+	* gnome-internet-radio-locator.spec.in: Build on Fedora Core 34
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Add Search placeholder text
+
+==============
+Version 12.0.2
+==============
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: New RadiOrakel (FM 99.3) stream
+
+Translations
+
+	* Rodrigo Lledó (es)
+
+==============
+Version 12.0.1
+==============
+
+Build
+
+	* gnome-internet-radio-locator.doap (Close: GNOME/gnome-internet-radio-locator!7)
+	* gnome-internet-radio-locator.spec.in (Close: bugzilla.redhat.com/1517451)
+	* src/gnome-internet-radio-locator-5.0.dtd (@Yasumoto Tweaks to more closely match the DTD)
+	* src/gnome-internet-radio-locator.xml (@Yasumoto Add a few more stations from SomaFM)
+
+Documentation
+
+	* AUTHORS: Add Joe Smith (SomaFM and DTD fixes)
+	* THANKS: Add Joe Smith (SomaFM and DTD fixes)
+
+==============
+Version 12.0.0
+==============
+
+Build
+
+	* configure.ac: Version 12.0.0
+	* src/Makefile.am: Add gnome-internet-radio-locator-location.c
+	* src/gnome-internet-radio-locator.c: (Close: Issue #27)
+	* src/gnome-internet-radio-locator-location.c: Add GeoClue code
+	* src/gnome-internet-radio-locator-location.h: Add GeoClue code
+
+Documentation
+
+	* help/C/exit.page: Bump version
+	* help/C/index.page: Bump version
+	* help/C/intro.page: Bump version
+	* help/C/media/gnome-internet-radio-locator-main.png: Bump version
+	* help/C/new.page: Bump version
+	* help/C/search.page: Bump version
+	* help/C/stop.page: Bump version
+	* help/C/zoom.page: Bump version
+
+Stations
+
+	* src/gnome-internet-radio-locator-markers.c: C-SPAN (Washington, D.C.)
+	* src/gnome-internet-radio-locator.xml: Bump version
+
+=============
+Version 11.12
+=============
+
+Documentation
+
+	* GEOLOCATION (Close: Issue #27)
+	* help/C/C.css: Remove unused files (Close: Issue #21)
+	* help/C/fdl-appendix.xml: Remove unused files (Close: Issue #21)
+	* help/C/intro.page (Close: Issue #27)
+	* help/C/jquery.js: Remove unused files (Close: Issue #21)
+	* help/C/jquery.syntax.js: Remove unused files (Close: Issue #21)
+	* help/C/yelp.js: Remove unused files (Close: Issue #21)
+	* help/C/gnome-help.sct: Remove unused files (Close: Issue #21)
+	* help/C/jquery.syntax.core.js: Remove unused files (Close: Issue #21)
+	* help/C/jquery.syntax.layout.yelp.js: Remove unused files (Close: Issue #21)
+
+=============
+Version 11.10
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Use Geoclue to locate view.
+
+=============
+Version 5.0.3
+=============
+
+Documentation
+
+	* doc/AAMOT.txt.xz: Ole Kr. Aamot's GNOME Radio 3.0.0 Thesis (2020)
+	* doc/Aamot-2020.txt.xz: Ole Kr. Aamot's Radio Flux Article (2020)
+
+Translations
+
+	* Andika Triwidada (id)
+
+=============
+Version 5.0.2
+=============
+
+Translations
+
+	* Daniel Mustieles (es)
+	* Quentin PAGÈS (oc)
+
+=============
+Version 5.0.1
+=============
+
+Translations
+
+	* Daniel Șerbănescu (ro)
+	* Luna Jernberg (sv)
+
+=============
+Version 5.0.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add BBC - Radio Cambridge (Cambridge, United Kingdom)
+	* src/gnome-internet-radio-locator-markers.c: Add BBC - Radio London (London, United Kingdom)
+	* src/gnome-internet-radio-locator-markers.c: Add BBC - Radio Manchester (Manchester, United Kingdom)
+	* src/gnome-internet-radio-locator-markers.c: Add BBC - Radio Oxford (Oxford, United Kingdom)
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 1
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 2
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 3
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 4
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 4 LW (UK only)
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 4 LW (non-UK)
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 5 live (UK only)
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 5 live (non-UK)
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 6 Music
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 1Xtra
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 4 Extra
+	* src/gnome-internet-radio-locator.xml: BBC - Radio 5 Live sports extra (UK only)
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Asian Network
+	* src/gnome-internet-radio-locator.xml: BBC - BBC CWR
+	* src/gnome-internet-radio-locator.xml: BBC - BBC Essex
+	* src/gnome-internet-radio-locator.xml: BBC - BBC Hereford Worcester
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Berkshire
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Bristol
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Cambridge
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Cornwall
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Cumbria
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Cymru
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Cymru 2
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Derby
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Devon
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Foyle
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Gloucestershire
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Guernsey
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Humberside
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Jersey
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Kent
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Lancashire
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Leeds
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Leicester
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Lincolnshire
+	* src/gnome-internet-radio-locator.xml: BBC - Radio London
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Manchester
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Merseyside
+	* src/gnome-internet-radio-locator.xml: BBC - Radio nan Gaidheal
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Newcastle
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Norfolk
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Northampton
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Nottingham
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Orkney
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Oxford
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Scotland FM
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Scotland MW
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Sheffield
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Shropshire
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Solent
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Solent West Dorset
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Somerset Sound
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Stoke
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Suffolk
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Surrey
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Sussex
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Tees
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Ulster
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Wales
+	* src/gnome-internet-radio-locator.xml: BBC - Radio Wiltshire
+	* src/gnome-internet-radio-locator.xml: BBC - Radio WM
+	* src/gnome-internet-radio-locator.xml: BBC - Radio York
+	* src/gnome-internet-radio-locator.xml: BBC - Three Counties Radio
+	* src/gnome-internet-radio-locator.xml: BBC - BBC World Service (London, United Kingdom)
+
+=============
+Version 4.0.2
+=============
+
+Translations
+
+	* Dingzhong Chen (zh_CN)
+
+=============
+Version 4.0.1
+=============
+
+Translations
+
+	* Nathan Follens (nl)
+	* Piotr Drąg (pl)
+	* Enrico Nicoletto (pt_br)
+	* Yuri Chornoivan (uk)
+
+=============
+Version 4.0.0
+=============
+
+Build
+
+	* configure.in: Require GTK+ 4.0
+	* data/gnome-internet-radio-locator.appdata.xml.in: GNOME 40
+	* gnome-internet-radio-locator.spec: Require GTK+ 4.0
+
+GUI
+
+	* src/gnome-internet-radio-locator-station.c: Fix stream->uri XML issue
+
+XML
+
+	* src/gnome-internet-radio-locator-4.0.dtd: Add 4.0 Data Type Definition
+
+=============
+Version 3.9.2
+=============
+
+Translations
+
+	* Efstathios Iosifidis (el)
+	* Muhammat Kara (tr)
+
+=============
+Version 3.9.1
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator.c: Shift center (Brooklyn, New York)
+	* src/gnome-internet-radio-locator-markers.c: Radio Adelaide (Adelaide, Australia)
+	* src/gnome-internet-radio-locator-markers.c: 95bFM (Auckland, New Zealand)
+	* src/gnome-internet-radio-locator-markers.c: KVRX (Austin, Texas)
+	* src/gnome-internet-radio-locator-markers.c: Radio R (Brno, Czech Republic)
+	* src/gnome-internet-radio-locator-markers.c: WFUV (Bronx, New York)
+	* src/gnome-internet-radio-locator-markers.c: Radio Free Brooklyn (Brooklyn, New York)
+	* src/gnome-internet-radio-locator-markers.c: EPER (Budapest, Hungary)
+	* src/gnome-internet-radio-locator-markers.c: BlurFM (Buenos Aires, Argentina)
+	* src/gnome-internet-radio-locator.xml: Update 2NURFM (Newcastle, Australia)
+	* src/gnome-internet-radio-locator.xml: Update BlurFM (Buenos Aires, Argentina)
+	* src/gnome-internet-radio-locator.xml: Update EPER (Budapest, Hungary)
+	* src/gnome-internet-radio-locator.xml: Update Radio Adelaide (Adelaide, Australia)
+
+Translations
+
+	* Jordi Mas (ca)
+
+=============
+Version 3.9.0
+=============
+
+Documentation
+
+	* DEBIAN: Add i386 package url
+	* FEDORA: Add x86_64 package url
+	* UBUNTU: Add amd64 package url
+
+Translations
+
+	* Fabio Tomat (fur)
+	* Balázs Úr (hu)
+	* Florentina Mușat (ro)
+	* Мирослав Николић (sr)
+
+=============
+Version 3.8.0
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator-markers.c: Bygderadio Vest (Volda)
+	* src/gnome-internet-radio-locator.xml: Add Bygderadio Vest (Volda)
+
+Translations
+
+	* Isak Östlund (sv)
+
+=============
+Version 3.7.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Use GNOME 3.36 palette
+
+Translations
+
+	* Enrico Nicoletto (pt_BR)
+	* Stephan Woidowski (de)
+	* Marek Černocký (cs)
+	* Luna Jernberg (sv)
+	* Andika Triwidada (id)
+	* Ask Hjorth Larsen (da)
+	* Piotr Drąg (pl)
+	* Yuri Chornoivan (uk)
+
+=============
+Version 3.6.0
+=============
+
+Build
+	* meson.build: Add "subdir('po')" Meson directive (Close: Issue #24)
+
+Stations
+
+	* src/gnome-internet-radio-locator-markers.c: University of Washington
+	* src/gnome-internet-radio-locator.xml: Add KUOW (Univ. of Washington)
+
+=============
+Version 3.5.0
+=============
+
+Build
+
+	* src/Makefile.am: Add gnome-internet-radio-locator.gresource.xml (Close: Issue #23)
+
+Translations
+
+	* Daniel Mustieles (es)
+
+=============
+Version 3.4.0
+=============
+
+Build
+
+	* configure.ac: Update to version 3.4.0
+	* meson.build: Update to version 3.4.0
+
+Documentation
+
+	* AUTHORS: Add Dušan Kazik (Slovak translation)
+	* THANKS: Add Dušan Kazik (Slovak translation)
+
+=============
+Version 3.3.0
+=============
+
+Build
+
+	* meson.build: Update to version 3.3.0
+
+Translations
+
+	* Dušan Kazik (Add Slovak translation)
+	* Emin Tufan Çetin (Update Turkish translation)
+	* Goran Vidović (Update Croatian translation)
+	* Kukuh Syafaat (Update Indonesian translation)
+
+=============
+Version 3.2.0
+=============
+
+Build
+	* configure.ac: Add meson.build, po/meson.build, src/meson.build
+
+Translations
+
+	* Anders Jonsson (sv)
+
+=============
+Version 3.1.0
+=============
+
+Build
+
+	* meson.build: Update Meson build configuration
+	* po/meson.build: Update Meson build configuration
+	* src/meson.build: Update Meson build configuration
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Add config.h
+
+Translations
+
+	* Rafael Fontenelle (pt_BR)
+	* Yuri Chornoivan (uk)
+	* Piotr Drąg (pl)
+
+=============
+Version 3.0.5
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Supreme Court, Washington DC
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add C-SPAN, Washington DC
+
+Translations
+
+	* Ask Hjorth Larsen (da)
+
+=============
+Version 3.0.4
+=============
+
+Documentation
+
+	* AUTHORS: Add Andre Klapper
+	* THANKS: Add Andre Klapper
+	* help/uk/uk.po: New Ukrainian help translation (Yuri Chornoivan)
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Update KPSU (Portland, Oregon)
+
+=============
+Version 3.0.3
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Ålesund, Norway
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Radio Ålesund, Norway
+
+=============
+Version 3.0.2
+=============
+
+	* AUTHORS: Add Florentina Mușat (Romanian translation), Yuri Chornoivan (Ukrainian translation)
+	* THANKS: Add Florentina Mușat (Romanian translation), Yuri Chornoivan (Ukrainian translation)
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Porsgrunn, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Tønsberg, Norway
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Telemark, Norway
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Vestfold, Norway
+
+Translations
+
+	* Florentina Mușat (ro)
+	* Yuri Chornoivan (uk)
+	* Nathan Follens (nl)
+
+=============
+Version 3.0.1
+=============
+
+	* AUTHORS: Add Serdar Sağlam (Turkish translation)
+	* THANKS: Add Serdar Sağlam (Turkish translation)
+
+=============
+Version 3.0.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Finnmark, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Innlandet, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Nordland, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Troms, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Trøndelag, Norway
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Finnmark, Norway
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Hedmark og Oppland, Norway
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Nordland, Norway
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Troms, Norway
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Trøndelag, Norway
+	* src/gnome-internet-radio-locator.xml: Add Radio Norwegian, Norway
+
+=============
+Version 2.8.0
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add RadioWaterloo (Ontario, Canada)
+
+=============
+Version 2.6.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Buskerud, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Rogaland, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Møre og Romsdal, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Sogn og Fjordane, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Hordaland, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Østfold, Norway
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Buskerud
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Rogaland
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Møre og Romsdal
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Sogn og Fjordane
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Hordaland
+	* src/gnome-internet-radio-locator.xml: Add NRK P1 Østfold
+
+=============
+Version 2.5.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Portland, Oregon
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add KPSU (Portland, Oregon)
+
+=============
+Version 2.4.0
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Barcelona City FM (Barcelona, Catalonia)
+
+=============
+Version 2.2.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: New Map Marker Palette
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Update KASC (Phoenix, Arizona)
+
+=============
+Version 2.1.5
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Update WHPK (Chicago, Illinois)
+
+=============
+Version 2.1.4
+=============
+
+Translations
+
+	* Daniel Mustieles (es)
+
+=============
+Version 2.1.3
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Remove silence message
+
+=============
+Version 2.1.2
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Vålerenga, Norway
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Klanen Webradio (Vålerenga, Norway)
+
+=============
+Version 2.1.1
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Kárášjohka, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Alta, Norway
+	* src/gnome-internet-radio-locator-markers.c: Add Nordkapp, Norway
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add NRK Sápmi (Kárášjohka, Norway)
+	* src/gnome-internet-radio-locator.xml: Add Radio Alta (Alta, Norway)
+	* src/gnome-internet-radio-locator.xml: Add Radio Nordkapp (Honningsvåg, Norway)
+
+=============
+Version 2.1.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Aalborg, Denmark
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add ANR (Aalborg, Denmark)
+
+=============
+Version 2.0.9
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Berlin, Germany
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add radioeins (Berlin, Germany)
+
+Translations
+
+	* po/eu.po: New Basque translation (Asier Sarasua Garmendia)
+
+=============
+Version 2.0.8
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Bern, Switzerland
+
+Translations
+
+	* Marek Černocký (cs)
+
+=============
+Version 2.0.7
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add map marker for Thessaloniki
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Radio Brume (Lyon, France)
+	* src/gnome-internet-radio-locator.xml: Add 1431 AM (Thessaloniki, Greece)
+
+=============
+Version 2.0.6
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Change Dubai city marker
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Update Cape Town, South Africa
+
+Translations
+
+	* Goran Vidović (hr)
+
+=============
+Version 2.0.5
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add map marker for Dubai
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add MBCFM (Dubai, Saudi Arabia)
+
+Translations
+
+	* Anders Jonsson (sv)
+
+=============
+Version 2.0.4
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Fancy Colors
+
+=============
+Version 2.0.3
+=============
+
+Translations
+
+	* Daniel Mustieles (es)
+	* Balázs Meskó (hu)
+	* Kukuh Syafaat (id)
+	* Piotr Drąg (pl)
+
+=============
+Version 2.0.2
+=============
+
+Documentation
+
+	* NEWS: Fix typo
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Midlar (Tórshavn, Faroe Island)
+	* src/gnome-internet-radio-locator-markers.c: Add WBUR (Boston, Massachusetts)
+	* src/gnome-internet-radio-locator-markers.c: Add WTBU (Boston, Massachusetts)
+
+Translations
+
+	* Rafael Fontenelle (pt_BR)
+
+=============
+Version 2.0.1
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Add Internationalization
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add WBUR (Boston, Massachusetts)
+	* src/gnome-internet-radio-locator.xml: Add Midlar (Tórshavn, Faroe Islands)
+
+Translations
+
+	* Ask Hjorth Larsen (da)
+	* Goran Vidović (hr)
+	* Kukuh Syafaat (id)
+	* Nathan Follens (nl)
+
+=============
+Version 2.0.0
+=============
+
+Public Change
+
+=============
+Version 1.9.0
+=============
+
+Documentation
+
+	* AMFM: Add information on AM/FM versus Internet broadcasts
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add map marker for Pisa
+
+Translations
+
+	* Rodrigo Lledó (es)
+	* Fabio Tomat (fru)
+	* Balázs Úr (hu)
+
+=============
+Version 1.8.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Add status bar for station
+	* src/gnome-internet-radio-locator.c: Set default center Stockholm
+	* src/gnome-internet-radio-locator.c: Set undefined city label color
+	* src/gnome-internet-radio-locator-gui.c: Add status bar for stations
+	* src/gnome-internet-radio-locator-markers.c: Add marker for Cambridge
+	* src/gnome-internet-radio-locator-markers.c: Add marker for Dublin
+	* src/gnome-internet-radio-locator-markers.c: Add marker for New Orleans
+	* src/gnome-internet-radio-locator-markers.c: Add marker for Tampere
+	* src/gnome-internet-radio-locator-markers.c: Add marker for Warsaw
+	* src/gnome-internet-radio-locator-markers.c: Add marker for WHRB-FM
+	* src/gnome-internet-radio-locator-markers.c: Add marker for WMBR-FM
+	* src/gnome-internet-radio-locator-markers.c: Add status bar for station
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Radio Aktywne (Warsaw)
+	* src/gnome-internet-radio-locator.xml: Add Radio Moreeni (Tampere)
+	* src/gnome-internet-radio-locator.xml: Update DCUfm (Dublin)
+	* src/gnome-internet-radio-locator.xml: Update WHRB (Cambridge)
+	* src/gnome-internet-radio-locator.xml: Update WTBU (Boston)
+	* src/gnome-internet-radio-locator.xml: Update WWNO (New Orleans)
+
+Translations
+
+	* Marek Cernocky (cs)
+	* Mario Blättermann (de)
+	* Daniel Mustieles (es)
+	* Balázs Úr (hu)
+	* Hannie Dumoleyn (nl)
+	* Piotr Drąg (pl)
+	* Rafael Fontenelle (pt_BR)
+	* Daniel Șerbănescu (ro)
+	* Anders Jonsson (sv)
+
+=============
+Version 1.7.0
+=============
+
+Build
+
+	* gnome-internet-radio-locator.spec.in: Remove "for GNOME 3"
+
+DOAP
+
+	* gnome-internet-radio-locator.doap: Update description
+
+Documentation
+
+	* BROADCAST: Remove "for GNOME 3"
+	* DEBIAN: Add i386 package url
+	* FEDORA: Add x86_64 package url
+	* GNU: Add dates for Apple's binary block and GNU offer
+	* HACKING: Remove "for GNOME 3"
+	* NEWS: Remove "for GNOME 3"
+	* README: Remove "for GNOME 3"
+	* TODO: Remove "for GNOME 3"
+	* UBUNTU: Add amd64 package url
+
+GUI
+
+	* src/gnome-internet-radio-locator-gui.c: Update year and copyright holder
+	* src/gnome-internet-radio-locator-keys.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-listener.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-markers.c: Update marker for Moscow
+	* src/gnome-internet-radio-locator-markers.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-player.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-program.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-radius.c: Update year and copyright holder
+	* src/gnome-internet-radio-locator-radius.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-runners.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-station.c: Update year and copyright holder
+	* src/gnome-internet-radio-locator-station.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-stations-map.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-streams.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator-tz.c: Update year and copyright holder
+	* src/gnome-internet-radio-locator-tz.h: Update year and copyright holder
+	* src/gnome-internet-radio-locator.c: Update year and copyright holder
+	* src/gnome-internet-radio-locator.h: Update year and copyright holder
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Update Echo Moscow (Эхо Москвы)
+
+=============
+Version 1.6.0
+=============
+
+Appdata
+
+	* data/Makefile.am: Install appdata in /usr/share/metainfo (#1517451)
+
+Autotools
+
+	* configure.ac: Remove dependency on gstreamer-plugins-good-1.0 codec
+
+Build
+	* gnome-internet-radio-locator.spec.in: #1517451 (Red Hat Bugzilla)
+
+Documentation
+
+	* help/sv/sv.po: New Swedish help translation (Isak Ostlund)
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Copenhagen, Denmark
+	* src/gnome-internet-radio-locator-markers.c: Add Stockholm, Sweden
+
+=============
+Version 1.5.0
+=============
+
+Autotools
+
+	* configure.ac: Add dependency on gstreamer-plugins-bad-1.0 codecs
+	* configure.ac: Add dependency on gstreamer-plugins-base-1.0 codecs
+	* configure.ac: Add dependency on gstreamer-plugins-good-1.0 codecs
+
+Build
+	* gnome-internet-radio-locator.spec.in: #1517451 (Red Hat Bugzilla)
+
+Translations
+
+	* po/ca.po: Updated Catalan translation (Pere Orga)
+	* po/de.po: Updated German translation (Mario Blättermann)
+	* po/fr.po: Updated French translation (Claude Paroz)
+	* po/hr.po: Updated Croatian translation (Goran Vidović)
+	* po/id.po: Updated Indonesian translation (Kukuh Syafaat)
+
+=============
+Version 1.4.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Eiffel Tower
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add France Culture (Paris)
+	* src/gnome-internet-radio-locator.xml: Add France Info (Paris)
+	* src/gnome-internet-radio-locator.xml: Add France Inter (Paris)
+	* src/gnome-internet-radio-locator.xml: Add Radio Revolt streams
+
+=============
+Version 1.3.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Calgary, Canada
+	* src/gnome-internet-radio-locator-markers.c: Kingston, Canada
+	* src/gnome-internet-radio-locator-markers.c: Ottawa, Canada
+	* src/gnome-internet-radio-locator-markers.c: Sydney, Canada
+	* src/gnome-internet-radio-locator-markers.c: Toronto, Canada
+	* src/gnome-internet-radio-locator-markers.c: Waterloo, Canada
+
+=============
+Version 1.2.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Ayr, Scotland
+	* src/gnome-internet-radio-locator-markers.c: Bergen, Norway
+	* src/gnome-internet-radio-locator-markers.c: Bruxelles, Belgium
+	* src/gnome-internet-radio-locator-markers.c: Cambridge, United Kingdom
+	* src/gnome-internet-radio-locator-markers.c: Kristiansand, Norway
+	* src/gnome-internet-radio-locator-markers.c: Oxford, United Kingdom
+	* src/gnome-internet-radio-locator-markers.c: Trondheim, Norway
+	* src/gnome-internet-radio-locator.c: Royal Observatory Greenwich
+
+=============
+Version 1.1.3
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Set colors for clutter labels
+
+Translations
+
+	* po/de.po: Updated German translation (Mario Blättermann)
+
+=============
+Version 1.1.2
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Guatemala City, Guatemala
+	* src/gnome-internet-radio-locator-markers.c: Add Los Angeles, California
+	* src/gnome-internet-radio-locator-markers.c: Add México City, México
+	* src/gnome-internet-radio-locator-markers.c: Add Phoenix, Arizona
+
+=============
+Version 1.1.1
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Houston, Texas
+	* src/gnome-internet-radio-locator.c: Set default center Houston
+
+Translations
+
+	* po/es.po: Updated Spanish translation (Rodrigo)
+
+=============
+Version 1.1.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Honolulu, Hawaii
+	* src/gnome-internet-radio-locator-markers.c: Add Paris, France
+	* src/gnome-internet-radio-locator.c: Set default center Greenwich
+	* src/gnome-internet-radio-locator.c: Set zoom-level 4
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add NRK Sport (Oslo, Norway)
+
+Translations
+
+	* po/cs.po: Updated Czech translation (Marek Cernocky)
+
+=============
+Version 1.0.9
+=============
+
+Build
+
+	* INSTALL: Update installation instruction
+	* gtk-doc.m4: Fix build
+	* src/Makefile.am: Fix build
+
+Translations
+
+	* po/es.po: Update software package title
+	* po/pl.po: Update software package title
+
+=============
+Version 1.0.8
+=============
+
+Translations
+
+	Josef Andersson (sv)
+	Piotr Drąg (pl)
+	Rafael Fontenelle (pt_BR)
+
+=============
+Version 1.0.7
+=============
+
+Translations
+
+	* Ole Aamot (nb)
+
+=============
+Version 1.0.6
+=============
+
+	* src/gnome-internet-radio-locator-markers.c: KSUB
+
+=============
+Version 1.0.5
+=============
+
+Credits
+
+	* AUTHORS: Add Justin van Steijn (Dutch translation)
+	* AUTHORS: Add Rafael Fontenelle (Brazilian Portuguese translation)
+	* AUTHORS: Add Tim Sabsch (German translation)
+	* THANKS: Add Justin van Steijn (Dutch translation)
+	* THANKS: Add Rafael Fontenelle (Brazilian Portuguese translation)
+	* THANKS: Add Tim Sabsch (German translation)
+
+Documentation
+
+	* Marek Černocký (help/cs)
+	* Mario Blättermann (help/de)
+	* Piotr Drąg (help/pl)
+
+GUI
+
+	* src/gnome-internet-radio-locator-gui.c: Add debugging and set location
+	* src/gnome-internet-radio-locator-gui.h: Add location function parameter
+	* src/gnome-internet-radio-locator-markers.c: Add KEXP, WKCR, WHPK, WMBR
+	* src/gnome-internet-radio-locator.c: Add user_data function parameter
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Locate KZSU (Stanford, California)
+
+Translations
+
+	* Anders Jonsson (sv)
+	* Balázs Úr (hu)
+	* Goran Vidović (hr)
+	* Justin van Steijn (nl)
+	* Kukuh Syafaat (id)
+	* Marek Cernocky (cz)
+	* Piotr Drąg (pl)
+	* Rafael Fontenelle (pt_BR)
+	* Tim Sabsch (de)
+
+=============
+Version 1.0.4
+=============
+
+Translations
+
+	* Balazs Mesko (hu)
+
+=============
+Version 1.0.3
+=============
+
+Configuration
+
+	* configure.ac: Add dependency on libsoup and gsettings-desktop-schemas
+	* data/org.gnome.gnome-internet-radio-locator.gschema.xml: Add gschema
+	* data/Makefile.am: Add gsettings
+	* src/gnome-internet-radio-locator-gui.c: Add initial work on gsettings
+	* src/gnome-internet-radio-locator-keys.c: Add gsetting keys
+	* src/gnome-internet-radio-locator-keys.h: Add gsetting keys
+
+Credits
+
+	* AUTHORS: Add Nathan Follens (Dutch translation)
+	* AUTHORS: Add Pere Orga (Catalan translation)
+	* THANKS: Add Nathan Follens (Dutch translation)
+	* THANKS: Add Pere Orga (Catalan translation)
+
+Translations
+
+	* Daniel Mustieles (es)
+	* Nathan Follens (nl)
+
+=============
+Version 1.0.2
+=============
+
+Credits
+
+	* AUTHORS: Add Kjartan Maraas (Norwegian Bokmål translation)
+	* THANKS: Add Kjartan Maraas (Norwegian Bokmål translation)
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Fix New Station XML routine
+	* src/gnome-internet-radio-locator-markers.c: Add more continents
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Fix minor station typos
+
+Translations
+
+	* Kjartan Maraas (nb)
+
+=============
+Version 1.0.1
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add Moscow, Russia
+	* src/gnome-internet-radio-locator-markers.c: Add Palo Alto, California
+	* src/gnome-internet-radio-locator-markers.c: Add San Francisco, California
+	* src/gnome-internet-radio-locator.c: Update zoom-level to 9
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Echo of Moscow (Эхо Москвы)
+	* src/gnome-internet-radio-locator.xml: Add Soma FM DEF CON
+
+Translations
+
+	* Mario Blättermann (de)
+	* Matej Urbančič (sl)
+
+=============
+Version 1.0.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Check for U.S. states
+	* src/gnome-internet-radio-locator.xml: Add locality of U.S. states
+
+=============
+Version 0.9.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator.c: Create popup markers on click-to-play locations
+	* src/gnome-internet-radio-locator-markers.[ch]: Add reverse lookup with click-to-play
+
+Stations
+
+	* Radio Norwegian (Oslo, Norway)
+
+Translations
+
+	* Anders Jonsson (sv)
+	* gogo (hr)
+	* Jordi Mas (ca)
+	* Kukuh Syafaat (id)
+	* Marek Cernocky (cs)
+	* Piotr Drąg (pl)
+	* Мирослав Николић (sr)
+
+=============
+Version 0.8.0
+=============
+
+GUI
+	* configure.ac: Require geocode-glib-1.0
+	* src/gnome-internet-radio-locator.c: Reverse geocode with city accuracy
+
+=============
+Version 0.7.0
+=============
+
+Credits
+
+	* AUTHORS: Add Claude Paroz (French translation)
+	* THANKS: Add Claude Paroz (French translation)
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add DR Nyheder, P1, P2, P3
+
+Translations
+
+	* Claude Paroz (sv)
+
+=============
+Version 0.6.2
+=============
+
+Autotools
+
+	* configure.ac
+	* help/Makefile.am
+
+Build
+
+	* gnome-internet-radio-locator.spec.in
+
+Documentation
+
+	* help/C/C.css: Update CSS
+	* help/C/exit.page: Update page
+	* help/C/index.page: Update page
+	* help/C/intro.page: Update page
+	* help/C/media/gnome-internet-radio-locator-icon.png: Update graphics
+	* help/C/media/gnome-internet-radio-locator-main.png: Update graphics
+	* help/C/new.page: Update page
+	* help/C/search.page: Update page
+	* help/C/stop.page: Update page
+	* help/C/yelp.js: Update Yelp
+	* help/C/zoom.page: Update page
+	* help/de/de.po: Initial German doc translation
+
+=============
+Version 0.6.1
+=============
+
+Documentation
+
+	* NEWS
+	* TODO
+	* help/C/C.css
+	* help/C/exit.page
+	* help/C/fdl-appendix.xml
+	* help/C/gnome-help.sct
+	* help/C/index.page
+	* help/C/intro.page
+	* help/C/jquery.js
+	* help/C/jquery.syntax.core.js
+	* help/C/jquery.syntax.js
+	* help/C/jquery.syntax.layout.yelp.js
+	* help/C/legal.xml
+	* help/C/media/gnome-internet-radio-locator-exit.png
+	* help/C/media/gnome-internet-radio-locator-main.png
+	* help/C/media/gnome-internet-radio-locator-new.png
+	* help/C/media/gnome-internet-radio-locator-search.png
+	* help/C/media/gnome-internet-radio-locator-stop.png
+	* help/C/media/gnome-internet-radio-locator-zoom.png
+	* help/C/new.page
+	* help/C/search.page
+	* help/C/stop.page
+	* help/C/version.xml.in
+	* help/C/yelp.js
+	* help/C/zoom.page
+	* help/Makefile.am
+	* src/gnome-internet-radio-locator.xml
+
+=============
+Version 0.6.0
+=============
+
+GUI
+
+	* src/gnome-internet-radio-locator-markers.c: Add KALX and WAMU
+
+=============
+Version 0.5.3
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Remove defunct station
+
+=============
+Version 0.5.2
+=============
+
+Stations
+
+	* src/gnome-internet-radio-locator.xml: Add Sveriges Radio P1
+	* src/gnome-internet-radio-locator.xml: Add Sveriges Radio P2
+	* src/gnome-internet-radio-locator.xml: Add Sveriges Radio P3
+	* src/gnome-internet-radio-locator.xml: Add Sveriges Radio P4 Stockholm
+	* src/gnome-internet-radio-locator-radius.c: Add glib header
+
+=============
+Version 0.5.1
+=============
+
+Build
+
+	* src/gnome-internet-radio-locator-radius.c: Remove geoclue dependency
+	* gnome-internet-radio-locator.spec.in: Bump version
+
+=============
+Version 0.5.0
+=============
+
+Artwork
+
+	* data/icons/16x16/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/22x22/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/24x24/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/32x32/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/48x48/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/256x256/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/512x512/apps/gnome-internet-radio-locator.png: New Icon
+	* data/icons/1024x1024/apps/gnome-internet-radio-locator.png: New Icon
+	* data/screenshot.png: New screenshot
+
+GUI
+
+	* src/gnome-internet-radio-locator-gui.c: New Station GUI
+	* src/gnome-internet-radio-locator-markers.c: Marker callback
+	* src/gnome-internet-radio-locator-station.c: New XML parsing
+
+License
+
+	* COPYING: Enforcing GNU General Public License version 3
+	* src/gnome-internet-radio-locator-station.c: GPL version 3
+	* src/gnome-internet-radio-locator-tz.c: GPL version 3
+	* src/gnome-internet-radio-locator.c: GPL version 3
+	
+Translations
+
+	* Marek Černocký (cs)
+
 =============
 Version 0.4.0
 =============
 
-Build (configure.ac)
+Stations (src/gnome-internet-radio-locator.xml)
 
-      * Build on MacPorts 2.7.1
+	* Add Hawaii Public Radio (hawaiipublicradio.org)
+
+Translations
+
+	* Daniel Mustieles (es)
 
 =============
 Version 0.3.0
 =============
 
-Build (gnome-radio.spec)
+GUI
 
-      * Build on Fedora Core 34
+	* src/Makefile.am: Add gnome-internet-radio-locator-markers.c
+	* src/gnome-internet-radio-locator-markers.c: Add marker code
+	* src/gnome-internet-radio-locator-markers.h: Add marker code
+	* src/gnome-internet-radio-locator-player.c: Parse local XML
+	* src/gnome-internet-radio-locator.c: Add GNOME Maps layer code
+	* src/gnome-internet-radio-locator.xml: Add new stations
+
+Stations
+
+	* Add Burst Radio (burstradio.org.uk)
+	* Add WFUV (wfuv.org)
+	* Add Radio Free Brooklyn (radiofreebrooklyn.com)
+
+Translations
+
+	* Daniel Mustieles (es)
 
 =============
 Version 0.2.0
 =============
 
-XML (gnome-radio.xml)
+Station (src/gnome-internet-radio-locator.c)
 
-	* Hawaii Public Radio (KHPR)
-	* New York City Public Radio (WNYC)
-	* Southern California Public Radio (SCPR)
+	* Change default radio station to WNYC
+
+Translations
+
+	* Anders Jonsson (sv)
+	* Enrico Nicoletto (pt_BR)
+	* gogo (hr)
+	* Kukuh Syafaat (id)
+	* Mario Blättermann (de)
+	* Matej Urbančič (sl)
+	* Piotr Drąg (pl)
 
 =============
-Version 0.1.0
+Version 0.1.2
 =============
 
-GUI (src/gnome-radio-main.c)
+Credits (THANKS)
 
-	* Radio audio player
+	* Thank people for original code and assistance with GTK+ 3.0 port
+
+Package (gnome-internet-radio-locator.spec.in)
+
+	* Update RPM spec for 0.1.2
 
 =============
-Version 0.0.0
+Version 0.1.1
 =============
 
-GUI (src/gnome-radio-main.c)
+GUI (src/gnome-internet-radio-locator-gui.c)
 
-	* Third release
-	* Radio pointer
+	* Second release

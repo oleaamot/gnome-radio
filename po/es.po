@@ -1,0 +1,618 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Rodrigo <rodhos92@gmail.com>, 2018, 2019.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2015-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-internet-radio-"
+"locator/issues\n"
+"POT-Creation-Date: 2021-06-26 18:47+0000\n"
+"PO-Revision-Date: 2021-08-26 18:12+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+#: ../src/gnome-radio.c:624
+msgid "GNOME Radio 4 for GNOME 40"
+msgstr "Buscador de emisoras de radio en Internet de GNOME para GNOME 40"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Locate and listen to Free Internet Radio stations"
+msgstr "Busque y escuche emisoras de radio en Internet de forma gratuita"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+msgid ""
+"GNOME Radio 4 for GNOME 40 is a Free Software program that "
+"allows you to easily locate and listen to Free Internet Radio stations by "
+"broadcasters on the Internet with the help of a map."
+msgstr ""
+"El buscador de emisoras de radio en Internet de GNOME para GNOME 40 es un "
+"programa de software libre que permite a los usuarios buscar y escuchar "
+"emisoras de radio en Internet fácilmente y de forma gratuita con la ayuda de "
+"un mapa."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+msgid ""
+"GNOME Radio 4 for GNOME 40 is developed for the GNOME 3 "
+"desktop and requires gstreamer 1.0 to be installed for listening to Free "
+"Internet Radio stations."
+msgstr ""
+"El buscador de emisoras de radio en Internet de GNOME para GNOME 40 está "
+"desarrollado para el escritorio GNOME 3 y se requiere tener instalado "
+"gstreamer 1.0 para poder escuchar las emisoras de radio."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+msgid ""
+"Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+"Locator 4 for GNOME 40."
+msgstr ""
+"Disfrute escuchando emisoras de radio en Internet gratuitas en el buscador "
+"de emisoras de radio en Internet de GNOME para GNOME 40."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "Buscador de emisoras de radio en Internet"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "Buscar emisoras de radio en Internet"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr "Vivo;Directo;Radio;Programa;Emisora;Estación;Buscador;"
+
+#: ../src/gnome-radio-gui.c:92
+#: ../src/gnome-radio-gui.c:104
+#: ../src/gnome-radio-gui.c:310
+#: ../src/gnome-radio.c:923
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "No se pudo abrir %s\n"
+
+#. Translators: first %s is station name and second %s is station location
+#: ../src/gnome-radio-gui.c:218
+#, c-format
+msgid "Added %s in %s"
+msgstr "Añadida %s en %s"
+
+#. The Stations dialog
+#: ../src/gnome-radio-gui.c:254
+msgid "New Internet Radio Station"
+msgstr "Emisora de radio en Internet nueva"
+
+#: ../src/gnome-radio-gui.c:257
+msgid "_Save"
+msgstr "_Guardar"
+
+#: ../src/gnome-radio-gui.c:279
+msgid "Station name"
+msgstr "Nombre de la emisora"
+
+#: ../src/gnome-radio-gui.c:280
+msgid "Bandwidth"
+msgstr "Ancho de banda"
+
+#: ../src/gnome-radio-gui.c:282
+msgid "City name"
+msgstr "Nombre de la ciudad"
+
+#: ../src/gnome-radio-gui.c:286
+msgid "http://uri-to-stream/"
+msgstr "http://uri-del-flujo/"
+
+#: ../src/gnome-radio-gui.c:287
+msgid "Description"
+msgstr "Descripción"
+
+#: ../src/gnome-radio-gui.c:288
+msgid "http://uri-to-website/"
+msgstr "http://uri-del-sitio-web/"
+
+#: ../src/gnome-radio-gui.c:299
+#, c-format
+msgid "Failed to open %s.  Please install it.\n"
+msgstr "No se pudo abrir %s. Instálelo.\n"
+
+#: ../src/gnome-radio-gui.c:430
+#: ../src/gnome-radio.c:408
+msgid "http://fm939.wnyc.org/wnycfm"
+msgstr "http://fm939.wnyc.org/wnycfm"
+
+#: ../src/gnome-radio-gui.c:433
+msgid "WNYC"
+msgstr "WNYC"
+
+#: ../src/gnome-radio-gui.c:436
+msgid "New York City, NY"
+msgstr "Nueva York, NY"
+
+#: ../src/gnome-radio-gui.c:439
+msgid "Online"
+msgstr "Conectado"
+
+#: ../src/gnome-radio-gui.c:442
+msgid ""
+"WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, "
+"broadcasting the finest programs from NPR, American Public Media, Public "
+"Radio International and the BBC World Service, as well as a wide range of "
+"award-winning local programming."
+msgstr ""
+"WNYC 93.9 FM y AM 820 son las principales emisoras de radio públicas de "
+"Nueva York, emitiendo programas de la mejor calidad como NPR, American "
+"Public Media, Public Radio International y el BBC World Service, así como un "
+"rango amplio de programación local galardonada."
+
+#: ../src/gnome-radio-location.c:54
+msgid "Exit after T seconds. Default: 30"
+msgstr "Salir después de T segundos. Predeterminado: 30"
+
+#: ../src/gnome-radio-location.c:61
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Informar de una actualización de la ubicación sólo después de T segundos. "
+"Predeterminado: 0 (informar de la nueva ubicación sin demora)"
+
+#: ../src/gnome-radio-location.c:69
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"Nivel de precisión de la respuesta A. País = 1, Ciudad = 4, Vecindario = 5, "
+"Calle = 6, Exacta = 8."
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "Grabando de %s en %s a %s"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"Ha ocurrido un error al intentar reproducir %s\n"
+"O bien el archivo no existe o no tiene un reproductor para él."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"Ha ocurrido un error al intentar grabar %s\n"
+"O bien el archivo no existe o no tiene un grabador para él."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "No se pudo ejecutar %s (%i)\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"No se pudo abrir el URL: «%s»\n"
+"Código de estado: %i\n"
+"Detalles: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"No se pudo abrir el URL: «%s»\n"
+"Detalles: %s"
+
+#: ../src/gnome-radio.c:392
+msgid "New Internet Radio Station\n"
+msgstr "Emisora de radio en Internet nueva\n"
+
+#: ../src/gnome-radio.c:398
+msgid "Search Internet Radio Station\n"
+msgstr "Buscar emisora de radio en Internet\n"
+
+#: ../src/gnome-radio.c:422
+#: ../src/gnome-radio.c:1044
+msgid ""
+"Search by city or drag/click on the zoomable map to listen to a radio "
+"broadcast"
+msgstr ""
+"Busque por ciudad o arrastre y suelte en la zona ampliable del mapa para "
+"escuchar un programa de radio"
+
+#: ../src/gnome-radio.c:437
+msgid "Previous Internet Radio Station\n"
+msgstr "Emisora de radio en Internet anterior\n"
+
+#: ../src/gnome-radio.c:571
+msgid "Search"
+msgstr "Buscar"
+
+#: ../src/gnome-radio.c:575
+msgid "Search Internet Radio Station"
+msgstr "Buscar emisora de radio en Internet"
+
+#: ../src/gnome-radio.c:580
+msgid "Prev"
+msgstr "Ant."
+
+#: ../src/gnome-radio.c:584
+msgid "Prev Internet Radio Station"
+msgstr "Emisora de radio en Internet ant."
+
+#: ../src/gnome-radio.c:587
+#: ../src/gnome-radio.c:591
+msgid "Stations"
+msgstr "Emisoras"
+
+#: ../src/gnome-radio.c:594
+msgid "Next"
+msgstr "Siguiente"
+
+#: ../src/gnome-radio.c:598
+msgid "Next Internet Radio Station"
+msgstr "Emisora de radio en Internet siguiente"
+
+#: ../src/gnome-radio.c:601
+#: ../src/gnome-radio.c:605
+msgid "About Station"
+msgstr "Acerca de la emisora"
+
+#: ../src/gnome-radio.c:608
+#: ../src/gnome-radio.c:612
+msgid "About Program"
+msgstr "Acerca del programa"
+
+#: ../src/gnome-radio.c:669
+msgid ""
+"Nothing\n"
+"\n"
+msgstr ""
+"Nada\n"
+"\n"
+
+#. give it the title
+#: ../src/gnome-radio.c:815
+msgid "GNOME Radio"
+msgstr "Buscador de radio de Internet de GNOME"
+
+#: ../src/gnome-radio.c:880
+msgid "New"
+msgstr "Nueva"
+
+#: ../src/gnome-radio.c:889
+msgid "Discover Location"
+msgstr "Descubrir ubicación"
+
+#: ../src/gnome-radio.c:982
+msgid "Stop"
+msgstr "Detener"
+
+#: ../src/gnome-radio.c:988
+msgid "Zoom In"
+msgstr "Acercar"
+
+#: ../src/gnome-radio.c:1002
+msgid "Zoom Out"
+msgstr "Alejar"
+
+#: ../src/gnome-radio.c:1007
+msgid "Markers"
+msgstr "Marcadores"
+
+#: ../src/gnome-radio.c:1029
+msgid "Exit"
+msgstr "Salir"
+
+#~ msgid "Added "
+#~ msgstr "Añadido "
+
+#~ msgid " in "
+#~ msgstr " en "
+
+#~ msgid "Default station"
+#~ msgstr "Emisora predeterminada"
+
+#~ msgid "Default Internet Radio station."
+#~ msgstr "Emisora de radio en Internet predeterminada"
+
+#~ msgid "ONLINE"
+#~ msgstr "CONECTADO"
+
+#~ msgid "Listen to and record from Internet radio"
+#~ msgstr "Escuchar y grabar las emisoras de radio por Internet"
+
+#~ msgid "Add a new radio station"
+#~ msgstr "Añadir una emisora de radio nueva"
+
+#~ msgid "Search by location for radio stations"
+#~ msgstr "Buscar emisoras de radio por ubicación"
+
+#~ msgid "Listen"
+#~ msgstr "Escuchar"
+
+#~ msgid "Listen to selected radio station"
+#~ msgstr "Escuchar la emisora de radio seleccionada"
+
+#~ msgid "Record"
+#~ msgstr "Grabar"
+
+#~ msgid "Record selected radio station"
+#~ msgstr "Grabar la emisora de radio seleccionada"
+
+#~ msgid "Stop recording selected radio station"
+#~ msgstr "Detener la grabación de la emisora de radio seleccionada"
+
+#~ msgid "Go back to the previous radio station"
+#~ msgstr "Ir a la emisora de radio anterior"
+
+#~ msgid "Proceed to the next radio station"
+#~ msgstr "Ir a la siguiente emisora de radio"
+
+#~ msgid "About the current Station"
+#~ msgstr "Acerca de la emisora actual"
+
+#~ msgid "About the GNOME Radio"
+#~ msgstr "Acerca del buscador de radio de Internet de GNOME"
+
+#~ msgid "Quit the GNOME Radio"
+#~ msgstr "Salir del buscador de radio de Internet de GNOME"
+
+#~ msgid "Playing %s"
+#~ msgstr "Reproduciendo %s"
+
+#~ msgid "Select a listener"
+#~ msgstr "Seleccionar un reproductor"
+
+#~ msgid "Select a program"
+#~ msgstr "Seleccionar un programa"
+
+#~ msgid "Failed to open %s.\n"
+#~ msgstr "Falló al abrir %s.\n"
+
+#~ msgid "Your search by location resulted in the radio station %s in %s: %s"
+#~ msgstr "Su búsqueda por ubicación ha encontrado la emisora %s en %s: %s"
+
+#~ msgid "Search by location"
+#~ msgstr "Buscar por emisora"
+
+#~ msgid "Found location %s"
+#~ msgstr "Encontrada ubicación %s"
+
+#~ msgid "New radio station"
+#~ msgstr "Nueva emisora de radio"
+
+#~ msgid "Select a stream"
+#~ msgstr "Seleccionar un flujo"
+
+#~ msgid "Selection cleared!\n"
+#~ msgstr "Selección eliminada\n"
+
+#~ msgid "Couldn't create pixmap"
+#~ msgstr "No se pudo crear el mapa de píxeles"
+
+#~ msgid ""
+#~ "Search by location from \"Search\" or select a radio station from "
+#~ "\"Stations\".  Click \"Listen\" to listen to, or \"Record\" to record "
+#~ "from the station."
+#~ msgstr ""
+#~ "Seleccione una ubicación en «Buscar» o elija una emisora de radio en "
+#~ "«Emisoras». Pulse «Escuchar» para escuchar la emisora o «Grabar» para "
+#~ "grabarla."
+
+#~ msgid ""
+#~ "Select a radio station from \"Stations\" and click \"Listen\" to listen "
+#~ "to the station."
+#~ msgstr ""
+#~ "Busque una emisora de radio en «Emisoras» y pulse «Escuchar» para "
+#~ "escuchar la emisora."
+
+#~ msgid "GNOME VFS initialization failed!\n"
+#~ msgstr "Falló al iniciar GNOME VFS\n"
+
+#~ msgid "%i station"
+#~ msgid_plural "%i stations"
+#~ msgstr[0] "%i emisora"
+#~ msgstr[1] "%i emisoras"
+
+#~ msgid "and %i stream found"
+#~ msgid_plural "and %i streams found"
+#~ msgstr[0] "y %i flujo encontrado"
+#~ msgstr[1] "y %i flujos encontrados"
+
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
+
+#~ msgid "Selected the previous radio station: %s in %s: %s"
+#~ msgstr "Seleccionada la emisora de radio anterior %s en %s: %s"
+
+#~ msgid "Selected the next radio station %s in %s: %s"
+#~ msgstr "Seleccionada la siguiente emisora de radio %s en %s: %s"
+
+#~ msgid "Selected %s in %s: %s (%f)"
+#~ msgstr "Seleccionada %s en %s: %s (%f)"
+
+#~ msgid "Selected the radio station %s in %s: %s"
+#~ msgstr "Seleccionada la emisora de radio %s en %s: %s"
+
+#~ msgid "Selected %s [%s] [%s] [%s]"
+#~ msgstr "Seleccionada %s [%s] [%s] [%s]"
+
+#~ msgid ""
+#~ "Marek Černocký <marek@manet.cz> (Czech translation)\n"
+#~ "Rafael Fontenelle <rafaelff@gnome.org> (Brazilian Portuguese "
+#~ "translation)\n"
+#~ "Miroslav Nikolić <miroslavnikolic@rocketmail.com> (Serbian translation)\n"
+#~ "Wolfgang Stöggl <c72578@yahoo.de> (German translation)\n"
+#~ "Piotr Drąg <piotrdrag@gmail.com> (Polish translation)\n"
+#~ "Muhammet Kara <muhammetk@gmail.com> (Turkish translation)\n"
+#~ "Balázs Úr <urbalazs@gmail.com> (Hungarian translation)\n"
+#~ "Andika Triwidada <andika@gmail.com> (Indonesian translation)\n"
+#~ "Daniel Mustieles <daniel.mustieles@gmail.com> (Spanish translation)\n"
+#~ "Matej Urbančič <mateju@svn.gnome.org> (Slovenian translation)\n"
+#~ "Γιάννης Κουτσούκος <giankoyt@gmail.com> (Greek translation)\n"
+#~ "Efstathios Iosifidis <iosifidis@opensuse.org> (Greek translation)\n"
+#~ "Samir Ribić <megaribi@epn.ba> (Bosnian translation)\n"
+#~ "Enrico Nicoletto <liverig@gmail.com> (Brazilian Portuguese translation)\n"
+#~ "Sveinn í Felli <sv1@fellsnet.is> (Icelandic translation)\n"
+#~ "Josef Andersson <josef.andersson@gmail.com> (Swedish translation)\n"
+#~ "Pedro Albuquerque <palbuquerque73@gmail.com> (Portuguese translation)\n"
+#~ "Mario Blättermann <mario.blaettermann@gmail.com> (German translation)\n"
+#~ "Necdet Yücel <necdetyucel@gmail.com> (Turkish translation)\n"
+#~ "Andy Daniel Cruz Campos <god_of_war_2@hotmail.com> (Spanish translation)\n"
+#~ "Mирослав Николић <miroslavnikolic@rocketmail.com> (Serbian translation)\n"
+#~ "Balázs Meskó <meskobalazs@gmail.com> (Hungarian translation)\n"
+#~ "Laudivan Freire de Almeida <laudivan@riseup.net> (Brazilian Portuguese "
+#~ "translation)\n"
+#~ "Bernd Homuth <dev@hmt.im> (German translation)\n"
+#~ "Paul Feuvraux and Claude Paroz <claude@2xlibre.net> (French translation)\n"
+#~ "Anders Jonsson <anders.jonsson@norsjovallen.se> (Swedish translation)\n"
+#~ msgstr ""
+#~ "Marek Černocký <marek@manet.cz> (traducción al checo)\n"
+#~ "Rafael Fontenelle <rafaelff@gnome.org> (traducción al brasileño "
+#~ "portugués)\n"
+#~ "Miroslav Nikolić <miroslavnikolic@rocketmail.com> (traducción al serbio)\n"
+#~ "Wolfgang Stöggl <c72578@yahoo.de> (traducción al alemán)\n"
+#~ "Piotr Drąg <piotrdrag@gmail.com> (traducción al polaco)\n"
+#~ "Muhammet Kara <muhammetk@gmail.com> (traducción al turco)\n"
+#~ "Balázs Úr <urbalazs@gmail.com> (traducción al húngaro)\n"
+#~ "Andika Triwidada <andika@gmail.com> (traducción al indonesio)\n"
+#~ "Daniel Mustieles <daniel.mustieles@gmail.com> (traducción al español)\n"
+#~ "Matej Urbančič <mateju@svn.gnome.org> (traducción al eslovaco)\n"
+#~ "Γιάννης Κουτσούκος <giankoyt@gmail.com> (traducción al griego)\n"
+#~ "Efstathios Iosifidis <iosifidis@opensuse.org> (traducción al griego)\n"
+#~ "Samir Ribić <megaribi@epn.ba> (traducción al bosnio)\n"
+#~ "Enrico Nicoletto <liverig@gmail.com> (traducción al brasileño portugués)\n"
+#~ "Sveinn í Felli <sv1@fellsnet.is> (traducción al islandés)\n"
+#~ "Josef Andersson <josef.andersson@gmail.com> (traducción al sueco)\n"
+#~ "Pedro Albuquerque <palbuquerque73@gmail.com> (traducción al portugués)\n"
+#~ "Mario Blättermann <mario.blaettermann@gmail.com> (traducción al alemán)\n"
+#~ "Necdet Yücel <necdetyucel@gmail.com> (traducción al turco)\n"
+#~ "Andy Daniel Cruz Campos <god_of_war_2@hotmail.com> (traducción al "
+#~ "español)\n"
+#~ "Mирослав Николић <miroslavnikolic@rocketmail.com> (traducción al serbio)\n"
+#~ "Balázs Meskó <meskobalazs@gmail.com> (traducción al húngaro)\n"
+#~ "Laudivan Freire de Almeida <laudivan@riseup.net> (traducción al brasileño "
+#~ "portugués)\n"
+#~ "Bernd Homuth <dev@hmt.im> (traducción al alemán)\n"
+#~ "Paul Feuvraux and Claude Paroz <claude@2xlibre.net> (traducción al "
+#~ "francés)\n"
+#~ "Anders Jonsson <anders.jonsson@norsjovallen.se> (traducción al sueco)\n"
+
+#~| msgid "Copyright (C) 2014, 2015, 2016  Ole Aamot Software"
+#~ msgid "Copyright (C) 2014-2017  Ole Aamot Software"
+#~ msgstr "Copyright (C) 2014-2017  Ole Aamot Software"
+
+#~ msgid ""
+#~ "Mario Blättermann <mario.blaettermann@gmail.com> (German translation)"
+#~ msgstr ""
+#~ "Mario Blättermann <mario.blaettermann@gmail.com> (traducción al alemán)"
+
+#~ msgid "Marek Černocký <marek@manet.cz> (Czech translation)"
+#~ msgstr "Marek Černocký <marek@manet.cz> (traducción al checo)"
+
+#~ msgid "Daniel Mustieles <daniel.mustieles@gmail.com> (Spanish translation)"
+#~ msgstr ""
+#~ "Daniel Mustieles <daniel.mustieles@gmail.com> (traducción al español)"
+
+#~ msgid "Josef Andersson <josef.andersson@fripost.org> (Swedish translation)"
+#~ msgstr "Josef Andersson <josef.andersson@fripost.org> (traducción al sueco)"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA."
+#~ msgstr ""
+#~ "Este programa es software libre; puede redistribuirlo y/o modificarlo "
+#~ "bajo los términos de la Licencia Pública General de GNU tal como se "
+#~ "publica por la Free Software Foundation; ya sea la versión 2 de la "
+#~ "Licencia, o (a su elección) cualquier versión posterior.\n"
+#~ "Este programa se distribuye con la esperanza de que le sea útil, pero SIN "
+#~ "NINGUNA GARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o "
+#~ "IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General "
+#~ "GNU para más detalles.\n"
+#~ "Debería haber recibido una copia de la Licencia Pública General de GNU "
+#~ "junto con este programa, si no es así, escriba a la Free Software "
+#~ "Foundation, Inc, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 "
+#~ "EE.UU."
+
+#~ msgid "Unable to load GNOME Radio logo: %s\n"
+#~ msgstr "No se pudo cargar el logotipo de GNOME Radio: %s\n"
+
+#~ msgid "Search radio station by location"
+#~ msgstr "Buscar emisora por ubicación"
+
+#~ msgid "Listening to the radio station %s in %s: %s "
+#~ msgstr "Escuchando la emisora de radio %s en %s: %s "
+
+#~ msgid ""
+#~ "Finished saving recording from the radio station %s in %s from %s to %s"
+#~ msgstr "Terminada la grabación de la emisora de radio %s en %s de %s a %s"
+
+#~ msgid "Stopped playing the radio station %s in %s."
+#~ msgstr "Detenida la reproducción de la emisora de radio %s en %s."
+
+#~ msgid "Archiving %s"
+#~ msgstr "Archivando %s"
+
+#~ msgid ""
+#~ "Failed to run '%s'\n"
+#~ "Details: %s"
+#~ msgstr ""
+#~ "Falló al ejecutar «%s»\n"
+#~ "Detalles: %s"
+
+#~| msgid "GNOME VFS initialization failed!\n"
+#~ msgid "Player Frontend initialization failure..."
+#~ msgstr "Falló al crear el «frontend» del reproductor…"
+
+#~ msgid "Player Backend creation failure"
+#~ msgstr "Falló al crear el «backend» del reproductor"
+
+#~ msgid ""
+#~ "Stopped playing the radio station %s in %s, exit the application Videos."
+#~ msgstr ""
+#~ "Detenida la reproducción de la emisora de radio %s en %s, salga de Vídeos."
+
+#~ msgid ""
+#~ "Stop what?  You can \"Search\" by location, select a radio station from "
+#~ "\"Stations\", or click on \"Listen\" and/or \"Record\".  Or go to \"Prev"
+#~ "\" or \"Next\" radio station."
+#~ msgstr ""
+#~ "¿Detener el qué? Puede «Buscar» por ubicación, seleccionar una emisora de "
+#~ "radio en «Emisoras» o pulsar en «Escuchar» y/o «Grabar». O ir a la "
+#~ "«Siguiente» emisora o a la «Anterior»."
+
+#~ msgid "See yelp://gnome-radio"
+#~ msgstr "Consulte yelp://gnome-radio"

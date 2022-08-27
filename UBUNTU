@@ -1,0 +1,7 @@
+GNOME Radio compiles and runs on Ubuntu.
+
+See https://people.gnome.org/~ole/ubuntu/ for amd64 packages.
+
+If you are packaging GNOME Radio for Ubuntu
+and/or other GNU/Linux distributions, please coordinate this
+with ole@gnome.org.

@@ -1,0 +1,43 @@
+TODO for GNOME Radio
+
+==========
+2019-01-28
+==========
+
+GUI
+
+* Update to GNOME 3 design by Christopher Davis
+
+==========
+2017-11-25
+==========
+
+Stations
+
+* Add stations in Catalonia, Portugal and Spain.
+
+Packages
+
+* Add distribution in Debian, Fedora and Ubuntu.
+
+==========
+2017-07-30
+==========
+
+Documentation
+
+* Add English user documentation in help/en_US/
+
+Stations
+
+* Implement Denmark's Radio (dr.dk)
+
+==========
+2017-04-26
+==========
+
+Short Term
+
+* Command line interface
+* New icon (jimmac?)
+* Promote non-profit Internet radio stations in the world

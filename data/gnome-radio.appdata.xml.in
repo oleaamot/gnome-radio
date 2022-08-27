@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <id type="desktop">gnome-radio.desktop</id>
-  <_name>GNOME Radio 3 for GNOME 42</_name>
+  <_name>GNOME Radio 16 for GNOME 42</_name>
   <_summary>Listen to National Public Radio on GNOME 42</_summary>
   <licence>CC0</licence>
   <description>
     <p>
-      GNOME Radio 3 is a Free Software program that allows you easily
+      GNOME Radio 16 is a Free Software program that allows you easily
       listen to National Public Radio (NPR) broadcasts under GNOME 42.
     </p>
     <p>
-      GNOME Radio 3 is developed on the GNOME 42 desktop platform and
+      GNOME Radio 16 is developed on the GNOME 42 desktop platform and
       it requires GTK+ 3.0, Clutter and GStreamer 1.0 for playback.
     </p>
     <p>    
@@ -19,7 +19,7 @@
   </description>
   <url type="homepage">https://wiki.gnome.org/Apps/Radio</url>
   <screenshots>
-    <screenshot type="default">https://gitlab.gnome.org/ole/gnome-radio/data/sreenshots/gnome-radio-screenshot.png</screenshot>
+    <screenshot type="default">https://gitlab.gnome.org/ole/gnome-radio/-/blob/main/data/screenshots/gnome-radio-screenshot.png</screenshot>
   </screenshots>
   <updatecontact>girl-list@gnome.org</updatecontact>
 </application>

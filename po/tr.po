@@ -1,0 +1,338 @@
+# Turkish translation for gnome-radio.
+# Copyright (C) 2019 gnome-radio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-radio package.
+#
+# Serdar Sağlam <teknomobil@yandex.com>, 2019.
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2020.
+# Muhammet Kara <muhammetk@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-internet-radio-"
+"locator/issues\n"
+"POT-Creation-Date: 2020-10-31 16:08+0000\n"
+"PO-Revision-Date: 2021-03-12 00:24+0300\n"
+"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Language-Team: Turkish <gnometurk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Gtranslator 3.38.0\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+msgid "GNOME Radio for GNOME 3"
+msgstr "GNOME 3 için GNOME İnternet Radyosu Konumlayıcı"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Locate and listen to Free Internet Radio stations"
+msgstr "Ücretsiz İnternet Radyo istasyonlarını konumla ve dinle"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+msgid ""
+"GNOME Radio for GNOME 3 is a Free Software program that "
+"allows you to easily locate and listen to Free Internet Radio stations by "
+"broadcasters on the Internet with the help of a map."
+msgstr ""
+"GNOME 3 için GNOME İnternet Radyosu Konumlayıcı; radyoları harita yardımıyla "
+"kolayca bulmanızı, internette yayınlanan Radyo istasyonlarını dinlemenizi "
+"sağlayan özgür yazılımdır."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+msgid ""
+"GNOME Radio for GNOME 3 is developed for the GNOME 3 "
+"desktop and requires gstreamer 1.0 to be installed for listening to Free "
+"Internet Radio stations."
+msgstr ""
+"GNOME 3 için GNOME İnternet Radyosu Konumlayıcı ile internet radyo "
+"istasyonlarını dinlemek için, GNOME 3 masaüstü ortamı ve GStreamer 1.0 "
+"gereklidir yüklü değilse yüklemek gerekir."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+msgid ""
+"Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+"Locator for GNOME 3."
+msgstr ""
+"GNOME 3 için GNOME İnternet Radyosu Konumlayıcı ile ücretsiz radyo "
+"istasyonları dinleme keyfini çıkarın."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "İnternet Radyosu Konumlayıcı"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "İnternet Radyo İstasyonlarını Konumla"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr "Canlı;Radyo;Programı;İstasyon;Bulucu;Konumlayıcı;"
+
+#: ../src/gnome-radio-gui.c:92
+#: ../src/gnome-radio-gui.c:104
+#: ../src/gnome-radio-gui.c:314
+#: ../src/gnome-radio.c:962
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "%s açılamadı\n"
+
+#. Translators: first %s is station name and second %s is station location
+#: ../src/gnome-radio-gui.c:220
+#, c-format
+#| msgid "Added "
+msgid "Added %s in %s"
+msgstr "%s, %s konumuna eklendi"
+
+#. The Stations dialog
+#: ../src/gnome-radio-gui.c:258
+msgid "New Internet Radio Station"
+msgstr "Yeni istasyon ekle"
+
+#: ../src/gnome-radio-gui.c:261
+msgid "_Save"
+msgstr "_Kaydet"
+
+#: ../src/gnome-radio-gui.c:283
+msgid "Station name"
+msgstr "İstasyon adı"
+
+#: ../src/gnome-radio-gui.c:284
+msgid "Bandwidth"
+msgstr "Yayın bandı"
+
+#: ../src/gnome-radio-gui.c:286
+msgid "City name"
+msgstr "Şehir adı"
+
+#: ../src/gnome-radio-gui.c:290
+msgid "http://uri-to-stream/"
+msgstr "http://yayının-akış-adresi/"
+
+#: ../src/gnome-radio-gui.c:291
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../src/gnome-radio-gui.c:292
+msgid "http://uri-to-website/"
+msgstr "http://radyonun-web-sitesi/"
+
+#: ../src/gnome-radio-gui.c:303
+#, c-format
+msgid "Failed to open %s.  Please install it.\n"
+msgstr "%s açılamadı.  Lütfen kurun.\n"
+
+#: ../src/gnome-radio-gui.c:436
+#: ../src/gnome-radio.c:456
+msgid "http://fm939.wnyc.org/wnycfm"
+msgstr "http://fm939.wnyc.org/wnycfm"
+
+#: ../src/gnome-radio-gui.c:439
+msgid "WNYC"
+msgstr "WNYC"
+
+#: ../src/gnome-radio-gui.c:442
+msgid "New York City, NY"
+msgstr "New York Şehri, NY"
+
+#: ../src/gnome-radio-gui.c:445
+msgid "Online"
+msgstr "Çevrim içi"
+
+#: ../src/gnome-radio-gui.c:448
+msgid ""
+"WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, "
+"broadcasting the finest programs from NPR, American Public Media, Public "
+"Radio International and the BBC World Service, as well as a wide range of "
+"award-winning local programming."
+msgstr ""
+"WNYC 93.9 FM ve AM 820 frekansında, New York'un amiral gemisi halka açık "
+"radyo istasyonlarından olup, NPR, Amerikan Kamu Medyası, Kamu Radyo "
+"Uluslararası ve BBC Dünya Servisinden en iyi programları ve ayrıca türlü "
+"ödüllü yerel programlar yayınlamaktadır."
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "%s, %s istasyonundan %s konumuna kaydediliyor"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"%s oynatmaya çalışılırken hata oldu\n"
+"Dosya veya uygun oynatıcı yok."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"%s kaydı denenirken hata oldu\n"
+"Dosya veya kayıt aygıtınız yok."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "%s (%i) çalıştırılamadı\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"URL açılamadı: '%s'\n"
+"Durum kodu: %i\n"
+"Ayrıntılar: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"URL açılamadı: '%s'\n"
+"Ayrıntılar: %s"
+
+#: ../src/gnome-radio.c:101
+msgid "Exit after T seconds. Default: 30"
+msgstr "T saniye sonra çık. Öntanımlı: 30"
+
+#: ../src/gnome-radio.c:108
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Yalnızca T saniye sonra konum değişimini bildir. Öntanımlı: 0 (yeni konumu "
+"gecikmeksizin bildir)"
+
+#: ../src/gnome-radio.c:116
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"A kesinlik düzeyi iste. Ülke = 1, Şehir = 4, Yöre = 5, Sokak = 6, Birebir = "
+"8."
+
+#: ../src/gnome-radio.c:440
+#, c-format
+msgid "New Internet Radio Station\n"
+msgstr "Yeni İnternet Radyo İstasyonu\n"
+
+#: ../src/gnome-radio.c:446
+#, c-format
+msgid "Search Internet Radio Station\n"
+msgstr "İnternet Radyo İstasyonu Ara\n"
+
+#: ../src/gnome-radio.c:470
+#: ../src/gnome-radio.c:1083
+msgid ""
+"Search by city or drag/click on the zoomable map to listen to a radio "
+"broadcast"
+msgstr ""
+"Radyo yayınını dinlemek için şehre göre arama yap veya yakınlaştırılabilir "
+"haritayı sürükle/tıkla"
+
+#: ../src/gnome-radio.c:485
+#, c-format
+msgid "Previous Internet Radio Station\n"
+msgstr "Önceki İnternet Radyo İstasyonu\n"
+
+#: ../src/gnome-radio.c:619
+msgid "Search"
+msgstr "Ara"
+
+#: ../src/gnome-radio.c:623
+msgid "Search Internet Radio Station"
+msgstr "İnternet Radyo İstasyonu Ara"
+
+#: ../src/gnome-radio.c:628
+msgid "Prev"
+msgstr "Önceki"
+
+#: ../src/gnome-radio.c:632
+msgid "Prev Internet Radio Station"
+msgstr "Önceki İnternet Radyo İstasyonu"
+
+#: ../src/gnome-radio.c:635
+#: ../src/gnome-radio.c:639
+msgid "Stations"
+msgstr "İstasyonlar"
+
+#: ../src/gnome-radio.c:642
+msgid "Next"
+msgstr "Sonraki"
+
+#: ../src/gnome-radio.c:646
+msgid "Next Internet Radio Station"
+msgstr "Sonraki İnternet Radyo İstasyonu"
+
+#: ../src/gnome-radio.c:649
+#: ../src/gnome-radio.c:653
+msgid "About Station"
+msgstr "İstasyon Hakkında"
+
+#: ../src/gnome-radio.c:656
+#: ../src/gnome-radio.c:660
+msgid "About Program"
+msgstr "Program Hakkında"
+
+#. give it the title
+#: ../src/gnome-radio.c:672
+#: ../src/gnome-radio.c:862
+msgid "GNOME Radio"
+msgstr "GNOME İnternet Radyosu Konumlayıcı"
+
+#: ../src/gnome-radio.c:717
+#, c-format
+msgid ""
+"Nothing\n"
+"\n"
+msgstr ""
+"Yok\n"
+"\n"
+
+#: ../src/gnome-radio.c:928
+msgid "New"
+msgstr "Yeni"
+
+#: ../src/gnome-radio.c:1021
+msgid "Stop"
+msgstr "Dur"
+
+#: ../src/gnome-radio.c:1027
+msgid "Zoom In"
+msgstr "Yakınlaştır"
+
+#: ../src/gnome-radio.c:1041
+msgid "Zoom Out"
+msgstr "Uzaklaştır"
+
+#: ../src/gnome-radio.c:1046
+msgid "Markers"
+msgstr "İmleyiciler"
+
+#: ../src/gnome-radio.c:1068
+msgid "Exit"
+msgstr "Çık"
+
+# Bölünmüş cümle hatası raporlandı.
+#~ msgid " in "
+#~ msgstr " içine "
+
+#~ msgid "ONLINE"
+#~ msgstr "ÇEVRİMİÇİ"

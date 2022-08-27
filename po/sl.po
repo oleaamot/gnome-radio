@@ -1,0 +1,123 @@
+# Slovenian translation for gnome-radio.
+# Copyright (C) 2017 gnome-radio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-radio package.
+#
+# Matej Urbančič <mateju@svn.gnome.org>, + 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"internet-radio-locator&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-09-18 21:08+0200\n"
+"PO-Revision-Date: 2017-10-15 20:54+0200\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+msgid "GNOME Radio"
+msgstr "Iskalnik spletnih radijskih postaj za GNOME"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Listen to and record from Internet radio"
+msgstr "Poslušanje in snemanje spletnih radijskih postaj"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+msgid ""
+"GNOME Radio allows users to easily find and listen to live "
+"radio programs on radio broadcasters on the Internet."
+msgstr ""
+"Iskalnik spletnih radijskih postaj omogoča uporabnikom enostavno iskanje in "
+"poslušanje radijskega programa v živo prek interneta."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+msgid ""
+"GNOME Radio is developed for the GNOME desktop and requires "
+"gstreamer 1.0 to be installed for playback of supported radio stations."
+msgstr ""
+"Iskalnik spletnih radijskih postaj je program, razvit za namizje GNOME in "
+"zahteva namestitev paketa gstreamer 1.0 za predvajanje podprtih radijskih "
+"postaj."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+msgid ""
+"Enjoy listening to and recording from supported Internet Radio stations in "
+"GNOME Radio."
+msgstr ""
+"Uživajte v poslušanju in shanjevanju posnetkov z internetnih radijskih "
+"postaj."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "Iskalnik spletnih radijskih postaj"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "Iskanje spletnih radijskih postaj"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr "radio;program;postaje;iskalnik;v živo;glasba;FM;AM;"
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "Poteka snemanje %s v %s do %s"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"Med poskusom predvajanja %s je prišlo do napake.\n"
+"Datoteka morda ne obstaja, ali pa ni ustreznega predvajalnika."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"Med poskusom snemanja %s je prišlo do napake.\n"
+"Datoteka morda ne obstaja, ali pa ni ustreznega snemalnika."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "Zaganjanje %s je spodletelo (%i)\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"Odpiranje naslova URL je spodletelo: »%s«\n"
+"Koda stanja: %i\n"
+"Podrobnosti: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"Odpiranje naslova URL je spodletelo: »%s«\n"
+"Podrobnosti: %s"

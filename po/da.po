@@ -1,0 +1,325 @@
+# Danish translation for gnome-radio.
+# Copyright (C) 2019 gnome-radio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-radio package.
+# scootergrisen, 2019-2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-internet-radio-"
+"locator/issues\n"
+"POT-Creation-Date: 2020-08-29 13:10+0000\n"
+"PO-Revision-Date: 2020-10-10 00:00+0200\n"
+"Last-Translator: scootergrisen\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+msgid "GNOME Radio for GNOME 3"
+msgstr "GNOME Internetradio til GNOME 3"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Locate and listen to Free Internet Radio stations"
+msgstr "Find og lyt til frie radiostationer på internettet"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+msgid ""
+"GNOME Radio for GNOME 3 is a Free Software program that "
+"allows you to easily locate and listen to Free Internet Radio stations by "
+"broadcasters on the Internet with the help of a map."
+msgstr ""
+"GNOME Internetradio til GNOME 3 er et frit softwareprogram der ved hjælp af "
+"et kort giver dig mulighed for let at finde og lytte til frie radiostationer "
+"der sender på internettet."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+msgid ""
+"GNOME Radio for GNOME 3 is developed for the GNOME 3 "
+"desktop and requires gstreamer 1.0 to be installed for listening to Free "
+"Internet Radio stations."
+msgstr ""
+"GNOME Internetradio til GNOME 3 er udviklet til GNOME 3-skrivebordet og "
+"kræver at gstreamer 1.0 er installeret for at kunne lytte til frie "
+"radiostationer på internettet."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+msgid ""
+"Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+"Locator for GNOME 3."
+msgstr ""
+"Lyt til frie radiostationer på internettet i GNOME Internetradio til GNOME 3."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "Internetradio"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "Find radiostationer på internettet"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr "Live;Radio;Program;Station;Søger;"
+
+#: ../src/gnome-radio-gui.c:92
+#: ../src/gnome-radio-gui.c:104
+#: ../src/gnome-radio-gui.c:312
+#: ../src/gnome-radio.c:961
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Kunne ikke åbne %s\n"
+
+#: ../src/gnome-radio-gui.c:219
+msgid "Added "
+msgstr "Tilføjede "
+
+#: ../src/gnome-radio-gui.c:219
+msgid " in "
+msgstr " i "
+
+#. The Stations dialog
+#: ../src/gnome-radio-gui.c:256
+msgid "New Internet Radio Station"
+msgstr "Ny radiostation på internettet"
+
+#: ../src/gnome-radio-gui.c:259
+msgid "_Save"
+msgstr "_Gem"
+
+#: ../src/gnome-radio-gui.c:281
+msgid "Station name"
+msgstr "Stationsnavn"
+
+#: ../src/gnome-radio-gui.c:282
+msgid "Bandwidth"
+msgstr "Båndbredde"
+
+#: ../src/gnome-radio-gui.c:284
+msgid "City name"
+msgstr "Bynavn"
+
+#: ../src/gnome-radio-gui.c:288
+msgid "http://uri-to-stream/"
+msgstr "http://uri-som-skal-streames/"
+
+#: ../src/gnome-radio-gui.c:289
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../src/gnome-radio-gui.c:290
+msgid "http://uri-to-website/"
+msgstr "http://uri-til-websted/"
+
+#: ../src/gnome-radio-gui.c:301
+#, c-format
+msgid "Failed to open %s.  Please install it.\n"
+msgstr "Kunne ikke åbne %s. Installer den venligst.\n"
+
+#: ../src/gnome-radio-gui.c:434
+#: ../src/gnome-radio.c:455
+msgid "http://fm939.wnyc.org/wnycfm"
+msgstr "http://fm939.wnyc.org/wnycfm"
+
+#: ../src/gnome-radio-gui.c:437
+msgid "WNYC"
+msgstr "WNYC"
+
+#: ../src/gnome-radio-gui.c:440
+msgid "New York City, NY"
+msgstr "New York City, NY"
+
+#: ../src/gnome-radio-gui.c:443
+msgid "Online"
+msgstr "Online"
+
+#: ../src/gnome-radio-gui.c:446
+msgid ""
+"WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, "
+"broadcasting the finest programs from NPR, American Public Media, Public "
+"Radio International and the BBC World Service, as well as a wide range of "
+"award-winning local programming."
+msgstr ""
+"WNYC 93.9 FM og AM 820 er New Yorks flagskibe når det kommer til offentlige "
+"radiostationer. De sender de bedste programmer fra NPR, American Public "
+"Media, Public Radio International og BBC World-tjenesten, såvel som en bred "
+"vifte af prisbelønnede lokale radioprogrammer."
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "Optager fra %s i %s til %s"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"Der opstod en fejl ved afspilning af %s\n"
+"Filen findes enten ikke eller også har du ikke en afspiller til den."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"Der opstod en fejl ved optagelse af %s\n"
+"Filen findes enten ikke eller også har du ikke en optager til den."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "Kunne ikke køre %s (%i)\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"Kunne ikke åbne URL'en: “%s”\n"
+"Statuskode: %i\n"
+"Detaljer: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"Kunne ikke åbne URL'en: “%s”\n"
+"Detaljer: %s"
+
+#: ../src/gnome-radio.c:100
+msgid "Exit after T seconds. Default: 30"
+msgstr "Afslut efter T sekunder. Standard: 30"
+
+#: ../src/gnome-radio.c:107
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Rapportér kun opdatering af placering efter T sekunder. Standard: 0 (rapportér "
+"ny placering uden forsinkelse)"
+
+#: ../src/gnome-radio.c:115
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"Præcisionsniveau for anmodning A. Land = 1, by = 4, område = 5, gade = 6, præcist "
+"= 8."
+
+#: ../src/gnome-radio.c:439
+#, c-format
+msgid "New Internet Radio Station\n"
+msgstr "Ny radiostation på internettet\n"
+
+#: ../src/gnome-radio.c:445
+#, c-format
+msgid "Search Internet Radio Station\n"
+msgstr "Søg efter radiostation på internettet\n"
+
+#: ../src/gnome-radio.c:469
+#: ../src/gnome-radio.c:1082
+msgid ""
+"Search by city or drag/click on the zoomable map to listen to a radio "
+"broadcast"
+msgstr ""
+"Søg efter by eller træk/klik på kortet, som der kan zoomes på, for at lytte "
+"til en radioudsendelse"
+
+#: ../src/gnome-radio.c:484
+#, c-format
+msgid "Previous Internet Radio Station\n"
+msgstr "Forrige radiostation på internettet\n"
+
+#: ../src/gnome-radio.c:618
+msgid "Search"
+msgstr "Søg"
+
+#: ../src/gnome-radio.c:622
+msgid "Search Internet Radio Station"
+msgstr "Søg efter radiostation på internettet"
+
+#: ../src/gnome-radio.c:627
+msgid "Prev"
+msgstr "Forrige"
+
+#: ../src/gnome-radio.c:631
+msgid "Prev Internet Radio Station"
+msgstr "Forrige radiostation på internettet"
+
+#: ../src/gnome-radio.c:634
+#: ../src/gnome-radio.c:638
+msgid "Stations"
+msgstr "Stationer"
+
+#: ../src/gnome-radio.c:641
+msgid "Next"
+msgstr "Næste"
+
+#: ../src/gnome-radio.c:645
+msgid "Next Internet Radio Station"
+msgstr "Næste radiostation på internettet"
+
+#: ../src/gnome-radio.c:648
+#: ../src/gnome-radio.c:652
+msgid "About Station"
+msgstr "Om station"
+
+#: ../src/gnome-radio.c:655
+#: ../src/gnome-radio.c:659
+msgid "About Program"
+msgstr "Om program"
+
+#. give it the title
+#: ../src/gnome-radio.c:671
+#: ../src/gnome-radio.c:861
+msgid "GNOME Radio"
+msgstr "GNOME Internetradio"
+
+#: ../src/gnome-radio.c:716
+#, c-format
+msgid ""
+"Nothing\n"
+"\n"
+msgstr ""
+"Intet\n"
+"\n"
+
+#: ../src/gnome-radio.c:927
+msgid "New"
+msgstr "Ny"
+
+#: ../src/gnome-radio.c:1020
+msgid "Stop"
+msgstr "Stop"
+
+#: ../src/gnome-radio.c:1026
+msgid "Zoom In"
+msgstr "Zoom ind"
+
+#: ../src/gnome-radio.c:1040
+msgid "Zoom Out"
+msgstr "Zoom ud"
+
+#: ../src/gnome-radio.c:1045
+msgid "Markers"
+msgstr "Markører"
+
+#: ../src/gnome-radio.c:1067
+msgid "Exit"
+msgstr "Afslut"

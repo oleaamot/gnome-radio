@@ -1,10 +1,10 @@
 Name:           gnome-radio
-Version:        14.0.0
+Version:        45.1
 Release:        1%{?dist}
-Summary:        GNOME Radio 14 for GNOME 42
+Summary:        Radio
 License:        GPLv3+
-URL:            https://people.gnome.org/~ole/%{name}
-Source:         %{url}/%{name}-%{version}.tar.xz
+URL:            http://www.gnomeradio.org/
+Source:         %{url}/src/%{name}-%{version}.tar.xz
 
 BuildRequires:  gcc
 BuildRequires:  gtk3-devel
@@ -25,21 +25,22 @@ Requires:       gstreamer1-plugins-ugly-free >= 1.8.3
 Requires:       geocode-glib >= 3.20.1
 Requires:       gtk3 >= 3.24.28
 Requires:       geoclue2 >= 2.5.7
+Provides:       gnome-internet-radio-locator = 16.0.6
+Obsoletes:      gnome-internet-radio-locator < 16.0.6
 
 %description
-GNOME Radio 14 is a Free Software program that allows you easily
-listen to National Public Radio (NPR) broadcasts under GNOME 42.
 
-GNOME Radio 14 is developed on the GNOME 42 desktop platform and
-it requires GTK+ 3.0, Clutter and GStreamer 1.0 for playback.
+Radio is a Free Software program that allows you to easily locate Free
+Internet Radio stations by broadcasters on the Internet with the help
+of map and text search.
 
-Enjoy National Public Radio (NPR) broadcasts under GNOME 42.
+Radio is developed on the GNOME desktop platform.
 
 %prep
 %setup -q
 
 %build
-%configure --disable-silent-rules --disable-schemas
+%configure --with-recording --disable-silent-rules --disable-schemas
 %make_build
 %install
 %make_install
@@ -49,18 +50,43 @@ Enjoy National Public Radio (NPR) broadcasts under GNOME 42.
 appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/%{name}.appdata.xml
 desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 %files -f %{name}.lang
-%doc AUTHORS NEWS README ChangeLog
+%doc AUTHORS NEWS README TODO ChangeLog
 %license COPYING
 %{_bindir}/%{name}
+%{_bindir}/gnome-internet-radio-locator
+%{_bindir}/org.gnome.Radio
+%{_datadir}/%{name}/org.gnome.Radio.dtd
+%{_datadir}/%{name}/org.gnome.Radio.xml
+%{_datadir}/%{name}/doc/AAMOT.txt.xz
+%{_datadir}/%{name}/doc/Aamot-2020.txt.xz
+%{_datadir}/%{name}/gnome-radio-43.0.dtd
+%{_datadir}/%{name}/gnome-radio.xml
 %{_metainfodir}/%{name}.appdata.xml
 %{_datadir}/applications/%{name}.desktop
-%{_datadir}/applications/org.gnome.Radio.desktop.in
 %{_datadir}/icons/hicolor/scalable/apps/gnome-radio.svg
-%{_datadir}/metainfo/org.gnome.Radio.appdata.xml
+%{_mandir}/man1/%{name}.1*
 
 %changelog
-* Sun Jan 30 2022 Ole Aamot <ole@gnome.org> - 14.0.0-1
-- gnome-radio 14.0.0 build on Fedora Linux 35
+* Sun Aug 14 2022 Ole Aamot <ole@gnome.org> - 45.1-1
+- Initial gnome-radio 45.1 builds with Free Asia radio
 
-* Thu Jul 29 2021 Ole Aamot <ole@gnome.org> - 0.3.0-1
-- gnome-radio 0.3.0 build on Fedora Linux 34
+* Wed Jul 20 2022 Ole Aamot <ole@gnome.org> - 45.0-1
+- Initial gnome-radio 45.0 builds with GTK on Fedora 36
+
+* Fri May 27 2022 Ole Aamot <ole@gnome.org> - 16.0.43-1
+- Initial gnome-radio 16.0.43 builds on Fedora Linux 36
+
+* Sat Apr 02 2022 Ole Aamot <ole@gnome.org> - 16.0.42-1
+- Second gnome-radio 16.0.42 builds on Fedora Linux 36
+
+* Mon Mar 28 2022 Ole Aamot <ole@gnome.org> - 16.0.6-1
+- Initial gnome-radio 16.0.6 builds on Fedora Linux 36
+
+* Mon Mar 28 2022 Ole Aamot <ole@gnome.org> - 16.0.5-1
+- Initial gnome-radio 16.0.5 builds on Fedora Linux 35
+
+* Sat Mar 19 2022 Ole Aamot <ole@gnome.org> - 16.0.4-1
+- Initial gnome-radio 16.0.4 builds on Fedora Linux 36
+
+* Tue Mar 15 2022 Ole Aamot <ole@gnome.org> - 14.0.1-1
+- Initial gnome-radio 14.0.1 builds on Fedora Linux 35

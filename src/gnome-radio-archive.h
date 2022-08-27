@@ -1,0 +1,44 @@
+/* $Id$
+ *
+ * GNOME Radio
+ *
+ * Copyright (C) 2021  Aamot Software
+ *
+ * Author: Ole Aamot <ole@gnome.org>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+#ifndef GNOME_RADIO_ARCHIVE_H
+#define GNOME_RADIO_ARCHIVE_H
+
+#include <gtk/gtk.h>
+#include "gnome-radio.h"
+#include "gnome-radio-streams.h"
+
+typedef struct _GNOMERadioArchiveInfo GNOMERadioArchiveInfo;
+
+struct _GNOMERadioArchiveInfo {
+	gchar *id;
+	gchar *name;
+	GNOMERadioArchiveInfo *next;
+	gchar *mimetype;
+	glong bitrate;
+	glong samplerate;
+	/* GNOMERadioChannels channels; */
+	gchar *uri;
+};
+
+#endif /* GNOME_RADIO_ARCHIVE_H */

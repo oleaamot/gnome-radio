@@ -1,0 +1,37 @@
+GNOME Radio is currently available as a GNOME desktop
+program with source code released under GNU General Public License
+version 3.
+
+The initial work on this Free Software program began in November 2021
+and the work continues in 2022.
+
+The Git source code repository is available at
+
+    https://gitlab.gnome.org/ole/gnome-radio.git
+
+The issue tracker is available at
+
+    https://gitlab.gnome.org/ole/gnome-radio/issues
+
+The Wiki page is available at
+
+    https://wiki.gnome.org/Apps/Radio
+
+You are welcome to contribute to the GNOME Radio code
+base either by translating it into your language and contributing
+patches and adding new Internet radio stations in
+
+    src/gnome-radio.xml
+
+and adding map markers in GNOME Maps on
+
+    src/gnome-radio-markers.c
+
+Any contribution is welcome and always credited in AUTHORS and THANKS.
+
+To enable debugging messages, modify the CC compilation definition
+flag from -DGNOME_RADIO_DEBUG=1 to
+-DGNOME_RADIO_DEBUG=0 in src/Makefile.am
+
+Enjoy Free Internet radio,
+Ole Aamot <ole@gnome.org>

@@ -1,0 +1,7 @@
+GNOME Radio compiles and runs on Fedora.
+
+See https://people.gnome.org/~ole/fedora/ for x86_64 packages.
+
+If you are packaging GNOME Radio for Fedora
+and/or other GNU/Linux distributions, please coordinate this
+with ole@gnome.org.

@@ -1,0 +1,335 @@
+# Croatian translation for gnome-radio.
+# Copyright (C) 2017 gnome-radio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-radio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-radio master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-internet-radio-"
+"locator/issues\n"
+"POT-Creation-Date: 2021-09-30 07:44+0000\n"
+"PO-Revision-Date: 2021-10-01 16:24+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../data/gnome-radio.appdata.xml.in.h:1
+#: ../src/gnome-radio.c:624
+msgid "GNOME Radio 13 for GNOME 42"
+msgstr "GNOME Internet radio lokator 12 za GNOME 42"
+
+#: ../data/gnome-radio.appdata.xml.in.h:2
+msgid "Locate and listen to Free Internet Radio stations"
+msgstr "Locirajte i slušajte internetske radio stanice"
+
+#: ../data/gnome-radio.appdata.xml.in.h:3
+msgid ""
+"GNOME Radio 13 for GNOME 42 is a Free Software program that "
+"allows you to easily locate and listen to Free Internet Radio stations by "
+"broadcasters on the Internet with the help of a map."
+msgstr ""
+"GNOME Internet radio lokator 12 za GNOME 42 je slobodan softver koji vam "
+"omogućuje da s lakoćom pronađete i slušate internetske radio stanice koje "
+"emitiraju putem interneta uz pomoć karte."
+
+#: ../data/gnome-radio.appdata.xml.in.h:4
+msgid ""
+"GNOME Radio 13 for GNOME 42 is developed for the GNOME 42 "
+"desktop and requires gstreamer 1.0 to be installed for streaming the Free "
+"Internet Radio stations."
+msgstr ""
+"GNOME Internet radio lokator 12 za GNOME 42 je razvijen za GNOME 3 radnu "
+"površinu i zahtijeva gstreamer 1.0 za reprodukciju podržanih radio stanica."
+
+#: ../data/gnome-radio.appdata.xml.in.h:5
+msgid ""
+"Enjoy listening to Free Internet Radio stations in GNOME Internet Radio "
+"Locator 12 for GNOME 42."
+msgstr ""
+"Uživajte u slušanju podržanih internetskih radio stanica u GNOME Internet "
+"Radio Lokatoru 12 za GNOME 42."
+
+#: ../data/gnome-radio.desktop.in.in.h:1
+msgid "Internet Radio Locator"
+msgstr "Internet radio lokator"
+
+#: ../data/gnome-radio.desktop.in.in.h:2
+msgid "Locate Internet Radio Stations"
+msgstr "Locirajte internetske radio stanice"
+
+#. Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
+#: ../data/gnome-radio.desktop.in.in.h:4
+msgid "Live;Radio;Program;Station;Locator;"
+msgstr "Uživo;Radio;Program;Stanica;Lokator;"
+
+#: ../src/gnome-radio-gui.c:92
+#: ../src/gnome-radio-gui.c:104
+#: ../src/gnome-radio-gui.c:310
+#: ../src/gnome-radio.c:923
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Neuspjelo otvaranje %s\n"
+
+#. Translators: first %s is station name and second %s is station location
+#: ../src/gnome-radio-gui.c:218
+#, c-format
+msgid "Added %s in %s"
+msgstr "Dodano %s iz %s"
+
+#. The Stations dialog
+#: ../src/gnome-radio-gui.c:254
+msgid "New Internet Radio Station"
+msgstr "Nova internetska radio stanica"
+
+#: ../src/gnome-radio-gui.c:257
+msgid "_Save"
+msgstr "_Spremi"
+
+#: ../src/gnome-radio-gui.c:279
+msgid "Station name"
+msgstr "Naziv stanice"
+
+#: ../src/gnome-radio-gui.c:280
+msgid "Bandwidth"
+msgstr "Frekvencija"
+
+#: ../src/gnome-radio-gui.c:282
+msgid "City name"
+msgstr "Naziv grada"
+
+#: ../src/gnome-radio-gui.c:286
+msgid "http://uri-to-stream/"
+msgstr "http://uri-do-strujanja/"
+
+#: ../src/gnome-radio-gui.c:287
+msgid "Description"
+msgstr "Opis"
+
+#: ../src/gnome-radio-gui.c:288
+msgid "http://uri-to-website/"
+msgstr "http://uri-na-web-stranicu/"
+
+#: ../src/gnome-radio-gui.c:299
+#, c-format
+msgid "Failed to open %s.  Please install it.\n"
+msgstr "Neuspjelo otvaranje %s. Instalirajte ga.\n"
+
+#: ../src/gnome-radio-gui.c:430
+#: ../src/gnome-radio.c:408
+msgid "http://fm939.wnyc.org/wnycfm"
+msgstr "http://fm939.wnyc.org/wnycfm"
+
+#: ../src/gnome-radio-gui.c:433
+msgid "WNYC"
+msgstr "WNYC"
+
+#: ../src/gnome-radio-gui.c:436
+msgid "New York City, NY"
+msgstr "New York City, NY"
+
+#: ../src/gnome-radio-gui.c:439
+msgid "Online"
+msgstr "Dostupan"
+
+#: ../src/gnome-radio-gui.c:442
+msgid ""
+"WNYC 93.9 FM and AM 820 are New York's flagship public radio stations, "
+"broadcasting the finest programs from NPR, American Public Media, Public "
+"Radio International and the BBC World Service, as well as a wide range of "
+"award-winning local programming."
+msgstr ""
+"WNYC 93.9 FM i AM 820 su njujorške vodeće javne radiostanice, emitiraju "
+"najbolji programa iz NPR-a, američkih javnih medija, javnog radija i BBC "
+"World Service, kao i širok spektar nagrađivanog lokalnog programa."
+
+#: ../src/gnome-radio-location.c:54
+msgid "Exit after T seconds. Default: 30"
+msgstr "Zatvori nakon T sekundi. Zadano: 30"
+
+#: ../src/gnome-radio-location.c:61
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Samo prijavi nadopunu lokacije nakon T sekundi. Zadano: 0 (prijavi nove "
+"lokacije bez odgode)"
+
+#: ../src/gnome-radio-location.c:69
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"Razina točnosti zahtjeva A. Zemlja = 1, Grad =4, Susjedstvo = 5, Ulica = 6, "
+"Točnost =8."
+
+#. printf("Archiving program at %s\n", archive);
+#: ../src/gnome-radio-station.c:129
+#, c-format
+msgid "Recording from %s in %s to %s"
+msgstr "Snimaj s %s u %s na %s"
+
+#: ../src/gnome-radio-station.c:147
+#, c-format
+msgid ""
+"An error happened trying to play %s\n"
+"Either the file doesn't exist, or you don't have a player for it."
+msgstr ""
+"Dogodila se greška pri pokušaju reprodukcije %s\n"
+"Ili datoteka ne postoji, ili nemate prikladni reproduktor."
+
+#: ../src/gnome-radio-station.c:153
+#, c-format
+msgid ""
+"An error happened trying to record %s\n"
+"Either the file doesn't exist, or you don't have a recorder for it."
+msgstr ""
+"Dogodila se greška pri pokušaju snimanja %s\n"
+"Ili datoteka ne postoji, ili nemate prikladni snimač."
+
+#: ../src/gnome-radio-station.c:184
+#: ../src/gnome-radio-station.c:204
+#: ../src/gnome-radio-station.c:321
+#: ../src/gnome-radio-station.c:344
+#, c-format
+msgid "Failed to run %s (%i)\n"
+msgstr "Neuspješno pokretanje %s (%i)\n"
+
+#: ../src/gnome-radio-station.c:231
+#: ../src/gnome-radio-station.c:368
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Status code: %i\n"
+"Details: %s"
+msgstr ""
+"Neuspješno otvaranje URL-a: '%s'\n"
+"Kôd stanja: %i\n"
+"Pojedinosti: %s"
+
+#: ../src/gnome-radio-station.c:249
+#: ../src/gnome-radio-station.c:263
+#, c-format
+msgid ""
+"Failed to open URL: '%s'\n"
+"Details: %s"
+msgstr ""
+"Neuspješno otvaranje URL-a: '%s'\n"
+"Pojedinosti: %s"
+
+#: ../src/gnome-radio.c:392
+msgid "New Internet Radio Station\n"
+msgstr "Nova internetska radio stanica\n"
+
+#: ../src/gnome-radio.c:398
+msgid "Search Internet Radio Station\n"
+msgstr "Pretraži internetsku radio stanicu\n"
+
+#: ../src/gnome-radio.c:422
+#: ../src/gnome-radio.c:1044
+msgid ""
+"Search by city or drag/click on the zoomable map to listen to a radio "
+"broadcast"
+msgstr ""
+"Pretraži po gradu ili povuci/klikni na zumiranu kartu kako bi slušali radio "
+"emitiranje"
+
+#: ../src/gnome-radio.c:437
+msgid "Previous Internet Radio Station\n"
+msgstr "Prijašnja internetska radio stanica\n"
+
+#: ../src/gnome-radio.c:571
+msgid "Search"
+msgstr "Pretraži"
+
+#: ../src/gnome-radio.c:575
+msgid "Search Internet Radio Station"
+msgstr "Pretraži internetsku radio stanicu"
+
+#: ../src/gnome-radio.c:580
+msgid "Prev"
+msgstr "Prijašnja"
+
+#: ../src/gnome-radio.c:584
+msgid "Prev Internet Radio Station"
+msgstr "Prijašnja internetska radio stanica"
+
+#: ../src/gnome-radio.c:587
+#: ../src/gnome-radio.c:591
+msgid "Stations"
+msgstr "Stanice"
+
+#: ../src/gnome-radio.c:594
+msgid "Next"
+msgstr "Sljedeća"
+
+#: ../src/gnome-radio.c:598
+msgid "Next Internet Radio Station"
+msgstr "Sljedeća internetska radio stanica"
+
+#: ../src/gnome-radio.c:601
+#: ../src/gnome-radio.c:605
+msgid "About Station"
+msgstr "O stanici"
+
+#: ../src/gnome-radio.c:608
+#: ../src/gnome-radio.c:612
+msgid "About Program"
+msgstr "O programu"
+
+#: ../src/gnome-radio.c:669
+msgid ""
+"Nothing\n"
+"\n"
+msgstr "Ništa\n"
+
+#. give it the title
+#: ../src/gnome-radio.c:815
+msgid "GNOME Radio"
+msgstr "GNOME Internet radio lokator"
+
+#: ../src/gnome-radio.c:880
+msgid "New"
+msgstr "Novo"
+
+#: ../src/gnome-radio.c:889
+msgid "Discover Location"
+msgstr "Otkrij lokaciju"
+
+#: ../src/gnome-radio.c:982
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: ../src/gnome-radio.c:988
+msgid "Zoom In"
+msgstr "Približi"
+
+#: ../src/gnome-radio.c:1002
+msgid "Zoom Out"
+msgstr "Udalji"
+
+#: ../src/gnome-radio.c:1007
+msgid "Markers"
+msgstr "Oznake"
+
+#: ../src/gnome-radio.c:1029
+msgid "Exit"
+msgstr "Zatvori"
+
+#~ msgid " in "
+#~ msgstr " u "
+
+#~ msgid "ONLINE"
+#~ msgstr "DOSTUPNO"
+
+#~ msgid "Listen to and record from Internet radio"
+#~ msgstr "Slušajte i snimajte internetske radio stanice"
+
+#~ msgid "Default Internet Radio station."
+#~ msgstr "Zadana internetska radio stanica."
