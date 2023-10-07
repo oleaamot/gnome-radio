@@ -161,7 +161,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/config.h.in \
 	$(srcdir)/gnome-radio.spec.in \
 	$(top_srcdir)/help/C/version.xml.in AUTHORS COPYING ChangeLog \
 	INSTALL NEWS README THANKS TODO compile config.guess \
-	config.sub install-sh ltmain.sh missing
+	config.sub depcomp install-sh ltmain.sh missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -206,15 +206,15 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} '/home/olekaa/gnome-radio/missing' aclocal-1.16
+ACLOCAL = ${SHELL} '/home/oka/gnome-radio/missing' aclocal-1.16
 ALL_LINGUAS = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
 AS = as
-AUTOCONF = ${SHELL} '/home/olekaa/gnome-radio/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/olekaa/gnome-radio/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/olekaa/gnome-radio/missing' automake-1.16
+AUTOCONF = ${SHELL} '/home/oka/gnome-radio/missing' autoconf
+AUTOHEADER = ${SHELL} '/home/oka/gnome-radio/missing' autoheader
+AUTOMAKE = ${SHELL} '/home/oka/gnome-radio/missing' automake-1.16
 AWK = gawk
 CATALOGS = 
 CATOBJEXT = .gmo
@@ -244,18 +244,17 @@ FILECMD = file
 GETTEXT_PACKAGE = gnome-radio
 GMOFILES = 
 GMSGFMT = /usr/bin/msgfmt
-GNOME_RADIO_CFLAGS = -I/usr/include/champlain-0.12 -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cloudproviders -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/clutter-gtk-1.0 -I/usr/include/clutter-1.0 -I/usr/include/cogl -I/usr/include/libdrm -I/usr/include/valgrind -I/usr/include/json-glib-1.0 -I/usr/include/libsoup-2.4 -I/usr/include/geocode-glib-1.0 -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/gtk-4.0 -I/usr/include/graphene-1.0 -I/usr/lib64/graphene-1.0/include -mfpmath=sse -msse -msse2 -I/usr/include/libgeoclue-2.0 -pthread 
-GNOME_RADIO_LIBS = -lchamplain-gtk-0.12 -lclutter-gtk-1.0 -lglib-2.0 -lglib-2.0 -lglib-2.0 -lglib-2.0 -lglib-2.0 -lgtk-3 -lchamplain-0.12 -lclutter-1.0 -lglib-2.0 -lcogl-path -lglib-2.0 -lglib-2.0 -latk-1.0 -lcogl-pango -lglib-2.0 -lcogl -lgmodule-2.0 -pthread -lglib-2.0 -lwayland-egl -lgbm -ldrm -lEGL -lXrandr -ljson-glib-1.0 -lgdk-3 -lz -lwayland-cursor -lwayland-client -lxkbcommon -lwayland-server -lX11 -lXext -lXdamage -lXfixes -lXcomposite -lXi -lgeocode-glib -lgstplayer-1.0 -lgsttag-1.0 -lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgtk-4 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lgraphene-1.0 -lgeoclue-2 -lgio-2.0 -lxml2 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype 
-GNOME_RADIO_PKG_DEPS = champlain-gtk-0.12 geocode-glib-1.0 glib-2.0 gobject-2.0 gstreamer-1.0 gstreamer-player-1.0 gstreamer-plugins-bad-1.0 gstreamer-plugins-base-1.0 gstreamer-plugins-good-1.0 gstreamer-video-1.0 gtk4 geoclue-2.0 libgeoclue-2.0 libxml-2.0 pangoft2
+GNOME_RADIO_CFLAGS = -I/usr/include/libgeoclue-2.0 -I/usr/include/gstreamer-1.0 -I/usr/include/geocode-glib-2.0 -I/usr/include/champlain-0.12 -I/usr/include/clutter-gtk-1.0 -I/usr/include/cogl -I/usr/include/json-glib-1.0 -I/usr/include/gtk-3.0 -I/usr/include/libdrm -I/usr/include/clutter-1.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/libxml2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/atk-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libsoup-3.0 -I/usr/include/cloudproviders -I/usr/include/blkid -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/libmount -I/usr/include/pixman-1 -I/usr/include/orc-0.4 -I/usr/include/fribidi -I/usr/include/libpng16 -I/usr/include/sysprof-6 -pthread
+GNOME_RADIO_LIBS = -lpangoft2-1.0 -lxml2 -lgeoclue-2 -lgsttag-1.0 -lgstplayer-1.0 -lgeocode-glib-2 -lchamplain-gtk-0.12 -lclutter-gtk-1.0 -lchamplain-0.12 -lharfbuzz -lcogl-path -lcogl-pango -ljson-glib-1.0 -lwayland-cursor -lxkbcommon -lXi -lfontconfig -lclutter-1.0 -lgstvideo-1.0 -lgstbase-1.0 -lfreetype -lgtk-3 -lcairo-gobject -lgmodule-2.0 -pthread -lwayland-egl -lgbm -ldrm -lEGL -lXrandr -lpangocairo-1.0 -lcogl -lgdk-3 -lz -latk-1.0 -lpango-1.0 -lwayland-server -lX11 -lXext -lXfixes -lXdamage -lXcomposite -lgdk_pixbuf-2.0 -lwayland-client -lgstreamer-1.0 -lgio-2.0 -lcairo -lglib-2.0 -lgobject-2.0
+GNOME_RADIO_PKG_DEPS = champlain-gtk-0.12 geocode-glib-2.0 glib-2.0 gobject-2.0 gstreamer-1.0 gstreamer-player-1.0 gstreamer-plugins-bad-1.0 gstreamer-plugins-base-1.0 gstreamer-plugins-good-1.0 gstreamer-video-1.0 gtk+-3.0 geoclue-2.0 libgeoclue-2.0 libxml-2.0 pangoft2
 GREP = /usr/bin/grep
 GTKDOC_CHECK = gtkdoc-check.test
 GTKDOC_CHECK_PATH = /usr/bin/gtkdoc-check
-GTKDOC_DEPS_CFLAGS = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -pthread 
-GTKDOC_DEPS_LIBS = -lgobject-2.0 -lglib-2.0 
+GTKDOC_DEPS_CFLAGS = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+GTKDOC_DEPS_LIBS = -lgobject-2.0 -lglib-2.0
 GTKDOC_MKPDF = /usr/bin/gtkdoc-mkpdf
 GTKDOC_REBASE = /usr/bin/gtkdoc-rebase
 HAVE_GNOME_RADIO_RECORD = 
-HELP_DIR = ${datadir}/help
 HTML_DIR = ${datadir}/gtk-doc/html
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
@@ -273,7 +272,6 @@ INTLTOOL_V_MERGE_OPTIONS = $(intltool__v_merge_options_$(V))
 INTLTOOL__v_MERGE_ = $(INTLTOOL__v_MERGE_$(AM_DEFAULT_VERBOSITY))
 INTLTOOL__v_MERGE_0 = @echo "  ITMRG " $@;
 INTL_MACOSX_LIBS = 
-ITSTOOL = itstool
 LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS = 
 LIBM = -lm
@@ -284,8 +282,8 @@ LIPO =
 LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-MAINT = 
-MAKEINFO = ${SHELL} '/home/olekaa/gnome-radio/missing' makeinfo
+MAINT = #
+MAKEINFO = ${SHELL} '/home/oka/gnome-radio/missing' makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 MKINSTALLDIRS = .//mkinstalldirs
@@ -301,10 +299,10 @@ OTOOL64 =
 PACKAGE = gnome-radio
 PACKAGE_BUGREPORT = 
 PACKAGE_NAME = gnome-radio
-PACKAGE_STRING = gnome-radio 45.1
+PACKAGE_STRING = gnome-radio 64.0.45
 PACKAGE_TARNAME = gnome-radio
 PACKAGE_URL = 
-PACKAGE_VERSION = 45.1
+PACKAGE_VERSION = 64.0.45
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
@@ -319,15 +317,12 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = strip
 USE_NLS = yes
-VERSION = 45.1
+VERSION = 64.0.45
 XGETTEXT = /usr/bin/xgettext
-XMLLINT = xmllint
-YELP_LC_DIST = true
-YELP_LC_MEDIA_LINKS = true
-abs_builddir = /home/olekaa/gnome-radio
-abs_srcdir = /home/olekaa/gnome-radio
-abs_top_builddir = /home/olekaa/gnome-radio
-abs_top_srcdir = /home/olekaa/gnome-radio
+abs_builddir = /home/oka/gnome-radio
+abs_srcdir = /home/oka/gnome-radio
+abs_top_builddir = /home/oka/gnome-radio
+abs_top_srcdir = /home/oka/gnome-radio
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -356,7 +351,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/olekaa/gnome-radio/install-sh
+install_sh = ${SHELL} /home/oka/gnome-radio/install-sh
 intltool__v_merge_options_ = $(intltool__v_merge_options_$(AM_DEFAULT_VERBOSITY))
 intltool__v_merge_options_0 = -q
 libdir = ${exec_prefix}/lib
@@ -424,7 +419,7 @@ all: config.h
 .SUFFIXES:
 am--refresh: Makefile
 	@:
-$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
+$(srcdir)/Makefile.in: # $(srcdir)/Makefile.am  $(am__configure_deps)
 	@for dep in $?; do \
 	  case '$(am__configure_deps)' in \
 	    *$$dep*) \
@@ -450,9 +445,9 @@ Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 $(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
 	$(SHELL) ./config.status --recheck
 
-$(top_srcdir)/configure:  $(am__configure_deps)
+$(top_srcdir)/configure: # $(am__configure_deps)
 	$(am__cd) $(srcdir) && $(AUTOCONF)
-$(ACLOCAL_M4):  $(am__aclocal_m4_deps)
+$(ACLOCAL_M4): # $(am__aclocal_m4_deps)
 	$(am__cd) $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
 $(am__aclocal_m4_deps):
 
@@ -463,7 +458,7 @@ config.h: stamp-h1
 stamp-h1: $(srcdir)/config.h.in $(top_builddir)/config.status
 	@rm -f stamp-h1
 	cd $(top_builddir) && $(SHELL) ./config.status config.h
-$(srcdir)/config.h.in:  $(am__configure_deps) 
+$(srcdir)/config.h.in: # $(am__configure_deps) 
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f stamp-h1
 	touch $@

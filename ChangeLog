@@ -1,3 +1,302 @@
+commit c355fbb2fa6dcb782f0a2da9bbaa12c2d4d57589
+Author: Ole Aamot <ole@gnome.org>
+Date:   Mon Nov 21 15:15:58 2022 +0100
+
+    Build on Fedora Core 37
+
+ gnome-radio.spec.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4fdc9e4e9eee6b8a4ea314a5d53cad462395e08b
+Author: Ole Aamot <ole@gnome.org>
+Date:   Mon Nov 21 15:15:09 2022 +0100
+
+    Add Radio 64.0 DTD
+
+ src/gnome-radio-64.0.dtd | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+commit 814f4faaec3446cac6fe204b178eb13b69f771e7
+Author: Ole Aamot <ole@gnome.org>
+Date:   Mon Nov 21 15:13:58 2022 +0100
+
+    GNOME Radio (gnome-radio) version 64.0
+
+ ChangeLog                      | 199 +++++++++++++++++++++++++++++++++++++----
+ Makefile.in                    |   3 +-
+ NEWS                           |   8 ++
+ configure                      | 143 ++++++++++-------------------
+ configure.ac                   |   2 +-
+ data/Makefile.in               |   1 -
+ data/gnome-radio.desktop.in    |   2 +-
+ data/gnome-radio.desktop.in.in |   2 +-
+ data/icons/Makefile.in         |   1 -
+ doc/Makefile.in                |   1 -
+ gnome-radio.spec.in            |   3 +
+ gtk/Makefile.in                |   1 -
+ gtk/org.gnome.Radio.json       |   2 +-
+ gtk/org.gnome.Radio.xml        |  12 +--
+ help/Makefile.in               |   1 -
+ m4/libtool.m4                  |   5 +-
+ man/Makefile.in                |   1 -
+ src/Makefile.am                |   4 +-
+ src/Makefile.in                |   5 +-
+ src/gnome-radio-markers.c      |  11 +++
+ src/gnome-radio-station.c      |   2 +-
+ src/gnome-radio.c              |   4 +-
+ src/gnome-radio.xml            |  14 +--
+ 23 files changed, 280 insertions(+), 147 deletions(-)
+
+commit 1717eba634632e48457886cfd85109efc13e1556
+Author: Ole Aamot <ole@gnome.org>
+Date:   Wed Nov 2 15:48:22 2022 +0100
+
+    GNOME Radio (gnome-radio) version 48.1
+
+ gnome-radio.spec.in | 3 +++
+ src/gnome-radio.c   | 4 ++--
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+commit 88f94f47b6fdc940201d4fd81c452f595c1571f2
+Author: Ole Aamot <ole@gnome.org>
+Date:   Wed Oct 5 07:04:46 2022 +0200
+
+    Radio 48.1 for Flatpak
+
+ Makefile.in              |  2 +-
+ configure                | 20 ++++++++++----------
+ configure.ac             |  2 +-
+ gtk/Makefile.am          |  2 +-
+ gtk/Makefile.in          |  2 +-
+ gtk/org.gnome.Radio.json | 15 +++++++++++++--
+ 6 files changed, 27 insertions(+), 16 deletions(-)
+
+commit e619f16be32030b2ed96d5de62fa623aeea19999
+Author: Ole Aamot <ole@gnome.org>
+Date:   Wed Oct 5 06:08:45 2022 +0200
+
+    Flathub: org.gnome.Radio.json
+
+ gtk/org.gnome.Radio.json | 94 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 94 insertions(+)
+
+commit 107e14b28962bb788b9852440a2f380f61bbd3b3
+Merge: b419ee6 af15fe7
+Author: Ole Aamot <ole@gnome.org>
+Date:   Mon Oct 3 21:25:26 2022 +0000
+
+    Merge branch 'rebranding' into 'main'
+    
+    WIP: data: Remove GNOME branding
+    
+    See merge request ole/gnome-radio!7
+
+commit af15fe70cfbae519f08ce13b6673e96dc5ed3ce8
+Author: Sabri Ünal <libreajans@gmail.com>
+Date:   Mon Oct 3 21:25:26 2022 +0000
+
+    WIP: data: Remove GNOME branding
+
+ AMFM                                  |  4 ++--
+ BROADCAST                             |  4 ++--
+ DEBIAN                                |  4 ++--
+ FEDORA                                |  4 ++--
+ GEOLOCATION                           |  2 +-
+ GTK4                                  |  2 +-
+ HACKING                               |  4 ++--
+ README                                |  4 ++--
+ TODO                                  |  2 +-
+ UBUNTU                                |  4 ++--
+ configure                             |  2 +-
+ configure.ac                          |  2 +-
+ data/applications/gnome-radio.desktop |  2 +-
+ data/gnome-radio.appdata.xml.in       |  6 +++---
+ data/org.gnome.Radio.appdata.xml.in   |  4 ++--
+ gnome-radio.doap                      |  1 -
+ help/C/exit.page                      |  4 ++--
+ help/C/index.page                     | 14 +++++++-------
+ help/C/intro.page                     |  6 +++---
+ help/C/new.page                       |  4 ++--
+ help/C/search.page                    |  4 ++--
+ help/C/stop.page                      |  2 +-
+ man/gnome-internet-radio-locator.1    |  8 ++++----
+ man/gnome-radio.1                     |  6 +++---
+ 24 files changed, 49 insertions(+), 50 deletions(-)
+
+commit b419ee628976033298bd30d4ab0746d4331c5f6f
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 05:55:59 2022 +0200
+
+    GNOME Radio 48 Screenshot
+
+ data/screenshot.png | Bin 212141 -> 241467 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 87056f5394046bbe35e062849275530e7b39665d
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 05:42:51 2022 +0200
+
+    Add accels for app.about (<primary>a)
+
+ src/gnome_radio-application.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 484452c5aa0b17e4f208bf87de23912ab09a6a24
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 05:24:01 2022 +0200
+
+    Documentation in GNOME Radio 48 for GNOME 44
+
+ Makefile.in        |  2 +-
+ help/C/exit.page   |  8 ++++----
+ help/C/index.page  | 16 ++++++++--------
+ help/C/intro.page  |  8 ++++----
+ help/C/new.page    |  6 +++---
+ help/C/search.page |  6 +++---
+ help/C/stop.page   |  4 ++--
+ help/C/zoom.page   |  2 +-
+ 8 files changed, 26 insertions(+), 26 deletions(-)
+
+commit d8523f028cbcfc6d884750c8af5c6cdc877c122b
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 04:58:17 2022 +0200
+
+    Add screenshots of GNOME Radio 48
+
+ data/screenshots/maps-main.png     | Bin 858505 -> 134756 bytes
+ data/screenshots/maps-pinpoint.png | Bin 804100 -> 717142 bytes
+ data/screenshots/maps-route.png    | Bin 676993 -> 241467 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a2147979d9d0618ba68f2bab9fb4564cd5b070e2
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 04:53:56 2022 +0200
+
+    Update Appdata for org.gnome.Radio 48
+
+ data/org.gnome.Radio.appdata.xml.in | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit a1e03138bf50d2c6bf88fbba1505e2916a94f6f0
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 04:50:18 2022 +0200
+
+    Meson Build of org.gnome.Radio 48
+
+ meson.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 72f90b492fdf65a657144b02b7ba0d7738f59b5c
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sat Oct 1 03:08:56 2022 +0200
+
+    GNOME Radio (gnome-radio) version 48.0
+
+ ChangeLog                       |  41 ++++++++++++++
+ Makefile.in                     |   2 +-
+ NEWS                            |   9 +++
+ README                          |   8 +--
+ configure                       |  20 +++----
+ configure.ac                    |   2 +-
+ data/gnome-radio.appdata.xml.in |  12 ++--
+ data/gnome-radio.desktop.in     |   2 +-
+ data/gnome-radio.desktop.in.in  |   2 +-
+ gnome-radio.spec.in             |   3 +
+ gtk/org.gnome.Radio.xml         | 122 ++++++++++++++++++++++++++++++++++------
+ src/gnome-radio.c               |   4 +-
+ src/gnome-radio.xml             |  21 ++++---
+ 13 files changed, 194 insertions(+), 54 deletions(-)
+
+commit 2fac744c13e35ab9c4967424b11173abee542e1e
+Author: Ole Aamot <ole@gnome.org>
+Date:   Tue Sep 27 11:23:07 2022 +0200
+
+    GNOME Radio (gnome-radio) version 47.0
+
+ ChangeLog                 | 1556 ++++++++++++++++++++++++++++++++++++++++-----
+ GEOLOCATION               |    2 +-
+ NEWS                      |   12 +
+ README                    |    2 +-
+ configure                 |   20 +-
+ configure.ac              |    2 +-
+ gnome-radio.spec.in       |    3 +
+ src/gnome-radio-markers.c |   20 +-
+ src/gnome-radio.c         |    4 +-
+ src/gnome-radio.xml       |   27 +-
+ 10 files changed, 1455 insertions(+), 193 deletions(-)
+
+commit 4a2023cd32ad6e964cafdb228fc18ded41c10883
+Author: Ole Aamot <ole@gnome.org>
+Date:   Tue Sep 20 01:38:55 2022 +0200
+
+    GNOME Radio (gnome-radio) 46.0 (University of Southern California, USA)
+
+ ChangeLog           | 1523 ++++++---------------------------------------------
+ Makefile.in         |    2 +-
+ NEWS                |    8 +
+ configure           |   20 +-
+ configure.ac        |    2 +-
+ gnome-radio.spec.in |    3 +
+ src/gnome-radio.c   |    8 +-
+ src/gnome-radio.xml |    2 +-
+ 8 files changed, 195 insertions(+), 1373 deletions(-)
+
+commit bba603d6b22d5c16d3af0abb52b81340ca9b419c
+Author: Ole Aamot <ole@gnome.org>
+Date:   Mon Sep 19 22:58:15 2022 +0200
+
+    GNOME Radio (gnome-radio) version 45.3 [2022-09-19]
+
+ ChangeLog             | 17 ++++++++---------
+ NEWS                  |  9 +++++++++
+ README                | 24 ++++++++++++------------
+ configure             | 20 ++++++++++----------
+ configure.ac          |  2 +-
+ gnome-radio.spec.in   |  3 +++
+ src/gnome-radio-gui.c |  6 ++++++
+ src/gnome-radio.c     |  8 ++++++--
+ src/gnome-radio.xml   |  2 +-
+ 9 files changed, 56 insertions(+), 35 deletions(-)
+
+commit 0ea621b7c01600c086272e81b3eb72cb55a0ae3a
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sun Sep 18 18:35:29 2022 +0200
+
+    GNOME Radio (gnome-radio) version 45.2 [2022-09-18]
+
+ ChangeLog                       | 120 ++++++++++++++++++++++++++++++++++++++++
+ Makefile.in                     |   2 +-
+ NEWS                            |  21 +++++++
+ configure                       |  40 +++++++-------
+ configure.ac                    |   6 +-
+ data/gnome-radio.appdata.xml.in |  12 ++--
+ data/gnome-radio.desktop.in     |   2 +-
+ data/gnome-radio.desktop.in.in  |   2 +-
+ gnome-radio.spec.in             |   5 +-
+ src/gnome-radio.c               |   4 +-
+ src/gnome-radio.xml             |   2 +-
+ 11 files changed, 180 insertions(+), 36 deletions(-)
+
+commit f45d7a051db92afc443e6b6c3f5ab464c739372b
+Merge: b0501b3 7a17c15
+Author: Ole Aamot <ole@gnome.org>
+Date:   Sun Aug 14 07:08:33 2022 +0000
+
+    Merge branch 'main' into 'main'
+    
+    Add Arch Linux PKGBUILD
+    
+    See merge request ole/gnome-radio!6
+
+commit 7a17c154ebc3d238f7c8fb9df92d0dabb073a383
+Author: Luna Jernberg <droidbittin@gmail.com>
+Date:   Sun Aug 14 05:52:55 2022 +0000
+
+    Add Arch Linux PKGBUILD
+
+ PKGBUILD | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+
 commit b0501b30003467d4cfda35474f611f0629e28601
 Author: Ole Aamot <ole@gnome.org>
 Date:   Sun Aug 14 07:35:45 2022 +0200

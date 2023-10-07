@@ -61,9 +61,9 @@ gnome_internet_radio_locator_LDADD = $(GNOME_RADIO_LIBS)
 
 gnomeinternetradiolocatordir = $(datadir)/gnome-radio
 
-gnomeinternetradiolocator_DATA = gnome-radio-43.0.dtd gnome-radio.xml
+gnomeinternetradiolocator_DATA = gnome-radio-64.0.dtd gnome-radio.xml
 
-EXTRA_DIST = gnome-radio.h gnome-radio-archive.h gnome-radio-encoder.h gnome-radio-location.h gnome-radio-player.h gnome-radio-keys.h gnome-radio-markers.h gnome-radio-player-kb.h gnome-radio-player-resource.h gnome-radio-radius.h gnome-radio-station.h gnome-radio-stations-map.h gnome-radio-tz.h gnome-radio-gui.h gnome-radio-listener.h gnome-radio-program.h gnome-radio-runners.h gnome-radio-streams.h gnome-radio-43.0.dtd gnome-radio.xml gnome-radio.xsl gnome-radio.gresource.xml
+EXTRA_DIST = gnome-radio.h gnome-radio-archive.h gnome-radio-encoder.h gnome-radio-location.h gnome-radio-player.h gnome-radio-keys.h gnome-radio-markers.h gnome-radio-player-kb.h gnome-radio-player-resource.h gnome-radio-radius.h gnome-radio-station.h gnome-radio-stations-map.h gnome-radio-tz.h gnome-radio-gui.h gnome-radio-listener.h gnome-radio-program.h gnome-radio-runners.h gnome-radio-streams.h gnome-radio-64.0.dtd gnome-radio.xml gnome-radio.xsl gnome-radio.gresource.xml
 
 LDADD = $(GNOME_RADIO_LIBS)
 

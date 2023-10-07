@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
-AC_INIT(gnome-radio,45.1)
+AC_INIT(gnome-radio,64.0.45)
 AM_INIT_AUTOMAKE([-Wno-portability 1.11 no-dist-gzip dist-xz tar-ustar subdir-objects])
 AM_MAINTAINER_MODE
 AC_CONFIG_SRCDIR([src/gnome-radio.c])
@@ -44,7 +44,7 @@ help_msg="no (not requested)"
 try_help=:
 gnome_internet_radio_locator_help=false
 
-AC_ARG_WITH([help],AS_HELP_STRING([--with-help],[Support GNOME Radio Help]), [
+AC_ARG_WITH([help],AS_HELP_STRING([--with-help],[Support Radio Help]), [
      AC_MSG_CHECKING([for help])
      if test x$withval = xno; then
            try_help=false
@@ -87,7 +87,7 @@ AC_CHECK_LIB(m, pow, [], [], [])
 
 PKG_CHECK_MODULES(GNOME_RADIO,
 		  champlain-gtk-0.12 >= 0.12.10 \
-		  geocode-glib-1.0 >= 3.20 \
+		  geocode-glib-2.0 >= 3.26.4 \
 		  glib-2.0 >= 2.38.0 \
 		  gobject-2.0 >= 2.38.0 \
 		  gstreamer-1.0 >= 1.0 \
@@ -96,13 +96,13 @@ PKG_CHECK_MODULES(GNOME_RADIO,
 		  gstreamer-video-1.0 \
 		  gstreamer-plugins-bad-1.0 \
 		  gstreamer-plugins-base-1.0 \
-		  gtk4 >= 4.2.0 \
+		  gtk+-3.0 >= 3.24.34 \
 		  geoclue-2.0 >= 2.4.12 \
 		  libgeoclue-2.0 >= 2.4.12 \
 		  libxml-2.0 >= 2.0 \
 		  pangoft2 >= 0.28)
 
-GNOME_RADIO_PKG_DEPS="champlain-gtk-0.12 geocode-glib-1.0 glib-2.0 gobject-2.0 gstreamer-1.0 gstreamer-player-1.0 gstreamer-plugins-bad-1.0 gstreamer-plugins-base-1.0 gstreamer-plugins-good-1.0 gstreamer-video-1.0 gtk4 geoclue-2.0 libgeoclue-2.0 libxml-2.0 pangoft2"
+GNOME_RADIO_PKG_DEPS="champlain-gtk-0.12 geocode-glib-2.0 glib-2.0 gobject-2.0 gstreamer-1.0 gstreamer-player-1.0 gstreamer-plugins-bad-1.0 gstreamer-plugins-base-1.0 gstreamer-plugins-good-1.0 gstreamer-video-1.0 gtk+-3.0 geoclue-2.0 libgeoclue-2.0 libxml-2.0 pangoft2"
 
 GTK_DOC_CHECK([1.16], [--flavour no-tmpl])
 

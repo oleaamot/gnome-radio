@@ -284,7 +284,7 @@ gint gnome_radio_station_update (GNOMERadioStationInfo *head, gchar *station_ban
 	new_station->stream->uri = g_strdup(station_uri);
 	new_station->uri = g_strdup(station_website);
 	fp = g_fopen(stations, "w+");
-	g_fprintf(fp, "<?xml version='1.0' encoding='UTF-8'?>\n<!DOCTYPE gnome_radio SYSTEM 'gnome-radio-14.0.dtd'>\n<gnome_radio version='%s'>\n", VERSION);
+	g_fprintf(fp, "<?xml version='1.0' encoding='UTF-8'?>\n<!DOCTYPE gnome_radio SYSTEM 'gnome-radio-64.0.dtd'>\n<gnome_radio version='%s'>\n", VERSION);
 	// stationinfo-> = l->data;
 	while (stationinfo != NULL) {
 		local_station_uri = g_strdup(stationinfo->stream->uri);

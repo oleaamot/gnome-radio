@@ -1,4 +1,71 @@
 ============
+Version 64.0
+============
+
+Stations
+
+	* src/gnome-radio.xml: Add Radio Punjab Today (New Dehli, India)
+
+============
+Version 48.0
+============
+
+Stations
+
+	* gtk/org.gnome.Radio.xml: Update Echo of Moscow from European Union (Moscow, Russia)
+	* src/gnome-radio.xml: Update Echo of Moscow from European Union (Moscow, Russia)
+
+============
+Version 47.0
+============
+
+GUI
+
+	* src/gnome-radio-markers.c: Update KCSN (Los Angeles, California)
+
+Stations
+
+	* src/gnome-radio.xml: Update Radio Eins RBB (Frankfurt, Germany)
+
+============
+Version 45.4
+============
+
+Stations
+
+	* src/gnome-radio.xml: Update KXSC (Los Angeles, California)
+
+============
+Version 45.3
+============
+
+GUI
+
+	* src/gnome-radio.c: Add GtkEntry icon
+	* src/gnome-radio-gui.c: Add GtkEntry icon
+
+============
+Version 45.2
+============
+
+Build
+
+	* configure.ac: 45.2
+	* data/gnome-radio.appdata.xml.in: 45.2
+	* data/gnome-radio.desktop.in: 45.2
+        * data/gnome-radio.desktop.in.in: 45.2
+	* gnome-radio.spec.in: 45.2
+	* meson.build: 45.2
+
+Documentation
+
+	* NEWS: 45.2
+
+Stations
+
+	* src/gnome-radio.xml: 45.2
+
+============
 Version 45.1
 ============
 

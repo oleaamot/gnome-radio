@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <id type="desktop">gnome-radio.desktop</id>
-  <_name>GNOME Radio 16 for GNOME 42</_name>
-  <_summary>Listen to National Public Radio on GNOME 42</_summary>
+  <_name>Radio for GNOME</_name>
+  <_summary>Listen to National Public Radio on GNOME</_summary>
   <licence>CC0</licence>
   <description>
     <p>
-      GNOME Radio 16 is a Free Software program that allows you easily
-      listen to National Public Radio (NPR) broadcasts under GNOME 42.
+      Radio is a Free Software program that allows you easily
+      listen to National Public Radio (NPR) broadcasts under GNOME.
     </p>
     <p>
-      GNOME Radio 16 is developed on the GNOME 42 desktop platform and
-      it requires GTK+ 3.0, Clutter and GStreamer 1.0 for playback.
+      Radio is developed on the GNOME desktop platform and
+      it requires GTK4, Clutter and GStreamer 1.0 for playback.
     </p>
     <p>    
-    Enjoy National Public Radio (NPR) broadcasts under GNOME 42.
+    Enjoy National Public Radio (NPR) broadcasts under GNOME.
     </p>
   </description>
-  <url type="homepage">https://wiki.gnome.org/Apps/Radio</url>
+  <url type="homepage">https://www.gnomeradio.org/</url>
   <screenshots>
-    <screenshot type="default">https://gitlab.gnome.org/ole/gnome-radio/-/blob/main/data/screenshots/gnome-radio-screenshot.png</screenshot>
+    <screenshot type="default">https://www.gnomeradio.org/screenshot.png</screenshot>
   </screenshots>
-  <updatecontact>girl-list@gnome.org</updatecontact>
+  <releases>
+  <release version="64.0.45" timestamp="1694812530">
+    <description>
+      <p>This experimental release fixes the following bug:</p>
+      <ul>
+        <li>Radio Streaming works</li>
+      </ul>
+    </description>
+    <size type="download">450408</size>
+    <size type="installed">450408</size>
+  </release>
+</releases>
+<content_rating type="oars-1.1" />
+  <updatecontact>ole@aamot.org</updatecontact>
 </application>

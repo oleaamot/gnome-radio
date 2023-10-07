@@ -812,7 +812,7 @@ AU_ALIAS([AC_PROG_INTLTOOL], [IT_PROG_INTLTOOL])
 
 
 # nls.m4 serial 6 (gettext-0.20.2)
-dnl Copyright (C) 1995-2003, 2005-2006, 2008-2014, 2016, 2019-2020 Free
+dnl Copyright (C) 1995-2003, 2005-2006, 2008-2014, 2016, 2019-2023 Free
 dnl Software Foundation, Inc.
 dnl This file is free software; the Free Software Foundation
 dnl gives unlimited permission to copy and/or distribute it,
@@ -844,8 +844,8 @@ AC_DEFUN([AM_NLS],
   AC_SUBST([USE_NLS])
 ])
 
-# pkg.m4 - Macros to locate and utilise pkg-config.   -*- Autoconf -*-
-# serial 11 (pkg-config-0.29.1)
+# pkg.m4 - Macros to locate and use pkg-config.   -*- Autoconf -*-
+# serial 12 (pkg-config-0.29.2)
 
 dnl Copyright © 2004 Scott James Remnant <scott@netsplit.com>.
 dnl Copyright © 2012-2015 Dan Nicholson <dbn.lists@gmail.com>
@@ -887,7 +887,7 @@ dnl
 dnl See the "Since" comment for each macro you use to see what version
 dnl of the macros you require.
 m4_defun([PKG_PREREQ],
-[m4_define([PKG_MACROS_VERSION], [0.29.1])
+[m4_define([PKG_MACROS_VERSION], [0.29.2])
 m4_if(m4_version_compare(PKG_MACROS_VERSION, [$1]), -1,
     [m4_fatal([pkg.m4 version $1 or higher is required but ]PKG_MACROS_VERSION[ found])])
 ])dnl PKG_PREREQ
@@ -932,7 +932,7 @@ dnl Check to see whether a particular set of modules exists. Similar to
 dnl PKG_CHECK_MODULES(), but does not set variables or print errors.
 dnl
 dnl Please remember that m4 expands AC_REQUIRE([PKG_PROG_PKG_CONFIG])
-dnl only at the first occurence in configure.ac, so if the first place
+dnl only at the first occurrence in configure.ac, so if the first place
 dnl it's called might be skipped (such as if it is within an "if", you
 dnl have to call PKG_CHECK_EXISTS manually
 AC_DEFUN([PKG_CHECK_EXISTS],
@@ -988,7 +988,7 @@ AC_ARG_VAR([$1][_CFLAGS], [C compiler flags for $1, overriding pkg-config])dnl
 AC_ARG_VAR([$1][_LIBS], [linker flags for $1, overriding pkg-config])dnl
 
 pkg_failed=no
-AC_MSG_CHECKING([for $1])
+AC_MSG_CHECKING([for $2])
 
 _PKG_CONFIG([$1][_CFLAGS], [cflags], [$2])
 _PKG_CONFIG([$1][_LIBS], [libs], [$2])
@@ -998,17 +998,17 @@ and $1[]_LIBS to avoid the need to call pkg-config.
 See the pkg-config man page for more details.])
 
 if test $pkg_failed = yes; then
-   	AC_MSG_RESULT([no])
+        AC_MSG_RESULT([no])
         _PKG_SHORT_ERRORS_SUPPORTED
         if test $_pkg_short_errors_supported = yes; then
-	        $1[]_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "$2" 2>&1`
-        else 
-	        $1[]_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "$2" 2>&1`
+                $1[]_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "$2" 2>&1`
+        else
+                $1[]_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "$2" 2>&1`
         fi
-	# Put the nasty error message in config.log where it belongs
-	echo "$$1[]_PKG_ERRORS" >&AS_MESSAGE_LOG_FD
+        # Put the nasty error message in config.log where it belongs
+        echo "$$1[]_PKG_ERRORS" >&AS_MESSAGE_LOG_FD
 
-	m4_default([$4], [AC_MSG_ERROR(
+        m4_default([$4], [AC_MSG_ERROR(
 [Package requirements ($2) were not met:
 
 $$1_PKG_ERRORS
@@ -1019,8 +1019,8 @@ installed software in a non-standard prefix.
 _PKG_TEXT])[]dnl
         ])
 elif test $pkg_failed = untried; then
-     	AC_MSG_RESULT([no])
-	m4_default([$4], [AC_MSG_FAILURE(
+        AC_MSG_RESULT([no])
+        m4_default([$4], [AC_MSG_FAILURE(
 [The pkg-config script could not be found or is too old.  Make sure it
 is in your PATH or set the PKG_CONFIG environment variable to the full
 path to pkg-config.
@@ -1030,10 +1030,10 @@ _PKG_TEXT
 To get pkg-config, see <http://pkg-config.freedesktop.org/>.])[]dnl
         ])
 else
-	$1[]_CFLAGS=$pkg_cv_[]$1[]_CFLAGS
-	$1[]_LIBS=$pkg_cv_[]$1[]_LIBS
+        $1[]_CFLAGS=$pkg_cv_[]$1[]_CFLAGS
+        $1[]_LIBS=$pkg_cv_[]$1[]_LIBS
         AC_MSG_RESULT([yes])
-	$3
+        $3
 fi[]dnl
 ])dnl PKG_CHECK_MODULES
 
@@ -1187,222 +1187,6 @@ PKG_HAVE_WITH_MODULES([$1],[$2],[$3],[$4])
 AS_IF([test "$AS_TR_SH([with_]m4_tolower([$1]))" = "yes"],
         [AC_DEFINE([HAVE_][$1], 1, [Enable ]m4_tolower([$1])[ support])])
 ])dnl PKG_HAVE_DEFINE_WITH_MODULES
-
-AC_DEFUN([YELP_HELP_INIT],
-[
-AC_REQUIRE([AC_PROG_LN_S])
-m4_pattern_allow([AM_V_at])
-m4_pattern_allow([AM_V_GEN])
-m4_pattern_allow([AM_DEFAULT_VERBOSITY])
-
-YELP_LC_MEDIA_LINKS=true
-YELP_LC_DIST=true
-
-for yelpopt in [$1]; do
-  case $yelpopt in
-    lc-media-links)    YELP_LC_MEDIA_LINKS=true ;;
-    no-lc-media-links) YELP_LC_MEDIA_LINKS= ;;
-    lc-dist)           YELP_LC_DIST=true ;;
-    no-lc-dist)        YELP_LC_DIST= ;;
-    *) AC_MSG_ERROR([Unrecognized [YELP_HELP_INIT] option $yelpopt"]) ;;
-  esac
-done;
-AC_SUBST([YELP_LC_MEDIA_LINKS])
-AC_SUBST([YELP_LC_DIST])
-
-AC_ARG_WITH([help-dir],
-            AS_HELP_STRING([--with-help-dir=DIR],
-                           [path where help files are installed]),,
-            [with_help_dir='${datadir}/help'])
-HELP_DIR="$with_help_dir"
-AC_SUBST(HELP_DIR)
-
-AC_ARG_VAR([ITSTOOL], [Path to the `itstool` command])
-AC_CHECK_PROG([ITSTOOL], [itstool], [itstool])
-if test x"$ITSTOOL" = x; then
-  AC_MSG_ERROR([itstool not found])
-fi
-
-AC_ARG_VAR([XMLLINT], [Path to the `xmllint` command])
-AC_CHECK_PROG([XMLLINT], [xmllint], [xmllint])
-if test x"$XMLLINT" = x; then
-  AC_MSG_ERROR([xmllint not found])
-fi
-
-YELP_HELP_RULES='
-HELP_ID ?=
-HELP_POT ?=
-HELP_FILES ?=
-HELP_EXTRA ?=
-HELP_MEDIA ?=
-HELP_LINGUAS ?=
-
-_HELP_LINGUAS = $(if $(filter environment,$(origin LINGUAS)),$(filter $(LINGUAS),$(HELP_LINGUAS)),$(HELP_LINGUAS))
-_HELP_POTFILE = $(if $(HELP_POT),$(HELP_POT),$(if $(HELP_ID),$(HELP_ID).pot))
-_HELP_POFILES = $(if $(HELP_ID),$(foreach lc,$(_HELP_LINGUAS),$(lc)/$(lc).po))
-_HELP_MOFILES = $(patsubst %.po,%.mo,$(_HELP_POFILES))
-_HELP_C_FILES = $(foreach f,$(HELP_FILES),C/$(f))
-_HELP_C_EXTRA = $(foreach f,$(HELP_EXTRA),C/$(f))
-_HELP_C_MEDIA = $(foreach f,$(HELP_MEDIA),C/$(f))
-_HELP_LC_FILES = $(foreach lc,$(_HELP_LINGUAS),$(foreach f,$(HELP_FILES),$(lc)/$(f)))
-_HELP_LC_STAMPS = $(foreach lc,$(_HELP_LINGUAS),$(lc)/$(lc).stamp)
-
-_HELP_DEFAULT_V = $(if $(AM_DEFAULT_VERBOSITY),$(AM_DEFAULT_VERBOSITY),1)
-_HELP_V = $(if $(V),$(V),$(_HELP_DEFAULT_V))
-_HELP_LC_VERBOSE = $(_HELP_LC_VERBOSE_$(_HELP_V))
-_HELP_LC_VERBOSE_ = $(_HELP_LC_VERBOSE_$(_HELP_DEFAULT_V))
-_HELP_LC_VERBOSE_0 = @echo "  GEN    "$(dir [$]@);
-
-all: $(_HELP_C_FILES) $(_HELP_C_EXTRA) $(_HELP_C_MEDIA) $(_HELP_LC_FILES) $(_HELP_POFILES)
-
-.PHONY: pot
-pot: $(_HELP_POTFILE)
-$(_HELP_POTFILE): $(_HELP_C_FILES) $(_HELP_C_EXTRA) $(_HELP_C_MEDIA)
-	$(AM_V_GEN)if test -d "C"; then d=; else d="$(srcdir)/"; fi; \
-	$(ITSTOOL) -o "[$]@" $(foreach f,$(_HELP_C_FILES),"$${d}$(f)")
-
-.PHONY: repo
-repo: $(_HELP_POTFILE)
-	$(AM_V_at)for po in $(_HELP_POFILES); do \
-	  if test "x[$](_HELP_V)" = "x0"; then echo "  GEN    $${po}"; fi; \
-	  msgmerge -q -o "$${po}" "$${po}" "$(_HELP_POTFILE)"; \
-	done
-
-$(_HELP_POFILES):
-	$(AM_V_at)if ! test -d "$(dir [$]@)"; then mkdir "$(dir [$]@)"; fi
-	$(AM_V_at)if test ! -f "[$]@" -a -f "$(srcdir)/[$]@"; then cp "$(srcdir)/[$]@" "[$]@"; fi
-	$(AM_V_GEN)if ! test -f "[$]@"; then \
-	  (cd "$(dir [$]@)" && \
-	    $(ITSTOOL) -o "$(notdir [$]@).tmp" $(_HELP_C_FILES) && \
-	    mv "$(notdir [$]@).tmp" "$(notdir [$]@)"); \
-	else \
-	  (cd "$(dir [$]@)" && \
-	    $(ITSTOOL) -o "$(notdir [$]@).tmp" $(_HELP_C_FILES) && \
-	    msgmerge -o "$(notdir [$]@)" "$(notdir [$]@)" "$(notdir [$]@).tmp" && \
-	    rm "$(notdir [$]@).tmp"); \
-	fi
-
-$(_HELP_MOFILES): %.mo: %.po
-	$(AM_V_at)if ! test -d "$(dir [$]@)"; then mkdir "$(dir [$]@)"; fi
-	$(AM_V_GEN)msgfmt -o "[$]@" "$<"
-
-$(_HELP_LC_FILES): $(_HELP_LINGUAS)
-$(_HELP_LINGUAS): $(_HELP_LC_STAMPS)
-$(_HELP_LC_STAMPS): %.stamp: %.mo
-$(_HELP_LC_STAMPS): $(_HELP_C_FILES) $(_HELP_C_EXTRA)
-	$(AM_V_at)if ! test -d "$(dir [$]@)"; then mkdir "$(dir [$]@)"; fi
-	$(_HELP_LC_VERBOSE)if test -d "C"; then d="../"; else d="$(abs_srcdir)/"; fi; \
-	mo="$(dir [$]@)$(patsubst %/$(notdir [$]@),%,[$]@).mo"; \
-	if test -f "$${mo}"; then mo="../$${mo}"; else mo="$(abs_srcdir)/$${mo}"; fi; \
-	(cd "$(dir [$]@)" && $(ITSTOOL) -m "$${mo}" $(foreach f,$(_HELP_C_FILES),$${d}/$(f))) && \
-	touch "[$]@"
-
-.PHONY: clean-help
-mostlyclean-am: $(if $(HELP_ID),clean-help)
-clean-help:
-	$(file >clean-help-files,$(_HELP_LC_FILES) $(_HELP_LC_STAMPS) $(_HELP_MOFILES))
-	@xargs -t rm -f < clean-help-files
-	rm -f clean-help-files
-
-EXTRA_DIST ?=
-EXTRA_DIST += $(_HELP_C_EXTRA) $(_HELP_C_MEDIA)
-EXTRA_DIST += $(if $(YELP_LC_DIST),$(foreach lc,$(HELP_LINGUAS),$(lc)/$(lc).stamp))
-EXTRA_DIST += $(foreach lc,$(HELP_LINGUAS),$(lc)/$(lc).po)
-EXTRA_DIST += $(foreach f,$(HELP_MEDIA),$(foreach lc,$(HELP_LINGUAS),$(wildcard $(lc)/$(f))))
-
-distdir: distdir-help-files
-distdir-help-files: $(_HELP_LC_FILES)
-	@for lc in C $(if $(YELP_LC_DIST),$(HELP_LINGUAS)) ; do \
-	  $(MKDIR_P) "$(distdir)/$$lc"; \
-	  for file in $(HELP_FILES); do \
-	    if test -f "$$lc/$$file"; then d=./; else d=$(srcdir)/; fi; \
-	    cp -p "$$d$$lc/$$file" "$(distdir)/$$lc/" || exit 1; \
-	  done; \
-	done; \
-
-.PHONY: check-help
-check: check-help
-check-help:
-	for lc in C $(_HELP_LINGUAS); do \
-	  if test -d "$$lc"; \
-	    then d=; \
-	    xmlpath="$$lc"; \
-	  else \
-	    d="$(srcdir)/"; \
-	    xmlpath="$$lc:$(srcdir)/$$lc"; \
-	  fi; \
-	  for page in $(HELP_FILES); do \
-	    echo "$(XMLLINT) --nonet --noout --noent --path $$xmlpath --xinclude $$d$$lc/$$page"; \
-	    $(XMLLINT) --nonet --noout --noent --path "$$xmlpath" --xinclude "$$d$$lc/$$page"; \
-	  done; \
-	done
-
-
-.PHONY: install-help
-install-data-am: $(if $(HELP_ID),install-help)
-install-help: $(_HELP_LC_FILES)
-	@for lc in C $(_HELP_LINGUAS); do \
-	  $(mkinstalldirs) "$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)" || exit 1; \
-	done
-	@for lc in C $(_HELP_LINGUAS); do for f in $(HELP_FILES); do \
-	  if test -f "$$lc/$$f"; then d=; else d="$(srcdir)/"; fi; \
-	  helpdir="$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)/"; \
-	  if ! test -d "$$helpdir"; then $(mkinstalldirs) "$$helpdir"; fi; \
-	  echo "$(INSTALL_DATA) $$d$$lc/$$f $$helpdir`basename $$f`"; \
-	  $(INSTALL_DATA) "$$d$$lc/$$f" "$$helpdir`basename $$f`" || exit 1; \
-	done; done
-	@for f in $(_HELP_C_EXTRA); do \
-	  lc=`dirname "$$f"`; lc=`basename "$$lc"`; \
-	  if test -f "$$f"; then d=; else d="$(srcdir)/"; fi; \
-	  helpdir="$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)/"; \
-	  if ! test -d "$$helpdir"; then $(mkinstalldirs) "$$helpdir"; fi; \
-	  echo "$(INSTALL_DATA) $$d$$f $$helpdir`basename $$f`"; \
-	  $(INSTALL_DATA) "$$d$$f" "$$helpdir`basename $$f`" || exit 1; \
-	done
-	@for f in $(HELP_MEDIA); do \
-	  for lc in C $(_HELP_LINGUAS); do \
-	    if test -f "$$lc$$f"; then d=; else d="$(srcdir)/"; fi; \
-	    helpdir="$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)/"; \
-	    mdir=`dirname "$$f"`; \
-	    if test "x$mdir" = "x."; then mdir=""; fi; \
-	    if ! test -d "$$helpdir$$mdir"; then $(mkinstalldirs) "$$helpdir$$mdir"; fi; \
-	    if test -f "$$d$$lc/$$f"; then \
-	      echo "$(INSTALL_DATA) $$d$$lc/$$f $$helpdir$$f"; \
-	      $(INSTALL_DATA) "$$d$$lc/$$f" "$$helpdir$$f" || exit 1; \
-	    elif test "x$$lc" != "xC"; then \
-	      if test "x$(YELP_LC_MEDIA_LINKS)" != "x"; then \
-	        echo "$(LN_S) -f $(HELP_DIR)/C/$(HELP_ID)/$$f $$helpdir$$f"; \
-	        $(LN_S) -f "$(HELP_DIR)/C/$(HELP_ID)/$$f" "$$helpdir$$f" || exit 1; \
-	      fi; \
-	    fi; \
-	  done; \
-	done
-
-.PHONY: uninstall-help
-uninstall-am: $(if $(HELP_ID),uninstall-help)
-uninstall-help:
-	for lc in C $(_HELP_LINGUAS); do for f in $(HELP_FILES); do \
-	  helpdir="$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)/"; \
-	  echo "rm -f $$helpdir`basename $$f`"; \
-	  rm -f "$$helpdir`basename $$f`"; \
-	done; done
-	@for f in $(_HELP_C_EXTRA); do \
-	  lc=`dirname "$$f"`; lc=`basename "$$lc"`; \
-	  helpdir="$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)/"; \
-	  echo "rm -f $$helpdir`basename $$f`"; \
-	  rm -f "$$helpdir`basename $$f`"; \
-	done
-	@for f in $(HELP_MEDIA); do \
-	  for lc in C $(_HELP_LINGUAS); do \
-	    helpdir="$(DESTDIR)$(HELP_DIR)/$$lc/$(HELP_ID)/"; \
-	    echo "rm -f $$helpdir$$f"; \
-	    rm -f "$$helpdir$$f"; \
-	  done; \
-	done;
-'
-AC_SUBST([YELP_HELP_RULES])
-m4_ifdef([_AM_SUBST_NOTMAKE], [_AM_SUBST_NOTMAKE([YELP_HELP_RULES])])
-])
 
 # Copyright (C) 2002-2021 Free Software Foundation, Inc.
 #

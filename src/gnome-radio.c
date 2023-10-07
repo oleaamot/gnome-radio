@@ -567,6 +567,8 @@ gnome_radio_window_cb (GtkApplication *app,
 	toolbar = gtk_toolbar_new();
 	input = gtk_entry_new();
 	gtk_entry_set_placeholder_text(GTK_ENTRY(input), "Search by city...");
+	gtk_entry_set_icon_from_stock(GTK_ENTRY(input), GTK_ENTRY_ICON_PRIMARY, GTK_STOCK_JUMP_TO);
+	gtk_entry_set_icon_tooltip_text(GTK_ENTRY(input), GTK_ENTRY_ICON_PRIMARY, "Type the city name you want to listen to radio from...");
 #if 0
 	search = gtk_tool_button_new(gtk_image_new_from_icon_name(NULL, GTK_ICON_SIZE_BUTTON), _("Search"));
 	gtk_tool_item_set_is_important(GTK_TOOL_ITEM(search), TRUE);
@@ -621,7 +623,7 @@ gnome_radio_window_cb (GtkApplication *app,
 	gtk_container_add (GTK_CONTAINER(window), GTK_WIDGET(grid));
 	g_signal_connect (window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 #endif
-	gtk_window_set_title (GTK_WINDOW(window), _("Radio 45.1 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
+	gtk_window_set_title (GTK_WINDOW(window), _("Radio 64.0.45 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
 	gtk_window_set_default_size (GTK_WINDOW(window), 800, 600);
 	gtk_window_maximize (GTK_WINDOW (window));
 	gnome_radio_app = create_gnome_radio_app();
@@ -808,7 +810,7 @@ static void activate(GtkApplication *app, gpointer user_data)
 	/* give the window a 10px wide border */
 	gtk_container_set_border_width (GTK_CONTAINER (window), 10);
 	/* give it the title */
-	gtk_window_set_title (GTK_WINDOW (window), _("Radio 45.1 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
+	gtk_window_set_title (GTK_WINDOW (window), _("Radio 64.0 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
 	/* Connect the destroy event of the window with our on_destroy function
 	 * When the window is about to be destroyed we get a notificaiton and
 	 * stop the main GTK loop
@@ -844,8 +846,8 @@ static void activate(GtkApplication *app, gpointer user_data)
 
 	license_actor = champlain_view_get_license_actor (view);
 	champlain_license_set_extra_text (license_actor, "Free Internet Radio");
-	/* FIXME: New Haven, Connecticut */
-	champlain_view_center_on (CHAMPLAIN_VIEW (view), 51.477806, -0.001472);
+	/* FIXME: University of Southern California */
+	champlain_view_center_on (CHAMPLAIN_VIEW (view), 34.0223563, -118.2873057);
 	
 	// location = gclue_simple_get_location (simple);
 	
@@ -893,6 +895,8 @@ static void activate(GtkApplication *app, gpointer user_data)
 	gtk_entry_completion_set_text_column(completion, STATION_NAME);
 	gtk_entry_completion_set_text_column(completion, STATION_LOCATION);
 	gtk_entry_set_completion(GTK_ENTRY(input), completion);
+	gtk_entry_set_icon_from_stock(GTK_ENTRY(input), GTK_ENTRY_ICON_PRIMARY, GTK_STOCK_JUMP_TO);
+	gtk_entry_set_icon_tooltip_text(GTK_ENTRY(input), GTK_ENTRY_ICON_PRIMARY, "Type the city name you want to listen to radio from...");
 	gtk_entry_set_placeholder_text(GTK_ENTRY(input), "Search by city...");
 	g_signal_connect(G_OBJECT(completion), "match-selected",
 			 G_CALLBACK(on_search_matches), NULL);

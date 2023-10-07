@@ -11,7 +11,7 @@ Categories=GNOME;GTK;Music;Audio;AudioVideo;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-radio
 X-GNOME-Bugzilla-Component=general
-X-GNOME-Bugzilla-Version=16.0.43
+X-GNOME-Bugzilla-Version=64.0
 MimeType=application/gnome-radio;
 # Extra keywords that can be used to search for gnome-radio in GNOME Shell and Unity
 Keywords=Live;Radio;Program;Station;NPR;

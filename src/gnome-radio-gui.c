@@ -284,11 +284,17 @@ GtkWidget *create_new_station_selector(gchar *location) {
 		gtk_entry_set_text(GTK_ENTRY(locationentry), (gpointer)gtk_entry_get_text(GTK_ENTRY(input)));
 	}
 	gtk_entry_set_text(GTK_ENTRY(urientry), _("http://uri-to-stream/"));
+	gtk_entry_set_icon_from_stock(GTK_ENTRY(urientry), GTK_ENTRY_ICON_PRIMARY, GTK_STOCK_CONNECT);
+	gtk_entry_set_icon_tooltip_text(GTK_ENTRY(locationentry), GTK_ENTRY_ICON_SECONDARY, "Type the stream URL (http://) you want to listen to radio from");
 	gtk_entry_set_text(GTK_ENTRY(descriptionentry), _("Description"));
+	gtk_entry_set_icon_from_stock(GTK_ENTRY(websiteentry), GTK_ENTRY_ICON_PRIMARY, GTK_STOCK_CONNECT);
+	gtk_entry_set_icon_tooltip_text(GTK_ENTRY(websiteentry), GTK_ENTRY_ICON_SECONDARY, "Type the home page URL (http://) you want to connect with the station");
 	gtk_entry_set_text(GTK_ENTRY(websiteentry), _("http://uri-to-website/"));
 	completion = gtk_entry_completion_new();
 	gtk_entry_completion_set_text_column(completion, STATION_LOCATION);
 	gtk_entry_set_completion(GTK_ENTRY(locationentry), completion);
+	gtk_entry_set_icon_from_stock(GTK_ENTRY(locationentry), GTK_ENTRY_ICON_PRIMARY, GTK_STOCK_JUMP_TO);
+	gtk_entry_set_icon_tooltip_text(GTK_ENTRY(locationentry), GTK_ENTRY_ICON_SECONDARY, "Type the city name you want to listen to radio around");
 	g_signal_connect(G_OBJECT(completion), "match-selected",
 			 G_CALLBACK(on_location_matches), NULL);
 	location_model = gtk_list_store_new(2, G_TYPE_STRING, G_TYPE_STRING);
