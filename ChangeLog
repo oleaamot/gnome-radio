@@ -1,1616 +1,395 @@
-commit c355fbb2fa6dcb782f0a2da9bbaa12c2d4d57589
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Nov 21 15:15:58 2022 +0100
-
-    Build on Fedora Core 37
-
- gnome-radio.spec.in | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 4fdc9e4e9eee6b8a4ea314a5d53cad462395e08b
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Nov 21 15:15:09 2022 +0100
-
-    Add Radio 64.0 DTD
-
- src/gnome-radio-64.0.dtd | 24 ++++++++++++++++++++++++
- 1 file changed, 24 insertions(+)
-
-commit 814f4faaec3446cac6fe204b178eb13b69f771e7
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Nov 21 15:13:58 2022 +0100
-
-    GNOME Radio (gnome-radio) version 64.0
-
- ChangeLog                      | 199 +++++++++++++++++++++++++++++++++++++----
- Makefile.in                    |   3 +-
- NEWS                           |   8 ++
- configure                      | 143 ++++++++++-------------------
- configure.ac                   |   2 +-
- data/Makefile.in               |   1 -
- data/gnome-radio.desktop.in    |   2 +-
- data/gnome-radio.desktop.in.in |   2 +-
- data/icons/Makefile.in         |   1 -
- doc/Makefile.in                |   1 -
- gnome-radio.spec.in            |   3 +
- gtk/Makefile.in                |   1 -
- gtk/org.gnome.Radio.json       |   2 +-
- gtk/org.gnome.Radio.xml        |  12 +--
- help/Makefile.in               |   1 -
- m4/libtool.m4                  |   5 +-
- man/Makefile.in                |   1 -
- src/Makefile.am                |   4 +-
- src/Makefile.in                |   5 +-
- src/gnome-radio-markers.c      |  11 +++
- src/gnome-radio-station.c      |   2 +-
- src/gnome-radio.c              |   4 +-
- src/gnome-radio.xml            |  14 +--
- 23 files changed, 280 insertions(+), 147 deletions(-)
-
-commit 1717eba634632e48457886cfd85109efc13e1556
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Nov 2 15:48:22 2022 +0100
-
-    GNOME Radio (gnome-radio) version 48.1
-
- gnome-radio.spec.in | 3 +++
- src/gnome-radio.c   | 4 ++--
- 2 files changed, 5 insertions(+), 2 deletions(-)
-
-commit 88f94f47b6fdc940201d4fd81c452f595c1571f2
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Oct 5 07:04:46 2022 +0200
-
-    Radio 48.1 for Flatpak
-
- Makefile.in              |  2 +-
- configure                | 20 ++++++++++----------
- configure.ac             |  2 +-
- gtk/Makefile.am          |  2 +-
- gtk/Makefile.in          |  2 +-
- gtk/org.gnome.Radio.json | 15 +++++++++++++--
- 6 files changed, 27 insertions(+), 16 deletions(-)
-
-commit e619f16be32030b2ed96d5de62fa623aeea19999
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Oct 5 06:08:45 2022 +0200
-
-    Flathub: org.gnome.Radio.json
-
- gtk/org.gnome.Radio.json | 94 ++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 94 insertions(+)
-
-commit 107e14b28962bb788b9852440a2f380f61bbd3b3
-Merge: b419ee6 af15fe7
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Oct 3 21:25:26 2022 +0000
-
-    Merge branch 'rebranding' into 'main'
-    
-    WIP: data: Remove GNOME branding
-    
-    See merge request ole/gnome-radio!7
-
-commit af15fe70cfbae519f08ce13b6673e96dc5ed3ce8
-Author: Sabri Ünal <libreajans@gmail.com>
-Date:   Mon Oct 3 21:25:26 2022 +0000
-
-    WIP: data: Remove GNOME branding
-
- AMFM                                  |  4 ++--
- BROADCAST                             |  4 ++--
- DEBIAN                                |  4 ++--
- FEDORA                                |  4 ++--
- GEOLOCATION                           |  2 +-
- GTK4                                  |  2 +-
- HACKING                               |  4 ++--
- README                                |  4 ++--
- TODO                                  |  2 +-
- UBUNTU                                |  4 ++--
- configure                             |  2 +-
- configure.ac                          |  2 +-
- data/applications/gnome-radio.desktop |  2 +-
- data/gnome-radio.appdata.xml.in       |  6 +++---
- data/org.gnome.Radio.appdata.xml.in   |  4 ++--
- gnome-radio.doap                      |  1 -
- help/C/exit.page                      |  4 ++--
- help/C/index.page                     | 14 +++++++-------
- help/C/intro.page                     |  6 +++---
- help/C/new.page                       |  4 ++--
- help/C/search.page                    |  4 ++--
- help/C/stop.page                      |  2 +-
- man/gnome-internet-radio-locator.1    |  8 ++++----
- man/gnome-radio.1                     |  6 +++---
- 24 files changed, 49 insertions(+), 50 deletions(-)
-
-commit b419ee628976033298bd30d4ab0746d4331c5f6f
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 05:55:59 2022 +0200
-
-    GNOME Radio 48 Screenshot
-
- data/screenshot.png | Bin 212141 -> 241467 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 87056f5394046bbe35e062849275530e7b39665d
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 05:42:51 2022 +0200
-
-    Add accels for app.about (<primary>a)
-
- src/gnome_radio-application.c | 6 ++++++
- 1 file changed, 6 insertions(+)
-
-commit 484452c5aa0b17e4f208bf87de23912ab09a6a24
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 05:24:01 2022 +0200
-
-    Documentation in GNOME Radio 48 for GNOME 44
-
- Makefile.in        |  2 +-
- help/C/exit.page   |  8 ++++----
- help/C/index.page  | 16 ++++++++--------
- help/C/intro.page  |  8 ++++----
- help/C/new.page    |  6 +++---
- help/C/search.page |  6 +++---
- help/C/stop.page   |  4 ++--
- help/C/zoom.page   |  2 +-
- 8 files changed, 26 insertions(+), 26 deletions(-)
-
-commit d8523f028cbcfc6d884750c8af5c6cdc877c122b
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 04:58:17 2022 +0200
-
-    Add screenshots of GNOME Radio 48
-
- data/screenshots/maps-main.png     | Bin 858505 -> 134756 bytes
- data/screenshots/maps-pinpoint.png | Bin 804100 -> 717142 bytes
- data/screenshots/maps-route.png    | Bin 676993 -> 241467 bytes
- 3 files changed, 0 insertions(+), 0 deletions(-)
-
-commit a2147979d9d0618ba68f2bab9fb4564cd5b070e2
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 04:53:56 2022 +0200
-
-    Update Appdata for org.gnome.Radio 48
-
- data/org.gnome.Radio.appdata.xml.in | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-commit a1e03138bf50d2c6bf88fbba1505e2916a94f6f0
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 04:50:18 2022 +0200
-
-    Meson Build of org.gnome.Radio 48
-
- meson.build | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 72f90b492fdf65a657144b02b7ba0d7738f59b5c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Oct 1 03:08:56 2022 +0200
-
-    GNOME Radio (gnome-radio) version 48.0
-
- ChangeLog                       |  41 ++++++++++++++
- Makefile.in                     |   2 +-
- NEWS                            |   9 +++
- README                          |   8 +--
- configure                       |  20 +++----
- configure.ac                    |   2 +-
- data/gnome-radio.appdata.xml.in |  12 ++--
- data/gnome-radio.desktop.in     |   2 +-
- data/gnome-radio.desktop.in.in  |   2 +-
- gnome-radio.spec.in             |   3 +
- gtk/org.gnome.Radio.xml         | 122 ++++++++++++++++++++++++++++++++++------
- src/gnome-radio.c               |   4 +-
- src/gnome-radio.xml             |  21 ++++---
- 13 files changed, 194 insertions(+), 54 deletions(-)
-
-commit 2fac744c13e35ab9c4967424b11173abee542e1e
-Author: Ole Aamot <ole@gnome.org>
-Date:   Tue Sep 27 11:23:07 2022 +0200
-
-    GNOME Radio (gnome-radio) version 47.0
-
- ChangeLog                 | 1556 ++++++++++++++++++++++++++++++++++++++++-----
- GEOLOCATION               |    2 +-
- NEWS                      |   12 +
- README                    |    2 +-
- configure                 |   20 +-
- configure.ac              |    2 +-
- gnome-radio.spec.in       |    3 +
- src/gnome-radio-markers.c |   20 +-
- src/gnome-radio.c         |    4 +-
- src/gnome-radio.xml       |   27 +-
- 10 files changed, 1455 insertions(+), 193 deletions(-)
-
-commit 4a2023cd32ad6e964cafdb228fc18ded41c10883
-Author: Ole Aamot <ole@gnome.org>
-Date:   Tue Sep 20 01:38:55 2022 +0200
-
-    GNOME Radio (gnome-radio) 46.0 (University of Southern California, USA)
-
- ChangeLog           | 1523 ++++++---------------------------------------------
- Makefile.in         |    2 +-
- NEWS                |    8 +
- configure           |   20 +-
- configure.ac        |    2 +-
- gnome-radio.spec.in |    3 +
- src/gnome-radio.c   |    8 +-
- src/gnome-radio.xml |    2 +-
- 8 files changed, 195 insertions(+), 1373 deletions(-)
-
-commit bba603d6b22d5c16d3af0abb52b81340ca9b419c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Sep 19 22:58:15 2022 +0200
-
-    GNOME Radio (gnome-radio) version 45.3 [2022-09-19]
-
- ChangeLog             | 17 ++++++++---------
- NEWS                  |  9 +++++++++
- README                | 24 ++++++++++++------------
- configure             | 20 ++++++++++----------
- configure.ac          |  2 +-
- gnome-radio.spec.in   |  3 +++
- src/gnome-radio-gui.c |  6 ++++++
- src/gnome-radio.c     |  8 ++++++--
- src/gnome-radio.xml   |  2 +-
- 9 files changed, 56 insertions(+), 35 deletions(-)
-
-commit 0ea621b7c01600c086272e81b3eb72cb55a0ae3a
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sun Sep 18 18:35:29 2022 +0200
-
-    GNOME Radio (gnome-radio) version 45.2 [2022-09-18]
-
- ChangeLog                       | 120 ++++++++++++++++++++++++++++++++++++++++
- Makefile.in                     |   2 +-
- NEWS                            |  21 +++++++
- configure                       |  40 +++++++-------
- configure.ac                    |   6 +-
- data/gnome-radio.appdata.xml.in |  12 ++--
- data/gnome-radio.desktop.in     |   2 +-
- data/gnome-radio.desktop.in.in  |   2 +-
- gnome-radio.spec.in             |   5 +-
- src/gnome-radio.c               |   4 +-
- src/gnome-radio.xml             |   2 +-
- 11 files changed, 180 insertions(+), 36 deletions(-)
-
-commit f45d7a051db92afc443e6b6c3f5ab464c739372b
-Merge: b0501b3 7a17c15
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sun Aug 14 07:08:33 2022 +0000
-
-    Merge branch 'main' into 'main'
-    
-    Add Arch Linux PKGBUILD
-    
-    See merge request ole/gnome-radio!6
-
-commit 7a17c154ebc3d238f7c8fb9df92d0dabb073a383
-Author: Luna Jernberg <droidbittin@gmail.com>
-Date:   Sun Aug 14 05:52:55 2022 +0000
-
-    Add Arch Linux PKGBUILD
-
- PKGBUILD | 31 +++++++++++++++++++++++++++++++
- 1 file changed, 31 insertions(+)
-
-commit b0501b30003467d4cfda35474f611f0629e28601
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sun Aug 14 07:35:45 2022 +0200
-
-    GNOME Radio (gnome-radio) version 45.1 [2022-08-14]
-
- NEWS                      | 17 ++++++++++
- configure                 | 20 +++++------
- configure.ac              |  2 +-
- gnome-radio.spec.in       |  3 ++
- meson.build               |  2 +-
- src/gnome-radio-markers.c | 59 ++++++++++++++++++++++-----------
- src/gnome-radio.c         |  8 ++---
- src/gnome-radio.xml       | 84 ++++++++++++++++++++++++++++++++++++++++++++++-
- 8 files changed, 159 insertions(+), 36 deletions(-)
-
-commit b5b69861ba41ce7be3a2c44d04f407efb461a6e2
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Jul 23 18:55:05 2022 +0200
-
-    24 Jul 2022 20:00 Samsung https://events.gnome.org/event/77/contributions/303/
-
- talk/GUADEC2022.pdf             | Bin 0 -> 2681862 bytes
- talk/GUADEC2022.tex             | 236 +-------------------------
- talk/beamercolorthemeguadec.sty |  32 ++++
- talk/beamerinnerthemeguadec.sty |  58 +++++++
- talk/beamerouterthemeguadec.sty |  21 +++
- talk/beamerthemeguadec.sty      |  14 ++
- talk/cc_by_30.pdf               | 145 ++++++++++++++++
- talk/cc_sa_30.pdf               | 142 ++++++++++++++++
- talk/gnome-foot.mps             |  35 ++++
- talk/gnome-radio-bbc.pdf        | Bin 0 -> 39032 bytes
- talk/gnome-radio-cal.pdf        | Bin 0 -> 153995 bytes
- talk/gnome-radio-npr.pdf        | Bin 0 -> 134302 bytes
- talk/gnome-radio-somafm.pdf     | Bin 0 -> 158035 bytes
- talk/gnome-radio-wnyc.pdf       | Bin 0 -> 229711 bytes
- talk/gnome-radio.pdf            | 368 ++++++++++++++++++++++++++++++++++++++++
- talk/graph.png                  | Bin 0 -> 38754 bytes
- talk/guadec-logo.pdf            | Bin 0 -> 4863 bytes
- talk/presentation.pdf           | Bin 0 -> 46474433 bytes
- talk/presentation.tex           |   2 +
- talk/presentation_notes.tex     |   4 +
- talk/slides.tex                 | 309 +++++++++++++++++++++++++++++++++
- 21 files changed, 1132 insertions(+), 234 deletions(-)
-
-commit ae47578af16f07d63e78a76c73107ce30cc524a2
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Jul 23 08:57:49 2022 +0200
-
-    Add org.gnome.Radio screenshot to GUADEC 2022 talk.
-
- talk/GUADEC2022.tex      |  32 ++++++++++++++++++++------------
- talk/gnome-radio-bbc.png | Bin 0 -> 81577 bytes
- 2 files changed, 20 insertions(+), 12 deletions(-)
-
-commit ce8b05a1106417e8b1af906e792a612836b66e7d
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Jul 23 08:34:24 2022 +0200
-
-    Publish GUADEC 2022 talk (July 24, 2022 13:00-15:00)
-
- talk/GUADEC2022.tex         |  32 ++++++++++++++++++++++++++++++++
- talk/gnome-radio-cal.png    | Bin 0 -> 208381 bytes
- talk/gnome-radio-somafm.png | Bin 0 -> 206735 bytes
- talk/gnome-radio-wnyc.png   | Bin 0 -> 372440 bytes
- talk/guadec-skyline.png     | Bin 0 -> 89659 bytes
- talk/screenshot.png         | Bin 0 -> 212141 bytes
- 6 files changed, 32 insertions(+)
-
-commit d08f47d9d5d22e4b4efd1b8e511a7ef1ae782119
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Jul 23 07:48:34 2022 +0200
-
-    Publish talk for GUADEC 2022
-
- ChangeLog           |  16 +++++++
- Makefile.in         |   2 +-
- talk/GUADEC2022.tex | 126 ++++++++++++++++++++++++++++++++++------------------
- 3 files changed, 101 insertions(+), 43 deletions(-)
-
-commit 59631ac9f60648b241df674a7a19a7649fd4da40
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 16:29:39 2022 +0200
-
-    GNOME Radio (gnome-radio) 45.0
-
- ChangeLog           | 11 +++++++++++
- NEWS                | 11 +++++++++++
- configure           | 20 ++++++++++----------
- configure.ac        |  2 +-
- gnome-radio.spec.in | 11 ++++++++---
- gtk/Makefile.am     |  2 +-
- gtk/Makefile.in     |  2 +-
- meson.build         |  2 +-
- 8 files changed, 44 insertions(+), 17 deletions(-)
-
-commit 8b39e2a18f4540464216242fc48dc19efee7327c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 14:29:35 2022 +0200
-
-    GNOME Radio (org.gnome.Radio) version 44.1
-
- ChangeLog           | 15 +++++++++++++++
- NEWS                |  1 +
- gnome-radio.spec.in |  1 +
- 3 files changed, 17 insertions(+)
-
-commit 1bb828032e84ec4eed83c965f908977f3244fed8
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 14:25:42 2022 +0200
-
-    Basic GNOME Radio (org.gnome.Radio service) with BBC World Service
-
- ChangeLog             | 68 +++++++++++++++++++++++++++++++++++++++++++++++++++
- Makefile.am           |  2 +-
- Makefile.in           |  4 +--
- configure             |  3 ++-
- configure.ac          |  1 +
- gtk/Makefile.in       |  4 +--
- gtk/org.gnome.Radio.c |  8 ++++++
- 7 files changed, 84 insertions(+), 6 deletions(-)
-
-commit e784c2b6ea703f5b2172b38ef425c63986e6e484
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 14:00:56 2022 +0200
-
-    BBC World Service profile
-
- src/gnome_radio-application.c |  2 +-
- src/org.gnomeradio.ui         | 24 +++++++++++-------------
- 2 files changed, 12 insertions(+), 14 deletions(-)
-
-commit 047d5f3002e26f6a7390d5a71b7e3cc23cfd04cf
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 12:53:59 2022 +0200
-
-    GNOME Radio (org.gnomeradio) rejects Digital Millenium Copyright Act.
-
- NEWS                                             | 4 ++++
- src/gnome_radio-window.c                         | 4 ++--
- src/gnome_radio.gresource.xml                    | 2 +-
- src/{gnome_radio-window.ui => org.gnomeradio.ui} | 0
- 4 files changed, 7 insertions(+), 3 deletions(-)
-
-commit 83ff238b034ae96d6f79c732fad5e1b706b2791a
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 12:09:15 2022 +0200
-
-    Informal Disneyland Information with Radio
-
- src/gnome_radio-window.ui | 14 +++++++++++++-
- 1 file changed, 13 insertions(+), 1 deletion(-)
-
-commit 919d8ec422296a9af85eb7d4457e48fdebbbc351
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 10:13:17 2022 +0200
-
-    Basic GTK 4 Radio application with 56 kbps on api.perceptron.stream
-
- Makefile.in                   |  2 +-
- configure                     | 20 ++++++++++----------
- src/gnome_radio-application.c |  6 ++++++
- src/main.c                    |  3 ++-
- src/meson.build               |  2 ++
- 5 files changed, 21 insertions(+), 12 deletions(-)
-
-commit 9063fb6b2614ef040e3ddb80ababdbec1731d87b
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 09:38:08 2022 +0200
-
-    GNOME Radio (org.gnome.Radio) version 44.1
-
- NEWS                    | 12 ++++++++++++
- configure.ac            |  2 +-
- gtk/org.gnome.Radio.xml |  4 ++--
- meson.build             |  2 +-
- 4 files changed, 16 insertions(+), 4 deletions(-)
-
-commit 1acb9594992a7e978bd6f222a1c5511e6c3ce264
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 08:46:17 2022 +0200
-
-    Release GNOME Radio (gnome-radio) 44.0
-
- ChangeLog    | 19 +++++++++++++++++++
- Makefile.in  |  2 +-
- configure    | 20 ++++++++++----------
- configure.ac |  2 +-
- 4 files changed, 31 insertions(+), 12 deletions(-)
-
-commit 43f75b40c3d5c09e1e1a91dfcaef50b66c6cb763
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 08:43:19 2022 +0200
-
-    GNOME Radio (gnome-radio) version 44.0
-
- COPYING                        |  1 -
- ChangeLog                      | 38 +++++++++++++++++++++++++++++++++++++
- Makefile.am                    |  2 +-
- Makefile.in                    |  2 +-
- configure                      | 43 +++++++++++++++++++++---------------------
- configure.ac                   |  7 +++----
- data/gnome-radio.desktop.in    |  2 +-
- data/gnome-radio.desktop.in.in |  2 +-
- gnome-radio.spec.in            |  8 ++++----
- gtk/Makefile.in                |  4 ++--
- po/LINGUAS                     |  2 ++
- 11 files changed, 74 insertions(+), 37 deletions(-)
-
-commit fa2f96c8eb0593acb21cf4482be4b76d03cf9ebe
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 08:29:25 2022 +0200
-
-    Add translation languages
-
- po/LINGUAS | 25 +++++++++++++++++++++++++
- 1 file changed, 25 insertions(+)
-
-commit e4066750557ad89d1f64f68c03fb69762b149593
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 08:06:58 2022 +0200
-
-    Downgrade GTK version from 4.6.6 to 3.24.34
-
- configure    | 20 ++++++++++----------
- configure.ac |  4 ++--
- 2 files changed, 12 insertions(+), 12 deletions(-)
-
-commit 75251bad72604d70a95b4460d394e610a0004828
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 05:37:19 2022 +0000
-
-    Delete gnome_radio-application.c~
-
- src/gnome_radio-application.c~ | 125 -----------------------------------------
- 1 file changed, 125 deletions(-)
-
-commit 7a16fc369aaf3ad5773935cddb71e88b3c714412
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 06:38:41 2022 +0200
-
-    Build on GTK 4
-
- ChangeLog   | 103 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- meson.build |   2 +-
- 2 files changed, 104 insertions(+), 1 deletion(-)
-
-commit c09736915ac7e9f100c6268f70597993e3d572ab
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 06:15:59 2022 +0200
-
-    Radio for GTK 4 with GNOME Builder 41 files for GNOME 42
-
- NEWS | 47 +++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 47 insertions(+)
-
-commit 1d02c78011465310cd658c0f1bde6fb14725d277
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 05:47:23 2022 +0200
-
-    Revert "Delete gnome_radio-application.c~"
-    
-    This reverts commit 24808fc577a92e8864a1d3c14cb06da25e528d53.
-
- src/gnome_radio-application.c  | 127 +++++++++++++++++++++++++++++++++++++++++
- src/gnome_radio-application.c~ | 125 ++++++++++++++++++++++++++++++++++++++++
- 2 files changed, 252 insertions(+)
-
-commit 24808fc577a92e8864a1d3c14cb06da25e528d53
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 05:45:55 2022 +0200
-
-    Delete gnome_radio-application.c~
-
- src/gnome_radio-application.c  | 127 -----------------------------------------
- src/gnome_radio-application.c~ | 125 ----------------------------------------
- 2 files changed, 252 deletions(-)
-
-commit ce0df7fcfa5a24bd4355b780ae9e7c56cae5ec2c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 05:44:30 2022 +0200
-
-    Update gnome-radio desktop and org.gnome.Radio appdata
-
- data/gnome-radio.desktop.in         |  2 +-
- data/gnome-radio.desktop.in.in      |  2 +-
- data/org.gnome.Radio.appdata.xml.in | 90 ++++++++++++++++++++++++++++++++++---
- 3 files changed, 86 insertions(+), 8 deletions(-)
-
-commit 78a729c03d28062f0a51064390f1ec6ce1a758cc
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 05:30:53 2022 +0200
-
-    Radio for GTK 4 (basic GNOME framework built upon GNOME Builder 41)
-
- COPYING                                            |     1 +
- config.guess                                       |  1768 ---
- config.h.in                                        |   141 -
- config.sub                                         |  1890 ---
- .../hicolor/scalable/apps/org.gnome.Radio.svg      |   109 +
- .../symbolic/apps/org.gnome.Radio-symbolic.svg     |   109 +
- data/icons/meson.build                             |    16 +-
- data/meson.build                                   |    43 +
- data/org.gnome.Radio.appdata.xml.in                |    93 +-
- data/org.gnome.Radio.desktop.in                    |    14 +-
- data/org.gnome.Radio.gschema.xml                   |     5 +
- depcomp                                            |   791 --
- install-sh                                         |   541 -
- ltmain.sh                                          | 11429 -------------------
- meson.build                                        |    77 +-
- missing                                            |   215 -
- po/LINGUAS                                         |    27 -
- po/Makefile.in.in                                  |   221 -
- po/meson.build                                     |     6 +-
- src/gnome_radio-application.c                      |   127 +
- src/gnome_radio-application.c~                     |   125 +
- src/gnome_radio-application.h                      |    32 +
- src/gnome_radio-window.c                           |    47 +
- src/gnome_radio-window.h                           |    29 +
- src/gnome_radio-window.ui                          |    44 +
- src/gnome_radio.gresource.xml                      |     7 +
- src/gtk/help-overlay.ui                            |    29 +
- src/main.c                                         |    56 +
- src/meson.build                                    |    38 +-
- 29 files changed, 837 insertions(+), 17193 deletions(-)
-
-commit 7f1c9d3397bc4f8deb7e2434690484d0a9d339a8
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 04:43:26 2022 +0200
-
-    Add Makefile.in (autoconf)
-
- gtk/Makefile.in | 788 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 788 insertions(+)
-
-commit 2d0e24f49a67921a81fd7cbfb79af8dffd682cdd
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 04:40:16 2022 +0200
-
-    Add org.gnome.Radio files (framework for Radio GTK4 application)
-
- ChangeLog               |   27 +
- GTK4                    |    1 -
- Makefile.in             |    2 +-
- gtk/Makefile.am         |   31 +
- gtk/org.gnome.Radio.c   |   24 +
- gtk/org.gnome.Radio.dtd |   24 +
- gtk/org.gnome.Radio.xml | 1761 +++++++++++++++++++++++++++++++++++++++++++++++
- 7 files changed, 1868 insertions(+), 2 deletions(-)
-
-commit ef19712275bc1038de414891681e06d848c7ec99
-Author: Ole Aamot <ole@gnome.org>
-Date:   Thu Jul 21 02:48:55 2022 +0200
-
-    GNOME Radio 44 for GTK 4 (initial framework)
-
- GTK4             | 20 +++++++++++++++-----
- Makefile.am      |  2 +-
- Makefile.in      |  4 ++--
- configure        | 41 +++++++++++++++++++++--------------------
- configure.ac     |  5 +++--
- data/meson.build | 56 --------------------------------------------------------
- gtk/meson.build  | 19 +++++++++++++++++++
- meson.build      | 44 ++++++++++++++++++++++++++++++++++++++++++++
- src/meson.build  | 19 +++++++++++++++++++
- 9 files changed, 124 insertions(+), 86 deletions(-)
-
-commit 84fd66236a1470dead63d30178a01834955ae2ad
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 23:43:20 2022 +0200
-
-    Package for Fedora Core 36
-
- ChangeLog           | 10 ++++++++++
- gnome-radio.spec.in |  8 ++++----
- 2 files changed, 14 insertions(+), 4 deletions(-)
-
-commit caafab132605e6fb57e170a0e074ea9ccea9063b
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 22:36:26 2022 +0200
-
-    Add Radio 43.0 DTD
-
- ChangeLog                | 16 ++++++++++++++++
- src/gnome-radio-43.0.dtd | 24 ++++++++++++++++++++++++
- 2 files changed, 40 insertions(+)
-
-commit b335cb53c38d79797c7d8f8df96ced72ecb6b3f4
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 21:49:20 2022 +0200
-
-    Release Radio 43.0
-
- ChangeLog           | 71 +++++++++++++++++++++++++++++++++++++++++++++++++++++
- configure           | 40 +++++++++++++++---------------
- configure.ac        |  6 ++---
- gnome-radio.spec.in |  3 +++
- src/Makefile.am     |  4 +--
- src/Makefile.in     |  4 +--
- src/gnome-radio.c   | 40 ++++++++++++++----------------
- src/gnome-radio.xml |  4 +--
- 8 files changed, 121 insertions(+), 51 deletions(-)
-
-commit 6a0d3696244eccc1fc6aa91e69cc3373e860867d
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 08:32:52 2022 +0200
-
-    Add depcomp
-
- depcomp | 791 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 791 insertions(+)
-
-commit 1ce8346b5c831023ecf3b25c25bcd73d2b8c4829
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 08:31:25 2022 +0200
-
-    Add config.h.in
-
- config.h.in | 141 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 141 insertions(+)
-
-commit 7c04570a8d2b6ed1e4dd7b38ba936051a35bf958
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 08:29:50 2022 +0200
-
-    Add po/Makefile.in.in
-
- po/Makefile.in.in | 221 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 221 insertions(+)
-
-commit 36b399a9ce428b377296a2cc8d538c651e4110f3
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Jul 20 08:27:35 2022 +0200
-
-    Release gnome-radio 16.0.43 at GUADEC 2022
-
- Makefile.in            |     1 +
- config.guess           |  1768 ++++++++
- config.sub             |  1890 ++++++++
- configure              |   319 +-
- data/Makefile.in       |     1 +
- data/icons/Makefile.in |     1 +
- doc/Makefile.in        |     1 +
- help/Makefile.in       |     1 +
- install-sh             |   541 +++
- ltmain.sh              | 11429 +++++++++++++++++++++++++++++++++++++++++++++++
- m4/libtool.m4          |   227 +-
- m4/ltoptions.m4        |     4 +-
- m4/ltsugar.m4          |     2 +-
- m4/ltversion.m4        |    13 +-
- m4/lt~obsolete.m4      |     4 +-
- man/Makefile.in        |     1 +
- missing                |   215 +
- src/Makefile.in        |     1 +
- 18 files changed, 16221 insertions(+), 198 deletions(-)
-
-commit f48411d9f46594745b572eb6b1b0432aef214004
-Author: Ole Aamot <ole@gnome.org>
-Date:   Fri May 27 09:55:14 2022 +0200
-
-    Release Radio 16.0.43 for GNOME 43 (gnome-radio)
-
- ChangeLog                      | 12 ++++++++++
- Makefile.in                    |  2 +-
- NEWS                           | 19 +++++++++++++++
- configure                      | 20 ++++++++--------
- configure.ac                   |  2 +-
- data/gnome-radio.desktop.in    |  2 +-
- data/gnome-radio.desktop.in.in |  2 +-
- gnome-radio.spec.in            |  7 ++++--
- src/gnome-radio.c              |  4 ++--
- src/gnome-radio.xml            | 54 ++++++++++++++++++++++++++++++++++++++++--
- 10 files changed, 104 insertions(+), 20 deletions(-)
-
-commit 8d9a9b60ff19c90111f694e08dc8d47f8cf3d1fc
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 9 22:07:55 2022 +0200
-
-    Release Radio 16.0.42 for GNOME 42 (gnome-radio)
-
- ChangeLog           | 181 ++++++++++++++++++++++++++++++++++++++++++++++++++++
- NEWS                |  17 +++++
- configure           |  20 +++---
- src/gnome-radio.xml |   2 +-
- 4 files changed, 209 insertions(+), 11 deletions(-)
-
-commit 317cd940cb4cd07f4c4bd180d8bb0e9804448c56
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 19:14:42 2022 +0000
-
-    Replace gnome-radio.spec.in
-
- gnome-radio.spec.in | 15 ++++++++-------
- 1 file changed, 8 insertions(+), 7 deletions(-)
-
-commit b9db3344d58fb1fcd75f8163c32b0bae4848f40d
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 19:13:42 2022 +0000
-
-    Replace gnome-radio.doap
-
- gnome-radio.doap | 8 ++++----
- 1 file changed, 4 insertions(+), 4 deletions(-)
-
-commit 62a3f80f5079eeae0aa6ac93e6abdf44d616a2a1
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 19:04:38 2022 +0000
-
-    Replace screenshot.png
-
- data/screenshot.png | Bin 208381 -> 212141 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 6eead7cde85f1414060c92e8b330dcb9f99b1879
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 19:04:17 2022 +0000
-
-    Replace gnome-radio-screenshot.png
-
- data/screenshots/gnome-radio-screenshot.png | Bin 210848 -> 212141 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 4d7ac48f057b96623594245708b75e993f9ed9e5
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 19:03:11 2022 +0000
-
-    Replace screenshot.png
-
- data/screenshot.png | Bin 211656 -> 208381 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 69904f0d03f682bf2551a3a9d82cf925db427de4
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 19:00:19 2022 +0000
-
-    Upload New File
-
- data/screenshots/gnome-radio-cal.png | Bin 0 -> 208381 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 6d0f01066713b6dacd3e98eaa4abfbe547331654
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:59:59 2022 +0000
-
-    Upload New File
-
- data/screenshots/gnome-radio-somafm.png | Bin 0 -> 206735 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit add53addcc9792c04eb307b3c1c7712019997943
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:59:35 2022 +0000
-
-    Upload New File
-
- data/screenshots/gnome-radio-wnyc.png | Bin 0 -> 372440 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit cbc2d05d46820982c340ce728a1699d109c11304
-Merge: fe9f750 c0aceb4
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:46:04 2022 +0000
-
-    Merge branch 'ole-main-patch-08181' into 'main'
-    
-    Update src/gnome-radio.c
-    
-    See merge request ole/gnome-radio!5
-
-commit c0aceb4fb8e784770ec3cbcf67cdb81ca863b24c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:45:48 2022 +0000
-
-    Update src/gnome-radio.c
-
- src/gnome-radio.c | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-commit fe9f75004c060b5d6e6d0e346d210d8e642b2273
-Merge: 7d4f6ed 244e0f8
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:43:21 2022 +0000
-
-    Merge branch 'ole-main-patch-70790' into 'main'
-    
-    Update configure.ac
-    
-    See merge request ole/gnome-radio!4
-
-commit 244e0f89ec43312be2aad24708c108337349ad97
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:42:59 2022 +0000
-
-    Update configure.ac
-
- configure.ac | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 7d4f6edd69a60c7d36c939a573fd3fdc2b5ed2e2
-Merge: 1d671a6 6df6be8
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:33:34 2022 +0000
-
-    Merge branch 'ole-main-patch-94239' into 'main'
-    
-    Update data/gnome-radio.desktop.in
-    
-    See merge request ole/gnome-radio!3
-
-commit 6df6be8dc211c203596acda200e65547ec29060c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:33:16 2022 +0000
-
-    Update data/gnome-radio.desktop.in
-
- data/gnome-radio.desktop.in | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 1d671a640cece77b9f1348d02c5b142429d83d31
-Merge: d7e6af3 55001ab
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:32:30 2022 +0000
-
-    Merge branch 'ole-main-patch-23638' into 'main'
-    
-    Update data/gnome-radio.desktop.in.in
-    
-    See merge request ole/gnome-radio!2
-
-commit 55001abeae5780c284b47dde079f664b055e3539
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 18:32:08 2022 +0000
-
-    Update data/gnome-radio.desktop.in.in
-
- data/gnome-radio.desktop.in.in | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit d7e6af3ace30ca2d55e76c9c2418888bf3b6026c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 02:54:57 2022 +0000
-
-    Replace gnome-radio-screenshot.png
-
- data/screenshots/gnome-radio-screenshot.png | Bin 193425 -> 210848 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 3762122168cd7ba521ec831a911d73345a00b91e
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Apr 2 02:53:27 2022 +0000
-
-    Replace screenshot.png
-
- data/screenshot.png | Bin 193425 -> 211656 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 16cef784e7df3e7ce2c8fdfc0cf7f1fd645e8051
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Mar 28 17:53:23 2022 +0200
-
-    GNOME Radio 16.0.6
-
- ChangeLog         | 16 ++++++++++++++++
- NEWS              |  3 +++
- src/gnome-radio.c |  2 +-
- 3 files changed, 20 insertions(+), 1 deletion(-)
-
-commit f5e3376bc0006a3e3585527ff481550c18c78e58
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Mar 28 17:36:55 2022 +0200
-
-    Update for GNOME Radio 16.0.6
-
- ChangeLog           | 17 +++++++++++++++++
- Makefile.in         |  2 +-
- NEWS                | 13 +++++++++++++
- configure           | 20 ++++++++++----------
- configure.ac        |  2 +-
- gnome-radio.spec.in |  7 +++++--
- src/gnome-radio.c   |  2 +-
- src/gnome-radio.xml |  2 +-
- 8 files changed, 49 insertions(+), 16 deletions(-)
-
-commit fedf7c0bc5618481b4d640be010768525d40886c
-Author: Ole Aamot <ole@gnome.org>
-Date:   Mon Mar 28 17:10:54 2022 +0200
-
-    GNOME Radio 16.0.5
-
- ChangeLog           | 180 ++++++++++++++++++++++++++++++++++++++++++++++++++++
- INSTALL             |   6 +-
- Makefile.in         |   2 +-
- NEWS                |  18 ++++++
- compile             |   2 +-
- configure           |  20 +++---
- configure.ac        |   2 +-
- gnome-radio.spec.in |  17 +++--
- src/gnome-radio.xml |   2 +-
- 9 files changed, 225 insertions(+), 24 deletions(-)
-
-commit 8fed7db0649912a99e4f7af9b8a8c70e27a8144a
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 05:46:02 2022 +0000
-
-    Update gnome-radio.appdata.xml.in
-
- data/gnome-radio.appdata.xml.in | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 17ac7bf0e51a8bd90bda94546590c65f8e7f33b5
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 05:43:42 2022 +0000
-
-    Upload New File
-
- data/screenshots/gnome-radio-screenshot.png | Bin 0 -> 193425 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit bf36af6cbe00781ae763dbeaab816a9ac0a1143d
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 05:42:50 2022 +0000
-
-    Update gnome-radio.appdata.xml.in
-
- data/gnome-radio.appdata.xml.in | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 08ba7f654dcf15213008f06c504fe7feef3f7f60
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 05:33:30 2022 +0000
-
-    Replace screenshot.png
-
- data/screenshot.png | Bin 217032 -> 193425 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 6f78d912a331f11a20daa659e3ef6a7237fc29ba
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 05:07:46 2022 +0000
-
-    Update gnome-radio.doap
-
- gnome-radio.doap | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
-
-commit e08100900544956a967eb9fe89163345caf477a9
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:29:22 2022 +0000
-
-     Update gnome-radio.c
-
- src/gnome-radio.c | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 75e38b86064945df3acbce65acad02dfccbcb073
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:27:35 2022 +0000
-
-    GNOME Radio 16.0.4
-
- src/gnome-radio.c | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-commit 794a379f30d0687b8a680efff2d056a4c5b1b163
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:23:20 2022 +0000
-
-    Update gnome-radio.xml
-
- src/gnome-radio.xml | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 701fe426dbd8ba8b405e2cadaa10b8212484aa25
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:17:07 2022 +0000
-
-    Update gnome-radio.spec.in
-
- gnome-radio.spec.in | 11 +++++++----
- 1 file changed, 7 insertions(+), 4 deletions(-)
-
-commit 85a3621f97cb543e432dc969e4a9479b6919e34b
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:12:57 2022 +0000
-
-    Update gnome-radio.xml
-
- src/gnome-radio.xml | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 13a39e8836c207ae7f7517d1acc5274682bb14dd
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:12:16 2022 +0000
-
-    Update configure.ac
-
- configure.ac | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 5321cfbfe9b475c03918bd1d9b63f9f02e7f583a
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 04:05:12 2022 +0000
-
-    Prepare talk for GUADEC 2022 (Guadalajara, Mexico between July 20st - July 25th, 2022)
-
- talk/GUADEC2022.tex | 152 ++++++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 152 insertions(+)
-
-commit 6e5cb5ba045f992b5032e8d3461ca160f5606d25
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 03:11:20 2022 +0000
-
-    Update README
-
- README | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 6edc73cb3b89321bbb8ca6807825c8aa859bf01a
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 03:10:38 2022 +0000
-
-    Update README
-
- README | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-commit 4f9dcb1fc98248a5ce53093d86540e27881762af
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 02:52:06 2022 +0000
-
-    Update HACKING
-
- HACKING | 18 +++++++++---------
- 1 file changed, 9 insertions(+), 9 deletions(-)
-
-commit 44512124a530a4aeee3f31f3cd5b94dc1ca63eef
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 02:51:08 2022 +0000
-
-    Update NEWS
-
- NEWS | 9 +++++++++
- 1 file changed, 9 insertions(+)
-
-commit d53c036755d774ae5bb42a8d2907206db48f62f2
-Merge: 9f86958 d7900fa
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Mar 19 02:08:51 2022 +0000
-
-    Merge branch 'droidbittin-main-patch-68740' into 'main'
-    
-    Update THANKS
-    
-    See merge request ole/gnome-radio!1
-
-commit 9f86958466a23f711107772d4b8e1f83ee3161c5
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Mar 16 12:28:24 2022 +0100
-
-    GNOME Radio 16.0.3
-
- AUTHORS             |  1 +
- ChangeLog           | 43 +++++++++++++++++++++++++++++++++++++++++++
- NEWS                |  4 ++++
- THANKS              |  1 +
- configure           | 20 ++++++++++----------
- configure.ac        |  2 +-
- src/gnome-radio.c   |  2 +-
- src/gnome-radio.xml |  2 +-
- 8 files changed, 62 insertions(+), 13 deletions(-)
-
-commit d7900fa6582681f17672ae1fc69421438afdf02c
-Author: Luna Jernberg <droidbittin@gmail.com>
-Date:   Wed Mar 16 09:14:42 2022 +0000
-
-    Update THANKS
-
- THANKS | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-commit 635464089dae2f97e2273f4eb28e53e5864fec28
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Mar 16 09:24:36 2022 +0100
-
-    Add Retro FM (Kyiv, Ukraine)
-
- NEWS                      |  8 ++++++++
- configure                 | 20 ++++++++++----------
- configure.ac              |  2 +-
- src/gnome-radio-markers.c | 11 +++++++++++
- src/gnome-radio.xml       |  8 +++++++-
- 5 files changed, 37 insertions(+), 12 deletions(-)
-
-commit 4fd62a61cfc2fa4044245a30db6466e347422d54
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Mar 16 04:16:31 2022 +0100
-
-    GNU Network Object Model Environment Radio 16 (GNOME Radio 16.0.1)
-
- data/screenshot.png | Bin 598046 -> 217032 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-commit 331771e7e9678388a790d8c9bb8d924785855a78
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Mar 16 03:40:12 2022 +0100
-
-    Release GNOME Radio 16.0.1 for GNOME 42 on Fedora 36
-
- ChangeLog                       | 32 ++++++++++++++++++++++++++++++++
- NEWS                            |  8 ++++++++
- configure                       | 20 ++++++++++----------
- configure.ac                    |  2 +-
- data/gnome-radio.appdata.xml.in |  6 +++---
- data/gnome-radio.desktop.in     |  2 +-
- data/gnome-radio.desktop.in.in  |  2 +-
- src/Makefile.am                 |  4 ++--
- src/Makefile.in                 |  4 ++--
- src/gnome-radio-16.0.dtd        | 24 ++++++++++++++++++++++++
- src/gnome-radio-markers.c       |  2 +-
- src/gnome-radio.c               |  4 ++--
- src/gnome-radio.xml             |  4 ++--
- 13 files changed, 89 insertions(+), 25 deletions(-)
-
-commit 39ecf2cca1807cee914139635ec5a0249f6dda40
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Mar 16 03:04:59 2022 +0100
-
-    GNOME Radio 16.0.0
-
- Makefile.in               |   17 +-
- NEWS                      |    8 +
- configure                 | 8089 ++++++++++++++++++++++++---------------------
- configure.ac              |    2 +-
- data/Makefile.in          |   10 +-
- data/icons/Makefile.in    |    8 +-
- doc/Makefile.in           |    8 +-
- help/Makefile.in          |    8 +-
- man/Makefile.in           |    8 +-
- src/Makefile.in           |   10 +-
- src/gnome-radio-markers.c |   12 +-
- src/gnome-radio.xml       |    2 +-
- 12 files changed, 4360 insertions(+), 3822 deletions(-)
-
-commit 68404bcb3d10d3f1a7b5707d2ddad331b7f44014
-Author: Ole Aamot <ole@gnome.org>
-Date:   Wed Mar 16 00:09:05 2022 +0100
-
-    Release GNOME Radio 14 (C-SPAN)
-
- ChangeLog           | 37 +++++++++++++++++++++++++++++++++++++
- NEWS                | 13 +++++++++++++
- gnome-radio.spec.in |  2 +-
- src/gnome-radio.xml |  2 +-
- 4 files changed, 52 insertions(+), 2 deletions(-)
-
-commit 7c5e0b56e58f28ef9028db6e1e8be67374640fa8
-Author: Ole Aamot <ole@gnome.org>
-Date:   Tue Mar 15 23:20:35 2022 +0100
-
-    GNOME Radio 14.0.1
-
- man/gnome-radio.1        | 33 +++++++++++++++++++++++++++++++++
- src/gnome-radio-14.0.dtd | 24 ++++++++++++++++++++++++
- 2 files changed, 57 insertions(+)
-
-commit 26b93a2d5ff3ea974aef3d6bb6d931c1d070773a
-Author: Ole Aamot <ole@gnome.org>
-Date:   Tue Mar 15 23:11:36 2022 +0100
-
-    GNU Network Object Model Environment Radio 14.0 WWW.GNOMERADIO.ORG
-
- ChangeLog                 |   14 +
- INSTALL                   |    6 +-
- Makefile.in               |   16 +-
- compile                   |    2 +-
- configure                 | 7973 +++++++++++++++++++++------------------------
- configure.ac              |    2 +-
- data/Makefile.in          |   11 +-
- data/icons/Makefile.in    |    9 +-
- doc/Makefile.in           |    9 +-
- gnome-radio.spec.in       |    6 +-
- help/Makefile.in          |    9 +-
- m4/libtool.m4             |   18 +-
- man/Makefile.am           |    2 +-
- man/Makefile.in           |   11 +-
- src/Makefile.am           |    4 +-
- src/Makefile.in           |   15 +-
- src/gnome-radio-station.c |    2 +-
- src/gnome-radio.c         |    6 +-
- src/gnome-radio.xml       |    4 +-
- 19 files changed, 3836 insertions(+), 4283 deletions(-)
-
-commit c9201fb68dbc0af8c218c880a9d51c41475654e1
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Nov 20 20:33:24 2021 +0100
-
-    GNOME Radio 13.0.1
-
- ChangeLog           | 44 ++++++++++++++++++++++++++++++++++++++++++++
- NEWS                | 10 ++++++++++
- configure           | 20 ++++++++++----------
- configure.ac        |  2 +-
- src/gnome-radio.xml |  4 ++--
- src/gnome-radio.xsl |  2 +-
- 6 files changed, 68 insertions(+), 14 deletions(-)
-
-commit bfe341deebdee52b359261972abe3f305c2fdeb5
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Nov 20 17:27:56 2021 +0100
-
-    Update window title
-
- src/gnome-radio.c | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-commit da705f3f86c89914323fbc2c6b043335c69080b2
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Nov 20 17:13:40 2021 +0100
-
-    Release GNOME Radio 13.0.0
-
- ChangeLog                      | 5534 ++--------------------------------------
- NEWS                           |    6 +
- README.md                      |   42 -
- gnome-radio.spec.in            |  190 +-
- src/gnome-radio-archive.h      |    4 +-
- src/gnome-radio-encoder.h      |    4 +-
- src/gnome-radio-gui.c          |    6 +-
- src/gnome-radio-keys.h         |    4 +-
- src/gnome-radio-listener.h     |    4 +-
- src/gnome-radio-location.c     |    2 +-
- src/gnome-radio-location.h     |    2 +-
- src/gnome-radio-markers.c      |    4 +-
- src/gnome-radio-markers.h      |    4 +-
- src/gnome-radio-player.h       |    4 +-
- src/gnome-radio-program.h      |    4 +-
- src/gnome-radio-radius.c       |    4 +-
- src/gnome-radio-radius.h       |    4 +-
- src/gnome-radio-runners.h      |    4 +-
- src/gnome-radio-station.c      |    6 +-
- src/gnome-radio-station.h      |    4 +-
- src/gnome-radio-stations-map.h |    4 +-
- src/gnome-radio-streams.h      |    4 +-
- src/gnome-radio-tz.c           |    4 +-
- src/gnome-radio-tz.h           |    4 +-
- src/gnome-radio.c              |   10 +-
- src/gnome-radio.h              |    4 +-
- src/gnome-radio.xml            |    8 +-
- 27 files changed, 314 insertions(+), 5560 deletions(-)
-
-commit 53392246d99d6736ddcf5c319cb3c13c694edf3f
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Nov 20 16:43:11 2021 +0100
-
-    GNOME Radio 13.0.0
-
- AMFM                                               |    12 +
- AUTHORS                                            |    41 +
+commit 3f8ad604fcb0caea2835dea8f767141e893f3ace
+Author: Ole Aamot <ole@aamot.org>
+Date:   Fri Jan 24 15:09:39 2025 +0100
+
+    GNOME Radio version 48.2 (gnome-radio)
+
+ AMFM                                          |    12 +
+ AUTHORS                                       |    30 +-
+ BROADCAST                                     |    22 +-
+ ChangeLog                                     | 13809 +++++++---------
+ DEBIAN                                        |    11 +-
+ EFF                                           |     4 +
+ FEDORA                                        |     7 +
+ GEOLOCATION                                   |     9 +
+ GNU                                           |     2 +
+ HACKING                                       |    29 +-
+ INSTALL                                       |   477 +-
+ Makefile                                      |   124 +-
+ Makefile.am                                   |    12 +-
+ Makefile.in                                   |    78 +-
+ NEWS                                          |  1781 +-
+ README                                        |    41 +-
+ THANKS                                        |    32 +-
+ TODO                                          |    14 +-
+ UBUNTU                                        |     7 +
+ aclocal.m4                                    |   415 +-
+ compile                                       |    11 +-
+ config.guess                                  |    11 +-
+ config.h.in                                   |     2 +-
+ config.sub                                    |   729 +-
+ configure                                     |  2773 ++--
+ configure.ac                                  |    97 +-
+ configure~                                    | 20705 ------------------------
+ data/Makefile.am                              |    20 +-
+ data/Makefile.in                              |    68 +-
+ data/gnome-radio.appdata.xml.in               |    25 +
+ data/gnome-radio.desktop                      |    17 +
+ data/gnome-radio.desktop.in                   |    17 +
+ data/gnome-radio.desktop.in.in                |    17 +
+ data/icons/Makefile.am                        |    19 +-
+ data/icons/Makefile.in                        |   374 +-
+ data/icons/apps/gnome-radio.svg               |   109 +
+ depcomp                                       |    15 +-
+ doc/AAMOT.txt.xz                              |   Bin 0 -> 64444 bytes
+ doc/Aamot-2020.txt.xz                         |   Bin 0 -> 2032 bytes
+ doc/Makefile.am                               |     4 +
+ doc/Makefile.in                               |   564 +
+ gnome-radio.spec                              |   122 +
+ gnome-radio.spec.in                           |   122 +
+ gtk/Makefile.am                               |     4 +-
+ gtk/Makefile.in                               |    56 +-
+ gtk/org.gnome.Radio.xml                       |   189 +-
+ help/Makefile.am                              |    14 +-
+ help/Makefile.in                              |    42 +-
+ install-sh                                    |    10 +-
+ install-sh~                                   |   541 -
+ ltmain.sh                                     |   732 +-
+ m4/ChangeLog                                  |    14 -
+ m4/libtool.m4                                 |   462 +-
+ m4/ltoptions.m4                               |   106 +-
+ m4/ltsugar.m4                                 |     2 +-
+ m4/ltversion.m4                               |    12 +-
+ m4/lt~obsolete.m4                             |     2 +-
+ man/Makefile.am                               |     2 +-
+ man/Makefile.in                               |    37 +-
+ man/gnome-radio.1                             |     6 +-
+ missing                                       |    75 +-
+ po/LINGUAS                                    |    16 +
+ po/POTFILES.in                                |     9 +
+ po/POTFILES.skip                              |    21 +-
+ po/ca.po                                      |   252 +-
+ po/cs.po                                      |   239 +-
+ po/da.po                                      |   325 +
+ po/de.po                                      |   213 +-
+ po/el.po                                      |   297 +
+ po/es.po                                      |   289 +-
+ po/eu.po                                      |   283 +
+ po/fr.po                                      |   253 +-
+ po/fur.po                                     |   325 +
+ po/hi.po                                      |   325 +
+ po/hr.po                                      |   335 +
+ po/hu.po                                      |   335 +-
+ po/id.po                                      |   305 +-
+ po/is.po                                      |   328 +
+ po/ka.po                                      |   298 +
+ po/nb.po                                      |   140 +-
+ po/nl.po                                      |   339 +
+ po/oc.po                                      |   309 +
+ po/pl.po                                      |   240 +-
+ po/pt_BR.po                                   |   289 +-
+ po/ro.po                                      |   336 +
+ po/ru.po                                      |   328 +
+ po/sk.po                                      |   329 +
+ po/sl.po                                      |    58 +-
+ po/sr.po                                      |   321 +-
+ po/sv.po                                      |   265 +-
+ po/tr.po                                      |   338 +
+ po/uk.po                                      |   334 +
+ po/zh_CN.po                                   |   317 +
+ src/Makefile.am                               |   125 +-
+ src/Makefile.in                               |   990 +-
+ src/gnome-radio-48.0.dtd                      |    24 +
+ src/gnome-radio-gui.c                         |   477 +
+ src/gnome-radio-listener.c                    |     0
+ src/gnome-radio-location.c                    |   188 +
+ src/gnome-radio-markers.c                     |  1122 ++
+ src/gnome-radio-player.c                      |   738 +
+ src/gnome-radio-program.c                     |     0
+ src/gnome-radio-radius.c                      |    76 +
+ src/gnome-radio-runners.c                     |     0
+ src/gnome-radio-station.c                     |   363 +
+ src/gnome-radio-stations-map.c                |     0
+ src/gnome-radio-streams.c                     |     0
+ src/gnome-radio-tz.c                          |   509 +
+ src/gnome-radio.c                             |  1073 ++
+ src/gnome-radio.xml                           |   272 +-
+ src/gtk-internet-radio-locator-gui.c          |   504 +
+ src/gtk-internet-radio-locator-listener.c     |     0
+ src/gtk-internet-radio-locator-markers.c      |   527 +
+ src/gtk-internet-radio-locator-player.c       |   829 +
+ src/gtk-internet-radio-locator-program.c      |     0
+ src/gtk-internet-radio-locator-runners.c      |     0
+ src/gtk-internet-radio-locator-station.c      |   717 +
+ src/gtk-internet-radio-locator-stations-map.c |     0
+ src/gtk-internet-radio-locator-streams.c      |     0
+ src/gtk-internet-radio-locator-tz.c           |   509 +
+ src/gtk-internet-radio-locator.c              |  1013 ++
+ src/gtk-radio-gui.c                           |     8 +-
+ src/gtk-radio-markers.c                       |    10 +
+ src/gtk-radio-station.c                       |    30 +-
+ src/gtk-radio.c                               |    14 +-
+ src/internet-radio-locator-48.0.dtd           |    23 +
+ src/internet-radio-locator.xml                |   274 +-
+ 127 files changed, 29628 insertions(+), 34221 deletions(-)
+
+commit c98e4f8494ef80253497944825639dcc0f55c249
+Author: Ole Kristian Aamot <olekaam@stud.ntnu.no>
+Date:   Wed Sep 11 21:49:55 2024 +0200
+
+    Build on Fedora Core Linux 41
+
+ Makefile                                      |   931 ++
+ Makefile.in                                   |    11 +-
+ aclocal.m4                                    |  2439 +++
+ autogen.sh                                    |    26 +
+ autom4te.cache/output.0                       |  6359 +++++++
+ autom4te.cache/output.1                       | 21039 +++++++++++++++++++++++
+ autom4te.cache/output.2                       | 21039 +++++++++++++++++++++++
+ autom4te.cache/output.3                       | 21040 ++++++++++++++++++++++++
+ autom4te.cache/requests                       |   488 +
+ autom4te.cache/traces.0                       |   446 +
+ autom4te.cache/traces.1                       |  4058 +++++
+ autom4te.cache/traces.2                       |  1217 ++
+ autom4te.cache/traces.3                       |  1216 ++
+ config.guess                                  |  1812 ++
+ config.h                                      |   148 +
+ config.h.in                                   |   147 +
+ config.log                                    |  1652 ++
+ config.status                                 |  2346 +++
+ config.sub                                    |  1971 +++
+ configure                                     |  2583 +--
+ configure~                                    | 20705 +++++++++++++++++++++++
+ data/Makefile                                 |   790 +
+ data/Makefile.in                              |     9 +-
+ data/gtk-radio.appdata.xml                    |    24 +
+ data/gtk-radio.desktop.in                     |    18 +
+ data/icons/1024x1024/Makefile                 |   563 +
+ data/icons/1024x1024/Makefile.in              |     9 +-
+ data/icons/16x16/Makefile                     |   564 +
+ data/icons/16x16/Makefile.in                  |     9 +-
+ data/icons/22x22/Makefile                     |   564 +
+ data/icons/22x22/Makefile.in                  |     9 +-
+ data/icons/24x24/Makefile                     |   563 +
+ data/icons/24x24/Makefile.in                  |     9 +-
+ data/icons/256x256/Makefile                   |   563 +
+ data/icons/256x256/Makefile.in                |     9 +-
+ data/icons/32x32/Makefile                     |   564 +
+ data/icons/32x32/Makefile.in                  |     9 +-
+ data/icons/48x48/Makefile                     |   564 +
+ data/icons/48x48/Makefile.in                  |     9 +-
+ data/icons/512x512/Makefile                   |   563 +
+ data/icons/512x512/Makefile.in                |     9 +-
+ data/icons/Makefile                           |   697 +
+ data/icons/Makefile.in                        |     9 +-
+ data/icons/scalable/Makefile                  |   745 +
+ data/icons/scalable/Makefile.in               |     9 +-
+ data/icons/scalable/apps/Makefile             |   564 +
+ data/icons/scalable/apps/Makefile.in          |     9 +-
+ depcomp                                       |   791 +
+ gtk-doc.make                                  |   322 +
+ gtk-radio.spec                                |    88 +
+ gtk/.deps/org_gnome_Radio-org.gnome.Radio.Po  |     1 +
+ gtk/Makefile                                  |   794 +
+ gtk/Makefile.in                               |     9 +-
+ help/C/version.xml                            |     1 +
+ help/Makefile                                 |   684 +
+ help/Makefile.in                              |     9 +-
+ install-sh                                    |   541 +
+ install-sh~                                   |   541 +
+ libtool                                       | 11936 ++++++++++++++
+ ltmain.sh                                     | 11429 +++++++++++++
+ m4/gtk-doc.m4                                 |   113 +
+ m4/libtool.m4                                 |    22 +-
+ man/Makefile                                  |   582 +
+ man/Makefile.in                               |     9 +-
+ missing                                       |   215 +
+ po/Makefile                                   |   223 +
+ po/Makefile.in                                |   221 +
+ po/Makefile.in.in                             |   221 +
+ po/POTFILES                                   |     3 +
+ po/stamp-it                                   |     0
+ src/.deps/gtk_radio-gtk-radio-gui.Po          |     1 +
+ src/.deps/gtk_radio-gtk-radio-listener.Po     |     1 +
+ src/.deps/gtk_radio-gtk-radio-markers.Po      |     1 +
+ src/.deps/gtk_radio-gtk-radio-player.Po       |     1 +
+ src/.deps/gtk_radio-gtk-radio-program.Po      |     1 +
+ src/.deps/gtk_radio-gtk-radio-runners.Po      |     1 +
+ src/.deps/gtk_radio-gtk-radio-station.Po      |     1 +
+ src/.deps/gtk_radio-gtk-radio-stations-map.Po |     1 +
+ src/.deps/gtk_radio-gtk-radio-streams.Po      |     1 +
+ src/.deps/gtk_radio-gtk-radio-tz.Po           |     1 +
+ src/.deps/gtk_radio-gtk-radio.Po              |     1 +
+ src/Makefile                                  |  1025 ++
+ src/Makefile.in                               |     9 +-
+ stamp-h1                                      |     1 +
+ 84 files changed, 147718 insertions(+), 1210 deletions(-)
+
+commit 4d35ef8aa9966e5dc9b3cd631a7997b9d4e144aa
+Author: Ole Kristian Aamot <olekaam@stud.ntnu.no>
+Date:   Wed Sep 11 21:31:40 2024 +0200
+
+    GTK Radio version 549.0 (www.gtkradio.org)
+
+ ABOUT-NLS                                          |     1 +
+ AUTHORS                                            |    23 +
  BROADCAST                                          |    36 +
  COPYING                                            |   674 +
- ChangeLog                                          |  5295 +++++
- DEBIAN                                             |     7 +
- EFF                                                |     4 +
- FEDORA                                             |     7 +
- GEOLOCATION                                        |     9 +
- GNU                                                |     2 +
- GTK4                                               |    10 +
- HACKING                                            |    37 +
+ ChangeLog                                          |  8736 ++++++++
+ DEBIAN                                             |     6 +
+ HACKING                                            |    36 +
  INSTALL                                            |   368 +
- Makefile.am                                        |    54 +
- Makefile.in                                        |   929 +
- NEWS                                               |  1457 ++
- README                                             |    42 +
- README.md                                          |    43 +-
- THANKS                                             |    47 +
- TODO                                               |    43 +
- UBUNTU                                             |     7 +
- autogen.sh                                         |    26 +
+ Makefile.am                                        |    48 +
+ Makefile.in                                        |   930 +
+ NEWS                                               |     1 +
+ README                                             |    40 +
+ THANKS                                             |    28 +
+ TODO                                               |    51 +
  compile                                            |   348 +
- configure                                          | 20079 +++++++++++++++++++
- configure.ac                                       |   151 +
- data/Makefile.am                                   |    22 +
- data/Makefile.in                                   |   769 +
- data/applications/gnome-radio.desktop              |    17 +
- data/build/meson-logs/meson-log.txt                |    10 +
- data/build/meson-private/meson.lock                |     0
- data/gnome-radio.appdata.xml.in                    |    25 +
- data/gnome-radio.css                               |   106 +
- data/gnome-radio.desktop.in                        |    17 +
- data/gnome-radio.desktop.in.in                     |    17 +
- data/icons/Makefile.am                             |     7 +
- data/icons/Makefile.in                             |   554 +
- data/icons/apps/gnome-radio.svg                    |   109 +
- data/icons/meson.build                             |     9 +
- .../16x16/apps/layer-not-visible-symbolic.svg      |    90 +
- .../hicolor/16x16/apps/layer-visible-symbolic.svg  |    87 +
- .../hicolor/16x16/apps/layers-button-symbolic.svg  |    78 +
- .../hicolor/16x16/apps/maps-point-end-symbolic.svg |   302 +
- .../private/hicolor/16x16/apps/maps-point-end.svg  |   530 +
- .../16x16/apps/maps-point-start-symbolic.svg       |   349 +
- .../hicolor/16x16/apps/maps-point-start.svg        |   359 +
- .../hicolor/16x16/apps/route-bike-symbolic.svg     |    20 +
- .../hicolor/16x16/apps/route-button-symbolic.svg   |    73 +
- .../hicolor/16x16/apps/route-car-symbolic.svg      |    67 +
- .../16x16/apps/route-pedestrian-symbolic.svg       |    78 +
- .../hicolor/16x16/apps/route-reverse-symbolic.svg  |    30 +
- .../16x16/apps/route-transit-bus-symbolic.svg      |    74 +
- .../16x16/apps/route-transit-cablecar-symbolic.svg |    70 +
- .../16x16/apps/route-transit-ferry-symbolic.svg    |    73 +
- .../apps/route-transit-funicular-symbolic.svg      |    82 +
- .../apps/route-transit-gondolalift-symbolic.svg    |    70 +
- .../16x16/apps/route-transit-subway-symbolic.svg   |    70 +
- .../hicolor/16x16/apps/route-transit-symbolic.svg  |    68 +
- .../16x16/apps/route-transit-train-symbolic.svg    |    70 +
- .../16x16/apps/route-transit-tram-symbolic.svg     |    73 +
- .../hicolor/24x24/apps/user-location-compass.png   |   Bin 0 -> 1298 bytes
- .../private/hicolor/24x24/apps/user-location.png   |   Bin 0 -> 1028 bytes
- .../apps/maps-direction-continue-symbolic.svg      |    84 +
- .../32x32/apps/maps-direction-left-symbolic.svg    |    81 +
- .../32x32/apps/maps-direction-right-symbolic.svg   |    82 +
- .../apps/maps-direction-roundabout-0-symbolic.svg  |    82 +
- .../maps-direction-roundabout-135-symbolic.svg     |    81 +
- .../maps-direction-roundabout-180-symbolic.svg     |    81 +
- .../maps-direction-roundabout-225-symbolic.svg     |    81 +
- .../maps-direction-roundabout-270-symbolic.svg     |    81 +
- .../maps-direction-roundabout-315-symbolic.svg     |    81 +
- .../apps/maps-direction-roundabout-45-symbolic.svg |    81 +
- .../apps/maps-direction-roundabout-90-symbolic.svg |    82 +
- .../apps/maps-direction-roundabout-symbolic.svg    |    20 +
- .../apps/maps-direction-sharpleft-symbolic.svg     |    81 +
- .../apps/maps-direction-sharpright-symbolic.svg    |    81 +
- .../apps/maps-direction-slightleft-symbolic.svg    |    81 +
- .../apps/maps-direction-slightright-symbolic.svg   |    81 +
- data/media/maps-point-end-symbolic.svg             |   302 +
- data/media/maps-point-start-symbolic.svg           |   349 +
- data/meson.build                                   |    56 +
- data/org.gnome.Radio.appdata.xml.in                |    90 +
- data/org.gnome.Radio.data.gresource.xml            |    46 +
- data/org.gnome.Radio.desktop.in                    |    16 +
- data/org.gnome.Radio.gschema.xml.in                |    75 +
- data/org.gnome.Radio.service.in                    |     3 +
- data/osm-types.json                                | 16748 ++++++++++++++++
- data/radio-service.json                            |    46 +
- data/schemas/Makefile.am                           |     2 +
- data/schemas/Makefile.in                           |   434 +
- data/schemas/org.gnome.Radio.gschema.xml           |    75 +
- data/schemas/org.gnome.Radio.gschema.xml.in        |    75 +
- data/screenshot.png                                |   Bin 0 -> 598046 bytes
- data/screenshots/maps-main.jpg                     |   Bin 0 -> 459708 bytes
- data/screenshots/maps-main.png                     |   Bin 0 -> 858505 bytes
- data/screenshots/maps-pinpoint.jpg                 |   Bin 0 -> 399934 bytes
- data/screenshots/maps-pinpoint.png                 |   Bin 0 -> 804100 bytes
- data/screenshots/maps-route.jpg                    |   Bin 0 -> 330452 bytes
- data/screenshots/maps-route.png                    |   Bin 0 -> 676993 bytes
- data/ui/Makefile.am                                |     2 +
- data/ui/Makefile.in                                |   434 +
- data/ui/account-row.ui                             |    76 +
- data/ui/check-in-dialog.ui                         |   465 +
- data/ui/context-menu.ui                            |    41 +
- data/ui/export-view-dialog.ui                      |   146 +
- data/ui/favorites-popover.ui                       |    48 +
- data/ui/help-overlay.ui                            |   110 +
- data/ui/instruction-row.ui                         |    74 +
- data/ui/layers-popover.ui                          |    80 +
- data/ui/location-service-dialog.ui                 |    53 +
- data/ui/main-window.ui                             |   299 +
- data/ui/map-bubble.ui                              |   148 +
- data/ui/osm-account-dialog.ui                      |   327 +
- data/ui/osm-edit-address.ui                        |    59 +
- data/ui/osm-edit-dialog.ui                         |   353 +
- data/ui/osm-type-list-row.ui                       |    29 +
- data/ui/osm-type-popover.ui                        |    16 +
- data/ui/osm-type-search-entry.ui                   |    10 +
- data/ui/place-bubble.ui                            |   127 +
- data/ui/place-entry.ui                             |    23 +
- data/ui/place-list-row.ui                          |    81 +
- data/ui/place-popover.ui                           |    85 +
- data/ui/route-entry.ui                             |    50 +
- data/ui/search-result-bubble.ui                    |    40 +
- data/ui/send-to-dialog.ui                          |   163 +
- data/ui/shape-layer-file-chooser.ui                |    30 +
- data/ui/shape-layer-row.ui                         |    62 +
- data/ui/sidebar.ui                                 |   447 +
- data/ui/social-place-more-results-row.ui           |    22 +
- data/ui/social-place-row.ui                        |    44 +
- data/ui/transit-arrival-row.ui                     |    77 +
- data/ui/transit-itinerary-row.ui                   |    66 +
- data/ui/transit-leg-row.ui                         |   255 +
- data/ui/transit-more-row.ui                        |    40 +
- data/ui/transit-options-panel.ui                   |   152 +
- data/ui/transit-route-label.ui                     |    20 +
- data/ui/transit-stop-row.ui                        |    55 +
- data/ui/user-location-bubble.ui                    |    55 +
- data/ui/zoom-in-dialog.ui                          |    53 +
- doc/AAMOT.txt.xz                                   |   Bin 0 -> 64444 bytes
- doc/Aamot-2020.txt.xz                              |   Bin 0 -> 2032 bytes
- doc/Makefile.am                                    |     4 +
- doc/Makefile.in                                    |   551 +
- gnome-radio.doap                                   |    22 +
- gnome-radio.spec.in                                |   247 +
- gtk-doc.m4                                         |   113 +
- help/C/exit.page                                   |    24 +
- help/C/index.page                                  |    62 +
- help/C/intro.page                                  |    37 +
- help/C/legal.xml                                   |     5 +
- help/C/media/gnome-internet-radio-locator-exit.png |   Bin 0 -> 3136 bytes
- help/C/media/gnome-internet-radio-locator-icon.png |   Bin 0 -> 2633 bytes
- help/C/media/gnome-internet-radio-locator-main.png |   Bin 0 -> 210816 bytes
- help/C/media/gnome-internet-radio-locator-new.png  |   Bin 0 -> 51797 bytes
- .../media/gnome-internet-radio-locator-search.png  |   Bin 0 -> 12531 bytes
- help/C/media/gnome-internet-radio-locator-stop.png |   Bin 0 -> 3820 bytes
- help/C/media/gnome-internet-radio-locator-zoom.png |   Bin 0 -> 8916 bytes
- help/C/new.page                                    |    18 +
- help/C/search.page                                 |   108 +
- help/C/stop.page                                   |    23 +
+ config.rpath                                       |   684 +
+ configure                                          | 20705 +++++++++++++++++++
+ configure.ac                                       |   204 +
+ data/Makefile.am                                   |    32 +
+ data/Makefile.in                                   |   789 +
+ data/gtk-radio.appdata.xml.in                      |    24 +
+ data/gtk-radio.desktop.in.in                       |    18 +
+ data/icons/1024x1024/Makefile.am                   |     7 +
+ data/icons/1024x1024/Makefile.in                   |   562 +
+ data/icons/1024x1024/apps/gtk-radio.png            |   Bin 0 -> 98149 bytes
+ data/icons/16x16/Makefile.am                       |     9 +
+ data/icons/16x16/Makefile.in                       |   563 +
+ data/icons/16x16/apps/gtk-radio.png                |   Bin 0 -> 559 bytes
+ data/icons/22x22/Makefile.am                       |     9 +
+ data/icons/22x22/Makefile.in                       |   563 +
+ data/icons/22x22/apps/gtk-radio.png                |   Bin 0 -> 816 bytes
+ data/icons/24x24/Makefile.am                       |     7 +
+ data/icons/24x24/Makefile.in                       |   562 +
+ data/icons/24x24/apps/gtk-radio.png                |   Bin 0 -> 878 bytes
+ data/icons/256x256/Makefile.am                     |     7 +
+ data/icons/256x256/Makefile.in                     |   562 +
+ data/icons/256x256/apps/gtk-radio.png              |   Bin 0 -> 15211 bytes
+ data/icons/32x32/Makefile.am                       |     9 +
+ data/icons/32x32/Makefile.in                       |   563 +
+ data/icons/32x32/apps/gtk-radio.png                |   Bin 0 -> 1171 bytes
+ data/icons/48x48/Makefile.am                       |     9 +
+ data/icons/48x48/Makefile.in                       |   563 +
+ data/icons/48x48/apps/gtk-radio.png                |   Bin 0 -> 1934 bytes
+ data/icons/512x512/Makefile.am                     |     7 +
+ data/icons/512x512/Makefile.in                     |   562 +
+ data/icons/512x512/apps/gtk-radio.png              |   Bin 0 -> 38250 bytes
+ data/icons/Makefile.am                             |    16 +
+ data/icons/Makefile.in                             |   696 +
+ data/icons/scalable/Makefile.am                    |    10 +
+ data/icons/scalable/Makefile.in                    |   744 +
+ data/icons/scalable/apps/Makefile.am               |     9 +
+ data/icons/scalable/apps/Makefile.in               |   563 +
+ data/icons/scalable/apps/gnome-radio.svg           |   109 +
+ .../scalable/apps/gtk-internet-radio-locator.svg   |   111 +
+ data/icons/scalable/apps/gtk-radio.svg             |   111 +
+ gtk-radio.spec.in                                  |    88 +
+ gtk/Makefile.am                                    |    31 +
+ gtk/Makefile.in                                    |   793 +
+ gtk/org.gnome.Radio.c                              |    32 +
+ gtk/org.gnome.Radio.dtd                            |    24 +
+ gtk/org.gnome.Radio.json                           |   105 +
+ gtk/org.gnome.Radio.xml                            |  1865 ++
  help/C/version.xml.in                              |     1 +
- help/C/zoom.page                                   |    23 +
- help/Makefile.am                                   |    27 +
- help/Makefile.in                                   |   514 +
- help/cs/cs.po                                      |   768 +
- help/da/da.po                                      |   686 +
- help/de/de.po                                      |   695 +
- help/es/es.po                                      |   741 +
- help/pl/pl.po                                      |   730 +
- help/sv/sv.po                                      |   733 +
- help/uk/uk.po                                      |   785 +
- m4/ChangeLog                                       |    11 +
- m4/libtool.m4                                      |  8364 ++++++++
+ help/Makefile.am                                   |    19 +
+ help/Makefile.in                                   |   513 +
+ m4/ChangeLog                                       |    25 +
+ m4/libtool.m4                                      |  8415 ++++++++
  m4/ltoptions.m4                                    |   437 +
  m4/ltsugar.m4                                      |   124 +
- m4/ltversion.m4                                    |    23 +
+ m4/ltversion.m4                                    |    24 +
  m4/lt~obsolete.m4                                  |    99 +
+ m4/nls.m4                                          |    32 +
  man/Makefile.am                                    |     3 +
- man/Makefile.in                                    |   574 +
- man/gnome-internet-radio-locator.1                 |    32 +
- po/LINGUAS                                         |    27 +
- po/POTFILES.in                                     |    10 +
- po/POTFILES.skip                                   |     4 +
- po/ca.po                                           |   328 +
- po/cs.po                                           |   322 +
- po/da.po                                           |   325 +
- po/de.po                                           |   334 +
- po/el.po                                           |   297 +
- po/es.po                                           |   618 +
- po/eu.po                                           |   283 +
- po/fr.po                                           |   284 +
- po/fur.po                                          |   325 +
- po/hr.po                                           |   335 +
- po/hu.po                                           |   341 +
- po/id.po                                           |   326 +
- po/meson.build                                     |     5 +
+ man/Makefile.in                                    |   581 +
+ man/gnome-radio.1                                  |    33 +
+ man/gtk-internet-radio-locator.1                   |    39 +
+ man/gtk-radio.1                                    |    35 +
+ po/ChangeLog                                       |  8138 ++++++++
+ po/LINGUAS                                         |    15 +
+ po/POTFILES.in                                     |     6 +
+ po/POTFILES.skip                                   |    21 +
+ po/ca.po                                           |   272 +
+ po/cs.po                                           |   269 +
+ po/de.po                                           |   285 +
+ po/es.po                                           |   589 +
+ po/fr.po                                           |   113 +
+ po/hu.po                                           |   290 +
+ po/id.po                                           |   127 +
  po/nb.po                                           |   280 +
- po/nl.po                                           |   339 +
- po/oc.po                                           |   309 +
- po/pl.po                                           |   326 +
- po/pt_BR.po                                        |   330 +
- po/ro.po                                           |   336 +
- po/sk.po                                           |   329 +
+ po/pl.po                                           |   274 +
+ po/pt_BR.po                                        |   315 +
  po/sl.po                                           |   123 +
- po/sr.po                                           |   342 +
- po/sv.po                                           |   328 +
- po/tr.po                                           |   338 +
- po/uk.po                                           |   334 +
- po/zh_CN.po                                        |   317 +
- src/Makefile.am                                    |    70 +
- src/Makefile.in                                    |  1316 ++
- src/gnome-radio-13.0.dtd                           |    24 +
+ po/sr.po                                           |   121 +
+ po/sv.po                                           |   299 +
+ src/Makefile.am                                    |    48 +
+ src/Makefile.in                                    |  1024 +
+ src/gnome-radio-549.0.dtd                          |    24 +
  src/gnome-radio-archive.h                          |    44 +
  src/gnome-radio-encoder.h                          |    42 +
- src/gnome-radio-gui.c                              |   471 +
  src/gnome-radio-gui.h                              |    20 +
  src/gnome-radio-keys.h                             |    31 +
- src/gnome-radio-listener.c                         |     0
  src/gnome-radio-listener.h                         |    62 +
- src/gnome-radio-location.c                         |   197 +
  src/gnome-radio-location.h                         |    26 +
- src/gnome-radio-markers.c                          |  1061 +
  src/gnome-radio-markers.h                          |    50 +
  src/gnome-radio-player-kb.h                        |    35 +
  src/gnome-radio-player-renderer.h                  |    49 +
  src/gnome-radio-player-resource.h                  |     7 +
- src/gnome-radio-player.c                           |   738 +
  src/gnome-radio-player.h                           |    58 +
- src/gnome-radio-program.c                          |     0
  src/gnome-radio-program.h                          |    66 +
- src/gnome-radio-radius.c                           |    76 +
  src/gnome-radio-radius.h                           |    29 +
- src/gnome-radio-runners.c                          |     0
  src/gnome-radio-runners.h                          |    54 +
- src/gnome-radio-station.c                          |   375 +
  src/gnome-radio-station.h                          |    86 +
- src/gnome-radio-stations-map.c                     |     0
  src/gnome-radio-stations-map.h                     |   110 +
- src/gnome-radio-streams.c                          |     0
  src/gnome-radio-streams.h                          |    71 +
- src/gnome-radio-tz.c                               |   509 +
  src/gnome-radio-tz.h                               |   118 +
- src/gnome-radio.c                                  |  1073 +
  src/gnome-radio.gresource.xml                      |     5 +
  src/gnome-radio.h                                  |   168 +
- src/gnome-radio.xml                                |  1705 ++
+ src/gnome-radio.xml                                |  1894 ++
  src/gnome-radio.xsl                                |    54 +
- talk/GC2019.tex                                    |   516 +
- talk/GUADEC2017.tex                                |   490 +
- talk/GUADEC2019.tex                                |   403 +
- talk/GUADEC2020.tex                                |   101 +
- talk/GUADEC2021.tex                                |   151 +
- 251 files changed, 93616 insertions(+), 2 deletions(-)
-
-commit ccd4a528bc5fa76ea9d1ca88f90afe7c0f443cf6
-Author: Ole Aamot <ole@gnome.org>
-Date:   Sat Nov 20 15:34:32 2021 +0000
-
-    Initial commit
-
- README.md | 3 +++
- 1 file changed, 3 insertions(+)
+ src/gtk-internet-radio-locator-gui.h               |    20 +
+ src/gtk-internet-radio-locator-keys.h              |    31 +
+ src/gtk-internet-radio-locator-listener.h          |    62 +
+ src/gtk-internet-radio-locator-markers.h           |    28 +
+ src/gtk-internet-radio-locator-player-kb.h         |    35 +
+ src/gtk-internet-radio-locator-player-renderer.h   |    49 +
+ src/gtk-internet-radio-locator-player-resource.h   |     7 +
+ src/gtk-internet-radio-locator-player.h            |    58 +
+ src/gtk-internet-radio-locator-program.h           |    76 +
+ src/gtk-internet-radio-locator-runners.h           |    54 +
+ src/gtk-internet-radio-locator-station.h           |    88 +
+ src/gtk-internet-radio-locator-stations-map.h      |   110 +
+ src/gtk-internet-radio-locator-streams.h           |    71 +
+ src/gtk-internet-radio-locator-tz.h                |   118 +
+ src/gtk-internet-radio-locator.h                   |   168 +
+ src/gtk-radio-gui.c                                |   504 +
+ src/gtk-radio-gui.h                                |    20 +
+ src/gtk-radio-keys.h                               |    31 +
+ src/gtk-radio-listener.c                           |     0
+ src/gtk-radio-listener.h                           |    62 +
+ src/gtk-radio-markers.c                            |   570 +
+ src/gtk-radio-markers.h                            |    28 +
+ src/gtk-radio-player-kb.h                          |    35 +
+ src/gtk-radio-player.c                             |   829 +
+ src/gtk-radio-player.h                             |    58 +
+ src/gtk-radio-program.c                            |     0
+ src/gtk-radio-program.h                            |    76 +
+ src/gtk-radio-runners.c                            |     0
+ src/gtk-radio-runners.h                            |    54 +
+ src/gtk-radio-station.c                            |   717 +
+ src/gtk-radio-station.h                            |    88 +
+ src/gtk-radio-stations-map.c                       |     0
+ src/gtk-radio-stations-map.h                       |   110 +
+ src/gtk-radio-streams.c                            |     0
+ src/gtk-radio-streams.h                            |    71 +
+ src/gtk-radio-tz.c                                 |   509 +
+ src/gtk-radio-tz.h                                 |   118 +
+ src/gtk-radio.c                                    |   989 +
+ src/gtk-radio.h                                    |   168 +
+ src/internet-radio-locator-549.0.dtd               |    23 +
+ src/internet-radio-locator.xml                     |  1898 ++
+ src/internet-radio-locator.xsl                     |    54 +
+ 161 files changed, 77732 insertions(+)

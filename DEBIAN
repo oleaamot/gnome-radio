@@ -1,7 +1,7 @@
-Radio compiles and runs on Debian GNU/Linux.
+GNOME Radio compiles and runs on Debian GNU/Linux.
 
 See https://people.gnome.org/~ole/debian/ for i386 packages.
 
-If you are packaging Radio for Debian
+If you are packaging GNOME Radio for Debian
 and/or other GNU/Linux distributions, please coordinate this
 with ole@gnome.org.

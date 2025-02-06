@@ -1,7 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://www.gnomeradio.org/~ole/gnome-radio/gnome-radio.xsl" ?>
-<!DOCTYPE gnome_radio SYSTEM "gnome-radio-64.0.dtd">
-<gnome_radio version="64.0.45">
+<?xml-stylesheet type="text/xsl" href="http://www.gnomeradio.org/~ole/radio/gnome-radio.xsl" ?>
+<!DOCTYPE gnome_radio SYSTEM "gnome-radio-48.0.dtd">
+<gnome_radio version="48.20250122">
+  <station band="Online" id="radiofolgefonn" lang="nn_NO" name="Radio Folgefonn" rank="1.0" type="com">
+    <frequency uri="https://www.radiofolgefonn.no/">Online in Norway</frequency>
+    <location>Norway</location>
+    <description lang="nn_NO">Radio Folgefonn vart starta i 1984 som eit partslag med prøvesendingar i Odda.  Frivillige medarbeidarar la ned mykje arbeid, og suksessivt vart konsesjonen utvida.  Først med Ullensvang, seinare med alle kommunane i Hardanger, og sidan 2000 har og Voss vore ein del av konsesjonsområdet.  Fram til 2002 sysselsette radioen eitt årsverk.
+    
+    Radioen har konsesjon på FM – bandet til 2022 og når i dag ut til innbyggjarane i  Hardanger på FM. Via nettradioen som ligg på framsida, kan kven som helst i heile verda lytta på Radio Folgefonn.
+    
+    Radio Folgefonn har vore beredskapsradio, og har ved fleire høve vore ein viktig formidlar av meldingar til innbyggarane i konsesjonsområdet.
+
+    Per 01.07.2018 sysselset Radio Folgefonn eitt årsverk, fordelt på to halve stillingar. I tillegg er somme frivillige og ein trainee knytt til radioen .
+    
+    Hovudkontoret til Radio Folgefonn ligg i Odda.  Hovudinntekta  kjem frå reklame på FM bandet og på Internett, samt frå kommunale tenester.
+    
+    Radio Folgefonn sender 24 t. pr. døger 7 dagar i veka</description>
+    <stream mime="audio/mp3" uri="http://185.35.185.161:8000/radio" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>https://folgefonn.media/</uri>
+  </station>
+  <station band="online" id="npr" lang="en_US" name="NPR" rank="1.0" type="org">
+    <frequency uri="https://www.npr.org/">Online in United States of America</frequency>
+    <location>United States of America</location>
+    <description lang="en_US">NPR.org is Public Radio in United States of America</description>
+    <stream mime="audio/mp3" uri="https://npr-ice.streamguys1.com/live.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="32000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <uri>https://www.npr.org/</uri>
+  </station>
+  <station band="98.3FM" id="p4radionorge" lang="nb" name="P4 Radio Norge" rank="1.0" type="no">
+    <frequency uri="https://www.p4.no/">98.3 in Lillehammer, Norway</frequency>
+    <location>Lillehammer, Oppland</location>
+    <description lang="nb">P4-gruppen er Norges største kommersielle radiohus med over 2,5 millioner lyttere hver uke. Våre ni radiokanaler underholder og oppdaterer det norske folk hver eneste dag gjennom hele døgnet med store radioprofiler som Bjørn Faarlund, Michael Andreasen, Elisabeth Carew og Silje Stang.  Vi spiller god musikk, underholder og holder lytterne med selskap, og dekker alt fra nyheter, store begivenheter og mesterskap til de små og kjære ting som opptar nordmenn i hverdagen.</description>
+    <stream mime="audio/aac" uri="https://p4.p4groupaudio.com/P04_AH" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="190 kbps" />
+    <uri>https://www.p4.no/</uri>
+  </station>
+  <station band="93.8FM" id="radiorjukan" lang="nb" name="Radio Rjukan" rank="1.0" type="org">
+    <frequency uri="https://radiorjukan.no">93.8 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">104.1 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">105.0 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">106.5 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">107.0 in Rjukan, Telemark</frequency>    
+    <location>Rjukan, Telemark</location>
+    <location>Norge</location>
+    <description lang="nb">Radio Rjukan er lokalradioen for Tinn og Hjartdal kommuner, og har siden 1. september 1987 gitt deg lokale nyheter og lokale innslag fra Rjukan, Tinn og omegn.</description>
+    <stream mime="audio/aac" uri="https://stream.radiorjukan.no/rjukan_hq" channels="Stereo" codec="MPEG-4 AAC" samplerate="44100 Hz" bitrate="191 kbps" />
+    <uri>https://radiorjukan.no/</uri>
+  </station>
+  <station band="107.9FM" id="melodiafm" lang="ue" name="Мелодія FM International" rank="1.0" type="edu">
+    <frequency uri="https://www.melodiafm.ua/">107.9 in Kharkiv, Ukraine</frequency>
+    <frequency uri="https://www.melodiafm.ua/">101.5 in Kiuv, Ukraine</frequency>
+    <location>Kharkiv, Ukraine</location>
+    <description lang="en">Мелодія FM International is a distinguished online radio station from Ukraine, offering a rich blend of Ukrainian and international music to a global audience. As part of the broader Мелодія FM network, it is known for its dedication to delivering high-quality, melodic, and uplifting content that transcends cultural and linguistic boundaries.  Мелодія FM International strives to bring people together through the universal language of music. By blending Ukrainian culture with international sounds, it serves as a bridge connecting listeners from different parts of the world.  Whether you're looking for a relaxing musical backdrop or a way to stay connected to Ukrainian culture, Мелодія FM International offers an unparalleled auditory journey.</description>
+    <stream mime="audio/mpeg" uri="http://online.melodiafm.ua/MelodiaFM" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>https://www.melodiafm.ua/</uri>
+  </station>
+  <station band="106.1FM" id="jerusalem24" lang="hb" name="Jerusalem 24" rank="1.0" type="com">
+    <frequency uri="http://jerusalem.24fm.ps">106.1 FM in Ramallah, Palestine</frequency>
+    <location>Ramallah, Palestine</location>
+    <description lang="hb">Jerusalem24 is a Palestinian local radio station and online news agency, committed to act as an independent media outlet to inform, educate and entertain our audience in the English language. Furthermore, we al
+so broadcast and publish news, reports and stories in Hebrew.</description>
+    <stream mime="audio/mp3" uri="https://icecast.mada.ps:8404/24fmen" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="JntStereo" bitrate="40 kbps" />
+    <uri>http://jerusalem.24fm.ps/</uri>
+  </station>
+  <station band="Online" id="wdet" name="Detroit Public Radio" rank="1.0" type="com">
+    <location>Detroit, Michigan</location>
+    <description>Detroit Public Radio</description>
+    <stream mime="audio/aac" uri="https://wdet.streamguys1.com/live-aac" channels="Stereo" codec="MPEG-4 AAC" samplerate="22050 Hz" bitrate="126 kbps" />
+    <uri>https://wdet.org/</uri>
+  </station>
+  <station band="Online" id="radiotromso" name="Radio Tromsø" rank="1.0" type="no">
+    <location>Tromsø, Norway</location>
+    <description>Radio Tromsø</description>
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/rthits128" channels="Stereo" codec="MPEG-2 AAC" samplerate="44100 Hz" bitrate="125 kbps" />
+    <uri>https://www.radiotromso.no/</uri>
+  </station>
+  <station band="Online" id="radio3bodo" name="Radio 3 Bodø" rank="1.0" type="no">
+    <location>Bodø og Salten, Norway</location>
+    <description>Radio 3 Bodø er Bodø og Saltens største Radiokanal. Vi har daglige sendinger fra vårt studio i Bodø fylt med lokalstoff og god musikk. Med gode tall kvartalsvis fra Kantar TNS er vi og i norgestoppen når det kommer til lyttertall for lokalradio. Du hører oss på FM og DAB i Bodø/Salten-området og kan høre oss på nettradio og mobilradioer verden over.
+Vi har en månedlig oppslutning på rundt 40% av Bodøs befolkning og daglig hører over 10.000 Bodø og Saltenværinger på oss. Vi er dessuten den eneste radiokanalen som sender både på FM og DAB i Bodø og Salten.</description>
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/Radio3Bodo" channels="Stereo" codec="MPEG-2 AAC" samplerate="44100 Hz" bitrate="125 kbps" />
+    <uri>https://www.radio3.no/</uri>
+  </station>
+  <station band="Online" id="radio3bodo" name="Radio 3 Bodø" rank="1.0" type="no">
+    <location>Bodø og Salten, Norway</location>
+    <description>Radio 3 Bodø - Lokalradio for Bodø og Salten</description>
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/Radio3Bodo" channels="Stereo" codec="MPEG-2 AAC" samplerate="44100 Hz" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/Radio3Bodo48" channels="Stereo" codec="MPEG-2 AAC" samplerate="44100 Hz" bitrate="48 kbps" />
+    <uri>https://www.radio3.no/</uri>
+  </station>
+  <station band="Online" id="radiobardufoss" name="Radio Bardufoss" rank="1.0" type="no">
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/radiobardufoss128" channels="Stereo" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/radiobardufoss192" channels="Stereo" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" bitrate="192 kbps" />
+    <location>Bardufoss, Norway</location>
+    <uri>https://www.bardufoss.no/</uri>
+  </station>
+  <station band="Online" id="radiotromsohits" name="Radio Tromsø Hits" rank="1.0" type="no">
+    <stream mime="audio/mpeg" uri="http://stream.bardufoss.no:80/rthits48" channels="Stereo" codec="MPEG-1 Layer 3 (MP3)" samplerate="22050 Hz" bitrate="46 kbps" />
+    <location>Tromsø, Norway</location>
+    <uri>https://www.rthits.no/</uri>
+  </station>  
+  <station band="Online" id="rutgersradio" name="Rutgers Radio" rank="1.0" type="edu">
+    <location>New Jersey, United States of America</location>
+    <description>Founded in 1948, WRSU-FM is one of the oldest college radio stations in the nation. Since its inception as WRSU-AM, the station has evolved through many styles, including oldies, top 40, and its transition in the 1980s, to the variety of sounds it is renowned for today. WRSU on-air personalities range from first-semester Rutgers freshmen to longtime alumni and community members, and all are engaged in the long-standing WRSU tradition of designing their own playlists. WRSU boasts many shows featuring specialty programming, with Sunday devoted primarily to the sounds of world music. The station broadcasts all Rutgers football and basketball games from around the country, and is the flagship radio station of the Rutgers Womens’ Basketball team. WRSU news broadcasts a variety of news updates and issues talk shows, sending student reporters into the streets for original stories.
+
+    The station is a non-commercial, non-profit radio station and is student-managed under the guidance of a faculty broadcast administrator. Station management is governed by the WRSU Radio Council, an oversight board consisting of station members, Rutgers professors and alumni, and local broadcast professionals.</description>
+    <stream mime="audio/mpeg" uri="https://wrsu-libstrm.radioca.st/stream" channels="Stereo" codec="MPEG ADTS, AAC, v2 LC" samplerate="22050 Hz" bitrate="56 kbps" />
+    <uri>https://radio.rutgers.edu/</uri>
+  </station>
+  <station band="Online" id="radiohaifa" name="Radio Haifa" rank="1.0" type="il">
+    <location>Haifa, Israel</location>
+    <description>Radio Haifa (en hébreu הפיח וידר) est une radio régionale privée israélienne de Haïfa et de ses environs. Elle a commencé à diffuser officiellement à partir du 1er septembre 1995, mais émettait auparavant en tant que radio pirate, sous le nom de Radio 1 (1 וידר).</description>
+    <stream mime="audio/mpeg" uri="https://1075.livecdn.biz/radiohaifa" channels="Stereo" codec="MPEG ADTS, AAC, v2 LC" samplerate="22050 Hz" bitrate="56 kbps" />
+    <uri>https://1075.fm/</uri>
+  </station>
   <station band="Online" id="radiopunjabi" name="Radio Punjabi" rank="1.0" type="com">
     <location>New Dehli, India</location>
     <description>Radio Punjabi Today is an online station from Bathinda (India). Listen to news and talk content in free live streaming.</description>
@@ -87,25 +196,25 @@ In 1998, CBS merged with the international department of the Broadcasting Corpor
   <station band="Online" id="nrkp1pluss" name="NRK P1+" rank="1.0" type="gov">
     <location>Oslo, Norway</location>
     <description lang="nb">NRK P1+ er en av NRKs radiokanaler, som sendes på DAB og som nettradiokanal. NRK P1+ startet sine sendinger 2. oktober 2013 som en del av NRKs heldigitale radiotilbud og radiokanelen erstattet NRK Gull. Av de første programlederne har vært Viggo Valle, Kari Sørbø, Hanne Hoftun, Erik Forfod og Hans-Petter Jacobsen.</description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p1pluss_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1pluss_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/informasjon/nrk-p1_-pa-lufta-1.11253656</uri>
   </station>
   <station band="Online" id="nrkp3x" name="NRK P3X" rank="1.0" type="gov">
     <location>Oslo, Norway</location>
     <description lang="nb">NRK P3X er en radiokanal fra NRK, som utelukkende spiller musikk, hovedsakelig hiphop, norsk rap og RnB. Den ble etablert 28. februar 2019. Kanalen ble opprettet med det formål at musikkmiksen skal følges opp mye tettere og oppdateres ukentlig og ved behov, og i større grad løfte frem den norske musikkscenen.</description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p3x_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p3x_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/presse/programomtaler/nrk-p3-styrker-hiphop-tilbudet-1.14450672</uri>
   </station>
   <station band="Online" id="nrksuper" name="NRK Super" rank="1.0" type="gov">
     <location>Oslo, Norway</location>
     <description lang="nb">NRK Super er NRKs tilbud for barn fra 2 til 12 år. Tilbudet består av en TV-kanal som sender fra 06.30 til 19.30, på samme sendefrekvens som NRK3, Norges største nettsted for barn; nrksuper.no, samt en radiokanal som sender på DAB hver dag fra 06 til 21, og døgnkontinuerlig på nettradio i tillegg til en egen app med programarkiv.</description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_super_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/super_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://nrksuper.no/</uri>
   </station>
   <station band="Online" id="nrkfolkemusikk" name="NRK Folkemusikk" rank="1.0" type="gov">
     <location>Oslo, Norway</location>
     <description lang="nb">NRK Folkemusikk er NRKs tiende radiokanal, og var den første norske radiokanalen som bare sendte digitalt via DAB og Internett. Kanalen sender bare musikk, uten programleder. Musikken på kanalen består av både ny og gammel norsk folkemusikk i tillegg til noe verdensmusikk.</description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_folkemusikk_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/folkemusikk_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/skole/musikkparken/folkemusikken-og-nrk-1.13175858</uri>
   </station>
   <station band="107.2FM" id="nordfjordnærradio" name="Nordfjord Nærradio" rank="1.0" type="org">
@@ -142,324 +251,324 @@ In 1998, CBS merged with the international department of the Broadcasting Corpor
   </station>
   <station band="Online" id="bbcradio1" name="BBC - Radio 1" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_one&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio2" name="BBC - Radio 2" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_two&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio3" name="BBC - Radio 3" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_three" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_three&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio4" name="BBC - Radio 4" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_fourfm&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio4lwukonly" name="BBC - Radio 4 LW (UK only)" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourlw" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_fourlw&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio4lwnonuk" name="BBC - Radio 4 LW (non-UK)" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourlw_online_nonuk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_fourlw_online_nonuk&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio5liveukonly" name="BBC - Radio 5 live (UK only)" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_five_live&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio5livenonuk" name="BBC - Radio 5 live (non-UK)" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_five_live_online_nonuk&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio6music" name="BBC - Radio 6 Music" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_6music" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_6music&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio1xtra" name="BBC - Radio 1Xtra" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_1xtra" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_1xtra&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio4extra" name="BBC - Radio 4 Extra" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_four_extra&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradio5livesportsextraukonly" name="BBC - Radio 5 Live sports extra (UK only)" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_sports_extra" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_five_live_sports_extra&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioasiannetwork" name="BBC - Radio Asian Network" rank="1.0" type="gov">
     <location>United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_asian_network&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiocoventrywarwickshire" name="BBC - BBC CWR" rank="1.0" type="gov">
     <location>Coventry Warwickshire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_coventry_warwickshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_coventry_warwickshire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcessex" name="BBC - BBC Essex" rank="1.0" type="gov">
     <location>Essex, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_essex" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_essex&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcherefordworcester" name="BBC - BBC Hereford Worcester" rank="1.0" type="gov">
     <location>Herford Worcester, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_hereford_worcester" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_hereford_worcester&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcberkshire" name="BBC - Radio Berkshire" rank="1.0" type="gov">
     <location>Berkshire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_berkshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_berkshire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiobristol" name="BBC - Radio Bristol" rank="1.0" type="gov">
     <location>Bristol, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_bristol" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_bristol&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiocambridge" name="BBC - Radio Cambridge" rank="1.0" type="gov">
     <location>Cambridge, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cambridge" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_cambridge&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiocornwall" name="BBC - Radio Cornwall" rank="1.0" type="gov">
     <location>Cornwall, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cornwall" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_cornwall&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiocumbria" name="BBC - Radio Cumbria" rank="1.0" type="gov">
     <location>Cumbria, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cumbria" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_cumbria&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiocymru" name="BBC - Radio Cymru" rank="1.0" type="gov">
     <location>Cymru, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_cymru&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiocymru2" name="BBC - Radio Cymru 2" rank="1.0" type="gov">
     <location>Cymru, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru_2" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_cymru_2&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioderby" name="BBC - Radio Derby" rank="1.0" type="gov">
     <location>Derby, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_derby" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_derby&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiodevon" name="BBC - Radio Devon" rank="1.0" type="gov">
     <location>Devon, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_devon" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_devon&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiofoyle" name="BBC - Radio Foyle" rank="1.0" type="gov">
     <location>Foyle, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_foyle" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_foyle&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiogloucestershire" name="BBC - Radio Gloucestershire" rank="1.0" type="gov">
     <location>Gloucestershire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_gloucestershire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_gloucestershire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioguernsey" name="BBC - Radio Guernsey" rank="1.0" type="gov">
     <location>Guernsey, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_guernsey" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_guernsey&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiohumberside" name="BBC - Radio Humberside" rank="1.0" type="gov">
     <location>Humberside, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_humberside" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_humberside&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiojersey" name="BBC - Radio Jersey" rank="1.0" type="gov">
     <location>Jersey, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_jersey" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_jersey&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiokent" name="BBC - Radio Kent" rank="1.0" type="gov">
     <location>Kent, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_kent" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_kent&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiolancashire" name="BBC - Radio Lancashire" rank="1.0" type="gov">
     <location>Lancashire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_lancashire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_lancashire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioleeds" name="BBC - Radio Leeds" rank="1.0" type="gov">
     <location>Leeds, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_leeds" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_leeds&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioleicester" name="BBC - Radio Leicester" rank="1.0" type="gov">
     <location>Leicester, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_leicester" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_leicester&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbclincolnshire" name="BBC - Radio Lincolnshire" rank="1.0" type="gov">
     <location>Lincolnshire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_lincolnshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_lincolnshire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiolondon" name="BBC - Radio London" rank="1.0" type="gov">
     <location>London, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_london" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_london&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiomanchester" name="BBC - Radio Manchester" rank="1.0" type="gov">
     <location>Manchester, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_manchester" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_manchester&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiomerseyside" name="BBC - Radio Merseyside" rank="1.0" type="gov">
     <location>Merseyside, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_merseyside" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_merseyside&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradionangaidheal" name="BBC - Radio nan Gaidheal" rank="1.0" type="gov">
     <location>Gaidheal, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_nan_gaidheal" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_nan_gaidheal&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradionewcastle" name="BBC - Radio Newcastle" rank="1.0" type="gov">
     <location>Newcastle, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_newcastle" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_newcastle&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradionorfolk" name="BBC - Radio Norfolk" rank="1.0" type="gov">
     <location>Norfolk, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_norfolk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_norfolk&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradionorthampton" name="BBC - Radio Northampton" rank="1.0" type="gov">
     <location>Northampton, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_northampton" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_northampton&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradionothingham" name="BBC - Radio Nottingham" rank="1.0" type="gov">
     <location>Nottingham, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_nottingham" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_nottingham&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiorkney" name="BBC - Radio Orkney" rank="1.0" type="gov">
     <location>Orkney, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_orkney" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_orkney&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiooxford" name="BBC - Radio Oxford" rank="1.0" type="gov">
     <location>Oxford, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_oxford" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_oxford&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioscotlandfm" name="BBC - Radio Scotland FM" rank="1.0" type="gov">
     <location>Scotland, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_scotland_fm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_scotland_fm&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioscotlandmw" name="BBC - Radio Scotland MW" rank="1.0" type="gov">
     <location>Scotland, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_scotland_mw" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_scotland_mw&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosheffield" name="BBC - Radio Sheffield" rank="1.0" type="gov">
     <location>Sheffield, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_sheffield" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_sheffield&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioshropshire" name="BBC - Radio Shropshire" rank="1.0" type="gov">
     <location>Shropshire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_shropshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_shropshire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosolent" name="BBC - Radio Solent" rank="1.0" type="gov">
     <location>Solent, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_solent" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_solent&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosolentwestdorset" name="BBC - Radio Solent West Dorset" rank="1.0" type="gov">
     <location>West Dorset, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_solent_west_dorset" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_solent_west_dorset&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosomersetsound" name="BBC - Radio Somerset Sound" rank="1.0" type="gov">
     <location>Somerset, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_somerset_sound" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_somerset_sound&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiostoke" name="BBC - Radio Stoke" rank="1.0" type="gov">
     <location>Stoke, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_stoke" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_stoke&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosuffolk" name="BBC - Radio Suffolk" rank="1.0" type="gov">
     <location>Suffolk, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_suffolk" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_suffolk&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosurrey" name="BBC - Radio Surrey" rank="1.0" type="gov">
     <location>Surrey, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_surrey" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_surrey&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiosussex" name="BBC - Radio Sussex" rank="1.0" type="gov">
     <location>Sussex, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_sussex" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_sussex&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiotees" name="BBC - Radio Tees" rank="1.0" type="gov">
     <location>Tees, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_tees" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_tees&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioulster" name="BBC - Radio Ulster" rank="1.0" type="gov">
     <location>Ulster, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_ulster" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_ulster&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiowales" name="BBC - Radio Wales" rank="1.0" type="gov">
     <location>Wales, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_wales_fm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_wales_fm&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiowiltshire" name="BBC - Radio Wiltshire" rank="1.0" type="gov">
     <location>Wiltshire, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_wiltshire" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_wiltshire&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradiowm" name="BBC - Radio WM" rank="1.0" type="gov">
     <location>WM, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_wm" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_wm&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcradioyork" name="BBC - Radio York" rank="1.0" type="gov">
     <location>York, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_radio_york" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_radio_york&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="Online" id="bbcthreecountiesradio" name="BBC - Three Counties Radio" rank="1.0" type="gov">
     <location>Three Counties, United Kingdom</location>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_three_counties_radio" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_three_counties_radio&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/</uri>
   </station>
   <station band="93.20FM" id="bbcworldservice" lang="en" name="BBC - BBC World Service" rank="1.0" type="gov">
     <frequency uri="http://www.bbc.co.uk/worldservice/schedules/frequencies/">Internet</frequency>
     <location>London, United Kingdom</location>
     <description lang="en">BBC World Service is an international news service available on radio, television and online. It provides impartial news reports and analysis in English and 27 other languages.  BBC World Service aims to inspire and illuminate the lives of its audience by bringing the world together, making connections and helping listeners to make sense of the world.</description>
-    <stream mime="audio/mpeg" uri="http://stream.live.vc.bbcmedia.co.uk/bbc_world_service" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
+    <stream mime="audio/mpeg" uri="http://lstn.lv/bbc.m3u8?station=bbc_world_service&amp;bitrate=96000" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="24000 Hz" channels="Stereo" bitrate="56 kbps" />
     <uri>http://www.bbc.co.uk/worldserviceradio</uri>
   </station>
   <station band="101.3FM" id="retrofm" name="Retro FM" rank="1.0" type="edu">
@@ -494,37 +603,37 @@ In 1998, CBS merged with the international department of the Broadcasting Corpor
   <station band="Online" id="p1_hedmark_og_oppland" lang="no" name="NRK P1 Hedmark og Oppland" rank="1.0" type="gov">
     <location>Innlandet, Norway</location>
     <description lang="no">NRK P1 Hedmark og Oppland</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_hedmark_og_oppland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk14_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/innlandet/</uri>
   </station>
   <station band="Online" id="p1_finnmark" lang="no" name="NRK P1 Finnmark" rank="1.0" type="gov">
     <location>Finnmark, Norway</location>
     <description lang="no">NRK P1 Finnmark</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_finnmark_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk2_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/finnmark/</uri>
   </station>
   <station band="Online" id="p1_troms" lang="no" name="NRK P1 Troms" rank="1.0" type="gov">
     <location>Troms, Norway</location>
     <description lang="no">NRK P1 Troms</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_troms_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk3_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/troms/</uri>
   </station>
   <station band="Online" id="p1_nordland" lang="no" name="NRK P1 Nordland" rank="1.0" type="gov">
     <location>Nordland, Norway</location>
     <description lang="no">NRK P1 Nordland</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_nordland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk4_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/nordland/</uri>
   </station>
   <station band="Online" id="p1_trøndelag" lang="no" name="NRK P1 Trøndelag" rank="1.0" type="gov">
     <location>Trøndelag, Norway</location>
     <description lang="no">NRK P1 Trøndelag</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_trondelag_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk5_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/trondelag/</uri>
   </station>
   <station band="Online" id="p1_østfold" lang="no" name="NRK P1 Østfold" rank="1.0" type="gov">
     <location>Østfold, Norway</location>
     <description lang="no">NRK P1 Østfold</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_ostfold_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk15_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/ostfold/</uri>
   </station>
   <station band="Online" id="radioålesund" lang="no" name="Radio Ålesund" rank="1.0" type="com">
@@ -536,31 +645,31 @@ In 1998, CBS merged with the international department of the Broadcasting Corpor
   <station band="Online" id="p1_hordaland" lang="no" name="NRK P1 Hordaland" rank="1.0" type="gov">
     <location>Hordaland, Norway</location>
     <description lang="no">NRK P1 Hordaland</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_hordaland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk8_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/hordaland/</uri>
   </station>
   <station band="Online" id="p1_sognogfjordane" lang="no" name="NRK P1 Sogn og Fjordane" rank="1.0" type="gov">
     <location>Sogn og Fjordane, Norway</location>
     <description lang="no">NRK P1 Sogn og Fjordane</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_sogn_og_fjordane_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk7_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="192 kbps" />
     <uri>https://www.nrk.no/sognogfjordane/</uri>
   </station>
   <station band="Online" id="p1_møreogromsdal" lang="no" name="NRK P1 Møre og Romsdal" rank="1.0" type="gov">
     <location>Møre og Romsdal, Norway</location>
     <description lang="no">NRK P1 Møre og Romsdal</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_more_og_romsdal_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk6_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="192 kbps" />
     <uri>https://www.nrk.no/mr/</uri>
   </station>
   <station band="Online" id="p1_rogaland" lang="no" name="NRK P1 Rogaland" rank="1.0" type="gov">
     <location>Rogaland, Norway</location>
     <description lang="no">NRK P1 Rogaland</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_rogaland_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk9_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/rogaland/</uri>
   </station>
   <station band="Online" id="p1_buskerud" lang="no" name="NRK P1 Buskerud" rank="1.0" type="gov">
     <location>Buskerud, Norway</location>
     <description lang="no">NRK P1 Buskerud</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_p1_buskerud_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk13_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" bitrate="125 kbps" />
     <uri>https://www.nrk.no/buskerud/</uri>
   </station>
   <station band="92.2FM" id="anr" lang="dk" name="ANR" rank="1.0" type="com">
@@ -1142,7 +1251,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <description lang="en">
       NRK Sport is a brand name for sports produced by the sports department of Norwegian Broadcasting Corporation (NRK). The brand name is used on most national sports broadcasts on television, radio and new media.  NRK Sport is produced both in Norway and other countries.
     </description>
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_sport_aac_h" codec="AAC, v4 LC" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/sport_aac_h" codec="AAC, v4 LC" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://nrksport.no/</uri>
   </station>
   <station band="Online" id="nrkp1" lang="no" name="NRK P1" rank="1.0" type="gov">
@@ -1152,27 +1261,21 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
       NRK P1 is one of the nationwide radio channels operated by the Norwegian Broadcasting Corporation (NRK).
       NRK P1 is the direct descendant of NRK's first radio station which began broadcasting in 1933. P1's programming is aimed at a broad mature demographic and it is Norway's most popular radio station, with approximately 1.9 million listeners daily.
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://www.nrk.no/p1</uri>
   </station>
   <station band="Online" id="nrkp1vestfold" lang="en" name="NRK P1 Vestfold" rank="1.0" type="gov">
     <frequency uri="https://www.nrk.no/vestfoldogtelemark/">Online in Tønsberg, Norway</frequency>
     <location>Tønsberg, Norway</location>
     <description lang="nb">NRK Vestfold er NRKs distriktskontor i fylket Vestfold med distriktskontor i Tønsberg.</description>
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_vestfold_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk12_aac_h" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="192 kbps" />
     <uri>https://www.nrk.no/vestfoldogtelemark/</uri>
   </station>
   <station band="Online" id="nrkp1telemark" lang="en" name="NRK P1 Telemark" rank="1.0" type="gov">
     <frequency uri="https://www.nrk.no/vestfoldogtelemark/">Online in Porsgrunn, Norway</frequency>
     <location>Porsgrunn, Norway</location>
     <description lang="nb">NRK Telemark er NRKs distriktskontor i fylket Telemark med distriktskontor i Porsgrunn.</description>
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_telemark_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk11_aac_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
     <uri>https://www.nrk.no/vestfoldogtelemark/</uri>
   </station>
   <station band="88.8FM" id="nrkp1sorlandet" lang="nb" name="NRK P1 Sørlandet" rank="1.0" type="gov">
@@ -1187,10 +1290,10 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
       halv time fjernsyn daglig, i tillegg til nyheter for tekst-TV og
       internett.
     </description>
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
-    <stream mime="audio/aac" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_p1_sorlandet_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk10_aac_l" codec="MPEG ADTS, AAC, v4 LC" samplerate="44100 Hz" channels="Stereo" bitrate="24 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk10_mp3_l" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk10_mp3_m" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p1_dk10_mp3_h" codec="MPEG ADTS, layer III, v1" samplerate="48000 Hz" channels="Stereo" bitrate="192 kbps" />
     <uri>https://www.nrk.no/sorlandet/</uri>
   </station>
   <station band="Online" id="nrkp2" lang="no" name="NRK P2" rank="1.0" type="gov">
@@ -1199,7 +1302,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <description lang="en">
       NRK P2 is one of the nationwide radio channels operated by the Norwegian Broadcasting Corporation (NRK).
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p2_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p2_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://www.nrk.no/p2</uri>
   </station>
   <station band="Online" id="nrkp3" lang="no" name="NRK P3" rank="1.0" type="gov">
@@ -1209,7 +1312,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
       NRK P3 is one of the radio channels operated by the Norwegian Broadcasting Corporation (NRK).
       NRK P3 focuses on youth culture.
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p3_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p3_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://www.nrk.no/p3</uri>
   </station>
   <station band="Online" id="nrkp13" lang="no" name="NRK P13" rank="1.0" type="gov">
@@ -1220,7 +1323,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
       NRK P13 launched on January 28th 2014.
       The station is broadcast on DAB, Internet radio and digital television and plays mainly rock and indie music.
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p13_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/p13_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://radio.nrk.no/direkte/p13</uri>
   </station>
   <station band="Online" id="nrkurort" lang="no" name="NRK Urørt" rank="1.0" type="gov">
@@ -1229,7 +1332,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <description lang="en">
       NRK P3 Urørt is a site where independent Norwegian artists and bands can promote their music.  The Urørt editors review the music played on NRK P3 Urørt.
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_p3_urort_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/urort_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://urort.p3.no</uri>
   </station>
   <station band="Online" id="nrkjazz" lang="no" name="NRK Jazz" rank="1.0" type="gov">
@@ -1238,7 +1341,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <description lang="en">
       NRK Jazz is a Norwegian radio station operated by the Norwegian Broadcasting Corporation (NRK) that broadcasts jazz on DAB Digital Radio and the internet.
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_jazz_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/jazz_aac_h" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>https://radio.nrk.no/direkte/jazz</uri>
   </station>
   <station band="Online" id="nrkklassisk" lang="no" name="NRK Klassisk" rank="1.0" type="gov">
@@ -1249,7 +1352,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
       NRK Klassisk was launched in Oslo on 1 June 1995 as the world’s first all-digital radio station (DAB), broadcasting 24 hours a day. The BBC and Swedish Radio, which launched their first digital radio stations in September 1995, caused NRK to bring forward its plans, so as to be the first in the world to use the DAB radio standard (Eureka 147).
       Right from the start, the channel was in operation 24 hours a day with a staff of six, in a totally digital programme chain from production via DAB transmitter to receiver.
     </description>
-    <stream mime="audio/mpeg" uri="http://lyd.nrk.no/nrk_radio_klassisk_aac_h" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/klassisk_aac_h" codec="MPEG-4 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>https://radio.nrk.no/direkte/klassisk</uri>
   </station>
   <station band="Online" id="nrksapmi" lang="smi" name="NRK Sápmi" rank="1.0" type="gov">
@@ -1258,7 +1361,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <description lang="en">
       NRK Sápmi (previously NRK Sámi Radio) is a unit of the Norwegian Broadcasting Corporation (NRK) that produces Sami-language news and other programs for broadcast to the Sami people of Norway via radio, television, and internet.
     </description>
-    <stream mime="audio/mpeg" uri="http://nrk-mms-live.telenorcdn.net:80/nrk_radio_sami_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="125 kbps" />
+    <stream mime="audio/mpeg" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/sapmi_aac_h" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="125 kbps" />
     <uri>http://www.nrk.no/sapmi</uri>
   </station>
   <station band="104.5FM" id="uctradio" lang="en" name="UCT Radio" rank="1.0" type="edu">
@@ -1393,7 +1496,7 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <frequency uri="http://www.whpk.org/">88.5 FM in Chicago, Illinois</frequency>
     <location>Chicago, Illinois</location>
     <description lang="en">WHPK a non-profit community radio station of the University of Chicago, broadcasting to Hyde Park and the South Side of Chicago for over 50 years.</description>
-    <stream mime="audio/mpeg" uri="http://www.whpk.org:8000/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="https://whpk-stream.uchicago.edu/stream" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://whpk.org/</uri>
   </station>
   <!-- Appears to be down as of 2016/10/01
@@ -1741,12 +1844,12 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <stream mime="audio/mpeg" uri="http://128.42.128.26:80/live" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://ktru.org/</uri>
   </station>
-  <station band="93.0FM" id="nrkradioalltidnyheter" lang="nb" name="NRK Radio Alltid Nyheter" rank="1.0" type="gov">
+  <station band="93.0FM" id="nrkradionyheter" lang="nb" name="NRK Radio Nyheter" rank="1.0" type="gov">
     <frequency uri="https://radio.nrk.no/" >93.0 FM in Oslo, Norway</frequency>
     <location>Oslo, Norway</location>
     <description lang="en">The Norwegian Broadcasting Corporation (NRK) offers the Norwegian public a wide range of content with three national TV-channels, 13 national radio-channels and the website nrk.no.</description>
-    <stream mime="audio/aac" uri="http://lyd.nrk.no/nrk_radio_alltid_nyheter_aac_h" codec="AAC, v4 LC" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
-    <uri>http://www.nrk.no/alltid_nyheter</uri>
+    <stream mime="audio/aac" uri="http://cdn0-47115-liveicecast0.dna.contentdelivery.net:80/nyheter_aac_h" codec="AAC, v4 LC" samplerate="48000 Hz" channels="Stereo" bitrate="128 kbps" />
+    <uri>http://www.nrk.no/nyheter</uri>
   </station>
   <station band="89.9FM" id="wkcr" lang="en" name="WKCR" rank="1.0" type="edu">
     <frequency>89.9 FM in New York, New York</frequency>

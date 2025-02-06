@@ -623,7 +623,7 @@ gnome_radio_window_cb (GtkApplication *app,
 	gtk_container_add (GTK_CONTAINER(window), GTK_WIDGET(grid));
 	g_signal_connect (window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 #endif
-	gtk_window_set_title (GTK_WINDOW(window), _("Radio 64.0.45 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
+	gtk_window_set_title (GTK_WINDOW(window), _("Radio 48.2 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
 	gtk_window_set_default_size (GTK_WINDOW(window), 800, 600);
 	gtk_window_maximize (GTK_WINDOW (window));
 	gnome_radio_app = create_gnome_radio_app();
@@ -810,7 +810,7 @@ static void activate(GtkApplication *app, gpointer user_data)
 	/* give the window a 10px wide border */
 	gtk_container_set_border_width (GTK_CONTAINER (window), 10);
 	/* give it the title */
-	gtk_window_set_title (GTK_WINDOW (window), _("Radio 64.0 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
+	gtk_window_set_title (GTK_WINDOW (window), _("Radio 48.2 - http://www.gnomeradio.org/ - https://wiki.gnome.org/Apps/Radio"));
 	/* Connect the destroy event of the window with our on_destroy function
 	 * When the window is about to be destroyed we get a notificaiton and
 	 * stop the main GTK loop
@@ -845,9 +845,9 @@ static void activate(GtkApplication *app, gpointer user_data)
 	clutter_actor_add_child (CLUTTER_ACTOR (view), scale);
 
 	license_actor = champlain_view_get_license_actor (view);
-	champlain_license_set_extra_text (license_actor, "Free Internet Radio");
+	champlain_license_set_extra_text (license_actor, "Public Internet Radio");
 	/* FIXME: University of Southern California */
-	champlain_view_center_on (CHAMPLAIN_VIEW (view), 34.0223563, -118.2873057);
+	champlain_view_center_on (CHAMPLAIN_VIEW (view), 37.7579202,-115.6319846);
 	
 	// location = gclue_simple_get_location (simple);
 	

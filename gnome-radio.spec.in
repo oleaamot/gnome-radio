@@ -36,6 +36,8 @@ of map and text search.
 
 Radio is developed on the GNOME desktop platform.
 
+Radio supports Public Radio (www.npr.org) in USA.
+
 %prep
 %setup -q
 
@@ -54,30 +56,34 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 %license COPYING
 %{_bindir}/%{name}
 %{_bindir}/gnome-internet-radio-locator
+%{_bindir}/gtk-radio
+%{_bindir}/gtk-internet-radio-locator
 %{_bindir}/org.gnome.Radio
 %{_datadir}/%{name}/org.gnome.Radio.dtd
 %{_datadir}/%{name}/org.gnome.Radio.xml
 %{_datadir}/%{name}/doc/AAMOT.txt.xz
 %{_datadir}/%{name}/doc/Aamot-2020.txt.xz
-%{_datadir}/%{name}/gnome-radio-64.0.dtd
+%{_datadir}/%{name}/gnome-radio-48.0.dtd
 %{_datadir}/%{name}/gnome-radio.xml
 %{_metainfodir}/%{name}.appdata.xml
 %{_datadir}/applications/%{name}.desktop
+%{_datadir}/gtk-internet-radio-locator/internet-radio-locator-48.0.dtd
+%{_datadir}/gtk-internet-radio-locator/internet-radio-locator.xml
 %{_datadir}/icons/hicolor/scalable/apps/gnome-radio.svg
 %{_mandir}/man1/%{name}.1*
 
 %changelog
-* Mon Aug 07 2023 Ole Aamot <ole@aamot.org> - 64.0.45
-- Build gnome-radio 64.0.45 for GNOME 45
+* Wed Jan 22 2025 Ole Aamot <ole@aamot.org> - 48.20250122-1
+- Initial gnome-radio 48.20250122 with Radio Folgefonn (Norway)
 
-* Wed Nov 09 2022 Ole Aamot <ole@gnome.org> - 64.0-1
-- Initial gnome-radio 64.0 build with Radio Punjab (India)
+* Mon Jan 20 2025 Ole Aamot <ole@aamot.org> - 48.20250120-1
+- Initial gnome-radio 48.20250120 with npr.org (United States of America)
 
-* Wed Nov 02 2022 Ole Aamot <ole@gnome.org> - 48.1-1
-- Initial gnome-radio 48.1 build with Flatpak
+* Wed Dec 25 2024 Ole Aamot <ole@aamot.org> - 48.1-1
+- Initial gnome-radio 48.1 build with hi, is, ka, ru
 
-* Sat Oct 01 2022 Ole Aamot <ole@gnome.org> - 48.0-1
-- Initial gnome-radio 48.0 build with Echo of Moscow (European Union)
+* Sun Nov 03 2024 Ole Aamot <ole@aamot.org> - 48.0-1
+- Initial gnome-radio 48.0 build with BBC (United Kingdom) and NRK (Norway)
 
 * Sun Sep 25 2022 Ole Aamot <ole@gnome.org> - 47.0-1
 - Initial gnome-radio 47.0 build with RBB (Frankfurt am Main, Germany)

@@ -1,12 +1,11 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.59)
-AC_INIT(gnome-radio,64.0.45)
+AC_INIT([gnome-radio],[48.2])
 AM_INIT_AUTOMAKE([-Wno-portability 1.11 no-dist-gzip dist-xz tar-ustar subdir-objects])
 AM_MAINTAINER_MODE
 AC_CONFIG_SRCDIR([src/gnome-radio.c])
-AC_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 
 LT_PREREQ([2.2.6])
 LT_INIT([dlopen win32-dll pic-only])
@@ -20,20 +19,21 @@ m4_ifdef([AM_SILENT_RULES],
 )
 
 AC_PROG_CC
-AC_PROG_CC_STDC
 AC_PROG_CPP
 AC_PROG_INSTALL
 AM_PROG_CC_C_O
 
-AC_HEADER_STDC
+AC_CHECK_INCLUDES_DEFAULT
+AC_PROG_EGREP
+
 AC_C_CONST
 AC_C_INLINE
-AC_ISC_POSIX
+AC_SEARCH_LIBS([strerror],[cposix])
 AC_SYS_LARGEFILE
 
 AC_C_BIGENDIAN
 
-AC_CHECK_LIBM
+LT_LIB_M
 AC_SUBST(LIBM)
 
 PKG_PROG_PKG_CONFIG
@@ -44,7 +44,7 @@ help_msg="no (not requested)"
 try_help=:
 gnome_internet_radio_locator_help=false
 
-AC_ARG_WITH([help],AS_HELP_STRING([--with-help],[Support Radio Help]), [
+AC_ARG_WITH([help],AS_HELP_STRING([--with-help],[Support GNOME Radio Help]), [
      AC_MSG_CHECKING([for help])
      if test x$withval = xno; then
            try_help=false
@@ -87,7 +87,7 @@ AC_CHECK_LIB(m, pow, [], [], [])
 
 PKG_CHECK_MODULES(GNOME_RADIO,
 		  champlain-gtk-0.12 >= 0.12.10 \
-		  geocode-glib-2.0 >= 3.26.4 \
+		  geocode-glib-2.0 >= 3.26 \
 		  glib-2.0 >= 2.38.0 \
 		  gobject-2.0 >= 2.38.0 \
 		  gstreamer-1.0 >= 1.0 \
@@ -109,7 +109,15 @@ GTK_DOC_CHECK([1.16], [--flavour no-tmpl])
 YELP_HELP_INIT
 
 # Checks for header files.
-AC_HEADER_STDC
+m4_warn([obsolete],
+[The preprocessor macro 'STDC_HEADERS' is obsolete.
+  Except in unusual embedded environments, you can safely include all
+  C89 headers unconditionally.])dnl
+# Autoupdate added the next two lines to ensure that your configure
+# script's behavior did not change.  They are probably safe to remove.
+AC_CHECK_INCLUDES_DEFAULT
+AC_PROG_EGREP
+
 AC_CHECK_HEADERS([stdlib.h string.h unistd.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
@@ -136,11 +144,11 @@ AC_SUBST(GNOME_RADIO_PKG_DEPS)
 dnl Enable yelp-tools
 # YELP_HELP_INIT
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 data/Makefile
-data/gnome-radio.desktop
 data/icons/Makefile
+data/gnome-radio.desktop
 doc/Makefile
 gtk/Makefile
 help/Makefile
@@ -150,3 +158,4 @@ po/Makefile.in
 src/Makefile
 gnome-radio.spec
 ])
+AC_OUTPUT

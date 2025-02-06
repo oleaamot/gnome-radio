@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <id type="desktop">gnome-radio.desktop</id>
-  <_name>Radio for GNOME</_name>
-  <_summary>Listen to National Public Radio on GNOME</_summary>
+  <id type="desktop">radio.desktop</id>
+  <_name>GNOME Radio 48 for GNOME 48</_name>
+  <_summary>Listen to National Public Radio on GNOME 48</_summary>
   <licence>CC0</licence>
   <description>
     <p>
-      Radio is a Free Software program that allows you easily
-      listen to National Public Radio (NPR) broadcasts under GNOME.
+      GNOME Radio 48 is a Free Software program that allows you easily
+      listen to National Public Radio (NPR) broadcasts under GNOME 48.
     </p>
     <p>
-      Radio is developed on the GNOME desktop platform and
+      GNOME Radio 48 is developed on the GNOME 48 desktop platform and
       it requires GTK4, Clutter and GStreamer 1.0 for playback.
     </p>
     <p>    
-    Enjoy National Public Radio (NPR) broadcasts under GNOME.
+    Enjoy National Public Radio (NPR) broadcasts under GNOME 48.
     </p>
   </description>
-  <url type="homepage">https://www.gnomeradio.org/</url>
+  <url type="homepage">https://wiki.gnome.org/Apps/Radio</url>
   <screenshots>
-    <screenshot type="default">https://www.gnomeradio.org/screenshot.png</screenshot>
+    <screenshot type="default">https://gitlab.gnome.org/ole/gnome-radio/-/blob/main/data/screenshots/gnome-radio-screenshot.png</screenshot>
   </screenshots>
-  <releases>
-  <release version="64.0.45" timestamp="1694812530">
-    <description>
-      <p>This experimental release fixes the following bug:</p>
-      <ul>
-        <li>Radio Streaming works</li>
-      </ul>
-    </description>
-    <size type="download">450408</size>
-    <size type="installed">450408</size>
-  </release>
-</releases>
-<content_rating type="oars-1.1" />
-  <updatecontact>ole@aamot.org</updatecontact>
+  <updatecontact>girl-list@gnome.org</updatecontact>
 </application>

@@ -580,6 +580,17 @@ create_marker_layer (G_GNUC_UNUSED ChamplainView *view, ChamplainPathLayer **pat
 	/* champlain_path_layer_add_node (*path, CHAMPLAIN_LOCATION (marker)); */
 	g_signal_connect(CHAMPLAIN_LOCATION(marker), "button-press", G_CALLBACK(marker_function), station);
 	marker = champlain_label_new_from_file ("icons/emblem-generic.png", NULL);
+	station = g_strdup("United States of America\n<span size=\"small\">NPR</span>");
+	champlain_label_set_text (CHAMPLAIN_LABEL (marker), station);
+	champlain_label_set_use_markup (CHAMPLAIN_LABEL (marker), TRUE);
+	champlain_label_set_color (CHAMPLAIN_LABEL (marker), &city_c_color);
+	champlain_label_set_text_color (CHAMPLAIN_LABEL (marker), &text_color);
+	champlain_location_set_location (CHAMPLAIN_LOCATION (marker), 37.7579202, -115.6319846);
+	champlain_marker_layer_add_marker (layer, CHAMPLAIN_MARKER (marker));
+	champlain_marker_animate_in(CHAMPLAIN_MARKER (marker));
+	/* champlain_path_layer_add_node (*path, CHAMPLAIN_LOCATION (marker)); */
+	g_signal_connect(CHAMPLAIN_LOCATION(marker), "button-press", G_CALLBACK(marker_function), station);
+	marker = champlain_label_new_from_file ("icons/emblem-generic.png", NULL);
 	station = g_strdup("Los Angeles, California\n<span size=\"small\">KCSN</span>");
 	champlain_label_set_text (CHAMPLAIN_LABEL (marker), station);
 	champlain_label_set_use_markup (CHAMPLAIN_LABEL (marker), TRUE);
@@ -652,17 +663,6 @@ create_marker_layer (G_GNUC_UNUSED ChamplainView *view, ChamplainPathLayer **pat
 	champlain_label_set_color (CHAMPLAIN_LABEL (marker), &city_c_color);
 	champlain_label_set_text_color (CHAMPLAIN_LABEL (marker), &text_color);
 	champlain_location_set_location (CHAMPLAIN_LOCATION (marker), -32.9272881, 151.7812534);
-	champlain_marker_layer_add_marker (layer, CHAMPLAIN_MARKER (marker));
-	champlain_marker_animate_in(CHAMPLAIN_MARKER (marker));
-	/* champlain_path_layer_add_node (*path, CHAMPLAIN_LOCATION (marker)); */
-	g_signal_connect(CHAMPLAIN_LOCATION(marker), "button-press", G_CALLBACK(marker_function), station);
-	marker = champlain_label_new_from_file ("icons/emblem-generic.png", NULL);
-	station = g_strdup("New Dehli, India\n<span size=\"small\">Radio Punjab</span>");
-	champlain_label_set_text (CHAMPLAIN_LABEL (marker), station);
-	champlain_label_set_use_markup (CHAMPLAIN_LABEL (marker), TRUE);
-	champlain_label_set_color (CHAMPLAIN_LABEL (marker), &city_b_color);
-	champlain_label_set_text_color (CHAMPLAIN_LABEL (marker), &text_color);
-	champlain_location_set_location (CHAMPLAIN_LOCATION (marker), 30.2050516, 74.9403767);
 	champlain_marker_layer_add_marker (layer, CHAMPLAIN_MARKER (marker));
 	champlain_marker_animate_in(CHAMPLAIN_MARKER (marker));
 	/* champlain_path_layer_add_node (*path, CHAMPLAIN_LOCATION (marker)); */

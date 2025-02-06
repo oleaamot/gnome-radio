@@ -1,89 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://www.gnomeradio.org/~ole/radio/org.gnome.Radio.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="https://people.gnome.org/~ole/gnome-radio/gnome-radio.xsl" ?>
 <!DOCTYPE radio SYSTEM "org.gnome.Radio.dtd">
-<radio version="64.0.45">
-  <station band="Online" id="radiopunjabi" name="Radio Punjabi" rank="1.0" type="com">
-    <location>New Dehli, India</location>
-    <description>Radio Punjabi Today is an online station from Bathinda (India). Listen to news and talk content in free live streaming.</description>
-    <stream mime="audio/mpeg" uri="http://stream.zenolive.com/019324w4ez4tv" channels="JntStereo" codec="MPEG ADTS, layer III, v2" samplerate="16000 Hz" bitrate="16 kbps" />
-    <uri>https://www.radiopunjabtoday.com/</uri>
-  </station>
-  <station band="Online" id="rfach1" name="RFA Ch.1" rank="1.0" type="org">
-    <location>China, Asia</location>
-    <description lang="zn-HK">Channel 1: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_1/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
-  </station>
-  <station band="Online" id="rti" name="Radio Taiwan International [EN 2022-08-14]" rank="1.0" type="tw">
-    <location>Taipei, Taiwan</location>
-    <description lang="en">
-      Radio Taiwan International (RTI) is Taiwan's national broadcaster that provides engaging news, audio and video features about Taiwan.  RTI is a unique window into the heart and soul of Taiwan society.
+<radio version="48.20250122">
+  <station band="Online" id="radiofolgefonn" lang="nn_NO" name="Radio Folgefonn" rank="1.0" type="com">
+    <frequency uri="https://www.radiofolgefonn.no/">Online in Norway</frequency>
+    <location>Norway</location>
+    <description lang="nn_NO">Radio Folgefonn vart starta i 1984 som eit partslag med prøvesendingar i Odda.  Frivillige medarbeidarar la ned mykje arbeid, og suksessivt vart konsesjonen utvida.  Først med Ullensvang, seinare med alle kommunane i Hardanger, og sidan 2000 har og Voss vore ein del av konsesjonsområdet.  Fram til 2002 sysselsette radioen eitt årsverk.
+    
+    Radioen har konsesjon på FM – bandet til 2022 og når i dag ut til innbyggjarane i  Hardanger på FM. Via nettradioen som ligg på framsida, kan kven som helst i heile verda lytta på Radio Folgefonn.
+    
+    Radio Folgefonn har vore beredskapsradio, og har ved fleire høve vore ein viktig formidlar av meldingar til innbyggarane i konsesjonsområdet.
 
-RTI's programs cover politics, society, technology, culture, trends, travel, food and a variety of topics. The flagship YouTube news magazine show Taiwan Insider interviews movers and shakers who are making a difference for Taiwan. The weekly video program also covers social media trends, travel, culture and the latest news from Taiwan.
-
-As Taiwan's national broadcaster, RTI has 18 language services: English, Mandarin Chinese, Taiwanese Hokkien, Hakka, Cantonese, French, Spanish, German, Russian, Japanese, Korean, Indonesian, Thai, Vietnamese, Burmese, Arabic, Filipino and Cambodian.
-
-RTI's History
-
-RTI is one of the world's oldest radio stations in operations today and was established in 1928 by the Republic of China (ROC) government as the Central Broadcasting System (CBS) in Nanjing, China. It followed the ROC government from city to city during and after WWII, eventually coming to Taipei, Taiwan.
-
-In 1998, CBS merged with the international department of the Broadcasting Corporation of China (BCC), and began broadcasting around the world as Radio Taipei International and The Voice of Asia. In 2002, it was renamed Radio Taiwan International.</description>
-    <stream mime="audio/mpeg" uri="https://en-static.rti.org.tw/assets/audio/2022/08/14/20220814_2200_1414_en.mp3" codec="MPEG-4 AAC" samplerate="44100 Hz" bitrate="64 kbps" />
-    <uri>https://en.rti.org.tw/</uri>
+    Per 01.07.2018 sysselset Radio Folgefonn eitt årsverk, fordelt på to halve stillingar. I tillegg er somme frivillige og ein trainee knytt til radioen .
+    
+    Hovudkontoret til Radio Folgefonn ligg i Odda.  Hovudinntekta  kjem frå reklame på FM bandet og på Internett, samt frå kommunale tenester.
+    
+    Radio Folgefonn sender 24 t. pr. døger 7 dagar i veka</description>
+    <stream mime="audio/mp3" uri="http://185.35.185.161:8000/radio" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>https://www.radiofolgefonn.no/</uri>
   </station>
-  <station band="Online" id="rti" name="Radio Taiwan International [CN 2022-08-14]" rank="1.0" type="tw">
-    <location>Taipei, Taiwan</location>
-    <description lang="en">
-      Radio Taiwan International (RTI) is Taiwan's national broadcaster that provides engaging news, audio and video features about Taiwan.  RTI is a unique window into the heart and soul of Taiwan society.
-
-RTI's programs cover politics, society, technology, culture, trends, travel, food and a variety of topics. The flagship YouTube news magazine show Taiwan Insider interviews movers and shakers who are making a difference for Taiwan. The weekly video program also covers social media trends, travel, culture and the latest news from Taiwan.
-
-As Taiwan's national broadcaster, RTI has 18 language services: English, Mandarin Chinese, Taiwanese Hokkien, Hakka, Cantonese, French, Spanish, German, Russian, Japanese, Korean, Indonesian, Thai, Vietnamese, Burmese, Arabic, Filipino and Cambodian.
-
-RTI's History
-
-RTI is one of the world's oldest radio stations in operations today and was established in 1928 by the Republic of China (ROC) government as the Central Broadcasting System (CBS) in Nanjing, China. It followed the ROC government from city to city during and after WWII, eventually coming to Taipei, Taiwan.
-
-In 1998, CBS merged with the international department of the Broadcasting Corporation of China (BCC), and began broadcasting around the world as Radio Taipei International and The Voice of Asia. In 2002, it was renamed Radio Taiwan International.</description>
-    <stream mime="audio/mpeg" uri="https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti3/playlist.m3u8" codec="MPEG-4 AAC" samplerate="44100 Hz" bitrate="64 kbps" />
-    <uri>https://www.rti.org.tw/</uri>
+  <station band="online" id="npr" lang="en_US" name="NPR" rank="1.0" type="org">
+    <frequency uri="https://www.npr.org/">Online in United States of America</frequency>
+    <location>United States of America</location>
+    <description lang="en_US">NPR.org is Public Radio in United States of America</description>
+    <stream mime="audio/mp3" uri="https://npr-ice.streamguys1.com/live.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="32000 Hz" channels="Stereo" bitrate="96 kbps" />
+    <uri>https://www.npr.org/</uri>
   </station>
-  <station band="Online" id="rfach2" name="RFA Ch.2" rank="1.0" type="org">
-    <location>Vietnam, Asia</location>
-    <description lang="vi">Channel 2: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_2/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
+  <station band="98.3FM" id="p4radionorge" lang="nb" name="P4 Radio Norge" rank="1.0" type="no">
+    <frequency uri="https://www.p4.no/">98.3 in Lillehammer, Norway</frequency>
+    <location>Lillehammer, Oppland</location>
+    <description lang="nb">P4-gruppen er Norges største kommersielle radiohus med over 2,5 millioner lyttere hver uke. Våre ni radiokanaler underholder og oppdaterer det norske folk hver eneste dag gjennom hele døgnet med store radioprofiler som Bjørn Faarlund, Michael Andreasen, Elisabeth Carew og Silje Stang.  Vi spiller god musikk, underholder og holder lytterne med selskap, og dekker alt fra nyheter, store begivenheter og mesterskap til de små og kjære ting som opptar nordmenn i hverdagen.</description>
+    <stream mime="audio/aac" uri="https://p4.p4groupaudio.com/P04_AH" codec="MPEG-2 AAC" samplerate="44100 Hz" channels="Stereo" bitrate="190 kbps" />
+    <uri>https://www.p4.no/</uri>
   </station>
-  <station band="Online" id="rfach2" name="RFA Ch.2" rank="1.0" type="org">
-    <location>Burma, Asia</location>
-    <description lang="my">Channel 2: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_2/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
+  <station band="93.8FM" id="radiorjukan" lang="nb" name="Radio Rjukan" rank="1.0" type="org">
+    <frequency uri="https://radiorjukan.no">93.8 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">104.1 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">105.0 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">106.5 in Rjukan, Telemark</frequency>
+    <frequency uri="https://radiorjukan.no">107.0 in Rjukan, Telemark</frequency>    
+    <location>Rjukan, Telemark</location>
+    <location>Norge</location>
+    <description lang="nb">Radio Rjukan er lokalradioen for Tinn og Hjartdal kommuner, og har siden 1. september 1987 gitt deg lokale nyheter og lokale innslag fra Rjukan, Tinn og omegn.</description>
+    <stream mime="audio/aac" uri="https://stream.radiorjukan.no/rjukan_hq" channels="Stereo" codec="MPEG-4 AAC" samplerate="44100 Hz" bitrate="191 kbps" />
+    <uri>https://radiorjukan.no/</uri>
   </station>
-  <station band="Online" id="rfach2" name="RFA Ch.2" rank="1.0" type="org">
-    <location>Korea, Asia</location>
-    <description lang="ko">Channel 2: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_2/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
+  <station band="107.9FM" id="melodiafm" lang="ue" name="Мелодія FM International" rank="1.0" type="edu">
+    <frequency uri="https://www.melodiafm.ua/">107.9 in Kharkiv, Ukraine</frequency>
+    <frequency uri="https://www.melodiafm.ua/">101.5 in Kiuv, Ukraine</frequency>
+    <location>Kharkiv, Ukraine</location>
+    <description lang="en">Мелодія FM International is a distinguished online radio station from Ukraine, offering a rich blend of Ukrainian and international music to a global audience. As part of the broader Мелодія FM network, it is known for its dedication to delivering high-quality, melodic, and uplifting content that transcends cultural and linguistic boundaries.  Мелодія FM International strives to bring people together through the universal language of music. By blending Ukrainian culture with international sounds, it serves as a bridge connecting listeners from different parts of the world.  Whether you're looking for a relaxing musical backdrop or a way to stay connected to Ukrainian culture, Мелодія FM International offers an unparalleled auditory journey.</description>
+    <stream mime="audio/mpeg" uri="http://online.melodiafm.ua/MelodiaFM" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
+    <uri>https://www.melodiafm.ua/</uri>
   </station>
-  <station band="Online" id="rfach3" name="RFA Ch.3" rank="1.0" type="org">
-    <location>Khmer, Asia</location>
-    <description lang="km">Channel 3: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_3/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
-  </station>
-  <station band="Online" id="rfach3" name="RFA Ch.3" rank="1.0" type="org">
-    <location>Lao, Asia</location>
-    <description lang="lo">Channel 3: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_3/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
-  </station>
-  <station band="Online" id="rfach4" name="RFA Ch.3" rank="1.0" type="org">
-    <location>Uyghur, Asia</location>
-    <description lang="ug">Channel 3: Radio Free Asia’s mission is to provide accurate and timely news and information to Asian countries whose governments prohibit access to a free press. RFA is funded through an annual grant from the United States Agency for Global Media, an independent U.S. agency; RFA has a legislative firewall that bars interference by U.S. government officials in the execution of RFA’s mission of providing reliable journalism to audiences otherwise deprived of uncensored, accurate press.</description>
-    <stream mime="audio/mpeg" uri="https://rfahls-i.akamaihd.net/hls/live/226232/RFALive_3/index.m3u8" codec="MPEG-4 AAC" samplerate="16000 Hz" bitrate="47 kbps" />
-    <uri>https://www.rfa.org/</uri>
-  </station>
+  <station band="106.1FM" id="jerusalem24" lang="hb" name="Jerusalem 24" rank="1.0" type="com">
+    <frequency uri="http://jerusalem.24fm.ps">106.1 FM in Ramallah, Palestine</frequency>
+    <location>Ramallah, Palestine</location>
+    <description lang="hb">Jerusalem24 is a Palestinian local radio station and online news agency, committed to act as an independent media outlet to inform, educate and entertain our audience in the English language. Furthermore, we al
+so broadcast and publish news, reports and stories in Hebrew.</description>
+    <stream mime="audio/mp3" uri="https://icecast.mada.ps:8404/24fmen" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="22050 Hz" channels="JntStereo" bitrate="40 kbps" />
+    <uri>http://jerusalem.24fm.ps/</uri>
+  </station>  
   <station band="Online" id="nrkp1pluss" name="NRK P1+" rank="1.0" type="gov">
     <location>Oslo, Norway</location>
     <description lang="nb">NRK P1+ er en av NRKs radiokanaler, som sendes på DAB og som nettradiokanal. NRK P1+ startet sine sendinger 2. oktober 2013 som en del av NRKs heldigitale radiotilbud og radiokanelen erstattet NRK Gull. Av de første programlederne har vært Viggo Valle, Kari Sørbø, Hanne Hoftun, Erik Forfod og Hans-Petter Jacobsen.</description>
@@ -616,13 +593,6 @@ In 1998, CBS merged with the international department of the Broadcasting Corpor
     <description lang="en">Barcelona's first 24/7 English-speaking radio station: Barcelona City FM! A team of twenty-five presenters are making programs covering a wide spectrum of perspectives, combining the best music, humour, chat, politics, local news, what's on in Barcelona.</description>
     <stream mime="audio/mpeg" uri="https://s2.radio.co/sd9da54aa0/listen" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="127 kbps" />
     <uri>http://www.barcelonacityfm.com/</uri>
-  </station>
-    <station band="Online" id="radioeins" lang="de" name="Radio Eins" rank="1.0" type="gov">
-    <frequency uri="http://www.radioeins.de/">Online in Frankfurt, Germany</frequency>
-    <location>Frankfurt, Germany</location>
-    <description lang="de">Radio Eins (Schreibweise in Publikationen des Senders: radioeins; RDS: radio1 vom rbb) ist ein in Berlin und Brandenburg verbreitetes Radioprogramm des Rundfunk Berlin-Brandenburg (RBB).</description>
-    <stream mime="audio/mpeg" uri="http://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/mid" codec="MPEG-1 Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
-    <uri>http://www.radioeins.de/</uri>
   </station>
   <station band="90.7FM" id="radiobrume" lang="fr" name="Radio Brume" rank="1.0" type="edu">
     <frequency uri="http://www.radiobrume.fr/">FM 90.7 in Lyon, France</frequency>
@@ -1302,15 +1272,6 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <stream mime="audio/mpeg" uri="https://stream.radiorakel.no/fm993.mp3" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
     <uri>http://radiorakel.no/</uri>
   </station>
-  <station band="88.5FM" id="kcsn" name="KCSN" rank="1.0" type="edu">
-    <frequency uri="http://www.kcsn.org/">88.5 FM in Los Angeles, California</frequency>
-    <location>Los Angeles, California</location>
-    <description lang="en">KCSN is commercial free, public radio that relies heavily on donor contributions.</description>
-    <stream mime="audio/mpeg" uri="http://130.166.82.184:8000/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
-    <stream mime="audio/mpeg" uri="http://130.166.82.184:8002/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
-    <stream mime="audio/mpeg" uri="http://130.166.82.184:8004/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
-    <uri>http://www.kcsn.org/</uri>
-  </station>
   <station band="1560AM" id="kxsc" lang="en" name="KXSC" rank="1.0" type="edu">
     <frequency uri="http://kxsc.org/">1560 AM in Los Angeles, California</frequency>
     <location>Los Angeles, California</location>
@@ -1368,6 +1329,15 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <uri>http://www.wvau.org/</uri>
   </station>
   -->
+  <station band="88.5FM" id="kcsn" name="KCSN" rank="1.0" type="edu">
+    <frequency uri="http://www.kcsn.org/">88.5 FM in Los Angeles, California</frequency>
+    <location>Los Angeles, California</location>
+    <description lang="en">KCSN is commercial free, public radio that relies heavily on donor contributions.</description>
+    <stream mime="audio/mpeg" uri="http://130.166.82.184:8000/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="128 kbps" />
+    <stream mime="audio/mpeg" uri="http://130.166.82.184:8002/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="64 kbps" />
+    <stream mime="audio/mpeg" uri="http://130.166.82.184:8004/" codec="MPEG 1 Audio, Layer 3 (MP3)" samplerate="44100 Hz" channels="Stereo" bitrate="32 kbps" />
+    <uri>http://www.kcsn.org/</uri>
+  </station>
   <station band="91.7FM" id="kvrx" name="KVRX" rank="1.0" type="edu">
     <frequency uri="http://www.kvrx.org/">91.7 FM in Austin, Texas</frequency>
     <location>Austin, Texas</location>
@@ -1790,14 +1760,15 @@ WUMR has been the University of Memphis broadcasting outlet since 1979, when Sou
     <uri>http://www.wnyc.org/</uri>
   </station>
   <station band="Online" id="echo" lang="ru" name="Эхо Москвы" rank="1.0" type="com">
-    <frequency uri="https://en.wikipedia.org/wiki/Echo_of_Moscow">Online in European Union</frequency>
+    <frequency uri="http://echo.msk.ru/">Online in Moscow, Russia</frequency>
     <location>Moscow, Russia</location>
     <description lang="en">
-      Echo of Moscow (Russian: Эхо Москвы, romanized: Ekho Moskvy) was a 24/7 commercial Russian radio station based in Moscow. It broadcast in many Russian cities, some of the former Soviet republics (through partnerships with local radio stations), and via the Internet. From 1996 its editor-in-chief was Alexei Venediktov.
-      On 1 March 2022, it was taken off the air by Roskomnadzor as a result of its coverage of the Russian invasion of Ukraine.  On 3 March, the Board of Directors voted to close the station down.  While the radio programming of Ekho of Moscow ceased to exist, Venediktov and most of the employees began a spin-off YouTube channel, Zhivoi Gvozd' (literally "Live Nail", a pun on the common term "Live Guest"), which follows the late station's format and schedule.
+      Echo of Moscow is a Russian radio station based in Moscow,
+      broadcasting in many Russian cities, some of the former-Soviet
+      republics, and via the Internet.  It is owned by Gazprom-Media.
     </description>
-    <stream mime="audio/mpeg" uri="https://n13.radiojar.com/hcrb063nn3quv?download=1&amp;rj-ttl=5&amp;=&amp;=&amp;rj-tok=AAABg5Au18IA1NzzpIRSJBRGJQ" codec="MPEG ADTS, layer III" samplerate="48000 Hz" channels="JntStereo" bitrate="128 kbps" />
-    <uri>https://en.wikipedia.org/wiki/Echo_of_Moscow</uri>
+    <stream mime="audio/mpeg" uri="http://ice912.echo.msk.ru:9120/24.aac" codec="MPEG-4 AAC" samplerate="48000 Hz" channels="Stereo" bitrate="22 kbps" />
+    <uri>http://echo.msk.ru/</uri>
   </station>
   <station band="Online" id="somafmdefcon" lang="en" name="SomaFM DEF CON" rank="1.0" type="com">
     <frequency uri="https://somafm.com/defcon/index.html">Online in San Francisco, California</frequency>

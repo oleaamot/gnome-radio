@@ -186,12 +186,3 @@ on_simple_ready (GObject      *source_object,
                           user_data);
 }
 
-void location_main (ChamplainView *view) {
-        gdouble altitude, speed, heading;
-	gclue_simple_new ("gnome-radio",
-			  accuracy_level,
-			  time_threshold,
-			  on_simple_ready,
-			  CHAMPLAIN_VIEW (view));
-	return;
-}

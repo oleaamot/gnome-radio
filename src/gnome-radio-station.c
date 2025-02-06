@@ -34,6 +34,7 @@
 #include <gtk/gtk.h>
 #include <libxml/xmlmemory.h>
 #include <libxml/parser.h>
+#include <math.h>
 #include "gnome-radio.h"
 #include "gnome-radio-station.h"
 
@@ -118,19 +119,6 @@ gnome_radio_station_parser(GNOMERadioStationInfo * station, xmlDocPtr doc,
 				xmlGetProp(sub, (const xmlChar *)"mime");
 			GNOME_RADIO_DEBUG_MSG("station->stream->mimetype = %s\n",
 			    station->stream->mimetype);
-			if (xmlGetProp(sub, (const xmlChar *)"bitrate") != NULL) {
-				station->stream->bitrate =
-					(glong)atol((char *)xmlGetProp(sub, (const xmlChar *)"bitrate"));
-				GNOME_RADIO_DEBUG_MSG("station->stream->bitrate = %li\n",
-				    station->stream->bitrate);
-			}
-
-			if (xmlGetProp(sub, (const xmlChar *)"samplerate") != NULL) {
-				station->stream->samplerate = (glong) atol((char *)xmlGetProp(sub, (const xmlChar *)"samplerate"));
-			}
-
-			GNOME_RADIO_DEBUG_MSG("station->stream->samplerate = %li\n",
-			    station->stream->samplerate);
 
 			if (xmlGetProp(sub, (const xmlChar *)"uri") != NULL) {
 			        station->stream->uri = (char *)xmlGetProp(sub, (const xmlChar *)"uri");
@@ -284,7 +272,7 @@ gint gnome_radio_station_update (GNOMERadioStationInfo *head, gchar *station_ban
 	new_station->stream->uri = g_strdup(station_uri);
 	new_station->uri = g_strdup(station_website);
 	fp = g_fopen(stations, "w+");
-	g_fprintf(fp, "<?xml version='1.0' encoding='UTF-8'?>\n<!DOCTYPE gnome_radio SYSTEM 'gnome-radio-64.0.dtd'>\n<gnome_radio version='%s'>\n", VERSION);
+	g_fprintf(fp, "<?xml version='1.0' encoding='UTF-8'?>\n<!DOCTYPE gnome_radio SYSTEM 'gnome-radio-14.0.dtd'>\n<gnome_radio version='%s'>\n", VERSION);
 	// stationinfo-> = l->data;
 	while (stationinfo != NULL) {
 		local_station_uri = g_strdup(stationinfo->stream->uri);

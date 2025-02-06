@@ -24,7 +24,7 @@
 #ifndef GNOME_RADIO_KEYS_H
 #define GNOME_RADIO_KEYS_H
 
-#define GNOME_RADIO_DOMAIN "org.gnome.gnome-radio"
+#define GNOME_RADIO_DOMAIN "org.gnomeradio.gnome-radio"
 #define GNOME_RADIO_UI GNOME_RADIO".ui"
 #define GNOME_RADIO_STATION "station"
 

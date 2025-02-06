@@ -26,6 +26,6 @@ org_gnome_Radiodir = $(datadir)/gnome-radio
 
 org_gnome_Radio_DATA = org.gnome.Radio.dtd org.gnome.Radio.xml
 
-EXTRA_DIST = org.gnome.Radio.c org.gnome.Radio.dtd org.gnome.Radio.json org.gnome.Radio.xml
+EXTRA_DIST = org.gnome.Radio.c org.gnome.Radio.dtd org.gnome.Radio.xml
 
 LDADD = $(GNOME_RADIO_LIBS)
